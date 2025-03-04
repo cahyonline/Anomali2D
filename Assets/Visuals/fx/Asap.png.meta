@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 6ddc11e12198cfe4ca5d5880fcc68152
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6651009643646266911
+    second: Asap_0
+  - first:
+      213: -1293574180205392196
+    second: Asap_1
+  - first:
+      213: -5808385137855725342
+    second: Asap_2
+  - first:
+      213: -629560230313036766
+    second: Asap_3
+  - first:
+      213: -900137627940795433
+    second: Asap_4
+  - first:
+      213: 2143285160898593202
+    second: Asap_5
+  - first:
+      213: -7275301578139124857
+    second: Asap_6
+  - first:
+      213: 4561178399171410653
+    second: Asap_7
+  - first:
+      213: -6698060662591054454
+    second: Asap_8
+  - first:
+      213: -8017671522937525358
+    second: Asap_9
+  - first:
+      213: -4530631824804890046
+    second: Asap_10
+  - first:
+      213: 8975587661398390904
+    second: Asap_11
+  - first:
+      213: 7192214490556219361
+    second: Asap_12
+  - first:
+      213: -5546610876570426963
+    second: Asap_13
+  - first:
+      213: -7812378759699764515
+    second: Asap_14
+  - first:
+      213: -525598331982349169
+    second: Asap_15
+  - first:
+      213: -37049366538081200
+    second: Asap_16
+  - first:
+      213: 1836538042243917671
+    second: Asap_17
+  - first:
+      213: 1314490552485069773
+    second: Asap_18
+  - first:
+      213: -3193954517486596309
+    second: Asap_19
+  - first:
+      213: -1254843890280483157
+    second: Asap_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 225
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Asap_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 635
+        width: 321
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e154c8b7fdd2b3a0800000000000000
+      internalID: -6651009643646266911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_1
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 674
+        width: 186
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe8d32032d4c0ee0800000000000000
+      internalID: -1293574180205392196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_2
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 885
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e08373cd78746fa0800000000000000
+      internalID: -5808385137855725342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_3
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 670
+        width: 253
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2247a7b5e4a5347f0800000000000000
+      internalID: -629560230313036766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_4
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 758
+        width: 86
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db40a5b8911283f0800000000000000
+      internalID: -900137627940795433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 743
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b10abb8f7a7ebd10800000000000000
+      internalID: 2143285160898593202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_6
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 670
+        width: 83
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bbd29c2cfe80b90800000000000000
+      internalID: -7275301578139124857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_7
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 594
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddafbcf769f8c4f30800000000000000
+      internalID: 4561178399171410653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_8
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 637
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d1e32b055bb03a0800000000000000
+      internalID: -6698060662591054454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_9
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 670
+        width: 131
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b2b85ba328bb090800000000000000
+      internalID: -8017671522937525358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_10
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 667
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24abc621c56ff11c0800000000000000
+      internalID: -4530631824804890046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 186
+        width: 282
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878b7006c61bf8c70800000000000000
+      internalID: 8975587661398390904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 530
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef350229f0efc360800000000000000
+      internalID: 7192214490556219361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_13
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 201
+        width: 238
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1a3b28bca7603b0800000000000000
+      internalID: -5546610876570426963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 356
+        width: 110
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddae949e8ead49390800000000000000
+      internalID: -7812378759699764515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_15
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 441
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c77af0a13b4b8f0800000000000000
+      internalID: -525598331982349169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_16
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 414
+        width: 132
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c28542ccf5c7ff0800000000000000
+      internalID: -37049366538081200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_17
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 276
+        width: 92
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767a0787e91bc7910800000000000000
+      internalID: 1836538042243917671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_18
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 235
+        width: 206
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3ca7961320e3210800000000000000
+      internalID: 1314490552485069773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_19
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 247
+        width: 68
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f0574e94bcca3d0800000000000000
+      internalID: -3193954517486596309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asap_20
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 294
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba633475126e59ee0800000000000000
+      internalID: -1254843890280483157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7a15ba95420d11d49aa85c5a1d6f2bc9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Asap_0: -6651009643646266911
+      Asap_1: -1293574180205392196
+      Asap_10: -4530631824804890046
+      Asap_11: 8975587661398390904
+      Asap_12: 7192214490556219361
+      Asap_13: -5546610876570426963
+      Asap_14: -7812378759699764515
+      Asap_15: -525598331982349169
+      Asap_16: -37049366538081200
+      Asap_17: 1836538042243917671
+      Asap_18: 1314490552485069773
+      Asap_19: -3193954517486596309
+      Asap_2: -5808385137855725342
+      Asap_20: -1254843890280483157
+      Asap_3: -629560230313036766
+      Asap_4: -900137627940795433
+      Asap_5: 2143285160898593202
+      Asap_6: -7275301578139124857
+      Asap_7: 4561178399171410653
+      Asap_8: -6698060662591054454
+      Asap_9: -8017671522937525358
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
