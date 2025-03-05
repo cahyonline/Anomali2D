@@ -3,45 +3,37 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-	//Scriptable object which holds all the player's movement parameters. If you don't want to use it
-	//just paste in all the parameters, though you will need to manuly change all references in this script
 	public PlayerData Data;
 
 	#region COMPONENTS
     public Rigidbody2D RB { get; private set; }
-	//Script to handle all player animations, all references can be safely removed if you're importing into your own project.
 	public PlayerAnimator AnimHandler { get; private set; }
 	#endregion
 
 	#region STATE PARAMETERS
-	//Variables control the various actions the player can perform at any time.
-	//These are fields which can are public allowing for other sctipts to read them
-	//but can only be privately written to.
 	public bool IsFacingRight { get; private set; }
 	public bool IsJumping { get; private set; }
 	public bool IsWallJumping { get; private set; }
 	public bool IsDashing { get; private set; }
 	public bool IsSliding { get; private set; }
 
-	//Timers (also all fields, could be private and a method returning a bool could be used)
 	public float LastOnGroundTime { get; private set; }
 	public float LastOnWallTime { get; private set; }
 	public float LastOnWallRightTime { get; private set; }
 	public float LastOnWallLeftTime { get; private set; }
 
-	//Jump
 	private bool _isJumpCut;
 	private bool _isJumpFalling;
 
-	//Wall Jump
 	private float _wallJumpStartTime;
 	private int _lastWallJumpDir;
 
-	//Dash
 	private int _dashesLeft;
 	private bool _dashRefilling;
 	private Vector2 _lastDashDir;
 	private bool _isDashAttacking;
+
+	private bool _isItemCollected;
 
 	#endregion
 
@@ -100,19 +92,20 @@ public class PlayerMovement : MonoBehaviour
 		if (_moveInput.x != 0)
 			CheckDirectionToFace(_moveInput.x > 0);
 
-		if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.J))
+		if(Input.GetKeyDown(KeyCode.Space))
         {
 			OnJumpInput();
         }
 
-		if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.C) || Input.GetKeyUp(KeyCode.J))
+		if (Input.GetKeyUp(KeyCode.Space))
 		{
 			OnJumpUpInput();
 		}
 
-		if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.K))
+		if (Input.GetKeyDown(KeyCode.LeftShift) )
 		{
-			OnDashInput();
+			if (!_isItemCollected) return;
+            OnDashInput();
 		}
 		#endregion
 
@@ -178,8 +171,9 @@ public class PlayerMovement : MonoBehaviour
 
 				AnimHandler.startedJumping = true;
 			}
-			//WALL JUMP
-			else if (CanWallJump() && LastPressedJumpTime > 0)
+            //WALL JUMP
+            if (!_isItemCollected) return;
+            else if (CanWallJump() && LastPressedJumpTime > 0)
 			{
 				IsWallJumping = true;
 				IsJumping = false;
@@ -575,6 +569,21 @@ public class PlayerMovement : MonoBehaviour
 		Gizmos.DrawWireCube(_backWallCheckPoint.position, _wallCheckSize);
 	}
     #endregion
-}
+	
+	private void DashRequirement()
+	{
+		_isItemCollected = true;
 
-// created by Dawnosaur :D
+    }
+
+    private void OnEnable()
+    {
+		EventCallBack.CollectItem += DashRequirement;
+
+    }
+
+    private void OnDisable()
+    {
+		EventCallBack.CollectItem -= DashRequirement;
+    }
+}
