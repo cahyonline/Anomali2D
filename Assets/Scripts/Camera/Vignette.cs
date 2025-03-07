@@ -19,7 +19,7 @@ public class Vignette : MonoBehaviour
 
 
 
-        EventCallBack.NextWorld();
+        PlayerWake();
     }
 
     private IEnumerator Putih()
@@ -36,6 +36,7 @@ public class Vignette : MonoBehaviour
     private  void PlayerFall()
     {
         StartCoroutine(Hitam());
+        
     }
 
     private void PlayerWake()
@@ -45,13 +46,13 @@ public class Vignette : MonoBehaviour
 
     private void OnEnable()
     {
-        EventCallBack.PlayerFalling += PlayerFall;
-        EventCallBack.NextWorld += PlayerWake;
+        EventCallBack.Vignette += PlayerFall;
+        //EventCallBack.NextWorld += PlayerWake;
     }
 
     private void OnDisable()
     {
-        EventCallBack.PlayerFalling -= PlayerFall;
-        EventCallBack.NextWorld -= PlayerWake;
+        EventCallBack.Vignette -= PlayerFall;
+        //EventCallBack.NextWorld -= PlayerWake;
     }
 }

@@ -5,15 +5,11 @@ using UnityEngine;
 
 public static class EventCallBack
 {
-
-
     #region ITEM
     public static Action CollectItem { get; set; } = delegate { };
     #endregion
-
-    public static Action NextWorld { get; set; } = delegate { };
+    public static Action<int> ChangeArea { get; set; } = delegate { };
+    public static Action<int> ChangeAreaSpawn { get; set; } = delegate { };
+    public static Action Vignette { get; set; } = delegate { };
     public static Action PlayerFalling { get; set; } = delegate { };
-
-
-
 }

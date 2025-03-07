@@ -5,27 +5,39 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    [SerializeField] private Collider2D Area2;
+    [SerializeField] private List<Collider2D> cameraAreas; 
     [SerializeField] private CinemachineConfiner2D cameras;
 
-
-    private void OnTriggerExit2D(Collider2D collision)
+    private IEnumerator WaitForHitam(int areaIndex)
     {
-        EventCallBack.PlayerFalling();
+        yield return new WaitForSeconds(1f); 
+        ChangeCameraArea(areaIndex); 
     }
-    private void Hajiemas()
-    {
-        cameras.m_BoundingShape2D = Area2;
 
+    private void ChangeCameraArea(int areaIndex)
+    {
+        if (areaIndex >= 0 && areaIndex < cameraAreas.Count)
+        {
+            cameras.m_BoundingShape2D = cameraAreas[areaIndex];
+        }
+        else
+        {
+            Debug.LogWarning("Area index out of range!");
+        }
     }
 
     private void OnEnable()
     {
-        EventCallBack.NextWorld += Hajiemas;
+        EventCallBack.ChangeArea += OnChangeArea;
     }
 
     private void OnDisable()
     {
-        EventCallBack.NextWorld -= Hajiemas;
+        EventCallBack.ChangeArea -= OnChangeArea;
+    }
+
+    private void OnChangeArea(int areaIndex)
+    {
+        StartCoroutine(WaitForHitam(areaIndex)); 
     }
 }
