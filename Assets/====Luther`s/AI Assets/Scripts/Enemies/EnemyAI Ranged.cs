@@ -59,7 +59,6 @@ public class EnemyAIRanged : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         defaultFleeR = fleeRange;
         defaultSight = sightRange;
-        //playerANIM.SetBool("123" ,true);
     }
 ////////////////////////////////////////////////////////////
     void FixedUpdate()
@@ -71,6 +70,7 @@ public class EnemyAIRanged : MonoBehaviour
         }
         else if (!isDied && distanceToPlayer <= sightRange && !isFleeing && CanSeePlayer())
         {
+            //Debug.LogWarning("PLayer in range and shopoting");
             FacePlayer();
             ShootProjectile();
             //playerANIM.SetBool("AttANIM" ,true);
@@ -79,7 +79,6 @@ public class EnemyAIRanged : MonoBehaviour
         {
             FacePlayer();
             ShootProjectile();
-            //playerANIM.SetBool("123" ,true);
         }
 
         else
@@ -87,7 +86,6 @@ public class EnemyAIRanged : MonoBehaviour
             Idle();
             playerANIM.SetBool("attAN" ,false);
             playerANIM.SetBool("runAN" ,false);
-            //playerANIM.SetBool("dieAN" ,false);
 
         }
 
@@ -191,7 +189,7 @@ IEnumerator Flee()
     fleeRange = 0f;
     canFlee = false;
     isFleeing = true;
-    float defaultFleeCD = 0.25f;
+    float defaultFleeCD = 0.2f; //Flee range dissapear CD
 
     Vector2 fleeDirection;
 

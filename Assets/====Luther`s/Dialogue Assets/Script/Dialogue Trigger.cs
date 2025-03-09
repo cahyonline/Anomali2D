@@ -44,7 +44,7 @@ public class DialogueTrigger : MonoBehaviour
             UIinteractE.SetActive(true);
             inRange = true;
             //dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
-            Debug.Log("UI Show");
+            //Debug.Log("UI Show");
         }
 
         if (other.CompareTag("Player") && dialogueDone)

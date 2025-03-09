@@ -1,6 +1,7 @@
 using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Android.Gradle.Manifest;
 using UnityEngine;
 
 public class CameraManager : MonoBehaviour
@@ -31,15 +32,22 @@ public class CameraManager : MonoBehaviour
     private void OnEnable()
     {
         EventCallBack.ChangeArea += OnChangeArea;
+        EventCallBack.Load += SaveAreas;
     }
 
     private void OnDisable()
     {
         EventCallBack.ChangeArea -= OnChangeArea;
+        EventCallBack.Load -= SaveAreas;
     }
 
     private void OnChangeArea(int areaIndex)
     {
         StartCoroutine(WaitForHitam(areaIndex)); 
+    }
+
+    private void SaveAreas(SaveData dataArea)
+    {
+        EventCallBack.ChangeArea(dataArea.Area);
     }
 }

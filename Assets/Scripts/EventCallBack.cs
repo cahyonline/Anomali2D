@@ -14,5 +14,6 @@ public static class EventCallBack
     public static Action PlayerFalling { get; set; } = delegate { };
     public static Action OnAttack { get; set; } = delegate { };
     public static Action EndAttack { get; set; } = delegate { };
+    public static Action <SaveData> Load { get; set; } = delegate { };
     
 }

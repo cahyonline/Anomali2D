@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
-    GameController gameController;
+    [SerializeField] private GameController gameController;
     public Transform respawnPoint;
 
     private void Awake()
     {
-        gameController = GameObject.FindGameObjectWithTag("Player").GetComponent<GameController>();
+        //gameController = GameObject.FindGameObjectWithTag("Player").GetComponent<GameController>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            if (!gameController)
             Debug.LogError("Checkpoint");
             gameController.UpdateCheckpoint(respawnPoint.position);
         }

@@ -20,6 +20,9 @@ public class HealthPlayer : MonoBehaviour
     public bool vulnerable = true;
     private bool isRegen = true;
 ///////////////////////////////////////////////////////////////////
+/// <summary>
+    
+/// </summary>
 void Start()
 {
     Whathit = 1f;
@@ -80,7 +83,7 @@ public void Healing(float healAmount)
 IEnumerator NaturalRegenCD()
 {
     yield return new WaitForSeconds(5f);
-    canRegen = true;
+    canRegen = false;
 }
 
 IEnumerator NaturalRegen()
@@ -143,5 +146,18 @@ IEnumerator NaturalRegen()
         vulnerable = true;
         Whathit = 1f;
         Debug.LogWarning("vulnerable");
+    }
+    private void LoadHealth(SaveData healthbarre)
+    {
+        healthAmount = healthbarre.HealthInfor;
+        healthBar.fillAmount = healthAmount / 100f;
+    }
+    private void OnEnable()
+    {
+        EventCallBack.Load += LoadHealth;
+    }
+    private void OnDisable()
+    {
+        EventCallBack.Load -= LoadHealth;
     }
 }
