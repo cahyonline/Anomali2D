@@ -21,7 +21,7 @@ public class Spawn : MonoBehaviour
             // Cek apakah player berpindah ke next atau prev
             if (areaIndex > currentAreaIndex)
             {
-                Debug.Log("Player berpindah ke NEXT SPAWN: " + areaIndex);
+                //Debug.Log("Player berpindah ke NEXT SPAWN: " + areaIndex);
             }
             else if (areaIndex < currentAreaIndex)
             {

@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Tembus
+  - PlayerDamage
+  - BigATKHB
+  - WallsGrounds
+  - SmallATKHB
+  - Enemy
+  - LavaHB
+  - Pillar
+  - SpikeHB
   layers:
   - Default
   - TransparentFX
@@ -14,7 +23,7 @@ TagManager:
   - Player
   - Ground
   - Vignette
-  - 
+  - Tembus
   - 
   - 
   - 
@@ -40,4 +49,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemie
+    uniqueID: 1676062291
     locked: 0

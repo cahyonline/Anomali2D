@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Xml.Serialization;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -33,7 +34,10 @@ public class PlayerMovement : MonoBehaviour
 	private Vector2 _lastDashDir;
 	private bool _isDashAttacking;
 
+	//NEW
 	private bool _isItemCollected;
+	private bool isAttack;
+
 
 	#endregion
 
@@ -83,13 +87,15 @@ public class PlayerMovement : MonoBehaviour
 
 		LastPressedJumpTime -= Time.deltaTime;
 		LastPressedDashTime -= Time.deltaTime;
-		#endregion
+        #endregion
 
-		#region INPUT HANDLER
-		_moveInput.x = Input.GetAxisRaw("Horizontal");
-		_moveInput.y = Input.GetAxisRaw("Vertical");
-
-		if (_moveInput.x != 0)
+        #region INPUT HANDLER
+        if (!IsDashing && !isAttack)
+        {
+            _moveInput.x = Input.GetAxisRaw("Horizontal");
+            _moveInput.y = Input.GetAxisRaw("Vertical");
+        }
+        if (_moveInput.x != 0)
 			CheckDirectionToFace(_moveInput.x > 0);
 
 		if(Input.GetKeyDown(KeyCode.Space))
@@ -104,8 +110,7 @@ public class PlayerMovement : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.LeftShift) )
 		{
-			if (!_isItemCollected) return;
-            OnDashInput();
+			OnDashInput();
 		}
 		#endregion
 
@@ -158,41 +163,16 @@ public class PlayerMovement : MonoBehaviour
 			_isJumpFalling = false;
 		}
 
-		if (!IsDashing)
-		{
-			//Jump
-			if (CanJump() && LastPressedJumpTime > 0)
-			{
-				IsJumping = true;
-				IsWallJumping = false;
-				_isJumpCut = false;
-				_isJumpFalling = false;
-				Jump();
 
-				AnimHandler.startedJumping = true;
-			}
-            //WALL JUMP
-            if (!_isItemCollected) return;
-            else if (CanWallJump() && LastPressedJumpTime > 0)
-			{
-				IsWallJumping = true;
-				IsJumping = false;
-				_isJumpCut = false;
-				_isJumpFalling = false;
-
-				_wallJumpStartTime = Time.time;
-				_lastWallJumpDir = (LastOnWallRightTime > 0) ? -1 : 1;
-
-				WallJump(_lastWallJumpDir);
-			}
-		}
 		#endregion
 
 		#region DASH CHECKS
 		if (CanDash() && LastPressedDashTime > 0)
 		{
-			//Freeze game for split second. Adds juiciness and a bit of forgiveness over directional input
-			Sleep(Data.dashSleepTime); 
+            AnimHandler.StartDashing = true;
+
+            //Freeze game for split second. Adds juiciness and a bit of forgiveness over directional input
+            Sleep(Data.dashSleepTime); 
 
 			//If not direction pressed, dash forward
 			if (_moveInput != Vector2.zero)
@@ -211,12 +191,7 @@ public class PlayerMovement : MonoBehaviour
 		}
 		#endregion
 
-		#region SLIDE CHECKS
-		if (CanSlide() && ((LastOnWallLeftTime > 0 && _moveInput.x < 0) || (LastOnWallRightTime > 0 && _moveInput.x > 0)))
-			IsSliding = true;
-		else
-			IsSliding = false;
-		#endregion
+
 
 		#region GRAVITY
 		if (!_isDashAttacking)
@@ -261,7 +236,42 @@ public class PlayerMovement : MonoBehaviour
 			//No gravity when dashing (returns to normal once initial dashAttack phase over)
 			SetGravityScale(0);
 		}
-		#endregion
+
+        if (!IsDashing)
+        {
+            //Jump
+            if (CanJump() && LastPressedJumpTime > 0)
+            {
+                IsJumping = true;
+                IsWallJumping = false;
+                _isJumpCut = false;
+                _isJumpFalling = false;
+                Jump();
+
+                AnimHandler.startedJumping = true;
+            }
+            //WALL JUMP
+            if (!_isItemCollected) return;
+            else if (CanWallJump() && LastPressedJumpTime > 0)
+            {
+                IsWallJumping = true;
+                IsJumping = false;
+                _isJumpCut = false;
+                _isJumpFalling = false;
+
+                _wallJumpStartTime = Time.time;
+                _lastWallJumpDir = (LastOnWallRightTime > 0) ? -1 : 1;
+
+                WallJump(_lastWallJumpDir);
+            }
+            #region SLIDE CHECKS
+            if (CanSlide() && ((LastOnWallLeftTime > 0 && _moveInput.x < 0) || (LastOnWallRightTime > 0 && _moveInput.x > 0)))
+                IsSliding = true;
+            else
+                IsSliding = false;
+            #endregion
+        }
+        #endregion
     }
 
     private void FixedUpdate()
@@ -300,6 +310,7 @@ public class PlayerMovement : MonoBehaviour
 	public void OnDashInput()
 	{
 		LastPressedDashTime = Data.dashInputBufferTime;
+		
 	}
     #endregion
 
@@ -570,20 +581,38 @@ public class PlayerMovement : MonoBehaviour
 	}
     #endregion
 	
-	private void DashRequirement()
+	private void WallJumpRequirement()
 	{
 		_isItemCollected = true;
 
     }
 
+	private void onAttack()
+	{
+		isAttack = true;
+        _moveInput = Vector2.zero;
+        //Debug.LogWarning("true");
+
+    }
+
+	private void onEndAttack()
+	{
+		isAttack = false;
+        //Debug.LogWarning("False");
+
+    }
+
     private void OnEnable()
     {
-		EventCallBack.CollectItem += DashRequirement;
-
+		EventCallBack.CollectItem += WallJumpRequirement;
+		EventCallBack.OnAttack += onAttack;
+		EventCallBack.EndAttack += onEndAttack;
     }
 
     private void OnDisable()
     {
-		EventCallBack.CollectItem -= DashRequirement;
+		EventCallBack.CollectItem -= WallJumpRequirement;
+		EventCallBack.OnAttack -= onAttack;
+		EventCallBack.EndAttack -= onEndAttack;
     }
 }

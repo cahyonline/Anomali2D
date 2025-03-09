@@ -12,4 +12,7 @@ public static class EventCallBack
     public static Action<int> ChangeAreaSpawn { get; set; } = delegate { };
     public static Action Vignette { get; set; } = delegate { };
     public static Action PlayerFalling { get; set; } = delegate { };
+    public static Action OnAttack { get; set; } = delegate { };
+    public static Action EndAttack { get; set; } = delegate { };
+    
 }

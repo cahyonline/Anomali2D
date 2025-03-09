@@ -20,6 +20,7 @@ public class PlayerAnimator : MonoBehaviour
     private ParticleSystem _landParticle;
     public bool startedJumping {  private get; set; }
     public bool justLanded { private get; set; }
+    public bool StartDashing { private get; set; }
 
 
     public float currentVelY;
@@ -63,6 +64,15 @@ public class PlayerAnimator : MonoBehaviour
 
     private void CheckAnimationState()
     {
+        if (Mathf.Abs(mov.RB.velocity.x) > 0.05f)
+        {
+            //Debug.Log("Isrunning");
+            anim.SetBool("IsRunning", true);
+        }
+        else
+        {
+            anim.SetBool("IsRunning", false);
+        }
         if (startedJumping)
         {
             anim.SetTrigger("Jump");
@@ -81,6 +91,33 @@ public class PlayerAnimator : MonoBehaviour
             return;
         }
 
+        if (StartDashing)
+        {
+            //MovementOff();
+
+            anim.SetBool("IsRunning", false);
+            anim.SetTrigger("Dash");
+            GameObject obj = Instantiate(jumpFX, transform.position - (Vector3.up * transform.localScale.y / 2), Quaternion.Euler(-90, 0, 0));
+            Destroy(obj, 1);
+            StartDashing = false;
+            return;
+        }
+
         anim.SetFloat("Vel Y", mov.RB.velocity.y);
     }
+
+    public IEnumerator MovementOff()
+    {
+        mov.enabled = false;
+        yield return new WaitForSeconds(10f);
+        MovementOn();
+
+    }
+
+    public void MovementOn()
+    {
+        mov.enabled = true;
+
+    }
+
 }
