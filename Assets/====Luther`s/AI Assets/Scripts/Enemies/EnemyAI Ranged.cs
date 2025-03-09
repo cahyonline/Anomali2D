@@ -160,8 +160,10 @@ void OnTriggerEnter2D(Collider2D other)
 {
     if (other.CompareTag("PlayerDamage"))
     {
-        //TakeDamage(); // If not blocked, take damage
-        Debug.Log("Damage Taken");
+            EventCallBack.HitStop.Invoke();
+
+            //TakeDamage(); // If not blocked, take damage
+            Debug.Log("Damage Taken");
         TakeDamage(PlayerDamage);
         playerANIM.SetBool("hurtAN", true);
         StartCoroutine(InvulnerableCD());
@@ -237,7 +239,7 @@ IEnumerator Flee()
         yield return null; // Wait 4 frame
     }
 
-    Debug.Log("Fleeing complete, returning to normal behavior.");
+    //Debug.Log("Fleeing complete, returning to normal behavior.");
 
     yield return new WaitForSeconds(defaultFleeCD);
     isFleeing = false;

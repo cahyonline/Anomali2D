@@ -19,6 +19,8 @@ public class HealthPlayer : MonoBehaviour
     public bool canRegen = true;
     public bool vulnerable = true;
     private bool isRegen = true;
+    public float delayDeathUi = 5f;
+    public GameObject deathMenu;
 ///////////////////////////////////////////////////////////////////
 /// <summary>
     
@@ -26,6 +28,7 @@ public class HealthPlayer : MonoBehaviour
 void Start()
 {
     Whathit = 1f;
+        deathMenu.SetActive(false);
 }
 
 ///////////////////////////////////////////////////////////////////
@@ -33,9 +36,11 @@ void Update()
 {
     if (healthAmount <= 0)
     {
-        Debug.LogError("PLAYER DIED");
+        Debug.LogError("PLAYER DIED , DELAY BEFORE UI");
         canRegen = false;
         isRegen = false;
+        StartCoroutine(CountDown());
+
     }
 
     if (canRegen && !isRegen) // Only start regen if it's NOT already running
@@ -159,5 +164,13 @@ IEnumerator NaturalRegen()
     private void OnDisable()
     {
         EventCallBack.Load -= LoadHealth;
+    }
+    ///////////////////////////////////////////////////////////////////
+    ////// COOLDOWN BEFORE UI DEATH
+    
+    private IEnumerator CountDown()
+    {
+        yield return new WaitForSeconds(delayDeathUi);
+        deathMenu.SetActive(true);
     }
 }

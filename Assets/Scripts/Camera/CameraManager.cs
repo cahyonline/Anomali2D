@@ -19,7 +19,7 @@ public class CameraManager : MonoBehaviour
     {
         if (areaIndex >= 0 && areaIndex < cameraAreas.Count)
         {
-            //Debug.Log("Camera berpindah ke NEXT SPAWN: " + areaIndex);
+            Debug.Log("Camera berpindah ke NEXT SPAWN: " + areaIndex);
 
             cameras.m_BoundingShape2D = cameraAreas[areaIndex];
         }

@@ -17,7 +17,7 @@ public class CheckPoint : MonoBehaviour
         {
             if (!gameController)
             Debug.LogError("Checkpoint");
-            gameController.UpdateCheckpoint(respawnPoint.position);
+            //gameController.UpdateCheckpoint(respawnPoint.position);
         }
     }
 }

@@ -115,7 +115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9046286728786133282}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -218.3, y: -29.991001, z: 0.50555456}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -267,17 +267,17 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 5224612013768698693}
   playerANIM: {fileID: 6998340506074221946}
   sightRange: 15
-  fleeRange: 4
+  fleeRange: 4.09
   fleeSpeed: 18
   fireCD: 2.8
   FleeCooldown: 6
   wallLayer:
     serializedVersion: 2
-    m_Bits: 0
-  wallCheckDistance: 3
+    m_Bits: 128
+  wallCheckDistance: 5.2
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   fieldOfViewAngle: 360
   healthBar: {fileID: 0}
   healthAmount: 200
