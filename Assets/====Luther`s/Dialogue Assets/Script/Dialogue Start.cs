@@ -35,6 +35,7 @@ public class DialogueStart : MonoBehaviour
     {
         if (hasTalkedBefore) 
         {
+            EventCallBack.OnAttack();
             repeatLine = repeatText;
             ShowRepeatLine();
             return;
