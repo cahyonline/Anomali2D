@@ -23,14 +23,14 @@ public class GameController : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Kontol"))
-        {
-            //Debug.LogWarning("asdgh");
-            Die();
-        }
-    }
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.CompareTag("Kontol"))
+    //    {
+    //        //Debug.LogWarning("asdgh");
+    //        Die();
+    //    }
+    //}
     public void UpdateCheckpoint(Vector2 pos)
     {
         checkpointPos = pos;
