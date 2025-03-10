@@ -21,11 +21,16 @@ public class HealthPlayer : MonoBehaviour
     private bool isRegen = true;
     public float delayDeathUi = 5f;
     public GameObject deathMenu;
-///////////////////////////////////////////////////////////////////
-/// <summary>
-    
-/// </summary>
-void Start()
+
+    //
+    public Animator pAnimator;
+
+
+    ///////////////////////////////////////////////////////////////////
+    /// <summary>
+
+    /// </summary>
+    void Start()
 {
     Whathit = 1f;
         deathMenu.SetActive(false);
@@ -36,7 +41,7 @@ void Update()
 {
     if (healthAmount <= 0)
     {
-        Debug.LogError("PLAYER DIED , DELAY BEFORE UI");
+            Debug.LogError("PLAYER DIED , DELAY BEFORE UI");
         canRegen = false;
         isRegen = false;
         StartCoroutine(CountDown());
@@ -67,8 +72,9 @@ void Update()
 /// DAMAGE REGISTER
 public void TakeDamage(float damage)
 {
+    pAnimator.SetTrigger("is_PHurt");
     healthAmount -= damage;
-    healthBar.fillAmount = healthAmount / 100f;
+    healthBar.fillAmount = healthAmount / 200f;
     canRegen = false;
     isRegen = false; 
     StartCoroutine(NaturalRegenCD());
@@ -77,9 +83,9 @@ public void TakeDamage(float damage)
 public void Healing(float healAmount)
 {
     healthAmount += healAmount;
-    healthAmount = Mathf.Clamp(healthAmount, 0, 100);
-    healthBar.fillAmount = healthAmount / 100f;
-    if(healthAmount >= 100f)
+    healthAmount = Mathf.Clamp(healthAmount, 0, 200);
+    healthBar.fillAmount = healthAmount / 200f;
+    if(healthAmount >= 200f)
     {
         isRegen = false;
     }
@@ -88,7 +94,7 @@ public void Healing(float healAmount)
 IEnumerator NaturalRegenCD()
 {
     yield return new WaitForSeconds(5f);
-    canRegen = false;
+    canRegen = true;
 }
 
 IEnumerator NaturalRegen()
@@ -99,13 +105,13 @@ IEnumerator NaturalRegen()
     {
         yield return new WaitForSeconds(1);
         healthAmount += healthRegenValue;
-        healthBar.fillAmount = healthAmount / 100f;
-        healthAmount = Mathf.Clamp(healthAmount, 0, 100);
+        healthBar.fillAmount = healthAmount / 200f;
+        healthAmount = Mathf.Clamp(healthAmount, 0, 200);
         
-        //if(healthAmount >= 100f)
-        //{
-            //isRegen = false;
-        //}
+        if(healthAmount >= 200f)
+        {
+            isRegen = false;
+        }
     }
 
     isRegen = false; 
@@ -170,6 +176,8 @@ IEnumerator NaturalRegen()
     
     private IEnumerator CountDown()
     {
+        //pAnimator.SetBool("Tesk", true);
+        pAnimator.SetTrigger("is_PDie");
         yield return new WaitForSeconds(delayDeathUi);
         deathMenu.SetActive(true);
     }

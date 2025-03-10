@@ -38,7 +38,8 @@ public class SceneManagerer : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
+        //Application.Quit();
+        Debug.LogError("APP QUIT");
     }
 
     public void PauseGame()

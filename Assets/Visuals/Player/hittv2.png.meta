@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: ca9f4c9b571203848978e733f3229c7e
+guid: d6d61df11cca2ce47a6dc41886d45621
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7937777938859474042
-    second: Bawah Tanah Batu (6)-2_0
+      213: 7082945363570017319
+    second: hittv2_0
+  - first:
+      213: 3696499099680173280
+    second: hittv2_1
+  - first:
+      213: 1215718506609458654
+    second: hittv2_2
+  - first:
+      213: -1847900188543674320
+    second: hittv2_3
+  - first:
+      213: -8569263429847368909
+    second: hittv2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +151,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bawah Tanah Batu (6)-2_0
+      name: hittv2_0
       rect:
         serializedVersion: 2
-        x: 2086
-        y: 400
-        width: 45
-        height: 173
+        x: 63
+        y: 2
+        width: 60
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +165,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6834950550957d190800000000000000
-      internalID: -7937777938859474042
+      spriteID: 7244717f74dab4260800000000000000
+      internalID: 7082945363570017319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hittv2_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ececf4a85a9c4330800000000000000
+      internalID: 3696499099680173280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hittv2_2
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd33556a891fd010800000000000000
+      internalID: 1215718506609458654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hittv2_3
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0381a71b190fa56e0800000000000000
+      internalID: -1847900188543674320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hittv2_4
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 2
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bb33dff4cd31980800000000000000
+      internalID: -8569263429847368909
       vertices: []
       indices: 
       edges: []
@@ -162,7 +258,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -170,7 +266,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bawah Tanah Batu (6)-2_0: -7937777938859474042
+      hittv2_0: 7082945363570017319
+      hittv2_1: 3696499099680173280
+      hittv2_2: 1215718506609458654
+      hittv2_3: -1847900188543674320
+      hittv2_4: -8569263429847368909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

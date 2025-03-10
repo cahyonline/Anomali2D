@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Save : MonoBehaviour
 {
+    [SerializeField] private GameObject Paused;
     private string savePath;
     public GameController Loaderghjv;
     public HealthPlayer Loadersjcghxfvsdhjg;
@@ -48,7 +49,7 @@ public class Save : MonoBehaviour
             Load();
         }
     }
-    private void Load()
+    public void Load()
     {
         SaveData data = LoadGame();
         if (data != null)
