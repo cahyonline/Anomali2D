@@ -20,12 +20,12 @@ public class HitStop : MonoBehaviour
     public void Freeze()
     {
         _pendingFreezeDuration = duration;
-        Debug.LogWarning("fcku");
+        //Debug.LogWarning("fcku");
     }
 
     IEnumerator DoFreeze()
     {
-        Debug.LogWarning("fcku");
+        //Debug.LogWarning("fcku");
 
         _isFrozen = true;
         var original = Time.timeScale;

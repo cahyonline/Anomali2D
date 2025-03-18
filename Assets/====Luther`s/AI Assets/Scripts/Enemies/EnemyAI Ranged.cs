@@ -160,7 +160,7 @@ void OnTriggerEnter2D(Collider2D other)
 {
     if (other.CompareTag("PlayerDamage"))
     {
-            EventCallBack.HitStop.Invoke();
+            EventCallBack.HitStop();
 
             //TakeDamage(); // If not blocked, take damage
             Debug.Log("Damage Taken");
