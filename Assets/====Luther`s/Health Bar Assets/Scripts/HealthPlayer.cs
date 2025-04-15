@@ -72,7 +72,8 @@ void Update()
 /// DAMAGE REGISTER
 public void TakeDamage(float damage)
 {
-    pAnimator.SetTrigger("is_PHurt");
+        EventCallBack.HitStop();
+        pAnimator.SetTrigger("is_PHurt");
     healthAmount -= damage;
     healthBar.fillAmount = healthAmount / 200f;
     canRegen = false;
