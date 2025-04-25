@@ -34,8 +34,11 @@ public class PlayerMovement : MonoBehaviour
 	private Vector2 _lastDashDir;
 	private bool _isDashAttacking;
 
-	//NEW
-	private bool _isItemCollected;
+    private float _leftShiftCooldownTime; // Waktu cooldown untuk Left Shift
+    private float _lastLeftShiftTime; // Waktu terakhir Left Shift ditekan
+
+    //NEW
+    private bool _isItemCollected;
 	private bool isAttack;
 
 
@@ -71,13 +74,15 @@ public class PlayerMovement : MonoBehaviour
 		AnimHandler = GetComponent<PlayerAnimator>();
 	}
 
-	private void Start()
-	{
-		SetGravityScale(Data.gravityScale);
-		IsFacingRight = true;
-	}
+    private void Start()
+    {
+        SetGravityScale(Data.gravityScale);
+        IsFacingRight = true;
+        _lastLeftShiftTime = 0; // Inisialisasi waktu terakhir Left Shift
+        _leftShiftCooldownTime = 1.0f; // Atur waktu cooldown (misalnya 1 detik)
+    }
 
-	private void Update()
+    private void Update()
 	{
         #region TIMERS
         LastOnGroundTime -= Time.deltaTime;
@@ -88,34 +93,39 @@ public class PlayerMovement : MonoBehaviour
 		LastPressedJumpTime -= Time.deltaTime;
 		LastPressedDashTime -= Time.deltaTime;
         #endregion
-
         #region INPUT HANDLER
         if (!IsDashing && !isAttack)
         {
             _moveInput.x = Input.GetAxisRaw("Horizontal");
             _moveInput.y = Input.GetAxisRaw("Vertical");
         }
-        if (_moveInput.x != 0)
-			CheckDirectionToFace(_moveInput.x > 0);
 
-		if(Input.GetKeyDown(KeyCode.Space))
+        if (_moveInput.x != 0)
+            CheckDirectionToFace(_moveInput.x > 0);
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-			OnJumpInput();
+            OnJumpInput();
         }
 
-		if (Input.GetKeyUp(KeyCode.Space))
-		{
-			OnJumpUpInput();
-		}
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            OnJumpUpInput();
+        }
 
-		if (Input.GetKeyDown(KeyCode.LeftShift) )
-		{
-			OnDashInput();
-		}
-		#endregion
+        // Cek cooldown sebelum memproses Left Shift
+        if (Input.GetKeyDown(KeyCode.LeftShift) && Time.time - _lastLeftShiftTime >= _leftShiftCooldownTime)
+        {
+            // Simpan waktu terakhir Left Shift ditekan
+            _lastLeftShiftTime = Time.time;
 
-		#region COLLISION CHECKS
-		if (!IsDashing && !IsJumping)
+            // Tambahkan logika yang ingin Anda jalankan saat Left Shift ditekan
+            OnDashInput(); // Contoh: memanggil fungsi dash jika diperlukan
+        }
+        #endregion
+
+        #region COLLISION CHECKS
+        if (!IsDashing && !IsJumping)
 		{
 			//Ground Check
 			if (Physics2D.OverlapBox(_groundCheckPoint.position, _groundCheckSize, 0, _groundLayer)) //checks if set box overlaps with ground

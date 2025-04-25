@@ -64,7 +64,8 @@ public class PlayerData : ScriptableObject
 	[Space(20)]
 
 	[Header("Dash")]
-	public int dashAmount;
+    public float leftShiftCooldownTime = 1.0f; // Waktu cooldown untuk Left Shift
+    public int dashAmount;
 	public float dashSpeed;
 	public float dashSleepTime; //Duration for which the game freezes when we press dash but before we read directional input and apply a force
 	[Space(5)]
