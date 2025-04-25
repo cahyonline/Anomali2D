@@ -10,6 +10,7 @@ public class CameraTrigger : MonoBehaviour
         {
             EventCallBack.ChangeArea(areaIndex);
             EventCallBack.Vignette();
+            EventCallBack.ResetBg();
         }
     }
 }

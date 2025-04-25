@@ -16,6 +16,7 @@ public static class EventCallBack
     public static Action OnAttack { get; set; } = delegate { };
     public static Action EndAttack { get; set; } = delegate { };
     public static Action HitStop { get; set; } = delegate { };
+    public static Action ResetBg { get; set; } = delegate { };
 
     
 }
