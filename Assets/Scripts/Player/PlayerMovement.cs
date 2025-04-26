@@ -113,14 +113,13 @@ public class PlayerMovement : MonoBehaviour
             OnJumpUpInput();
         }
 
-        // Cek cooldown sebelum memproses Left Shift
         if (Input.GetKeyDown(KeyCode.LeftShift) && Time.time - _lastLeftShiftTime >= _leftShiftCooldownTime)
         {
-            // Simpan waktu terakhir Left Shift ditekan
+			EventCallBack.Kebal();
             _lastLeftShiftTime = Time.time;
 
-            // Tambahkan logika yang ingin Anda jalankan saat Left Shift ditekan
-            OnDashInput(); // Contoh: memanggil fungsi dash jika diperlukan
+
+            OnDashInput();
         }
         #endregion
 
