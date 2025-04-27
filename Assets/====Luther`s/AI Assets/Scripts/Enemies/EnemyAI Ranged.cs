@@ -23,7 +23,7 @@ public class EnemyAIRanged : MonoBehaviour
     private float defaultFleeR;
     public float fireCD = 2f;
     public float FleeCooldown =4f;
-    private float nextFireTime = 0f;
+    private float nextFireTime = 1f;
     private bool canFlee = true;
     private bool isFleeing = false;
     private bool isForceFight = false;
@@ -40,6 +40,7 @@ public class EnemyAIRanged : MonoBehaviour
     // Line of Sight detection variables
     public LayerMask obstacleLayer;
     public float fieldOfViewAngle = 360f;
+    private float defaultFieldOfViewAnge;
     private float defaultSight;
 ////////////////////////////////////////////////////////////
 /// HEALTH 
@@ -50,6 +51,8 @@ public class EnemyAIRanged : MonoBehaviour
     public float PlayerDamage = 35f;
     public bool vulnerable = true;
     private bool isDied = false;
+
+    private bool takingDamage = false;
     [Header("IMPORTANT")]
     public GameObject EnemyRootObject;
 
@@ -59,23 +62,24 @@ public class EnemyAIRanged : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         defaultFleeR = fleeRange;
         defaultSight = sightRange;
+        defaultFieldOfViewAnge = fieldOfViewAngle;
     }
 ////////////////////////////////////////////////////////////
     void FixedUpdate()
     {
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-        if (!isDied && distanceToPlayer <= fleeRange && canFlee)
+        if (!isDied && distanceToPlayer <= fleeRange && canFlee && !takingDamage )
         {
             StartCoroutine(Flee());
         }
-        else if (!isDied && distanceToPlayer <= sightRange && !isFleeing && CanSeePlayer())
+        else if (!isDied && distanceToPlayer <= sightRange && !isFleeing && CanSeePlayer() && !takingDamage)
         {
             //Debug.LogWarning("PLayer in range and shopoting");
             FacePlayer();
             ShootProjectile();
             //playerANIM.SetBool("AttANIM" ,true);
         }
-        else if (!isDied && distanceToPlayer <= sightRange && CanSeePlayer() && isForceFight)
+        else if (!isDied && distanceToPlayer <= sightRange && CanSeePlayer() && isForceFight && !takingDamage)
         {
             FacePlayer();
             ShootProjectile();
@@ -86,7 +90,7 @@ public class EnemyAIRanged : MonoBehaviour
             Idle();
             playerANIM.SetBool("attAN" ,false);
             playerANIM.SetBool("runAN" ,false);
-
+            
         }
 
         if(isDied)
@@ -103,6 +107,14 @@ public class EnemyAIRanged : MonoBehaviour
             playerANIM.SetBool("runAN" ,false);
             isDied = true;
             
+        }
+
+        if (takingDamage)
+        {
+            TakesDamagesFromPlayer();
+            playerANIM.SetBool("attAN" ,false);
+            playerANIM.SetBool("runAN" ,false);
+            //Idle();
         }
         
     }
@@ -139,36 +151,63 @@ bool CanSeePlayer()
     void ShootProjectile()
     {
         //playerANIM.SetBool("IdleANIM" ,false);
-        if (Time.time >= nextFireTime)
+        if (Time.time >= nextFireTime && !takingDamage)
         {
             nextFireTime = Time.time + fireCD;
 
-            GameObject newProjectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
-            
-            // Determine the direction based on enemy's local scale
-            int direction = transform.localScale.x < 0 ? -1 : 1;
-            
-            // SEND DIRECTION TO PP
-            newProjectile.GetComponent<ProjectileProperties>().SetDirection(direction);
             playerANIM.SetBool("attAN" ,true);
+            StartCoroutine(DelayBeforeShoot());
+            StartCoroutine(AnimatorCD());
+            
+            //playerANIM.SetBool("cooldownAN",true);
+            //StartCoroutine(AnimatorCD());
         }
         //playerANIM.SetBool("AttkANIM" ,false);
+    }
+
+    IEnumerator AnimatorCD()
+    {
+        yield return new WaitForSeconds(0.5f);
+        //playerANIM.SetBool("cooldownAN",false);
+        //playerANIM.SetBool("attAN" ,true);
+        playerANIM.SetBool("attAN",false);
+    }
+    IEnumerator DelayBeforeShoot()
+    {
+        yield return new WaitForSeconds(0.3f);
+        GameObject newProjectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
+            
+         // Determine the direction based on enemy's local scale
+        int direction = transform.localScale.x < 0 ? -1 : 1;
+            
+        // SEND DIRECTION TO PP
+        newProjectile.GetComponent<ProjectileProperties>().SetDirection(direction);
+        //playerANIM.SetBool("attAN",false);
     }
 ////////////////////////////////////////////////////////////
 /// HEALTH DAMAGE COUNTER
 void OnTriggerEnter2D(Collider2D other)
 {
-    if (other.CompareTag("PlayerDamage"))
+    if (other.CompareTag("PlayerDamage") && !isDied)
     {
-            EventCallBack.HitStop.Invoke();
-
-            //TakeDamage(); // If not blocked, take damage
-            Debug.Log("Damage Taken");
-        TakeDamage(PlayerDamage);
-        playerANIM.SetBool("hurtAN", true);
-        StartCoroutine(InvulnerableCD());
-            StartCoroutine(AnimatorHitCD());
+        takingDamage = true;
     }
+}
+
+public void TakesDamagesFromPlayer()
+{
+    //TakeDamage(); // If not blocked, take damage
+    fieldOfViewAngle = 0f;
+    fleeRange = 0f;
+    sightRange = 0f;
+    Debug.Log("Damage Taken");
+
+    TakeDamage(PlayerDamage);
+    playerANIM.SetBool("hurtAN", true);
+
+    StartCoroutine(InvulnerableCD());
+    StartCoroutine(AnimatorHitCD());
+    //takingDamage = false;
 }
 ////////////////////////////////////////////////////////////
 /// HEALTH DAMAGE COUNTER
@@ -187,6 +226,8 @@ void OnTriggerEnter2D(Collider2D other)
 /// FLEE RANDOMIZED
 IEnumerator Flee()
 {
+    fieldOfViewAngle = 0f;
+    sightRange = 0f;
     playerANIM.SetBool("runAN" ,true);
     fleeRange = 0f;
     canFlee = false;
@@ -199,18 +240,21 @@ IEnumerator Flee()
     if (Random.value < 0.5f) 
     {
         fleeDirection = (transform.position - player.position).normalized; // Flee away
-        fleeDirection.y = 0; 
+        fleeDirection.y = 0;
+        Idle();
     }
     else
     {
         fleeDirection = (player.position - transform.position).normalized; // Flee toward
-        fleeDirection.y = 0; 
+        fleeDirection.y = 0;
+        Idle();
     }
 
     // If the flee direction is too small, default to a random direction
     if (fleeDirection.magnitude < 0.1f)
     {
         fleeDirection = new Vector2(1f, 0f);
+        Idle();
     }
 
     // Check if there's a wall in the flee direction
@@ -220,6 +264,7 @@ IEnumerator Flee()
     {
         // If a wall blocks fleeing away, force the enemy to flee toward the player instead
         fleeDirection = (player.position - transform.position).normalized;
+        Idle();
     }
 
     // Move enemy in flee direction
@@ -235,7 +280,6 @@ IEnumerator Flee()
         {
             break;
         }
-
         yield return null; // Wait 4 frame
     }
 
@@ -245,13 +289,15 @@ IEnumerator Flee()
     isFleeing = false;
     canFlee = true;
     fleeRange = defaultFleeR;
-    //playerANIM.SetBool("RunANIM" ,false);
+    playerANIM.SetBool("RunANIM" ,false);
     StartCoroutine(FleeChanceCoolDown());
 }
 ////////////////////////////////////////////////////////////
     void Idle()
     {
         rb.velocity = Vector2.zero;
+        fieldOfViewAngle = defaultFieldOfViewAnge;
+        sightRange = defaultSight;
         //fleeRange = defaultFleeR;
         //playerANIM.SetBool("IdleANIM" ,true);
     }
@@ -309,8 +355,14 @@ IEnumerator Flee()
 
     private IEnumerator AnimatorHitCD()
     {
-        yield return new WaitForSeconds(0.2f);
+        takingDamage = false;
+        yield return new WaitForSeconds(0.3f);
+        //EventCallBack.HitStop.Invoke();
         playerANIM.SetBool("hurtAN", false);
+        EventCallBack.HitStop.Invoke();
+        fieldOfViewAngle = defaultFieldOfViewAnge;
+        sightRange = defaultSight;
+        fleeRange = defaultFleeR;
     }
 ////////////////////////////////////////////////////////////
 /// GIZMOZ

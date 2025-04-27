@@ -5,6 +5,7 @@ public class DialogueTrigger : MonoBehaviour
     public GameObject UIinteractE;
     public string finalDialog = "FUCK OFF";
     public DialogueStart dialogueStartManager;
+    public GameObject dialogUIparent;
     public DialogueStart.Dialogue npcDialogue;
     public DialoguesManagererAD dialogueManager;
     private bool inRange = false;
@@ -17,6 +18,7 @@ public class DialogueTrigger : MonoBehaviour
         UIinteractE.SetActive(false);
         interactingDialog = false;
         dialogueDone = false;
+        dialogUIparent.SetActive(false);
     }
 
     void Update()
@@ -27,6 +29,7 @@ public class DialogueTrigger : MonoBehaviour
             UIinteractE.SetActive(false);
             inRange = false;
             interactingDialog = true;
+            dialogUIparent.SetActive(true);
         }
         
         if(inRange && dialogueDone && Input.GetKey(KeyCode.E))

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DialogueStart : MonoBehaviour
+public class DialogueStartAD : MonoBehaviour
 {
     [System.Serializable]
     public class Dialogue
@@ -16,8 +16,8 @@ public class DialogueStart : MonoBehaviour
     public GameObject NPCPanel;
     public GameObject responsePanel;
     public DialogueTrigger dialogueTrigger; // Reference to DialogueTrigger script
-    public PlayerMovement PlayerControllerScriptGoesHere;
-    public ComboCharacter comboCharacter;
+    public PlayerControl PlayerControllerScriptGoesHere;
+    //public ComboCharacter comboCharacter;
 
     private Dialogue currentDialogue;
     private int currentLineIndex = 0;
@@ -53,7 +53,7 @@ public class DialogueStart : MonoBehaviour
         currentLineIndex = 0;
         isDialogueActive = true;
         PlayerControllerScriptGoesHere.enabled = false;
-        comboCharacter.enabled = false;
+        //comboCharacter.enabled = false;
 
         ShowNextLine();
     }
@@ -96,12 +96,12 @@ public class DialogueStart : MonoBehaviour
     void EndDialogue()
     {
         isDialogueActive = false;
-        //dialogueTrigger.DialogueAD();
-        NPCPanel.SetActive(false);
-        responsePanel.SetActive(false);
+        dialogueTrigger.DialogueAD(); ////////////////////// EXTEND DIALOGUE TO OPTIONS DIALOG AD
+        NPCPanel.SetActive(false);  ////////////////////// DIsable this if extended DIALOG AD
+        responsePanel.SetActive(false); ////////////////// DIsable this if extended DIALOG AD
         //Debug.Log("Dialogue ended.");
-        PlayerControllerScriptGoesHere.enabled = true;
-        comboCharacter.enabled = true;
+        PlayerControllerScriptGoesHere.enabled = true; /// DIsable this if extended DIALOG AD
+        //comboCharacter.enabled = true;
         dialogueTrigger.DoneDialog();
 
     }
