@@ -51,11 +51,11 @@ public class ParallaxLayer : MonoBehaviour
 
     private void ResetPosition()
     {
+        isPlayerInside = false;
         Vector3 pos = transform.localPosition;
-        pos.x = startPos.x; // cuma reset X
+        pos.x = startPos.x; 
         transform.localPosition = pos;
 
-        // Reset delta
-        lastDelta = 0; // Atau logika lain sesuai kebutuhan
+        lastDelta = 0; 
     }
 }

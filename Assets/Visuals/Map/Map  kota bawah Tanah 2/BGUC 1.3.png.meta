@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: f0d5d946e62e8b44da002ff82cee09d6
+guid: ea814a86b917b214f9c95df56c4d4e97
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6138857769401837284
-    second: Spawn (1)-3_0
+      213: 9054669724015937184
+    second: BGUC 1.3_0
+  - first:
+      213: -1410317531200193141
+    second: BGUC 1.3_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,7 +76,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -139,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spawn (1)-3_0
+      name: BGUC 1.3_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1507
-        width: 840
-        height: 464
+        x: 0
+        y: 528
+        width: 660
+        height: 277
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +156,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c19182042656ecaa0800000000000000
-      internalID: -6138857769401837284
+      spriteID: 0a6447ae326a8ad70800000000000000
+      internalID: 9054669724015937184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGUC 1.3_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 660
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d7e447dab8d6ce0800000000000000
+      internalID: -1410317531200193141
       vertices: []
       indices: 
       edges: []
@@ -170,7 +194,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spawn (1)-3_0: -6138857769401837284
+      BGUC 1.3_0: 9054669724015937184
+      BGUC 1.3_1: -1410317531200193141
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
