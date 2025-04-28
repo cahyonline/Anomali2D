@@ -3,13 +3,15 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public GameObject UIinteractE;
-    public string finalDialog = "FUCK OFF";
-    public DialogueStart dialogueStartManager;
+    public string finalDialog = "FUCK OFF !";
+    private string defaultFinalDialog;
+    public DialogueStart dialogueStartScript;
     public GameObject dialogUIparent;
     public DialogueStart.Dialogue npcDialogue;
     public DialoguesManagererAD dialogueManager;
     private bool inRange = false;
     private bool interactingDialog;
+    private bool postponeDialogCheck = false;
     static bool dialogueDone;
     public DialoguesManagererAD.Dialogue[] dialogues;
 
@@ -19,13 +21,14 @@ public class DialogueTrigger : MonoBehaviour
         interactingDialog = false;
         dialogueDone = false;
         dialogUIparent.SetActive(false);
+        defaultFinalDialog = finalDialog;
     }
 
     void Update()
     {
-        if(inRange && Input.GetKey(KeyCode.E))
+        if(inRange && Input.GetKey(KeyCode.E) && !postponeDialogCheck)
         {
-            dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
+            dialogueStartScript.StartDialogue(npcDialogue,finalDialog);
             UIinteractE.SetActive(false);
             inRange = false;
             interactingDialog = true;
@@ -34,10 +37,20 @@ public class DialogueTrigger : MonoBehaviour
         
         if(inRange && dialogueDone && Input.GetKey(KeyCode.E))
         {
-            dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
+            dialogueStartScript.StartDialogue(npcDialogue,finalDialog);
             UIinteractE.SetActive(false);
             inRange = false;
         }
+        if(inRange && Input.GetKey(KeyCode.E) && postponeDialogCheck)
+        {
+            DialogueAD();
+            UIinteractE.SetActive(false);
+            inRange = false;
+            interactingDialog = true;
+            Debug.LogWarning("PostPoned DT");
+        }
+
+        //if (interactingDialog) UIinteractE.SetActive(false);
     }
     void OnTriggerStay2D(Collider2D other)
     {
@@ -77,5 +90,19 @@ public class DialogueTrigger : MonoBehaviour
     public void DoneDialog()
     {
         dialogueDone = true;
+    }
+
+    public void PostponeDialog()
+    {
+        interactingDialog = false;
+        dialogueDone = false;
+        postponeDialogCheck =  true;
+    }
+    public void RestartDialogTG()
+    {
+        interactingDialog = false;
+        dialogueDone = false;
+        postponeDialogCheck = false;
+        dialogueStartScript.RestartStartDialog();
     }
 }

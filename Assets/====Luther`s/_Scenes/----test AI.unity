@@ -10066,7 +10066,7 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 3366479392248191476}
   playerANIM: {fileID: 515299615764103115}
   sightRange: 15
-  fleeRange: -20.88
+  fleeRange: 2
   fleeSpeed: 18
   fireCD: 2.8
   FleeCooldown: 6

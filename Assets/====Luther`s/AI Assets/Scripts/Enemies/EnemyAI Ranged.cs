@@ -200,6 +200,7 @@ public void TakesDamagesFromPlayer()
     fieldOfViewAngle = 0f;
     fleeRange = 0f;
     sightRange = 0f;
+    canFlee = false;
     Debug.Log("Damage Taken");
 
     TakeDamage(PlayerDamage);
