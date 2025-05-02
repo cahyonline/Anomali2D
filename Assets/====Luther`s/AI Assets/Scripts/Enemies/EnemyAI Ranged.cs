@@ -53,8 +53,8 @@ public class EnemyAIRanged : MonoBehaviour
     private bool isDied = false;
 
     private bool takingDamage = false;
-    [Header("IMPORTANT")]
-    public GameObject EnemyRootObject;
+    //[Header("IMPORTANT")]
+    //public GameObject EnemyRootObject;
 
 ////////////////////////////////////////////////////////////
     void Start()

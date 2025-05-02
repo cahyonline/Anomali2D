@@ -19,6 +19,7 @@ public class DialoguesManagererAD : MonoBehaviour
         public string responseID; //////
         public string responseText;
         public int nextDialogueIndex;
+        public bool isReuseable = false;
     }
 
         private HashSet<string> choosenResponses = new HashSet<string>(); ///////
@@ -89,52 +90,68 @@ public class DialoguesManagererAD : MonoBehaviour
         ShowResponses(currentDialogue.responses);
     }
 
-    void ShowResponses(ResponseOption[] responses)
+void ShowResponses(ResponseOption[] responses)
+{
+    // Clear previous response buttons
+    foreach (Transform child in responseContainer)
     {
-        // Clear previous response buttons
-        foreach (Transform child in responseContainer)
+        Destroy(child.gameObject);
+    }
+
+    if (responses == null || responses.Length == 0)
+    {
+        NPCPanel.SetActive(false);
+        responsePanel.SetActive(false);
+        return;
+    }
+
+    List<ResponseOption> validResponses = new List<ResponseOption>();
+
+    foreach (ResponseOption response in responses)
+    {
+        if (!choosenResponses.Contains(response.responseID) || response.isReuseable)
         {
-            Destroy(child.gameObject);
-        }
-
-        if (responses == null || responses.Length == 0)
-        {
-            NPCPanel.SetActive(false);
-            responsePanel.SetActive(false);
-            return;
-        }
-
-        NPCPanel.SetActive(true);
-
-        foreach (ResponseOption response in responses)
-        {
-            if (choosenResponses.Contains(response.responseID)) continue; //////////////
-
-            Button newButton = Instantiate(responseButtonPrefab, responseContainer);
-
-            TextMeshProUGUI buttonText = newButton.GetComponentInChildren<TextMeshProUGUI>();
-
-            if (buttonText != null)
-            {
-                buttonText.text = response.responseText;
-            }
-            else
-            {
-                Debug.LogWarning("No TextMeshProUGUI found in response button prefab!");
-            }
-
-            newButton.onClick.RemoveAllListeners();
-            int nextDialogueIndex = response.nextDialogueIndex;
-            string thisResponseID = response.responseID; ////////////////////////
-
-            newButton.onClick.AddListener(() => 
-            {/////////////
-                choosenResponses.Add(thisResponseID);///////////////////
-                OnResponseSelected(nextDialogueIndex);
-            });///////////
-
+            validResponses.Add(response);
         }
     }
+
+    if (validResponses.Count == 0)
+    {
+        NPCPanel.SetActive(false);
+        responsePanel.SetActive(false);
+        return;
+    }
+
+    NPCPanel.SetActive(true);
+
+    foreach (ResponseOption response in validResponses)
+    {
+        Button newButton = Instantiate(responseButtonPrefab, responseContainer);
+
+        TextMeshProUGUI buttonText = newButton.GetComponentInChildren<TextMeshProUGUI>();
+
+        if (buttonText != null)
+        {
+            buttonText.text = response.responseText;
+        }
+        else
+        {
+            Debug.LogWarning("No TextMeshProUGUI found in response button prefab!");
+        }
+
+        newButton.onClick.RemoveAllListeners();
+        int nextDialogueIndex = response.nextDialogueIndex;
+        string thisResponseID = response.responseID;
+
+        newButton.onClick.AddListener(() =>
+        {
+            if (!response.isReuseable)
+                choosenResponses.Add(thisResponseID);
+
+            OnResponseSelected(nextDialogueIndex);
+        });
+    }
+}
 
     void OnResponseSelected(int nextDialogue)
     {
@@ -174,7 +191,7 @@ public class DialoguesManagererAD : MonoBehaviour
         PlayerControllerScriptGoesHere.enabled = true;
         dialogueTrigger.DoneDialog();
 
-        //choosenResponses.Clear(); //////////
+        choosenResponses.Clear(); //////////
     }
     void PostponeDialogue()
     {
@@ -194,5 +211,10 @@ public class DialoguesManagererAD : MonoBehaviour
         NPCPanel.SetActive(false);
         responsePanel.SetActive(false);
         PlayerControllerScriptGoesHere.enabled = true;
+    }
+
+    public void RestartDIalogADData()
+    {
+        choosenResponses.Clear();
     }
 }

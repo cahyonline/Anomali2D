@@ -180,7 +180,7 @@ public class PlayerMovement : MonoBehaviour
 		if (CanDash() && LastPressedDashTime > 0)
 		{
             AnimHandler.StartDashing = true;
-            AudioManager.Instance.PlaySFX("Dash");
+            //AudioManager.Instance.PlaySFX("Dash");
 
             //Freeze game for split second. Adds juiciness and a bit of forgiveness over directional input
             Sleep(Data.dashSleepTime); 
@@ -260,7 +260,7 @@ public class PlayerMovement : MonoBehaviour
                 Jump();
 
                 AnimHandler.startedJumping = true;
-                AudioManager.Instance.PlaySFX("Jump");
+                //AudioManager.Instance.PlaySFX("Jump");
             }
             //WALL JUMP
             if (!_isItemCollected) return;

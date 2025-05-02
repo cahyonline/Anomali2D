@@ -4220,27 +4220,33 @@ MonoBehaviour:
     - responseID: 
       responseText: Im White
       nextDialogueIndex: 1
+      isReuseable: 0
     - responseID: 
       responseText: Eyo Whats good hb
       nextDialogueIndex: 2
+      isReuseable: 0
     - responseID: 
       responseText: Im Offended
       nextDialogueIndex: 3
+      isReuseable: 0
   - npcText: Man Fuck You
     responses:
     - responseID: 
       responseText: Ok
       nextDialogueIndex: -1
+      isReuseable: 0
   - npcText: Nothing just killin
     responses:
     - responseID: 
       responseText: 'See you later Dawg '
       nextDialogueIndex: -1
+      isReuseable: 0
   - npcText: Fuck you dawg heres some cut scene bitch
     responses:
     - responseID: 
       responseText: 'Se you later Dawg '
       nextDialogueIndex: -1
+      isReuseable: 0
 --- !u!1 &1106502141
 GameObject:
   m_ObjectHideFlags: 0
@@ -9589,7 +9595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301907286622936366}
   m_Layer: 0
-  m_Name: PRESET DIALOG OPTIONS V2
+  m_Name: PRESET DIALOG OPTIONS V2.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10706,53 +10712,67 @@ MonoBehaviour:
     - responseID: 0a
       responseText: Im White
       nextDialogueIndex: 1
+      isReuseable: 1
     - responseID: 0b
       responseText: Eyo Whats good hb
       nextDialogueIndex: 2
+      isReuseable: 0
     - responseID: 0c
       responseText: Im Offended
       nextDialogueIndex: 3
+      isReuseable: 0
     - responseID: 0d
       responseText: Fuck you homls
       nextDialogueIndex: 4
+      isReuseable: 0
   - npcText: Man Fuck You
     responses:
     - responseID: 1a
       responseText: Ok
       nextDialogueIndex: -1
+      isReuseable: 0
     - responseID: 1a
       responseText: Ill see you arroun
       nextDialogueIndex: 100
+      isReuseable: 0
     - responseID: 1a
       responseText: ma bad lemme starover
       nextDialogueIndex: 0
+      isReuseable: 1
   - npcText: Nothing just killin
     responses:
     - responseID: 2a
       responseText: 'See you later Dawg '
       nextDialogueIndex: 100
+      isReuseable: 0
     - responseID: 2b
       responseText: Aight
       nextDialogueIndex: -1
+      isReuseable: 0
     - responseID: 2c
       responseText: Wha ?
       nextDialogueIndex: 0
+      isReuseable: 0
   - npcText: Fuck you dawg heres some cut scene bitch
     responses:
     - responseID: 3a
       responseText: Dont be showing me cutscene bitch
       nextDialogueIndex: -1
+      isReuseable: 0
     - responseID: 3b
       responseText: I forgor U forgor.
       nextDialogueIndex: -200
+      isReuseable: 0
   - npcText: What the fuck ?
     responses:
     - responseID: 4a
       responseText: lemme try again
       nextDialogueIndex: 0
+      isReuseable: 0
     - responseID: 4b
       responseText: man you full of shit
       nextDialogueIndex: 3
+      isReuseable: 0
 --- !u!224 &6220327309447836505
 RectTransform:
   m_ObjectHideFlags: 0

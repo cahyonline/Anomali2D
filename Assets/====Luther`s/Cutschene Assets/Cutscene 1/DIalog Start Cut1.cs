@@ -18,7 +18,7 @@ public class DialogueStartCS1 : MonoBehaviour
     public GameObject responsePanel;
     public DialogueTriggerCS1 dialogueTriggerCS1; // Reference to DialogueTrigger script
     public PlayerControl PlayerControllerScriptGoesHere;
-    public Cutscene1Player cutscene1Player;
+    public CutscenePlayer1 cutscenePlayer1;
     //public ComboCharacter comboCharacter;
 
     private Dialogue currentDialogue;
@@ -70,7 +70,7 @@ public class DialogueStartCS1 : MonoBehaviour
         if(currentLineIndex == 4) // SKIP THIS LINE
         {
             isDialogueActive = false;
-            cutscene1Player.ResumeCutscene();
+            cutscenePlayer1.ResumeCutscene();
             HideTextBox();
         }
         if(currentLineIndex == 5)
@@ -86,7 +86,7 @@ public class DialogueStartCS1 : MonoBehaviour
             NPCPanel.SetActive(true);
             dialogueText.text = currentDialogue.npcLines[currentLineIndex];
             currentLineIndex++;
-            cutscene1Player.PauseCutscene();
+            cutscenePlayer1.PauseCutscene();
         }
         else
         {
@@ -110,7 +110,7 @@ public class DialogueStartCS1 : MonoBehaviour
 
     void EndDialogue()
     {
-        cutscene1Player.ResumeCutscene();
+        cutscenePlayer1.ResumeCutscene();
         isDialogueActive = false;
         //dialogueTriggerNormal.DialogueAD(); ////////////////////// EXTEND DIALOGUE TO OPTIONS DIALOG AD
         NPCPanel.SetActive(false);  ////////////////////// DIsable this if extended DIALOG AD

@@ -26,6 +26,6 @@ public class ComboCharacter : MonoBehaviour
     }
     private void PlaySfxStep()
     {
-        AudioManager.Instance.PlaySFX("Step");
+        //AudioManager.Instance.PlaySFX("Step");
     }
 }
