@@ -11,14 +11,12 @@ public class Spawn : MonoBehaviour
 
     private IEnumerator GetSpawn(int areaIndex)
     {
-        yield return new WaitForSeconds(1.1f); // Jeda 1.1 detik
+        yield return new WaitForSeconds(0.2f); 
 
-        // Pastikan Player dan SpawnPoints tidak null
         if (Player != null && SpawnPoints != null && areaIndex >= 0 && areaIndex < SpawnPoints.Count)
         {
-            Player.transform.position = SpawnPoints[areaIndex].position; // Pindahkan player ke SpawnPoint yang sesuai
+            Player.transform.position = SpawnPoints[areaIndex].position;
 
-            // Cek apakah player berpindah ke next atau prev
             if (areaIndex > currentAreaIndex)
             {
                 //Debug.Log("Player berpindah ke NEXT SPAWN: " + areaIndex);

@@ -24,7 +24,7 @@ public class ParallaxLayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) // Pastikan objek pemain memiliki tag "Player"
+        if (other.CompareTag("Player"))
         {
             isPlayerInside = true;
         }
@@ -40,22 +40,22 @@ public class ParallaxLayer : MonoBehaviour
 
     public void Move(float delta)
     {
-        if (isPlayerInside) // Hanya bergerak jika pemain di dalam collider
+        if (isPlayerInside) 
         {
             Vector3 newPos = transform.localPosition;
             newPos.x -= delta * parallaxFactor;
             transform.localPosition = newPos;
-            lastDelta = delta; // Simpan delta terakhir
+            lastDelta = delta;
         }
     }
 
     private void ResetPosition()
     {
+        isPlayerInside = false;
         Vector3 pos = transform.localPosition;
-        pos.x = startPos.x; // cuma reset X
+        pos.x = startPos.x; 
         transform.localPosition = pos;
 
-        // Reset delta
-        lastDelta = 0; // Atau logika lain sesuai kebutuhan
+        lastDelta = 0; 
     }
 }

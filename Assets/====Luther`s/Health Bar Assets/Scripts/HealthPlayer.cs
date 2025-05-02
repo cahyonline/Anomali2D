@@ -158,7 +158,7 @@ IEnumerator NaturalRegen()
     {
         yield return new WaitForSeconds(Whathit);
         vulnerable = true;
-        Whathit = 1f;
+        Whathit = 0.3f;
         Debug.LogWarning("vulnerable");
     }
     private void LoadHealth(SaveData healthbarre)
@@ -169,14 +169,23 @@ IEnumerator NaturalRegen()
     private void OnEnable()
     {
         EventCallBack.Load += LoadHealth;
+        EventCallBack.Kebal += onKebal;
     }
     private void OnDisable()
     {
         EventCallBack.Load -= LoadHealth;
+        EventCallBack.Kebal -= onKebal;
+    }
+
+    private void onKebal()
+    {
+        vulnerable = false;
+        StartCoroutine(InvulnerableCD());
+
     }
     ///////////////////////////////////////////////////////////////////
     ////// COOLDOWN BEFORE UI DEATH
-    
+
     private IEnumerator CountDown()
     {
         //pAnimator.SetBool("Tesk", true);
@@ -184,4 +193,6 @@ IEnumerator NaturalRegen()
         yield return new WaitForSeconds(delayDeathUi);
         deathMenu.SetActive(true);
     }
+
+
 }

@@ -10,6 +10,7 @@ public class CameraPrevTrigger : MonoBehaviour
         {
             EventCallBack.ChangeArea(prevAreaIndex);
             EventCallBack.Vignette();
+            EventCallBack.ResetBg();
 
         }
     }

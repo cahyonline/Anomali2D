@@ -21,6 +21,11 @@ public class ComboCharacter : MonoBehaviour
         {
             EventCallBack.OnAttack();
             meleeStateMachine.SetNextState(new GroundEntryState());
+            
         }
+    }
+    private void PlaySfxStep()
+    {
+        AudioManager.Instance.PlaySFX("Step");
     }
 }
