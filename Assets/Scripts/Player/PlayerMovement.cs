@@ -98,6 +98,7 @@ public class PlayerMovement : MonoBehaviour
         {
             _moveInput.x = Input.GetAxisRaw("Horizontal");
             _moveInput.y = Input.GetAxisRaw("Vertical");
+
         }
 
         if (_moveInput.x != 0)
@@ -179,6 +180,7 @@ public class PlayerMovement : MonoBehaviour
 		if (CanDash() && LastPressedDashTime > 0)
 		{
             AnimHandler.StartDashing = true;
+            AudioManager.Instance.PlaySFX("Dash");
 
             //Freeze game for split second. Adds juiciness and a bit of forgiveness over directional input
             Sleep(Data.dashSleepTime); 
@@ -258,6 +260,7 @@ public class PlayerMovement : MonoBehaviour
                 Jump();
 
                 AnimHandler.startedJumping = true;
+                AudioManager.Instance.PlaySFX("Jump");
             }
             //WALL JUMP
             if (!_isItemCollected) return;
@@ -561,7 +564,8 @@ public class PlayerMovement : MonoBehaviour
 
 	private bool CanDash()
 	{
-		if (!IsDashing && _dashesLeft < Data.dashAmount && LastOnGroundTime > 0 && !_dashRefilling)
+        if(IsJumping || _isJumpFalling) return false;
+        if (!IsDashing && _dashesLeft < Data.dashAmount && LastOnGroundTime > 0 && !_dashRefilling)
 		{
 			StartCoroutine(nameof(RefillDash), 1);
 		}
