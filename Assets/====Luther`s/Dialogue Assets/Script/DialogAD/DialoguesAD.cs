@@ -16,10 +16,12 @@ public class DialoguesManagererAD : MonoBehaviour
     [System.Serializable]
     public class ResponseOption
     {
+        public string responseID; //////
         public string responseText;
         public int nextDialogueIndex;
     }
 
+        private HashSet<string> choosenResponses = new HashSet<string>(); ///////
         public TextMeshProUGUI npcDialogueText;
         public GameObject NPCPanel;
         public GameObject responsePanel;
@@ -36,6 +38,7 @@ public class DialoguesManagererAD : MonoBehaviour
     {
         NPCPanel.SetActive(false);
         responsePanel.SetActive(false);
+        
     }
 
     public void StartDialogue(Dialogue[] dialogues)
@@ -49,14 +52,35 @@ public class DialoguesManagererAD : MonoBehaviour
 
         currentDialogues = dialogues;
         currentDialogueIndex = 0;
+        PlayerControllerScriptGoesHere.enabled = false;
         ShowDialogue();
     }
 
     public void ShowDialogue()
     {
-        if (currentDialogueIndex < 0 || currentDialogueIndex >= currentDialogues.Length)
+        //if (currentDialogueIndex < 0 || currentDialogueIndex >= currentDialogues.Length)
+        //{
+            //EndDialogue();
+            //return;
+        //}
+
+        if (currentDialogueIndex == 100)
+        {
+            PostponeDialogue();
+            return;
+            
+        }
+
+        if (currentDialogueIndex == -1)
         {
             EndDialogue();
+            return;
+        }
+
+        if (currentDialogueIndex == -200)
+        {
+            dialogueTrigger.RestartDialogTG();
+            RestartDialogAD();
             return;
         }
 
@@ -84,6 +108,8 @@ public class DialoguesManagererAD : MonoBehaviour
 
         foreach (ResponseOption response in responses)
         {
+            if (choosenResponses.Contains(response.responseID)) continue; //////////////
+
             Button newButton = Instantiate(responseButtonPrefab, responseContainer);
 
             TextMeshProUGUI buttonText = newButton.GetComponentInChildren<TextMeshProUGUI>();
@@ -99,18 +125,40 @@ public class DialoguesManagererAD : MonoBehaviour
 
             newButton.onClick.RemoveAllListeners();
             int nextDialogueIndex = response.nextDialogueIndex;
-            newButton.onClick.AddListener(() => OnResponseSelected(nextDialogueIndex));
+            string thisResponseID = response.responseID; ////////////////////////
+
+            newButton.onClick.AddListener(() => 
+            {/////////////
+                choosenResponses.Add(thisResponseID);///////////////////
+                OnResponseSelected(nextDialogueIndex);
+            });///////////
+
         }
     }
 
     void OnResponseSelected(int nextDialogue)
     {
-        if (nextDialogue < 0 || nextDialogue >= currentDialogues.Length)
+        //if (nextDialogue < 0 || nextDialogue >= currentDialogues.Length)
+        //{
+            //Debug.LogWarning("Invalid dialogue index selected: " + nextDialogue);
+            //EndDialogue();
+            //return;
+        //}
+        if (nextDialogue == -1)
         {
-            Debug.LogWarning("Invalid dialogue index selected: " + nextDialogue);
             EndDialogue();
+            Debug.LogWarning("DIALOG IS OVER");
             return;
         }
+
+        if (nextDialogue == 100)
+        {
+            //choosenResponses.Clear();
+            currentDialogueIndex = 0;
+            Debug.LogWarning("DIALOG IS POSTPONED");
+            PostponeDialogue();
+        }
+
 
         Debug.Log("Player selected response leading to dialogue index: " + nextDialogue);
         currentDialogueIndex = nextDialogue;
@@ -122,8 +170,29 @@ public class DialoguesManagererAD : MonoBehaviour
         npcDialogueText.text = "";
         NPCPanel.SetActive(false);
         responsePanel.SetActive(false);
-        Debug.Log("Dialogue ended.");
+        Debug.Log("Dialogue OVER.");
         PlayerControllerScriptGoesHere.enabled = true;
         dialogueTrigger.DoneDialog();
+
+        //choosenResponses.Clear(); //////////
+    }
+    void PostponeDialogue()
+    {
+        npcDialogueText.text = "";
+        NPCPanel.SetActive(false);
+        responsePanel.SetActive(false);
+        Debug.Log("Dialogue POSTPONED.");
+        dialogueTrigger.PostponeDialog();
+        PlayerControllerScriptGoesHere.enabled = true;
+        //choosenResponses.Clear(); //////////
+        //dialogueTrigger.DoneDialog();
+    }
+
+    public void RestartDialogAD()
+    {
+        choosenResponses.Clear(); //////////
+        NPCPanel.SetActive(false);
+        responsePanel.SetActive(false);
+        PlayerControllerScriptGoesHere.enabled = true;
     }
 }

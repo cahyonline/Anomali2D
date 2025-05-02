@@ -7,7 +7,8 @@ public class HealthPlayer : MonoBehaviour
 {
 ///////////////////////////////////////////////////////////////////
     public Image healthBar;
-    public float healthAmount = 100f;
+    public float Maxhealth = 100f;
+    public float healthAmount;
     public float healthRegenValue = 0.1f;
     public float healthRegenRate = 0f;
     private float Whathit = 1f;
@@ -34,6 +35,7 @@ public class HealthPlayer : MonoBehaviour
 {
     Whathit = 1f;
         deathMenu.SetActive(false);
+        healthAmount = Maxhealth;
 }
 
 ///////////////////////////////////////////////////////////////////
@@ -75,7 +77,7 @@ public void TakeDamage(float damage)
         EventCallBack.HitStop();
         pAnimator.SetTrigger("is_PHurt");
     healthAmount -= damage;
-    healthBar.fillAmount = healthAmount / 200f;
+    healthBar.fillAmount = healthAmount / Maxhealth;
     canRegen = false;
     isRegen = false; 
     StartCoroutine(NaturalRegenCD());
@@ -84,9 +86,9 @@ public void TakeDamage(float damage)
 public void Healing(float healAmount)
 {
     healthAmount += healAmount;
-    healthAmount = Mathf.Clamp(healthAmount, 0, 200);
-    healthBar.fillAmount = healthAmount / 200f;
-    if(healthAmount >= 200f)
+    healthAmount = Mathf.Clamp(healthAmount, 0, Maxhealth);
+    healthBar.fillAmount = healthAmount / Maxhealth;
+    if(healthAmount >= Maxhealth)
     {
         isRegen = false;
     }
@@ -106,10 +108,10 @@ IEnumerator NaturalRegen()
     {
         yield return new WaitForSeconds(1);
         healthAmount += healthRegenValue;
-        healthBar.fillAmount = healthAmount / 200f;
-        healthAmount = Mathf.Clamp(healthAmount, 0, 200);
+        healthBar.fillAmount = healthAmount / Maxhealth;
+        healthAmount = Mathf.Clamp(healthAmount, 0, Maxhealth);
         
-        if(healthAmount >= 200f)
+        if(healthAmount >= Maxhealth)
         {
             isRegen = false;
         }

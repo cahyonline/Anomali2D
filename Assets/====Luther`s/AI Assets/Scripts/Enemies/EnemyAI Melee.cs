@@ -41,16 +41,12 @@ public class EnemyAIMelee : MonoBehaviour
     private bool movingToMiddle = false;
     private bool isAttacking;
 ////////////////////////////////////////////////////////////
-/// HEALTH COMPONENTS
-    //public Image healthBar;
+/// HEALTH
+    [Header("HEALTH")]
+    public Image healthBar;
     public float healthAmount = 200f;
-    public float SpikeDM = 20f;
-    public float SmallDM = 10f;
-    public float BigDM = 40f;
-    public float LavaDM = 0.3f;
     public float PlayerDamage = 35f;
-    public float SpikeCD = 3f;
-    //private bool vulnerable;
+    private bool vulnerable;
     private float Whathit = 0.5f;
 
     [Header("IMPORTANT")]
@@ -355,13 +351,13 @@ void OnTriggerEnter2D(Collider2D other)
         public void TakeDamage (float damage)
     {
         healthAmount -= damage;
-        //healthBar.fillAmount = healthAmount / 200f;
+        healthBar.fillAmount = healthAmount / 200f;
     }
     public void Healing (float healAmount)
     {
         healthAmount += healAmount;
         healthAmount = Mathf.Clamp(healthAmount, 0, 200);
-        //healthBar.fillAmount = healthAmount / 200f;
+        healthBar.fillAmount = healthAmount / 200f;
     }
 ///////////////////////////////////////////////////////////////////
 ////// DAMAGE COOLDOWN

@@ -11,6 +11,7 @@ public class PickUpPaper : MonoBehaviour
     public GameObject UIpickupEnter;
     public bool canPickup;
     public bool interactedPaper;
+    public PlayerControl playerControl;
     void Start()
     {
         showPaper.SetActive(false);
@@ -29,6 +30,7 @@ public class PickUpPaper : MonoBehaviour
             interactedPaper = true;
             UIpickupE.SetActive(false);
             UIpickupEnter.SetActive(true);
+            playerControl.enabled = false;
             canPickup = false;
         }
         if(interactedPaper && Input.GetKey(KeyCode.Return))
@@ -36,6 +38,7 @@ public class PickUpPaper : MonoBehaviour
             showPaper.SetActive(false);
             canPickup = false;
             UIpickupEnter.SetActive(false);
+            playerControl.enabled = true;
             Destroy(gameObject);
             Debug.LogWarning("DESTROYED");
         }

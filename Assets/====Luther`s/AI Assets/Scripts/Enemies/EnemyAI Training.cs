@@ -21,6 +21,7 @@ public class EnemyAITraining : MonoBehaviour
     public bool shieldUp = true; // Shield starts up
     public float shieldAngle = 60f; // Angle range where shield is effective
     [Header("Turning Settings")]
+    public bool forceLookPlayer;
     public float turnCooldown = 1f; // Cooldown before turning
     private float lastTurnTime = 0f; // Tracks last turn time
     public float attackCooldown = 3f;
@@ -61,7 +62,7 @@ public class EnemyAITraining : MonoBehaviour
 /// UPDATE BEHAVIOR
     void FixedUpdate()
     {
-        if(!IsPlayerInTerritory())
+        if(!IsPlayerInTerritory() && !noAttack)
             {
 
                 sightRange = 0f;
@@ -75,7 +76,11 @@ public class EnemyAITraining : MonoBehaviour
                 walkSpeed = defaultSpeed;
             }
         if (chasingPlayer)
-        {
+        {   
+            if(forceLookPlayer && CanSeePlayer() && IsPlayerInTerritory())
+            {
+                FacePlayer();
+            }
             if (CanSeePlayer() && IsPlayerInTerritory())  
             {
                 ChasePlayer();
@@ -121,7 +126,7 @@ public class EnemyAITraining : MonoBehaviour
                 shieldUp = false;
                 shieldVis.SetActive(false);
             }           
-            return;
+            sightRange = 0f;
         }
         else
         {
