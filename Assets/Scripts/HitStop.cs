@@ -26,7 +26,7 @@ public class HitStop : MonoBehaviour
     IEnumerator DoFreezew()
     {
         //Debug.LogWarning("fcku");
-
+        //yield return new WaitForSeconds(1);
         _isFrozen = true;
         var original = Time.timeScale;
         Time.timeScale = 0f;
@@ -36,6 +36,7 @@ public class HitStop : MonoBehaviour
         Time.timeScale = original;
         _pendingFreezeDuration = 0;
         _isFrozen = false;
+
     }
 
     private void OnEnable()

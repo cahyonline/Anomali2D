@@ -14,6 +14,7 @@ public class HealthPlayer : MonoBehaviour
     public float healthRegenValue = 0.1f;
     public float healthRegenRate = 0f;
     private float Whathit = 1f;
+    public float MegaDM = 75;
     public float SpikeDM = 30f;
     public float SmallDM = 10f;
     public float BigDM = 40f;
@@ -153,6 +154,13 @@ public class HealthPlayer : MonoBehaviour
         {
             vulnerable = false;
             TakeDamage(BigDM);
+            StartCoroutine(InvulnerableCD());
+        }
+
+        if (vulnerable && other.CompareTag("MegaATKHB"))
+        {
+            vulnerable = false;
+            TakeDamage(MegaDM);
             StartCoroutine(InvulnerableCD());
         }
 

@@ -55,8 +55,8 @@ public class PlayerAnimator : MonoBehaviour
         }
 
         float newRot = ((tiltProgress * maxTilt * 2) - maxTilt);
-        float rot = Mathf.LerpAngle(spriteRend.transform.localRotation.eulerAngles.z * mult, newRot, tiltSpeed);
-        spriteRend.transform.localRotation = Quaternion.Euler(0, 0, rot * mult);
+        //float rot = Mathf.LerpAngle(spriteRend.transform.localRotation.eulerAngles.z * mult, newRot, tiltSpeed);
+        //spriteRend.transform.localRotation = Quaternion.Euler(0, 0, rot * mult);
         #endregion
 
         CheckAnimationState();

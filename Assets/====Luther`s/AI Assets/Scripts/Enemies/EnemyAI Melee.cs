@@ -465,6 +465,7 @@ void OnTriggerEnter2D(Collider2D other)
         //TakeDamage(); // If not blocked, take damage
         meleeAN.SetBool("hurtAN",true);
         
+        EventCallBack.HitStop.Invoke();
         Debug.Log("Damage Taken");
         StartCoroutine(AnimationReset());
         TakeDamage(PlayerDamage);
@@ -477,7 +478,7 @@ IEnumerator AnimationReset()
     if(isAnimationReseting)yield break;
     isAnimationReseting = true;
 
-    yield return new WaitForSeconds(1f);
+    yield return new WaitForSeconds(0.6f);
 
     isAnimationReseting = false;
     meleeAN.SetBool("hurtAN",false);
