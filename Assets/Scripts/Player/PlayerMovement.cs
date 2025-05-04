@@ -1,4 +1,5 @@
 using System.Collections;
+//using System.Numerics;
 using System.Xml.Serialization;
 using UnityEngine;
 
@@ -40,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
     //NEW
     private bool _isItemCollected;
 	private bool isAttack;
+	public BoxCollider2D playerCollider;
+	private Vector2 originalSize;
 
 
 	#endregion
@@ -81,6 +84,7 @@ public class PlayerMovement : MonoBehaviour
         IsFacingRight = true;
         _lastLeftShiftTime = 0; // Inisialisasi waktu terakhir Left Shift
         _leftShiftCooldownTime = 1.0f; // Atur waktu cooldown (misalnya 1 detik)
+		originalSize = playerCollider.size;
     }
 
     private void Update()
@@ -120,7 +124,8 @@ public class PlayerMovement : MonoBehaviour
 			EventCallBack.Kebal();
             _lastLeftShiftTime = Time.time;
 
-
+			playerCollider.size = new Vector2(originalSize.x, 1.5f);
+			StartCoroutine(RezizeTemp());
             OnDashInput();
         }
         #endregion
@@ -198,7 +203,7 @@ public class PlayerMovement : MonoBehaviour
 			IsJumping = false;
 			IsWallJumping = false;
 			_isJumpCut = false;
-
+			SetGravityScale(10);
 			StartCoroutine(nameof(StartDash), _lastDashDir);
 		}
 		#endregion
@@ -246,7 +251,7 @@ public class PlayerMovement : MonoBehaviour
 		else
 		{
 			//No gravity when dashing (returns to normal once initial dashAttack phase over)
-			SetGravityScale(0);
+			SetGravityScale(10);
 		}
 
         if (!IsDashing)
@@ -286,6 +291,12 @@ public class PlayerMovement : MonoBehaviour
         }
         #endregion
     }
+
+	private IEnumerator RezizeTemp()
+	{
+		yield return new WaitForSeconds(0.3f);
+		playerCollider.size = originalSize;
+	}
 
     private void FixedUpdate()
 	{

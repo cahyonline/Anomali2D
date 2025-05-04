@@ -237,7 +237,7 @@ public class EnemyAIGaint : MonoBehaviour
         isAttacking = true;
         attackHB.SetActive(true);
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
 
         attackHB.SetActive(false);
         yield return new WaitForSeconds(attackCooldown);
@@ -255,6 +255,7 @@ public class EnemyAIGaint : MonoBehaviour
         {
             StartCoroutine(InvulnerableCD());
             TakeDamage(PlayerDamage);
+            EventCallBack.HitStop.Invoke();
             //Debug.Log("Enemy Took Damage");
         }
 
