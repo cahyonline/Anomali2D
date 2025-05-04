@@ -12291,6 +12291,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2076438846}
     - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+      propertyPath: enemyANIM
+      value: 
+      objectReference: {fileID: 1561656909}
+    - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2020117201}
@@ -13304,7 +13308,7 @@ Transform:
   m_GameObject: {fileID: 336071575}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -191.5949, y: 27.306559, z: -10}
+  m_LocalPosition: {x: -194.01112, y: 27.304949, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15995,6 +15999,7 @@ MonoBehaviour:
   UIpickupEnter: {fileID: 867110585}
   canPickup: 0
   interactedPaper: 0
+  playerControl: {fileID: 0}
 --- !u!61 &451125334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16840,6 +16845,7 @@ MonoBehaviour:
   UIpickupEnter: {fileID: 867110585}
   canPickup: 0
   interactedPaper: 0
+  playerControl: {fileID: 0}
 --- !u!61 &471995402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21471,6 +21477,7 @@ MonoBehaviour:
   UIpickupEnter: {fileID: 867110585}
   canPickup: 0
   interactedPaper: 0
+  playerControl: {fileID: 0}
 --- !u!61 &701240994
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21973,8 +21980,7 @@ MonoBehaviour:
   NPCPanel: {fileID: 430036552}
   responsePanel: {fileID: 1653876975}
   dialogueTrigger: {fileID: 850778158}
-  PlayerControllerScriptGoesHere: {fileID: 2107377071}
-  comboCharacter: {fileID: 2050277411}
+  PlayerControllerScriptGoesHere: {fileID: 0}
 --- !u!1 &737995072
 GameObject:
   m_ObjectHideFlags: 0
@@ -22315,6 +22321,7 @@ MonoBehaviour:
   UIpickupEnter: {fileID: 867110585}
   canPickup: 0
   interactedPaper: 0
+  playerControl: {fileID: 0}
 --- !u!61 &749239623
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23541,6 +23548,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2076438846}
     - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+      propertyPath: enemyANIM
+      value: 
+      objectReference: {fileID: 781435089}
+    - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2020117201}
@@ -23556,6 +23567,11 @@ PrefabInstance:
 --- !u!4 &781435088 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1642958617704398970, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+  m_PrefabInstance: {fileID: 781435087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &781435089 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6998340506074221946, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
   m_PrefabInstance: {fileID: 781435087}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &781607445
@@ -24210,6 +24226,83 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afc54b53cea2ee14bb688f5ca552a29e, type: 3}
+--- !u!1001 &823621871
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1933187037997999679, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_Name
+      value: Player V2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933187037997999679, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316317633888818327, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -196.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316317633888818327, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316317633888818327, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.040828153
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316317633888818327, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316317633888818327, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316317633888818327, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316317633888818327, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316317633888818327, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316317633888818327, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316317633888818327, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179451099898047584, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: playerRB
+      value: 
+      objectReference: {fileID: 993218577}
+    - target: {fileID: 8179451099898047584, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: Maxhealth
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179451099898047584, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: deathMenu
+      value: 
+      objectReference: {fileID: 1255524491}
+    - target: {fileID: 8179451099898047584, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1713686465}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
 --- !u!1 &825327008
 GameObject:
   m_ObjectHideFlags: 0
@@ -24848,8 +24941,7 @@ MonoBehaviour:
   NPCPanel: {fileID: 976957446}
   responsePanel: {fileID: 1742236156}
   dialogueTrigger: {fileID: 850778158}
-  PlayerControllerScriptGoesHere: {fileID: 2107377071}
-  comboCharacter: {fileID: 2050277411}
+  PlayerControllerScriptGoesHere: {fileID: 0}
 --- !u!114 &847740122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24917,7 +25009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UIinteractE: {fileID: 2080375745}
   finalDialog: Have you found anything to heal me ?
-  dialogueStartManager: {fileID: 734500631}
+  dialogueStartScript: {fileID: 0}
+  dialogUIparent: {fileID: 0}
   npcDialogue:
     npcLines:
     - Hey you
@@ -24927,24 +25020,36 @@ MonoBehaviour:
   dialogues:
   - npcText: Whats upp nibba
     responses:
-    - responseText: Im White
+    - responseID: 
+      responseText: Im White
       nextDialogueIndex: 1
-    - responseText: Eyo Whats good hb
+      isReuseable: 0
+    - responseID: 
+      responseText: Eyo Whats good hb
       nextDialogueIndex: 2
-    - responseText: Im Offended
+      isReuseable: 0
+    - responseID: 
+      responseText: Im Offended
       nextDialogueIndex: 3
+      isReuseable: 0
   - npcText: Man Fuck You
     responses:
-    - responseText: Ok
+    - responseID: 
+      responseText: Ok
       nextDialogueIndex: -1
+      isReuseable: 0
   - npcText: Nothing just killin
     responses:
-    - responseText: 'See you later Dawg '
+    - responseID: 
+      responseText: 'See you later Dawg '
       nextDialogueIndex: -1
+      isReuseable: 0
   - npcText: Fuck you dawg heres some cut scene bitch
     responses:
-    - responseText: 'Se you later Dawg '
+    - responseID: 
+      responseText: 'Se you later Dawg '
       nextDialogueIndex: -1
+      isReuseable: 0
 --- !u!61 &850778159
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26967,6 +27072,7 @@ MonoBehaviour:
   UIpickupEnter: {fileID: 867110585}
   canPickup: 0
   interactedPaper: 0
+  playerControl: {fileID: 0}
 --- !u!61 &973780129
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27652,6 +27758,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991210118}
   m_CullTransparentMesh: 1
+--- !u!50 &993218577 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 175290988994297621, guid: ba714d283143fbb49b5b45252e4f3880, type: 3}
+  m_PrefabInstance: {fileID: 823621871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &996585713
 GameObject:
   m_ObjectHideFlags: 0
@@ -27801,7 +27912,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UIinteractE: {fileID: 1986745188}
   finalDialog: '"You already looted him"'
-  dialogueStartManager: {fileID: 847740121}
+  dialogueStartScript: {fileID: 0}
+  dialogUIparent: {fileID: 0}
   npcDialogue:
     npcLines:
     - '"Just a corpse you already loot"'
@@ -27809,24 +27921,36 @@ MonoBehaviour:
   dialogues:
   - npcText: Whats upp nibba
     responses:
-    - responseText: Im White
+    - responseID: 
+      responseText: Im White
       nextDialogueIndex: 1
-    - responseText: Eyo Whats good hb
+      isReuseable: 0
+    - responseID: 
+      responseText: Eyo Whats good hb
       nextDialogueIndex: 2
-    - responseText: Im Offended
+      isReuseable: 0
+    - responseID: 
+      responseText: Im Offended
       nextDialogueIndex: 3
+      isReuseable: 0
   - npcText: Man Fuck You
     responses:
-    - responseText: Ok
+    - responseID: 
+      responseText: Ok
       nextDialogueIndex: -1
+      isReuseable: 0
   - npcText: Nothing just killin
     responses:
-    - responseText: 'See you later Dawg '
+    - responseID: 
+      responseText: 'See you later Dawg '
       nextDialogueIndex: -1
+      isReuseable: 0
   - npcText: Fuck you dawg heres some cut scene bitch
     responses:
-    - responseText: 'Se you later Dawg '
+    - responseID: 
+      responseText: 'Se you later Dawg '
       nextDialogueIndex: -1
+      isReuseable: 0
 --- !u!1 &1002603081
 GameObject:
   m_ObjectHideFlags: 0
@@ -28917,6 +29041,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2076438846}
+    - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+      propertyPath: enemyANIM
+      value: 
+      objectReference: {fileID: 2071198493}
     - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
       propertyPath: healthBar
       value: 
@@ -32166,6 +32294,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2076438846}
     - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+      propertyPath: enemyANIM
+      value: 
+      objectReference: {fileID: 1665874107}
+    - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2020117201}
@@ -35127,6 +35259,7 @@ MonoBehaviour:
   UIpickupEnter: {fileID: 867110585}
   canPickup: 0
   interactedPaper: 0
+  playerControl: {fileID: 0}
 --- !u!61 &1463651554
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37934,6 +38067,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560995869}
   m_CullTransparentMesh: 1
+--- !u!95 &1561656909 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6998340506074221946, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+  m_PrefabInstance: {fileID: 295871972}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1564852641
 GameObject:
   m_ObjectHideFlags: 0
@@ -38874,6 +39012,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2076438846}
     - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+      propertyPath: enemyANIM
+      value: 
+      objectReference: {fileID: 1599480448}
+    - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2020117201}
@@ -38889,6 +39031,11 @@ PrefabInstance:
 --- !u!4 &1599480447 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1642958617704398970, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+  m_PrefabInstance: {fileID: 1599480446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1599480448 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6998340506074221946, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
   m_PrefabInstance: {fileID: 1599480446}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1616246347
@@ -39356,6 +39503,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2076438846}
     - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+      propertyPath: enemyANIM
+      value: 
+      objectReference: {fileID: 1640424558}
+    - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2020117201}
@@ -39371,6 +39522,11 @@ PrefabInstance:
 --- !u!4 &1640424557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1642958617704398970, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+  m_PrefabInstance: {fileID: 1640424556}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1640424558 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6998340506074221946, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
   m_PrefabInstance: {fileID: 1640424556}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1644371671
@@ -39956,6 +40112,11 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!95 &1665874107 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6998340506074221946, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+  m_PrefabInstance: {fileID: 1279290186}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1670479483
 GameObject:
   m_ObjectHideFlags: 0
@@ -40874,6 +41035,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2076438846}
     - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+      propertyPath: enemyANIM
+      value: 
+      objectReference: {fileID: 1699733559}
+    - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2020117201}
@@ -40889,6 +41054,11 @@ PrefabInstance:
 --- !u!4 &1699733558 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1642958617704398970, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+  m_PrefabInstance: {fileID: 1699733557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1699733559 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6998340506074221946, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
   m_PrefabInstance: {fileID: 1699733557}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1700225448
@@ -41831,6 +42001,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2076438846}
     - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+      propertyPath: enemyANIM
+      value: 
+      objectReference: {fileID: 1729020057}
+    - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2020117201}
@@ -41846,6 +42020,11 @@ PrefabInstance:
 --- !u!4 &1729020056 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1642958617704398970, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+  m_PrefabInstance: {fileID: 1729020055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1729020057 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6998340506074221946, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
   m_PrefabInstance: {fileID: 1729020055}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1729418316
@@ -42211,6 +42390,7 @@ MonoBehaviour:
   UIpickupEnter: {fileID: 867110585}
   canPickup: 0
   interactedPaper: 0
+  playerControl: {fileID: 0}
 --- !u!61 &1739677035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45812,6 +45992,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1642958617704398970, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
   m_PrefabInstance: {fileID: 7366112015293330097}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1994164971 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6998340506074221946, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+  m_PrefabInstance: {fileID: 7366112015293330097}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1995692801
 GameObject:
   m_ObjectHideFlags: 0
@@ -46660,17 +46845,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 7.411783, y: 4.6507263}
   m_EdgeRadius: 0
---- !u!114 &2050277411 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 758592430142263821, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
-  m_PrefabInstance: {fileID: 7610952155843321596}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26217f005cdc7034896d9a3a1fd789f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2063780171
 GameObject:
   m_ObjectHideFlags: 0
@@ -46835,6 +47009,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 15.33905, y: 17.577354}
   m_EdgeRadius: 0
+--- !u!95 &2071198493 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6998340506074221946, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+  m_PrefabInstance: {fileID: 1077432164}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2076438846 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 14262223627224606, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
@@ -47631,17 +47810,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6833003733491252905, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
   m_PrefabInstance: {fileID: 7610952155843321596}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2107377071 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 847569537037626116, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
-  m_PrefabInstance: {fileID: 7610952155843321596}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2107377065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b25879a85aef4049811869e47d814b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2107377072 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3384839423354466847, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
@@ -47677,6 +47845,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 0.1
+--- !u!50 &2107377079 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 2127061806668852958, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
+  m_PrefabInstance: {fileID: 7610952155843321596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2107377080
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107377065}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fac57d31e7d6e494db12ec5bc9eef93e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2110785356
 GameObject:
   m_ObjectHideFlags: 0
@@ -48794,6 +48989,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2076438846}
     - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
+      propertyPath: enemyANIM
+      value: 
+      objectReference: {fileID: 1994164971}
+    - target: {fileID: 5937914223069133521, guid: 3b91d05e4df0d904aac326df05ab9cc6, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2020117201}
@@ -48818,6 +49017,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2720684051095402411, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672598438048021342, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
+      propertyPath: playerRB
+      value: 
+      objectReference: {fileID: 2107377079}
     - target: {fileID: 5672598438048021342, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
       propertyPath: deathMenu
       value: 
@@ -48826,6 +49033,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1713686465}
+    - target: {fileID: 5672598438048021342, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
+      propertyPath: pAnimator
+      value: 
+      objectReference: {fileID: 2107377080}
     - target: {fileID: 6833003733491252905, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -197
@@ -48866,6 +49077,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7067713625301448794, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 2107377080}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48873,6 +49088,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2720684051095402411, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2107377077}
+    - targetCorrespondingSourceObject: {fileID: 2720684051095402411, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2107377080}
   m_SourcePrefab: {fileID: 100100000, guid: 2b813b572cd54a34b89ace0787f288a3, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -48882,6 +49100,7 @@ SceneRoots:
   - {fileID: 909106431}
   - {fileID: 497512528}
   - {fileID: 333165614}
+  - {fileID: 823621871}
   - {fileID: 7610952155843321596}
   - {fileID: 1573374069}
   - {fileID: 1217770730}

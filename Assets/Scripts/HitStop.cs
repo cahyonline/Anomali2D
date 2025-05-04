@@ -13,7 +13,7 @@ public class HitStop : MonoBehaviour
     {
         if (_pendingFreezeDuration > 0 && !_isFrozen)
         {
-            StartCoroutine(DoFreeze());
+            StartCoroutine(DoFreezew());
         }
     }
 
@@ -23,7 +23,7 @@ public class HitStop : MonoBehaviour
         //Debug.LogWarning("fcku");
     }
 
-    IEnumerator DoFreeze()
+    IEnumerator DoFreezew()
     {
         //Debug.LogWarning("fcku");
 

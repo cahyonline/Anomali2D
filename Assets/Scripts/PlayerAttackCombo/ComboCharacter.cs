@@ -21,8 +21,10 @@ public class ComboCharacter : MonoBehaviour
         {
             EventCallBack.OnAttack();
             meleeStateMachine.SetNextState(new GroundEntryState());
-            
+            //Debug.Log("J is Pressed");
         }
+
+        
     }
     private void PlaySfxStep()
     {
