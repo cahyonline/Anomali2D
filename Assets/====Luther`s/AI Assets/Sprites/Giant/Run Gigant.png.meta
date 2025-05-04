@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -298,7 +298,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Run Gigant_0: 569382157894961115
+      Run Gigant_1: 5115676956390537620
+      Run Gigant_2: 4916830654071492742
+      Run Gigant_3: -6024078441776798462
+      Run Gigant_4: 536189320972374541
+      Run Gigant_5: -88894838458626023
+      Run Gigant_6: -8873246434813354921
+      Run Gigant_7: 464271908828808710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: d15cc6edce437e540945c3910d16d647
+guid: 4af897d1564597a44862ff0a0505ac70
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3459562419260490578
-    second: Mati (Gigant)_0
+      213: -7353767022081044644
+    second: Mati (Gigant) 2.1_0
   - first:
-      213: -7452860847927661684
-    second: Mati (Gigant)_1
+      213: -7806645249948797933
+    second: Mati (Gigant) 2.1_1
   - first:
-      213: -1942044314190815755
-    second: Mati (Gigant)_2
+      213: -8758593098653456032
+    second: Mati (Gigant) 2.1_2
   - first:
-      213: 8081866949239272809
-    second: Mati (Gigant)_3
+      213: 75407930307650060
+    second: Mati (Gigant) 2.1_3
   - first:
-      213: 6760997947006398206
-    second: Mati (Gigant)_4
+      213: -1770062394491157153
+    second: Mati (Gigant) 2.1_4
   - first:
-      213: -4331909581040506254
-    second: Mati (Gigant)_5
+      213: 7732859683795436409
+    second: Mati (Gigant) 2.1_5
   - first:
-      213: -5275368933493344821
-    second: Mati (Gigant)_6
+      213: -5261954011906514291
+    second: Mati (Gigant) 2.1_6
   - first:
-      213: 8363608485880874825
-    second: Mati (Gigant)_7
+      213: -8797780073878365106
+    second: Mati (Gigant) 2.1_7
   - first:
-      213: 1632430094428463139
-    second: Mati (Gigant)_8
+      213: -9057170025280380384
+    second: Mati (Gigant) 2.1_8
   - first:
-      213: 231609614924776667
-    second: Mati (Gigant)_9
+      213: 5940637974105412050
+    second: Mati (Gigant) 2.1_9
   - first:
-      213: -1613076953442191986
-    second: Mati (Gigant)_10
+      213: -3467453541448055836
+    second: Mati (Gigant) 2.1_10
   - first:
-      213: -7382039140997125562
-    second: Mati (Gigant)_11
+      213: 7890661259276224214
+    second: Mati (Gigant) 2.1_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -133,7 +133,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mati (Gigant)_0
+      name: Mati (Gigant) 2.1_0
       rect:
         serializedVersion: 2
         x: 25
@@ -141,20 +141,20 @@ TextureImporter:
         width: 88
         height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2530056d0b5d20030800000000000000
-      internalID: 3459562419260490578
+      spriteID: c5f80e7fadb22f990800000000000000
+      internalID: -7353767022081044644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mati (Gigant)_1
+      name: Mati (Gigant) 2.1_1
       rect:
         serializedVersion: 2
         x: 172
@@ -162,20 +162,20 @@ TextureImporter:
         width: 74
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8bead6bb8e129890800000000000000
-      internalID: -7452860847927661684
+      spriteID: 314bf4da18939a390800000000000000
+      internalID: -7806645249948797933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mati (Gigant)_2
+      name: Mati (Gigant) 2.1_2
       rect:
         serializedVersion: 2
         x: 315
@@ -183,20 +183,20 @@ TextureImporter:
         width: 79
         height: 73
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fdd6925cf87c05e0800000000000000
-      internalID: -1942044314190815755
+      spriteID: 069a2965bf9337680800000000000000
+      internalID: -8758593098653456032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mati (Gigant)_3
+      name: Mati (Gigant) 2.1_3
       rect:
         serializedVersion: 2
         x: 456
@@ -204,20 +204,20 @@ TextureImporter:
         width: 84
         height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9657067bb2f882070800000000000000
-      internalID: 8081866949239272809
+      spriteID: c022c33fc17eb0100800000000000000
+      internalID: 75407930307650060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mati (Gigant)_4
+      name: Mati (Gigant) 2.1_4
       rect:
         serializedVersion: 2
         x: 599
@@ -225,161 +225,140 @@ TextureImporter:
         width: 92
         height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efe267ebfc3e3dd50800000000000000
-      internalID: 6760997947006398206
+      spriteID: f55c31261a97f67e0800000000000000
+      internalID: -1770062394491157153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mati (Gigant)_5
+      name: Mati (Gigant) 2.1_5
       rect:
         serializedVersion: 2
         x: 733
         y: 14
         width: 103
-        height: 34
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27a28feff27f1e3c0800000000000000
-      internalID: -4331909581040506254
+      spriteID: 973019679e2a05b60800000000000000
+      internalID: 7732859683795436409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mati (Gigant)_6
+      name: Mati (Gigant) 2.1_6
       rect:
         serializedVersion: 2
         x: 881
         y: 14
         width: 101
-        height: 34
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc57ff3b7ef1ac6b0800000000000000
-      internalID: -5275368933493344821
+      spriteID: d82eed784b8c9f6b0800000000000000
+      internalID: -5261954011906514291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mati (Gigant)_7
+      name: Mati (Gigant) 2.1_7
       rect:
         serializedVersion: 2
         x: 1026
         y: 13
         width: 102
-        height: 32
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9474f590b91811470800000000000000
-      internalID: 8363608485880874825
+      spriteID: e4c587ca2a108e580800000000000000
+      internalID: -8797780073878365106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mati (Gigant)_8
+      name: Mati (Gigant) 2.1_8
       rect:
         serializedVersion: 2
         x: 1172
         y: 13
         width: 102
-        height: 32
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 320e01b958e87a610800000000000000
-      internalID: 1632430094428463139
+      spriteID: 022e8d459d77e4280800000000000000
+      internalID: -9057170025280380384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mati (Gigant)_9
+      name: Mati (Gigant) 2.1_9
       rect:
         serializedVersion: 2
         x: 1320
         y: 15
-        width: 62
-        height: 30
+        width: 96
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd40828b7b7d63300800000000000000
-      internalID: 231609614924776667
+      spriteID: 2d1dfb933c2617250800000000000000
+      internalID: 5940637974105412050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mati (Gigant)_10
-      rect:
-        serializedVersion: 2
-        x: 1375
-        y: 13
-        width: 41
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8575baae033d99e0800000000000000
-      internalID: -1613076953442191986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mati (Gigant)_11
+      name: Mati (Gigant) 2.1_11
       rect:
         serializedVersion: 2
         x: 1469
         y: 14
         width: 34
         height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 1.5013967, y: 0.44771543}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64a26d2538abd8990800000000000000
-      internalID: -7382039140997125562
+      spriteID: 6d6881adb92418d60800000000000000
+      internalID: 7890661259276224214
       vertices: []
       indices: 
       edges: []
@@ -387,14 +366,26 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 38807882e30c6e64082b5b480f299c75
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mati (Gigant) 2.1_0: -7353767022081044644
+      Mati (Gigant) 2.1_1: -7806645249948797933
+      Mati (Gigant) 2.1_10: -3467453541448055836
+      Mati (Gigant) 2.1_11: 7890661259276224214
+      Mati (Gigant) 2.1_2: -8758593098653456032
+      Mati (Gigant) 2.1_3: 75407930307650060
+      Mati (Gigant) 2.1_4: -1770062394491157153
+      Mati (Gigant) 2.1_5: 7732859683795436409
+      Mati (Gigant) 2.1_6: -5261954011906514291
+      Mati (Gigant) 2.1_7: -8797780073878365106
+      Mati (Gigant) 2.1_8: -9057170025280380384
+      Mati (Gigant) 2.1_9: 5940637974105412050
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
