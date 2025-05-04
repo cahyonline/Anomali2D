@@ -8,9 +8,7 @@ public class PlayerAnimator : MonoBehaviour
     public Animator anim;
     private SpriteRenderer spriteRend;
 
-
     [Header("Movement Tilt")]
-    [SerializeField] private float maxTilt;
     [SerializeField] [Range(0, 1)] private float tiltSpeed;
 
     [Header("Particle FX")]
@@ -21,6 +19,7 @@ public class PlayerAnimator : MonoBehaviour
     public bool startedJumping {  private get; set; }
     public bool justLanded { private get; set; }
     public bool StartDashing { private get; set; }
+    public bool startedWallJump { private get; set; }
 
 
     public float currentVelY;
@@ -54,9 +53,6 @@ public class PlayerAnimator : MonoBehaviour
             mult = (mov.IsFacingRight) ? 1 : -1;
         }
 
-        float newRot = ((tiltProgress * maxTilt * 2) - maxTilt);
-        float rot = Mathf.LerpAngle(spriteRend.transform.localRotation.eulerAngles.z * mult, newRot, tiltSpeed);
-        spriteRend.transform.localRotation = Quaternion.Euler(0, 0, rot * mult);
         #endregion
 
         CheckAnimationState();
@@ -100,6 +96,12 @@ public class PlayerAnimator : MonoBehaviour
             GameObject obj = Instantiate(jumpFX, transform.position - (Vector3.up * transform.localScale.y / 2), Quaternion.Euler(-90, 0, 0));
             Destroy(obj, 1);
             StartDashing = false;
+            return;
+        }
+        if (startedWallJump)
+        {
+            anim.SetTrigger("WallJump");
+            startedWallJump = false;
             return;
         }
 

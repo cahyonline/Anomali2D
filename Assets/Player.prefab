@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 1027131658523299821}
   - component: {fileID: 758592430142263821}
   - component: {fileID: 8927377141271531905}
+  - component: {fileID: 2461319595192547061}
   m_Layer: 6
   m_Name: Sprite
   m_TagString: Player
@@ -262,17 +263,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.44493103, y: -0.028372765}
+  m_Offset: {x: -0.6845093, y: -0.107325554}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.9375455, y: 0.52789426}
     oldSize: {x: 2.5, y: 2.2916667}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.93655396, y: 2.059019}
+  m_Size: {x: 0.8335571, y: 1.9011135}
   m_EdgeRadius: 0
 --- !u!95 &1027131658523299821
 Animator:
@@ -323,6 +324,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customName: Combat
+--- !u!114 &2461319595192547061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798737521118115823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3eaf02d1b4ceb49947cb7f3d73216a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSurface: 0
 --- !u!1 &2388307789566758333
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +362,7 @@ Transform:
   m_GameObject: {fileID: 2388307789566758333}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.46, y: -0.45, z: 0}
+  m_LocalPosition: {x: -0.62, y: -0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -371,6 +385,7 @@ GameObject:
   - component: {fileID: 7067713625301448794}
   - component: {fileID: 5672598438048021342}
   - component: {fileID: 3384839423354466847}
+  - component: {fileID: 2496819808435286219}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -455,6 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d024cc73ad207e438a7a1d777842e0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 1027131658523299821}
   maxTilt: 0
   tiltSpeed: 0.08
   jumpFX: {fileID: 3234584074981126610, guid: 4246e7bd1b4a16946af462fce8607683, type: 3}
@@ -473,6 +489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
+  Maxhealth: 100
   healthAmount: 200
   healthRegenValue: 3
   healthRegenRate: 0
@@ -483,9 +500,11 @@ MonoBehaviour:
   SpikeCD: 1
   canRegen: 1
   vulnerable: 1
+  playerRB: {fileID: 0}
   delayDeathUi: 5
   deathMenu: {fileID: 0}
   pAnimator: {fileID: 1027131658523299821}
+  knockbackDirection: {x: -1, y: 1}
 --- !u!114 &3384839423354466847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -499,6 +518,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentArea: 0
+--- !u!114 &2496819808435286219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2720684051095402411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e8992f7a741b8e4b8913cd4bf7a5c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0.4
 --- !u!1 &3911750027441959357
 GameObject:
   m_ObjectHideFlags: 0

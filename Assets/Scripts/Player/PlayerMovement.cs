@@ -66,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
     #region LAYERS & TAGS
     [Header("Layers & Tags")]
 	[SerializeField] private LayerMask _groundLayer;
+	[SerializeField] private LayerMask _wallLayer;
 	#endregion
 
     private void Awake()
@@ -139,13 +140,13 @@ public class PlayerMovement : MonoBehaviour
             }		
 
 			//Right Wall Check
-			if (((Physics2D.OverlapBox(_frontWallCheckPoint.position, _wallCheckSize, 0, _groundLayer) && IsFacingRight)
-					|| (Physics2D.OverlapBox(_backWallCheckPoint.position, _wallCheckSize, 0, _groundLayer) && !IsFacingRight)) && !IsWallJumping)
+			if (((Physics2D.OverlapBox(_frontWallCheckPoint.position, _wallCheckSize, 0, _wallLayer) && IsFacingRight)
+					|| (Physics2D.OverlapBox(_backWallCheckPoint.position, _wallCheckSize, 0, _wallLayer) && !IsFacingRight)) && !IsWallJumping)
 				LastOnWallRightTime = Data.coyoteTime;
 
 			//Right Wall Check
-			if (((Physics2D.OverlapBox(_frontWallCheckPoint.position, _wallCheckSize, 0, _groundLayer) && !IsFacingRight)
-				|| (Physics2D.OverlapBox(_backWallCheckPoint.position, _wallCheckSize, 0, _groundLayer) && IsFacingRight)) && !IsWallJumping)
+			if (((Physics2D.OverlapBox(_frontWallCheckPoint.position, _wallCheckSize, 0, _wallLayer) && !IsFacingRight)
+				|| (Physics2D.OverlapBox(_backWallCheckPoint.position, _wallCheckSize, 0, _wallLayer) && IsFacingRight)) && !IsWallJumping)
 				LastOnWallLeftTime = Data.coyoteTime;
 
 			//Two checks needed for both left and right walls since whenever the play turns the wall checkPoints swap sides
@@ -266,8 +267,8 @@ public class PlayerMovement : MonoBehaviour
             if (!_isItemCollected) return;
             else if (CanWallJump() && LastPressedJumpTime > 0)
             {
-                IsWallJumping = true;
-                IsJumping = false;
+                IsWallJumping = true; // Set true untuk wall jump
+                IsJumping = false; // Pastikan ini false saat wall jump
                 _isJumpCut = false;
                 _isJumpFalling = false;
 
@@ -451,9 +452,12 @@ public class PlayerMovement : MonoBehaviour
 		if (RB.velocity.y < 0) //checks whether player is falling, if so we subtract the velocity.y (counteracting force of gravity). This ensures the player always reaches our desired jump force or greater
 			force.y -= RB.velocity.y;
 
-		//Unlike in the run we want to use the Impulse mode.
-		//The default mode will apply are force instantly ignoring masss
-		RB.AddForce(force, ForceMode2D.Impulse);
+        // Set the wall jump animation trigger
+        AnimHandler.startedWallJump = true;
+
+        //Unlike in the run we want to use the Impulse mode.
+        //The default mode will apply are force instantly ignoring masss
+        RB.AddForce(force, ForceMode2D.Impulse);
 		#endregion
 	}
 	#endregion

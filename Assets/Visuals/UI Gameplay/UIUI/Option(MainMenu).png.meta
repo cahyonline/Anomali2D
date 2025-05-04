@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 4aa62edcda9fa8e41b9406d6bae4ddd4
+guid: 37956d7988d1f0f4190412c1b6bca301
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8387255043663554257
-    second: Jump Falls_0
+      213: -2840314594754433858
+    second: Option(MainMenu)_0
   - first:
-      213: 1827407418911530451
-    second: Jump Falls_1
+      213: -1550465285596392903
+    second: Option(MainMenu)_1
   - first:
-      213: 2796851404194561036
-    second: Jump Falls_2
+      213: 8664918662670394964
+    second: Option(MainMenu)_2
   - first:
-      213: 548073350090198498
-    second: Jump Falls_3
+      213: -6885975969806716178
+    second: Option(MainMenu)_3
+  - first:
+      213: 5037820101800012618
+    second: Option(MainMenu)_4
+  - first:
+      213: 3642828064426016802
+    second: Option(MainMenu)_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,12 +61,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -148,85 +154,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump Falls_0
+      name: Option(MainMenu)_0
       rect:
         serializedVersion: 2
-        x: 121
-        y: 23
-        width: 55
-        height: 56
-      alignment: 9
-      pivot: {x: 0.6662112, y: 0.5570878}
+        x: 198
+        y: 26
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2994d1b9fb7a9b80800000000000000
-      internalID: -8387255043663554257
+      spriteID: ebced49bcec2598d0800000000000000
+      internalID: -2840314594754433858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump Falls_1
+      name: Option(MainMenu)_1
       rect:
         serializedVersion: 2
-        x: 322
-        y: 23
-        width: 54
-        height: 57
-      alignment: 9
-      pivot: {x: 0.7175726, y: 0.5150519}
+        x: 235
+        y: 13
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3dd92209d514c5910800000000000000
-      internalID: 1827407418911530451
+      spriteID: 932d3779904ab7ae0800000000000000
+      internalID: -1550465285596392903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump Falls_2
+      name: Option(MainMenu)_2
       rect:
         serializedVersion: 2
-        x: 522
-        y: 23
-        width: 54
-        height: 57
-      alignment: 9
-      pivot: {x: 0.7175726, y: 0.5150519}
+        x: 273
+        y: 26
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0cb194a88960d620800000000000000
-      internalID: 2796851404194561036
+      spriteID: 4562f107d99ff3870800000000000000
+      internalID: 8664918662670394964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump Falls_3
+      name: Option(MainMenu)_3
       rect:
         serializedVersion: 2
-        x: 724
-        y: 23
-        width: 52
-        height: 57
-      alignment: 9
-      pivot: {x: 0.7175726, y: 0.5150519}
+        x: 298
+        y: 26
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ed0cfedec52b9700800000000000000
-      internalID: 548073350090198498
+      spriteID: ee27bc3c6591070a0800000000000000
+      internalID: -6885975969806716178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Option(MainMenu)_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 26
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bac1ae0bee9e540800000000000000
+      internalID: 5037820101800012618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Option(MainMenu)_5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 26
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220cfe5f2dced8230800000000000000
+      internalID: 3642828064426016802
       vertices: []
       indices: 
       edges: []
@@ -234,7 +282,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a6f870c6ee99bf04c97ba1539610e62b
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -242,10 +290,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jump Falls_0: -8387255043663554257
-      Jump Falls_1: 1827407418911530451
-      Jump Falls_2: 2796851404194561036
-      Jump Falls_3: 548073350090198498
+      Option(MainMenu)_0: -2840314594754433858
+      Option(MainMenu)_1: -1550465285596392903
+      Option(MainMenu)_2: 8664918662670394964
+      Option(MainMenu)_3: -6885975969806716178
+      Option(MainMenu)_4: 5037820101800012618
+      Option(MainMenu)_5: 3642828064426016802
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
