@@ -57,13 +57,13 @@ public class HealthPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             TakeDamage(10);
-            Debug.LogWarning("Took 10 Damage");
+            //Debug.LogWarning("Took 10 Damage");
         }
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             Healing(10);
-            Debug.LogWarning("Healed 10 Points");
+            //Debug.LogWarning("Healed 10 Points");
         }
     }
 
@@ -134,8 +134,8 @@ public class HealthPlayer : MonoBehaviour
         if (vulnerable && other.CompareTag("SpikeHB"))
         {
             vulnerable = false;
-            kncockbackForce = SpikeDM * 4 - (-110f + healthAmount);
-            Debug.LogWarning(kncockbackForce);
+            kncockbackForce = SpikeDM * 2 - (-110f + healthAmount);
+            //Debug.LogWarning(kncockbackForce);
             Whathit = SpikeCD;
             TakeDamage(SpikeDM);
             GiveKnockback(other.transform.position);
@@ -167,7 +167,7 @@ public class HealthPlayer : MonoBehaviour
         yield return new WaitForSeconds(Whathit);
         vulnerable = true;
         Whathit = 1f;
-        Debug.LogWarning("vulnerable");
+        //Debug.LogWarning("vulnerable");
     }
 
     private void LoadHealth(SaveData healthbarre)

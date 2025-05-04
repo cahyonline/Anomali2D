@@ -10,7 +10,7 @@ public class EnemyAIRanged : MonoBehaviour
     public Transform player;
     public GameObject projectilePrefab;
     public Transform projectileSpawnPoint;
-    public Animator playerANIM;
+    public Animator enemyANIM;
 ////////////////////////////////////////////////////////////
 /// RAW DETECT PLAYER
     [Header("Detection Settings")]
@@ -88,8 +88,8 @@ public class EnemyAIRanged : MonoBehaviour
         else
         {
             Idle();
-            playerANIM.SetBool("attAN" ,false);
-            playerANIM.SetBool("runAN" ,false);
+            enemyANIM.SetBool("attAN" ,false);
+            enemyANIM.SetBool("runAN" ,false);
             
         }
 
@@ -102,9 +102,9 @@ public class EnemyAIRanged : MonoBehaviour
         {
             //Debug.LogError("Enemy DIED");
             //Destroy(EnemyRootObject);
-            playerANIM.SetBool("dieAN" ,true);
-            playerANIM.SetBool("attAN" ,false);
-            playerANIM.SetBool("runAN" ,false);
+            enemyANIM.SetBool("dieAN" ,true);
+            enemyANIM.SetBool("attAN" ,false);
+            enemyANIM.SetBool("runAN" ,false);
             isDied = true;
             
         }
@@ -112,8 +112,8 @@ public class EnemyAIRanged : MonoBehaviour
         if (takingDamage)
         {
             TakesDamagesFromPlayer();
-            playerANIM.SetBool("attAN" ,false);
-            playerANIM.SetBool("runAN" ,false);
+            enemyANIM.SetBool("attAN" ,false);
+            enemyANIM.SetBool("runAN" ,false);
             //Idle();
         }
         
@@ -155,7 +155,7 @@ bool CanSeePlayer()
         {
             nextFireTime = Time.time + fireCD;
 
-            playerANIM.SetBool("attAN" ,true);
+            enemyANIM.SetBool("attAN" ,true);
             StartCoroutine(DelayBeforeShoot());
             StartCoroutine(AnimatorCD());
             
@@ -170,7 +170,7 @@ bool CanSeePlayer()
         yield return new WaitForSeconds(0.5f);
         //playerANIM.SetBool("cooldownAN",false);
         //playerANIM.SetBool("attAN" ,true);
-        playerANIM.SetBool("attAN",false);
+        enemyANIM.SetBool("attAN",false);
     }
     IEnumerator DelayBeforeShoot()
     {
@@ -204,7 +204,7 @@ public void TakesDamagesFromPlayer()
     Debug.Log("Damage Taken");
 
     TakeDamage(PlayerDamage);
-    playerANIM.SetBool("hurtAN", true);
+    enemyANIM.SetBool("hurtAN", true);
 
     StartCoroutine(InvulnerableCD());
     StartCoroutine(AnimatorHitCD());
@@ -229,7 +229,7 @@ IEnumerator Flee()
 {
     fieldOfViewAngle = 0f;
     sightRange = 0f;
-    playerANIM.SetBool("runAN" ,true);
+    enemyANIM.SetBool("runAN" ,true);
     fleeRange = 0f;
     canFlee = false;
     isFleeing = true;
@@ -290,7 +290,7 @@ IEnumerator Flee()
     isFleeing = false;
     canFlee = true;
     fleeRange = defaultFleeR;
-    playerANIM.SetBool("RunANIM" ,false);
+    enemyANIM.SetBool("RunANIM" ,false);
     StartCoroutine(FleeChanceCoolDown());
 }
 ////////////////////////////////////////////////////////////
@@ -359,7 +359,7 @@ IEnumerator Flee()
         takingDamage = false;
         yield return new WaitForSeconds(0.3f);
         //EventCallBack.HitStop.Invoke();
-        playerANIM.SetBool("hurtAN", false);
+        enemyANIM.SetBool("hurtAN", false);
         EventCallBack.HitStop.Invoke();
         fieldOfViewAngle = defaultFieldOfViewAnge;
         sightRange = defaultSight;

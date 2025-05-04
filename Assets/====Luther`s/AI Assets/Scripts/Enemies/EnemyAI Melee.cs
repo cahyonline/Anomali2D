@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,14 +11,11 @@ public class EnemyAIMelee : MonoBehaviour
 ////////////////////////////////////////////////////////////
 /// DETECTION
     [Header("Detection Settings")]
-    private bool vulnerable;
     public float sightRange = 5f;
-    public float battleRange = 5f;
     public LayerMask obstacleLayer;
     private float defaultSpeed;
     private float defaultSight;
     private float defaultBattleG;
-    private bool insideBattleRange;
 
     [Header("Shield Settings")]
     public float stunnedDuration = 2f;
@@ -26,13 +24,11 @@ public class EnemyAIMelee : MonoBehaviour
     private bool isStunned = false;
 
     [Header("Turning Settings")]
-    public float reactionTime = 3f;
-    private float defaultReactionTime;
     public float attackCooldown = 3f;
-    private bool isReadyReaction = true;
 
     [Header("Attack Settings")]
     public float attackRange = 1f;  // New attack range
+    private float defaultAttackRange;
     
 ////////////////////////////////////////////////////////////
 /// PATROL SYSTEM
@@ -44,13 +40,15 @@ public class EnemyAIMelee : MonoBehaviour
     private bool chasingPlayer = false;
     private bool movingToMiddle = false;
     private bool isAttacking;
+    private bool playerOnTheRight;
+    private bool shouldTurn;
 ////////////////////////////////////////////////////////////
 /// HEALTH
     [Header("HEALTH")]
     public Image healthBar;
     public float healthAmount = 200f;
-    public float PlayerDamage = 35f;
-    private float Whathit = 0.5f;
+    public float PlayerDamage = 0f;
+    //private float Whathit = 0.5f;
 
     [Header("IMPORTANT")]
     public GameObject EnemyRootObject;
@@ -64,8 +62,10 @@ public class EnemyAIMelee : MonoBehaviour
     public static bool isBlocked;
     private bool lastPlayerLocation;
     private bool isDead = false;
+    private bool isAnimationReseting;
     public Animator meleeAN;
     private float playerPosition;
+    private bool isTurningProcess;
     [SerializeField] private float shieldKnockbackForce = 3f;
 ////////////////////////////////////////////////////////////
 /// INITIALIZATION
@@ -75,8 +75,9 @@ public class EnemyAIMelee : MonoBehaviour
         currentTarget = pointA; 
         defaultSight = sightRange;
         defaultSpeed = walkSpeed;
-        defaultBattleG = battleRange;
-        defaultReactionTime = reactionTime;
+        //defaultBattleG = battleRange;
+        //defaultReactionTime = reactionTime;
+        defaultAttackRange = attackRange;
         attackHB.SetActive(false);
         //shieldVis.SetActive(false);
 
@@ -90,12 +91,12 @@ public class EnemyAIMelee : MonoBehaviour
 
                 sightRange = 0f;
                 walkSpeed = 10f;
-                battleRange = 0f;
+                //battleRange = 0f;
             }
             else
             {
                 sightRange = defaultSight;
-                battleRange = defaultBattleG;
+                //battleRange = defaultBattleG;
                 walkSpeed = defaultSpeed;
             }
         if (chasingPlayer)
@@ -113,7 +114,7 @@ public class EnemyAIMelee : MonoBehaviour
                 if (!movingToMiddle && (IsEnemyInTerritory() || IsPlayerInTerritory()) && !isDead)
                 {
                     StartCoroutine(MoveToMiddleAndPatrol());
-                    Debug.Log("BACK TO MID 1");
+                    //Debug.Log("BACK TO MID 1");
                 }
                 else
                 {
@@ -124,7 +125,7 @@ public class EnemyAIMelee : MonoBehaviour
                 if(!CanSeePlayer() && !movingToMiddle && (IsEnemyInTerritory() || IsPlayerInTerritory()) && !isDead)
                 {
                     StartCoroutine(MoveToMiddleAndPatrol());
-                    Debug.Log("BACK TO MID 2");
+                    //Debug.Log("BACK TO MID 2");
                 }
             }
         }
@@ -155,18 +156,19 @@ public class EnemyAIMelee : MonoBehaviour
             Dies();
         }
 
-        if (playerPosition < battleRange)
-        {
-            insideBattleRange = true;
-        }
         if (playerPosition > sightRange)
         {
-            Debug.Log("outside");
+            //Debug.Log("outside");
             //reactionTime = 0f;
             isAttacking = false;
-            //meleeAN.SetBool("turnAN",false);
         }
-        
+
+        playerOnTheRight = player.position.x > transform.position.x;
+
+        if (playerOnTheRight != lastPlayerLocation)
+        {
+            shouldTurn = true;
+        }
     }
 ////////////////////////////////////////////////////////////
 /// DETECTION SYSTEM (RAYCAST)
@@ -221,7 +223,7 @@ IEnumerator MoveToMiddleAndPatrol()
     yield return new WaitUntil(() => Vector2.Distance(transform.position, pointE.position) < 0.1f);
 
     // After reaching point E, randomly pick A or B
-    currentTarget = Random.value > 0.5f ? pointA : pointB;
+    currentTarget = UnityEngine.Random.value > 0.5f ? pointA : pointB;
 
     // Face the new patrol target
     FaceDirection(currentTarget.position);
@@ -234,29 +236,34 @@ void ChasePlayer()
 {
     //FaceDirection(player.position);
     if (isAttacking) return; // Stop movement while attacking
+    if (isTurningProcess) return;
+    //if (isStunned)return;
     //if (!turningOnCD) return;
     Debug.Log("Chase");
-    //meleeAN.SetBool("turnAN",false);
+    
+    if (isStunned)
+    {
+        Debug.LogError("important Stunned from ChasePlayer");
+        FacePlayer();
+        return;
+    }
+ 
     meleeAN.SetBool("walkAN",true);
     
-        StartCoroutine(FacePlayer());
+        FacePlayer();
 
 
     float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-    if (distanceToPlayer <= attackRange && !isStunned && !isDead)
+    if (distanceToPlayer <= attackRange && !isDead )
     {
         FaceDirection(player.position);
         StartCoroutine(Attack()); // Start attack when in range
         return;
     }
+    
 
-    if (isStunned)
-    {
-        Debug.LogWarning("STUNED");
-        meleeAN.SetBool("walkAN",false);
-        return;
-    }
+
 
     // Move towards the player if not attacking
     Vector2 targetPos = new Vector2(player.position.x, transform.position.y);
@@ -309,43 +316,30 @@ public bool IsShieldBlocking(Vector2 attackPosition)
 
     return angle < shieldAngle / 2f && attackDistance > minAttackDistance;
 }
-IEnumerator FacePlayer()
+public void FacePlayer()
 {
- // Wait for cooldown
-    if(insideBattleRange)
-    {
 
-        if(!isStunned || isReadyReaction)
-            {
-            StartCoroutine(FacePlayerCD());
-        }
-    
-        yield return new WaitForSeconds(0);
-        Debug.LogWarning("FacePlayer done");
-    }
-    else if(!isStunned)
+    if(!isStunned)
     {
         FaceDirection(player.position);
     }
-    
+
+        if(isStunned)
+    {
+        Debug.LogError("Stunned from FacePlayer");
+        StartCoroutine(IsTurningPlayer());
+    }
 }
 
-IEnumerator FacePlayerCD()
-{
-    isReadyReaction = false;
-    yield return new WaitForSeconds(reactionTime);
-    FaceDirection(player.position);
-    Debug.Log("Reaction reset");
-    isReadyReaction = true;
-}
+
 IEnumerator Attack()
 {
-    //meleeAN.SetBool("turnAN",false);
-    //reactionTime = defaultReactionTime;
+    if(isStunned)yield break;
+    if (isAttacking) yield break; // Prevent multiple attack calls
+    if (isDead) {isAttacking = false;yield break;}
+
     meleeAN.SetBool("walkAN",false);
     meleeAN.SetBool("attAN",true);
-    if (isAttacking) yield break; // Prevent multiple attack calls
-    if (isDead) {isAttacking = false;yield break;} 
 
     isAttacking = true; // Mark that the enemy is attacking
     shieldUp = false; // Lower shield
@@ -362,52 +356,97 @@ IEnumerator Attack()
 
     yield return new WaitForSeconds(attackCooldown); // Cooldown before attacking again
 
-    meleeAN.SetBool("walkAN",false);
     if (isDead || playerPosition > sightRange) {isAttacking = false;yield break;}
-    bool playerOnTheRight = player.position.x > transform.position.x;
-    if (playerOnTheRight != lastPlayerLocation && isAttacking)
-    {
-        Vector3 currentlyScale = transform.localScale;
-        currentlyScale.x = playerOnTheRight ? Mathf.Abs(currentlyScale.x) : -Mathf.Abs(currentlyScale.x);
-        transform.localScale = currentlyScale;
-        meleeAN.SetBool("turnAN",true);
-        lastPlayerLocation = playerOnTheRight;
-    }
+    meleeAN.SetBool("walkAN",false);
+    //if (isStunned)
+    //{
+        StartCoroutine(IsTurningPlayer());
+        //Debug.LogError("ITP from ATT");
+        //yield break;
+    //}
+    // if (shouldTurn && isAttacking)
+    // {
+    //     meleeAN.SetBool("turnAN",true);
+        
+    //     Vector3 currentlyScale = transform.localScale;
+    //     currentlyScale.x = playerOnTheRight ? Mathf.Abs(currentlyScale.x) : -Mathf.Abs(currentlyScale.x);
+    //     transform.localScale = currentlyScale;
+    //     lastPlayerLocation = playerOnTheRight;
+    //     shouldTurn = false;
+    //     yield return new WaitForSeconds(0.2f);
+    // } 
+    // else
+    // {
+    //     Vector3 currentScale = transform.localScale;
+    //     currentScale.x = player.position.x > transform.position.x ? Mathf.Abs(currentScale.x) : -Mathf.Abs(currentScale.x); //Face right
+    //     transform.localScale = currentScale;
+    // } 
     
     Debug.Log("Face Player");
+    
 
-        Vector3 currentScale = transform.localScale;
-    if (player.position.x > transform.position.x)
-    {
-        currentScale.x = Mathf.Abs(currentScale.x); // Face right
-    }
-
-    transform.localScale = currentScale;
-
-    yield return new WaitForSeconds(1f);
-
+    yield return new WaitForSeconds(attackCooldown);
+    //meleeAN.SetBool("turnAN",false);
     if (isDead || playerPosition > sightRange) {yield break;}
     isAttacking = false;
-    meleeAN.SetBool("turnAN",false);
+}
 
-   
+IEnumerator IsTurningPlayer()
+{
+    Debug.LogError("IsTurningPLayer");
+    if (isTurningProcess)yield break;
+    isTurningProcess = true;
+
+    //yield return new WaitForSeconds(3);
+
+        meleeAN.SetBool("walkAN",false);
+    if (isDead || playerPosition > sightRange) {isTurningProcess = false;yield break;}
+    //bool playerOnTheRightITP = player.position.x > transform.position.x;
+    if (shouldTurn && isTurningProcess)
+    {
+        meleeAN.SetBool("turnAN",true);
+        
+        
+        yield return new WaitForSeconds(1f);
+        Vector3 currentlyScale = transform.localScale;
+        currentlyScale.x = playerOnTheRight ? Mathf.Abs(currentlyScale.x) : -Mathf.Abs(currentlyScale.x);
+        
+        transform.localScale = currentlyScale;
+        lastPlayerLocation = playerOnTheRight;
+        shouldTurn = false;
+    } 
+    else
+    {
+        Vector3 currentScale = transform.localScale;
+        currentScale.x = player.position.x > transform.position.x ? Mathf.Abs(currentScale.x) : -Mathf.Abs(currentScale.x); //Face right
+        transform.localScale = currentScale;
+    } 
+    Debug.LogWarning("Face Player from ITP");
+    meleeAN.SetBool("turnAN",false);
+    yield return new WaitForSeconds(0.5f);
+    
+    isTurningProcess = false;
 }
 private void Knockback(Vector2 attackDirection)
 {
-    rb.velocity = attackDirection * shieldKnockbackForce;
-    meleeAN.SetBool("knockAN",true);
-    meleeAN.SetBool("walkAN",false);
-    isStunned = true;
-    StartCoroutine(AttackReset());
-    StartCoroutine(AnimationReset());
+        rb.velocity = attackDirection * shieldKnockbackForce;
+        attackRange = 0;
+        StartCoroutine(AttackReset());
+        meleeAN.SetBool("knockAN",true);
+        meleeAN.SetBool("walkAN",false);
+        Debug.LogWarning("Stunned from KB");
+        StartCoroutine(AnimationReset()); 
 }
 
 IEnumerator AttackReset()
 {
+    if(isStunned)yield break;
+    isStunned = true;
     yield return new WaitForSeconds(stunnedDuration);
     isStunned = false;
+    attackRange = defaultAttackRange;
 }
-////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /// HEALTH DAMAGE COUNTER
 void OnTriggerEnter2D(Collider2D other)
 {
@@ -420,14 +459,13 @@ void OnTriggerEnter2D(Collider2D other)
             Knockback(attackDirection);
             Debug.Log("Damage Blocked");
             isBlocked = true;
-            //vulnerable = false;
-            //StartCoroutine(InvulnerableCD());
             return; // Block attack, do nothing
         }
         
         //TakeDamage(); // If not blocked, take damage
         meleeAN.SetBool("hurtAN",true);
-        //Debug.Log("Damage Taken");
+        
+        Debug.Log("Damage Taken");
         StartCoroutine(AnimationReset());
         TakeDamage(PlayerDamage);
         isBlocked = false;
@@ -436,11 +474,14 @@ void OnTriggerEnter2D(Collider2D other)
 
 IEnumerator AnimationReset()
 {
-    yield return new WaitForSeconds(0.5f);
-    {
-        meleeAN.SetBool("hurtAN",false);
-        meleeAN.SetBool("knockAN",false);
-    }
+    if(isAnimationReseting)yield break;
+    isAnimationReseting = true;
+
+    yield return new WaitForSeconds(1f);
+
+    isAnimationReseting = false;
+    meleeAN.SetBool("hurtAN",false);
+    meleeAN.SetBool("knockAN",false);
 }
 ////////////////////////////////////////////////////////////
 /// HEALTH DAMAGE COUNTER
@@ -467,7 +508,6 @@ IEnumerator AnimationReset()
         attackHB.SetActive(false);
             sightRange = 0f;
             walkSpeed = 0f;
-            battleRange = 0f;
             rb.bodyType = RigidbodyType2D.Static;
             ThisEnemyCollider2D.enabled = false;
             StartCoroutine(DespawnGameobject());
