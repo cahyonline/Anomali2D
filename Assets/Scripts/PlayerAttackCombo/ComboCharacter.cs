@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static PlayerSurface;
 
 public class ComboCharacter : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class ComboCharacter : MonoBehaviour
     void Start()
     {
         meleeStateMachine = GetComponent<StateMachine>();
+        surfaceDetector = GetComponent<PlayerSurface>();
     }
 
     void Update()
@@ -24,8 +26,27 @@ public class ComboCharacter : MonoBehaviour
             
         }
     }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    private PlayerSurface surfaceDetector;
+
     private void PlaySfxStep()
     {
-        AudioManager.Instance.PlaySFX("Step");
+        if (surfaceDetector == null) return;
+
+        switch (surfaceDetector.currentSurface)
+        {
+            case SurfaceType.Tanah:
+                AudioManager.Instance.PlaySFX("StepTanah");
+                //Debug.Log("Tanah");
+                break;
+            case SurfaceType.Batu:
+                AudioManager.Instance.PlaySFX("StepBatu");
+                //Debug.Log("Batu");
+                break;
+        }
     }
+
 }
