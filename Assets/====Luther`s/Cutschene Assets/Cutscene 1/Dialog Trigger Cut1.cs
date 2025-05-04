@@ -4,9 +4,9 @@ using UnityEngine.Timeline;
 
 public class DialogueTriggerCS1 : MonoBehaviour
 {
-    public GameObject UIinteractE;
+    //public GameObject UIinteractE;
     public string finalDialog = "FUCK OFF";
-    public DialogueStartCS1 dialogueStarterCS1;
+        public DialogueStartCS1 dialogueStarterCS1;
     public GameObject dialogUIparent;
     public DialogueStartCS1.Dialogue npcDialogue;
     //public DialoguesManagererNormal dialogueManager;
@@ -18,7 +18,7 @@ public class DialogueTriggerCS1 : MonoBehaviour
 
     void Start()
     {
-        UIinteractE.SetActive(false);
+        //UIinteractE.SetActive(false);
         interactingDialog = false;
         dialogueDone = false;
         dialogUIparent.SetActive(false);
@@ -28,8 +28,8 @@ public class DialogueTriggerCS1 : MonoBehaviour
     {
         if(inRange && Input.GetKey(KeyCode.E))
         {
-            dialogueStarterCS1.StartDialogue(npcDialogue,finalDialog);
-            UIinteractE.SetActive(false);
+            //dialogueStarterCS1.StartDialogue(npcDialogue,finalDialog);
+            //UIinteractE.SetActive(false);
             inRange = false;
             interactingDialog = true;
             dialogUIparent.SetActive(true);
@@ -37,8 +37,8 @@ public class DialogueTriggerCS1 : MonoBehaviour
         
         if(inRange && dialogueDone && Input.GetKey(KeyCode.E))
         {
-            dialogueStarterCS1.StartDialogue(npcDialogue,finalDialog);
-            UIinteractE.SetActive(false);
+            //dialogueStarterCS1.StartDialogue(npcDialogue,finalDialog);
+            //UIinteractE.SetActive(false);
             inRange = false;
         }
     }
@@ -66,7 +66,7 @@ public class DialogueTriggerCS1 : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-          UIinteractE.SetActive(false);  
+          //UIinteractE.SetActive(false);  
           inRange = false;
         }
         
@@ -74,7 +74,7 @@ public class DialogueTriggerCS1 : MonoBehaviour
     public void StartCutsceneDialog()
     {
         dialogueStarterCS1.StartDialogue(npcDialogue,finalDialog);
-        UIinteractE.SetActive(false);
+        //UIinteractE.SetActive(false);
         //inRange = false;
         interactingDialog = true;
         dialogUIparent.SetActive(true);

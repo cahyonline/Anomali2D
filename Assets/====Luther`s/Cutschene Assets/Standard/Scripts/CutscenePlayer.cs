@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
-public class Cutscene1Player : MonoBehaviour
+public class CutscenePlayer : MonoBehaviour
 {
 ////////////////////////////////////////////////////////////////
 /// 
     public PlayableDirector Cutscene1;
-    public PlayerControl playerScript;
+    public testScript playerScript;
     public GameObject theTrigger;
 ////////////////////////////////////////////////////////////////
     // Start is called before the first frame update

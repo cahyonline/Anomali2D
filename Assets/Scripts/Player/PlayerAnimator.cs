@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerAnimator : MonoBehaviour
 {
     private PlayerMovement mov;
-    private Animator anim;
+    public Animator anim;
     private SpriteRenderer spriteRend;
 
 
@@ -29,7 +29,7 @@ public class PlayerAnimator : MonoBehaviour
     {
         mov = GetComponent<PlayerMovement>();
         spriteRend = GetComponentInChildren<SpriteRenderer>();
-        anim = spriteRend.GetComponent<Animator>();
+        //anim = spriteRend.GetComponent<Animator>();
 
         
 

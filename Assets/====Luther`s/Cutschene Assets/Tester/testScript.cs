@@ -22,4 +22,9 @@ public class testScript : MonoBehaviour
         Debugger.SetActive(true);
         Debug.LogWarning("TRIGGERED");
     }
+
+    public void HideDebugger()
+    {
+        Debugger.SetActive(false);
+    }
 }

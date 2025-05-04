@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: 858424f0b0f2e1d48a4053a339a5a9ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4030149064419007440
+    second: Kena Hit Tameng_0
+  - first:
+      213: -5423222314761986608
+    second: Kena Hit Tameng_1
+  - first:
+      213: -7550099098161330940
+    second: Kena Hit Tameng_2
+  - first:
+      213: -3903043764751150140
+    second: Kena Hit Tameng_3
+  - first:
+      213: -3862696717828808152
+    second: Kena Hit Tameng_4
+  - first:
+      213: 3302308773467010851
+    second: Kena Hit Tameng_5
+  - first:
+      213: 3795906974108665341
+    second: Kena Hit Tameng_6
+  - first:
+      213: 7149817204248489526
+    second: Kena Hit Tameng_7
+  - first:
+      213: -269918899819967734
+    second: Kena Hit Tameng_8
+  - first:
+      213: -2392795327677174437
+    second: Kena Hit Tameng_9
+  - first:
+      213: -5828087071248750089
+    second: Kena Hit Tameng_10
+  - first:
+      213: -3392744588367747265
+    second: Kena Hit Tameng_11
+  - first:
+      213: -1899431166222956644
+    second: Kena Hit Tameng_12
+  - first:
+      213: 5677859253843420290
+    second: Kena Hit Tameng_13
+  - first:
+      213: 3930358198527737720
+    second: Kena Hit Tameng_14
+  - first:
+      213: -6252738237586012368
+    second: Kena Hit Tameng_15
+  - first:
+      213: -8221365184579563264
+    second: Kena Hit Tameng_16
+  - first:
+      213: 3180859554903804001
+    second: Kena Hit Tameng_17
+  - first:
+      213: 7691315628875306326
+    second: Kena Hit Tameng_18
+  - first:
+      213: 4946070682471333313
+    second: Kena Hit Tameng_19
+  - first:
+      213: 9091748441551082613
+    second: Kena Hit Tameng_20
+  - first:
+      213: 4076248742895901512
+    second: Kena Hit Tameng_21
+  - first:
+      213: -1329761412706371365
+    second: Kena Hit Tameng_22
+  - first:
+      213: -7070345125348998463
+    second: Kena Hit Tameng_23
+  - first:
+      213: -8534602401264923100
+    second: Kena Hit Tameng_24
+  - first:
+      213: 5295854887572258867
+    second: Kena Hit Tameng_25
+  - first:
+      213: -5196681552110642800
+    second: Kena Hit Tameng_26
+  - first:
+      213: 3818851056553096496
+    second: Kena Hit Tameng_27
+  - first:
+      213: 7855291996676035152
+    second: Kena Hit Tameng_28
+  - first:
+      213: -7376171920072920372
+    second: Kena Hit Tameng_29
+  - first:
+      213: 1912714813913472092
+    second: Kena Hit Tameng_30
+  - first:
+      213: -7723654863109588152
+    second: Kena Hit Tameng_31
+  - first:
+      213: 6458932897246187623
+    second: Kena Hit Tameng_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kena Hit Tameng_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 15
+        width: 47
+        height: 61
+      alignment: 9
+      pivot: {x: 0.47091424, y: 0.48239174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db5190b837fde730800000000000000
+      internalID: 4030149064419007440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 10
+        width: 77
+        height: 70
+      alignment: 9
+      pivot: {x: 0.4819122, y: 0.4923527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddd3a6c908dcb4b0800000000000000
+      internalID: -5423222314761986608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_2
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 10
+        width: 84
+        height: 70
+      alignment: 9
+      pivot: {x: 0.4898333, y: 0.4923527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405c8135fd8a83790800000000000000
+      internalID: -7550099098161330940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 9
+        width: 85
+        height: 70
+      alignment: 9
+      pivot: {x: 0.47160572, y: 0.5068514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3543b006a95d9c0800000000000000
+      internalID: -3903043764751150140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 10
+        width: 79
+        height: 70
+      alignment: 9
+      pivot: {x: 0.4945393, y: 0.4932456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8222fb2fcc1f46ac0800000000000000
+      internalID: -3862696717828808152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_5
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 10
+        width: 75
+        height: 70
+      alignment: 9
+      pivot: {x: 0.49333823, y: 0.49246743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3273825455824dd20800000000000000
+      internalID: 3302308773467010851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_7
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 9
+        width: 88
+        height: 71
+      alignment: 9
+      pivot: {x: 0.50181997, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e253cadd0493360800000000000000
+      internalID: 7149817204248489526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_9
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 8
+        width: 88
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4900076, y: 0.47298744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d6699b3551bced0800000000000000
+      internalID: -2392795327677174437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_10
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 8
+        width: 88
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4900076, y: 0.4729874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9eb2eefa97e1fa0800000000000000
+      internalID: -5828087071248750089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_11
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 14
+        width: 59
+        height: 60
+      alignment: 9
+      pivot: {x: 0.47625214, y: 0.50808674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3726bcb5cc8ae0d0800000000000000
+      internalID: -3392744588367747265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_12
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 13
+        width: 56
+        height: 62
+      alignment: 9
+      pivot: {x: 0.41276768, y: 0.50783485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9789fdfa6dd3a5e0800000000000000
+      internalID: -1899431166222956644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit Tameng_13
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 12
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2846006a8eecbce40800000000000000
+      internalID: 5677859253843420290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 63c4cddb1d227e84fbf4c9a87df1d1c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kena Hit Tameng_0: 4030149064419007440
+      Kena Hit Tameng_1: -5423222314761986608
+      Kena Hit Tameng_10: -5828087071248750089
+      Kena Hit Tameng_11: -3392744588367747265
+      Kena Hit Tameng_12: -1899431166222956644
+      Kena Hit Tameng_13: 5677859253843420290
+      Kena Hit Tameng_14: 3930358198527737720
+      Kena Hit Tameng_15: -6252738237586012368
+      Kena Hit Tameng_16: -8221365184579563264
+      Kena Hit Tameng_17: 3180859554903804001
+      Kena Hit Tameng_18: 7691315628875306326
+      Kena Hit Tameng_19: 4946070682471333313
+      Kena Hit Tameng_2: -7550099098161330940
+      Kena Hit Tameng_20: 9091748441551082613
+      Kena Hit Tameng_21: 4076248742895901512
+      Kena Hit Tameng_22: -1329761412706371365
+      Kena Hit Tameng_23: -7070345125348998463
+      Kena Hit Tameng_24: -8534602401264923100
+      Kena Hit Tameng_25: 5295854887572258867
+      Kena Hit Tameng_26: -5196681552110642800
+      Kena Hit Tameng_27: 3818851056553096496
+      Kena Hit Tameng_28: 7855291996676035152
+      Kena Hit Tameng_29: -7376171920072920372
+      Kena Hit Tameng_3: -3903043764751150140
+      Kena Hit Tameng_30: 1912714813913472092
+      Kena Hit Tameng_31: -7723654863109588152
+      Kena Hit Tameng_32: 6458932897246187623
+      Kena Hit Tameng_4: -3862696717828808152
+      Kena Hit Tameng_5: 3302308773467010851
+      Kena Hit Tameng_6: 3795906974108665341
+      Kena Hit Tameng_7: 7149817204248489526
+      Kena Hit Tameng_8: -269918899819967734
+      Kena Hit Tameng_9: -2392795327677174437
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
