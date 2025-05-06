@@ -14,7 +14,7 @@ public class ComboCharacter : MonoBehaviour
     void Start()
     {
         meleeStateMachine = GetComponent<StateMachine>();
-        surfaceDetector = GetComponent<PlayerSurface>();
+        //surfaceDetector = GetComponent<PlayerSurface>();
     }
 
     void Update()
@@ -32,21 +32,27 @@ public class ComboCharacter : MonoBehaviour
     /// <summary>
     /// 
     /// </summary>
-    private PlayerSurface surfaceDetector;
+    [SerializeField]private PlayerSurface surfaceDetector;
 
     private void PlaySfxStep()
     {
-        if (surfaceDetector == null) return;
+        if (surfaceDetector == null)
+        {
+            Debug.Log("null?");
+            return;
+        }
 
-        switch (surfaceDetector.currentSurface)
+
+
+            switch (surfaceDetector.currentSurface)
         {
             case SurfaceType.Tanah:
                 AudioManager.Instance.PlaySFX("StepTanah");
-                //Debug.Log("Tanah");
+                //Debug.Log("TanahP");
                 break;
             case SurfaceType.Batu:
                 AudioManager.Instance.PlaySFX("StepBatu");
-                //Debug.Log("Batu");
+                //Debug.Log("BatuP");
                 break;
         }
     }

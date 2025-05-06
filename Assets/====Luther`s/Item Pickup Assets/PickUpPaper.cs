@@ -40,7 +40,7 @@ public class PickUpPaper : MonoBehaviour
             UIpickupEnter.SetActive(false);
             playerControl.enabled = true;
             Destroy(gameObject);
-            Debug.LogWarning("DESTROYED");
+            //Debug.LogWarning("DESTROYED");
         }
     }
 
@@ -50,7 +50,7 @@ public class PickUpPaper : MonoBehaviour
         {
             canPickup = true;
             UIpickupE.SetActive(true);
-            Debug.Log("Innit");
+            //Debug.Log("Innit");
         }
     }
     void OnTriggerExit2D(Collider2D other)
@@ -59,7 +59,7 @@ public class PickUpPaper : MonoBehaviour
         {
             canPickup = false;
             UIpickupE.SetActive(false);
-            Debug.Log("OUSIDE");
+            //Debug.Log("OUSIDE");
         }
     }
 }

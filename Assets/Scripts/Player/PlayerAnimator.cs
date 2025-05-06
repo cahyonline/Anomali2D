@@ -9,7 +9,7 @@ public class PlayerAnimator : MonoBehaviour
     private SpriteRenderer spriteRend;
 
     [Header("Movement Tilt")]
-    [SerializeField] [Range(0, 1)] private float tiltSpeed;
+    //[SerializeField] [Range(0, 1)] private float tiltSpeed;
 
     [Header("Particle FX")]
     [SerializeField] private GameObject jumpFX;
@@ -53,7 +53,7 @@ public class PlayerAnimator : MonoBehaviour
             mult = (mov.IsFacingRight) ? 1 : -1;
         }
 
-        float newRot = ((tiltProgress * maxTilt * 2) - maxTilt);
+        //float newRot = ((tiltProgress * maxTilt * 2) - maxTilt);
         //float rot = Mathf.LerpAngle(spriteRend.transform.localRotation.eulerAngles.z * mult, newRot, tiltSpeed);
         //spriteRend.transform.localRotation = Quaternion.Euler(0, 0, rot * mult);
         #endregion
@@ -96,6 +96,7 @@ public class PlayerAnimator : MonoBehaviour
 
             anim.SetBool("IsRunning", false);
             anim.SetTrigger("Dash");
+            AudioManager.Instance.PlaySFX("Dash");
             GameObject obj = Instantiate(jumpFX, transform.position - (Vector3.up * transform.localScale.y / 2), Quaternion.Euler(-90, 0, 0));
             Destroy(obj, 1);
             StartDashing = false;

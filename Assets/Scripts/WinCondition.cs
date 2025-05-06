@@ -35,7 +35,7 @@ public class WinCondition : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             canPickup = true;
-            Debug.Log("Innit");
+            //Debug.Log("Innit");
         }
     }
     void OnTriggerExit2D(Collider2D other)

@@ -265,8 +265,9 @@ public class PlayerMovement : MonoBehaviour
                 _isJumpFalling = false;
                 Jump();
 
+
                 AnimHandler.startedJumping = true;
-                //AudioManager.Instance.PlaySFX("Jump");
+                AudioManager.Instance.PlaySFX("Jump");
             }
             //WALL JUMP
             if (!_isItemCollected) return;

@@ -5,8 +5,8 @@ public class Save : MonoBehaviour
 {
     [SerializeField] private GameObject Paused;
     private string savePath;
-    public GameController Loaderghjv;
-    public HealthPlayer Loadersjcghxfvsdhjg;
+    public GameController _saveLastPoss;
+    public HealthPlayer _saveHealthPlayered;
 
     
     private void Awake()
@@ -40,7 +40,7 @@ public class Save : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.LogFormat("Saved");
-        SaveGame(collision.transform.position, Loaderghjv.currentArea, Loadersjcghxfvsdhjg.healthAmount);
+        SaveGame(collision.transform.position, _saveLastPoss.currentArea, _saveHealthPlayered.healthAmount);
     }
     private void Update()
     {
