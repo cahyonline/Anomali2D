@@ -25,7 +25,8 @@ public class HealthPlayer : MonoBehaviour
     private bool isRegen = false;
     private Coroutine regenCoroutine;
     public Rigidbody2D playerRB;
-    private float kncockbackForce;    
+    private float kncockbackForce;
+    private float defaultKnock;    
     public float delayDeathUi = 5f;
     public GameObject deathMenu;
     public Animator pAnimator;
@@ -36,6 +37,7 @@ public class HealthPlayer : MonoBehaviour
         Whathit = 1f;
         deathMenu.SetActive(false);
         healthAmount = Maxhealth;
+        defaultKnock = kncockbackForce;
         //kncockbackForce = SpikeDM * 5 - (110f + healthAmount);
     }
 
@@ -96,6 +98,7 @@ public class HealthPlayer : MonoBehaviour
     IEnumerator NaturalRegenCD()
     {
         yield return new WaitForSeconds(5f);
+        kncockbackForce = defaultKnock;
         canRegen = true;
     }
 
@@ -160,6 +163,8 @@ public class HealthPlayer : MonoBehaviour
         if (vulnerable && other.CompareTag("MegaATKHB"))
         {
             vulnerable = false;
+            kncockbackForce = MegaDM * 5 - (-210f + healthAmount);
+            GiveKnockback(other.transform.position);
             TakeDamage(MegaDM);
             StartCoroutine(InvulnerableCD());
         }

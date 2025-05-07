@@ -8,7 +8,7 @@ public class EnemyAIGaint : MonoBehaviour
 /// BASIC
     public Transform player;
     [Header("Sprite Setting")]
-    public bool spriteFlip = false; 
+    public bool lookLeft; 
 
 ////////////////////////////////////////////////////////////
 /// DETECTION
@@ -47,11 +47,17 @@ public class EnemyAIGaint : MonoBehaviour
 
     [Header("IMPORTANT")]
     public GameObject EnemyRootObject;
+    public Collider2D ThisEnemyCollider;
     
 ////////////////////////////////////////////////////////////
 /// COMPONENTS
     private Rigidbody2D rb;
     public GameObject attackHB;
+    public Animator giantAnimator;
+    private bool hurtCanceled;
+    private float distanceToPlayer;
+    private bool isDead;
+    //private bool inMiddle;
 ////////////////////////////////////////////////////////////
 /// INITIALIZATION
     void Start()
@@ -63,9 +69,13 @@ public class EnemyAIGaint : MonoBehaviour
         //defaultSpeed = walkSpeed;
         attackHB.SetActive(false);
 
-        if(spriteFlip)
+        if(lookLeft)
         {
             FlipSprite();
+        }
+        else
+        {
+
         }
     }
 ////////////////////////////////////////////////////////////
@@ -108,21 +118,27 @@ public class EnemyAIGaint : MonoBehaviour
                     Debug.Log("BACK TO MID 2");
                 }
             }
+
+             
         }
+
         else
         {
             Patrol(); // Resume patrolling
             if (CanSeePlayer()) 
             {
                 chasingPlayer = true; // Start chasing player
-            }
+            }             
         }
-
         if(healthAmount <=0)
         {
-            Debug.LogError("Enemy DIED");
-            Destroy(EnemyRootObject);
+            //Debug.LogError("Enemy DIED");
+            isDead = true;
+            Dies();
+            //Destroy(EnemyRootObject);
         }
+
+        distanceToPlayer = Vector2.Distance(transform.position, player.position);
     }
 ////////////////////////////////////////////////////////////
 /// DETECTION SYSTEM (RAYCAST)
@@ -145,6 +161,9 @@ public class EnemyAIGaint : MonoBehaviour
     IEnumerator MoveToMiddleAndPatrol()
     {
         movingToMiddle = true;
+        //inMiddle = false;
+        giantAnimator.SetBool("runAN",false);
+        giantAnimator.SetBool("backAN",true);
 
         // Face the middle before moving
         //FaceDirection(pointE.position);
@@ -155,24 +174,27 @@ public class EnemyAIGaint : MonoBehaviour
 
         // After reaching point E, randomly pick A or B
         currentTarget = Random.value > 0.5f ? pointA : pointB;
+        //inMiddle = true;
 
         // Face the new patrol target
         //FaceDirection(currentTarget.position);
-
+        giantAnimator.SetBool("backAN",false);
         movingToMiddle = false;
     }
 
     void ChasePlayer()
     {
         if (isAttacking) return; // Stop movement while attacking
+        //inMiddle = false;
         //FacePlayer();
 
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        //float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
         if (distanceToPlayer <= attackRange)
         {
             //FaceDirection(player.position);
             StartCoroutine(Attack()); // Start attack when in range
+            
             return;
         }
 
@@ -185,19 +207,27 @@ public class EnemyAIGaint : MonoBehaviour
             //FaceDirection(player.position);
             lastTurnTime = Time.time;
         }
-    }
 
+        giantAnimator.SetBool("runAN",true);
+        giantAnimator.SetBool("backAN",false);
+        giantAnimator.SetBool("attAN",false);
+    }
     void Patrol()
     {
-        if (Vector2.Distance(transform.position, pointE.position) > 0.1f)
+        if (Vector2.Distance(transform.position, pointE.position) > 1f)
         {
             Vector2 noYmovement = new Vector2(pointE.position.x, transform.position.y);
             transform.position = Vector2.MoveTowards(transform.position, noYmovement, walkSpeed * Time.deltaTime);
             //FaceDirection(pointE.position);
+            //Debug.LogError("This bit1");
+            giantAnimator.SetBool("backAN",true);
         }
+
         else
         {
+            Idle();
             rb.velocity = Vector2.zero;
+            //Debug.LogError("This bit3");
         }
     }
     bool IsPlayerInsideTerritory()
@@ -207,6 +237,7 @@ public class EnemyAIGaint : MonoBehaviour
 
         return player.position.x >= minX && player.position.x <= maxX;
     }
+
     void FlipSprite()
     {
         Vector3 currentScale = transform.localScale;
@@ -214,6 +245,14 @@ public class EnemyAIGaint : MonoBehaviour
         transform.localScale = currentScale;
     }
 
+    void Idle()
+    {
+        rb.velocity = Vector2.zero;
+        giantAnimator.SetBool("runAN",false);
+        giantAnimator.SetBool("attAN",false);
+        giantAnimator.SetBool("backAN",false);
+        Debug.LogWarning("IDLE");
+    }
     // void FaceDirection(Vector2 target)
     // {
     //     Vector3 currentScale = transform.localScale;
@@ -232,17 +271,37 @@ public class EnemyAIGaint : MonoBehaviour
 
     IEnumerator Attack()
     {
-        if (isAttacking) yield break; // Prevent multiple attack calls
+        if(!isDead)
+        {
+            if (isAttacking) yield break; // Prevent multiple attack calls
+            hurtCanceled = true;
+            giantAnimator.SetBool("backAN",false);
+            giantAnimator.SetBool("runAN",false);
+            isAttacking = true;
 
-        isAttacking = true;
-        attackHB.SetActive(true);
+            giantAnimator.SetBool("attAN",true);
+            giantAnimator.SetBool("hurtAN",false);
 
-        yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.4f);
 
-        attackHB.SetActive(false);
-        yield return new WaitForSeconds(attackCooldown);
+            hurtCanceled = false;
+            giantAnimator.SetBool("attAN",false);
+            attackHB.SetActive(true);
 
-        isAttacking = false;
+            yield return new WaitForSeconds(0.2f);
+            attackHB.SetActive(false);       
+
+            yield return new WaitForSeconds(attackCooldown);
+
+            giantAnimator.SetBool("attAN",false);
+            isAttacking = false;            
+        }
+
+        else
+        {
+            yield break;
+        }
+
     }
 
 
@@ -255,10 +314,45 @@ public class EnemyAIGaint : MonoBehaviour
         {
             StartCoroutine(InvulnerableCD());
             TakeDamage(PlayerDamage);
-            EventCallBack.HitStop.Invoke();
-            //Debug.Log("Enemy Took Damage");
+            
+
+            if(!hurtCanceled)
+            {
+                EventCallBack.HitStop.Invoke();
+                giantAnimator.SetBool("hurtAN",true);
+                //Debug.Log("Enemy Took Damage");
+                StartCoroutine(AnimationReset());  
+            }
         }
 
+    }
+
+    void Dies()
+    {
+        giantAnimator.SetBool("deadAN",true);
+        giantAnimator.SetBool("attAN",false);
+        giantAnimator.SetBool("runAN",false);
+        giantAnimator.SetBool("hurtAN",false);
+        giantAnimator.SetBool("backAN",false);
+        sightRange = 0f;
+        walkSpeed = 0f;
+        rb.bodyType = RigidbodyType2D.Static;
+        ThisEnemyCollider.enabled = false;
+        
+        StartCoroutine(DespawnGameobject());
+
+    }
+
+    IEnumerator DespawnGameobject()
+    {
+        yield return new WaitForSeconds(5);
+        EnemyRootObject.SetActive(false);
+    }
+    IEnumerator AnimationReset()
+    {
+        if(hurtCanceled) yield break;
+        yield return new WaitForSeconds(0.2f);
+        giantAnimator.SetBool("hurtAN",false);
     }
 
     public void TakeDamage(float damage)

@@ -1,42 +1,30 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HitStop : MonoBehaviour
 {
-    public float duration = 1f;
+    public float duration = 0.1f; // 0.1f is more appropriate for hit stop
 
     bool _isFrozen = false;
-    float _pendingFreezeDuration = 0f;
-
-    private void Update()
-    {
-        if (_pendingFreezeDuration > 0 && !_isFrozen)
-        {
-            StartCoroutine(DoFreezew());
-        }
-    }
 
     public void Freeze()
     {
-        _pendingFreezeDuration = duration;
-        //Debug.LogWarning("fcku");
+        if (!_isFrozen)
+        {
+            StartCoroutine(DoFreeze());
+        }
     }
 
-    IEnumerator DoFreezew()
+    IEnumerator DoFreeze()
     {
-        //Debug.LogWarning("fcku");
-        //yield return new WaitForSeconds(1);
         _isFrozen = true;
-        var original = Time.timeScale;
+        float originalTimeScale = Time.timeScale;
         Time.timeScale = 0f;
 
         yield return new WaitForSecondsRealtime(duration);
 
-        Time.timeScale = original;
-        _pendingFreezeDuration = 0;
+        Time.timeScale = originalTimeScale;
         _isFrozen = false;
-
     }
 
     private void OnEnable()

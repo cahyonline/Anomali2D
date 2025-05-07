@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 58670d89854303045a7fe199465fe7c8
+guid: d7894c6e7b7f7f74ba850cfe26224943
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 284172964836534682
-    second: Kena Attack Gigant_0
+      213: -4905562741788454865
+    second: Jalan kebelakang_0
   - first:
-      213: 548787221290143089
-    second: Kena Attack Gigant_1
+      213: 4866063868309130235
+    second: Jalan kebelakang_1
   - first:
-      213: -1588869097777949151
-    second: Kena Attack Gigant_2
+      213: 7283130181796439952
+    second: Jalan kebelakang_2
   - first:
-      213: -8938310848456514127
-    second: Kena Attack Gigant_3
+      213: 3009820782893747736
+    second: Jalan kebelakang_3
   - first:
-      213: 7127592445656769184
-    second: Kena Attack Gigant_4
+      213: -6034998707475214699
+    second: Jalan kebelakang_4
   - first:
-      213: 7748097201032864903
-    second: Kena Attack Gigant_5
+      213: -63271825790459433
+    second: Jalan kebelakang_5
   - first:
-      213: -6738782360588084676
-    second: Kena Attack Gigant_6
+      213: 5369653549634009053
+    second: Jalan kebelakang_6
   - first:
-      213: 3249470555445209855
-    second: Kena Attack Gigant_7
+      213: -7851150438866450694
+    second: Jalan kebelakang_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,169 +121,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kena Attack Gigant_0
+      name: Jalan kebelakang_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 21
+        x: 6
+        y: 12
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20de485da0fbebb0800000000000000
+      internalID: -4905562741788454865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan kebelakang_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 12
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbcde48e4bb78340800000000000000
+      internalID: 4866063868309130235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan kebelakang_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 6
         width: 75
         height: 90
-      alignment: 9
-      pivot: {x: 0.5041222, y: 0.51030004}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a99e9df4ec591f300800000000000000
-      internalID: 284172964836534682
+      spriteID: 09727ea0050e21560800000000000000
+      internalID: 7283130181796439952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kena Attack Gigant_1
+      name: Jalan kebelakang_3
       rect:
         serializedVersion: 2
-        x: 173
-        y: 21
-        width: 71
-        height: 90
-      alignment: 9
-      pivot: {x: 0.5000004, y: 0.5103}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17dc546f11fad9700800000000000000
-      internalID: 548787221290143089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kena Attack Gigant_2
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 22
-        width: 82
+        x: 308
+        y: 6
+        width: 68
         height: 89
-      alignment: 9
-      pivot: {x: 0.5000007, y: 0.51698995}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 126995849f333f9e0800000000000000
-      internalID: -1588869097777949151
+      spriteID: 81e48f92e0805c920800000000000000
+      internalID: 3009820782893747736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kena Attack Gigant_3
+      name: Jalan kebelakang_4
       rect:
         serializedVersion: 2
-        x: 456
-        y: 22
-        width: 82
-        height: 88
-      alignment: 9
-      pivot: {x: 0.5020276, y: 0.5257936}
+        x: 406
+        y: 12
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b5aab9f3adb4f380800000000000000
-      internalID: -8938310848456514127
+      spriteID: 59e8ffc76a06f3ca0800000000000000
+      internalID: -6034998707475214699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kena Attack Gigant_4
+      name: Jalan kebelakang_5
       rect:
         serializedVersion: 2
-        x: 602
-        y: 22
-        width: 82
-        height: 88
-      alignment: 9
-      pivot: {x: 0.50223446, y: 0.5229122}
+        x: 506
+        y: 11
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a22123d09b4ae260800000000000000
-      internalID: 7127592445656769184
+      spriteID: 7d128731c963f1ff0800000000000000
+      internalID: -63271825790459433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kena Attack Gigant_5
+      name: Jalan kebelakang_6
       rect:
         serializedVersion: 2
-        x: 748
-        y: 22
-        width: 82
-        height: 88
-      alignment: 9
-      pivot: {x: 0.49999925, y: 0.5229122}
+        x: 608
+        y: 6
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78423c86a55c68b60800000000000000
-      internalID: 7748097201032864903
+      spriteID: dd7b9d82477d48a40800000000000000
+      internalID: 5369653549634009053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kena Attack Gigant_6
+      name: Jalan kebelakang_7
       rect:
         serializedVersion: 2
-        x: 894
-        y: 22
-        width: 82
-        height: 88
-      alignment: 9
-      pivot: {x: 0.49999925, y: 0.5229122}
+        x: 708
+        y: 6
+        width: 68
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3a9a7a85290b72a0800000000000000
-      internalID: -6738782360588084676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kena Attack Gigant_7
-      rect:
-        serializedVersion: 2
-        x: 1040
-        y: 22
-        width: 82
-        height: 88
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5229122}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ffa2765f040781d20800000000000000
-      internalID: 3249470555445209855
+      spriteID: af68635e54c1b0390800000000000000
+      internalID: -7851150438866450694
       vertices: []
       indices: 
       edges: []
@@ -291,7 +291,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2aa357ab7deba3d489ba817c8a4dcb93
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -299,14 +299,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Kena Attack Gigant_0: 284172964836534682
-      Kena Attack Gigant_1: 548787221290143089
-      Kena Attack Gigant_2: -1588869097777949151
-      Kena Attack Gigant_3: -8938310848456514127
-      Kena Attack Gigant_4: 7127592445656769184
-      Kena Attack Gigant_5: 7748097201032864903
-      Kena Attack Gigant_6: -6738782360588084676
-      Kena Attack Gigant_7: 3249470555445209855
+      Jalan kebelakang_0: -4905562741788454865
+      Jalan kebelakang_1: 4866063868309130235
+      Jalan kebelakang_2: 7283130181796439952
+      Jalan kebelakang_3: 3009820782893747736
+      Jalan kebelakang_4: -6034998707475214699
+      Jalan kebelakang_5: -63271825790459433
+      Jalan kebelakang_6: 5369653549634009053
+      Jalan kebelakang_7: -7851150438866450694
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
