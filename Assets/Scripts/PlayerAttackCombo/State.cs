@@ -39,9 +39,9 @@ public abstract class State
     /// Removes a gameobject, component, or asset.
     /// </summary>
     /// <param name="obj">The type of Component to retrieve.</param>
-    protected static void Destroy(UnityEngine.Object obj)
+    protected static void Destroy(UnityEngine.Object obj, float delay)
     {
-        UnityEngine.Object.Destroy(obj);
+        MonoBehaviour.Destroy(obj, delay);
     }
 
     /// <summary>

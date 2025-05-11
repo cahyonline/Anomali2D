@@ -1,4 +1,5 @@
 using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,7 +26,7 @@ public class MeleeBaseState : State
 
     //
     private bool hasMissedAttack = false;
-
+    
     public override void OnEnter(StateMachine _stateMachine)
     {
         base.OnEnter(_stateMachine);
@@ -73,44 +74,26 @@ public class MeleeBaseState : State
         for (int i = 0; i < colliderCount; i++)
         {
             Collider2D collider = collidersToDamage[i];
-
+            Vector2 hitPosition = collider.bounds.center;
             if (collider != null)
             {
                 if (collider.CompareTag("Batu") || (collider.CompareTag("Tanah")))
                 {
                     if (hitSomething == false) ;
-                    //    AudioManager.Instance.PlaySFX("stoneHitSFX");
-                    //Debug.Log("Attack hit Batu");
-                    //hitSomething = true;
-                    //break;
                 }
                 else if (collider.CompareTag("Enemy"))
                 {
+                    // Spawn efek hit dan simpan referensinya
+                    GameObject hitEffect = UnityEngine.Object.Instantiate(HitEffectPrefab, hitPosition, Quaternion.identity);
 
-                    //AudioManager.Instance.PlaySFX("enemyHitSFX");
-                    //Debug.Log("Attack hit Enemy");
-                    //hitSomething = true;
+                    // Hancurkan efek setelah 0.5 detik
+                    Destroy(hitEffect, 0.5f); // <<=== INI YANG DITAMBAHKAN
+
+                    // Tandai enemy yang sudah kena hit
+                    collidersDamaged.Add(collider);
+                    hitSomething = true;
                 }
-               // Debug.Log("somethingBatu=" + hitSomething);
             }
-        }
-        //Debug.Log("hitsomthing ="+ hitSomething);
-        if (!hitSomething)
-
-        {
-            
-            if (!hasMissedAttack) 
-            {
-                AudioManager.Instance.PlaySFX("attackSFX");
-                //Debug.Log("Attack missed");
-                hasMissedAttack = true;
-            }
-        }
-
-        else
-        {
-            hasMissedAttack = false;
-            //Debug.Log("False?");
         }
     }
 }
