@@ -1,58 +1,43 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.PostProcessing;
 
 public class Vignette : MonoBehaviour
 {
-    [SerializeField] private PostProcessVolume Menghitam;
+    [SerializeField] private GameObject loadingUI;
+    private bool isLoading = false;
 
-
-    private IEnumerator Hitam()
+    private void Start()
     {
-        while ( Menghitam.weight < 1 )
-        {
-            Menghitam.weight += 0.1f;
-            yield return new WaitForSeconds (0.1f);
-            
-        }
-
-
-
-        PlayerWake();
+        loadingUI.SetActive(false);
     }
 
-    private IEnumerator Putih()
+    private void ShowLoading()
     {
-        while (Menghitam.weight >0)
-        {
-            Menghitam.weight -= 0.1f;
-            yield return new WaitForSeconds(0.1f);
-
-        }
-
+        StartCoroutine(LoadingRoutine());
     }
 
-    private  void PlayerFall()
+    private IEnumerator LoadingRoutine()
     {
-        StartCoroutine(Hitam());
-        
-    }
+        EventCallBack.OnAttack();
+        isLoading = true;
+        loadingUI.SetActive(true);
 
-    private void PlayerWake()
-    {
-        StartCoroutine(Putih());
+        // Tunggu 2 detik atau sesuaikan durasi loading
+        yield return new WaitForSeconds(2f);
+
+        EventCallBack.EndAttack();
+        loadingUI.SetActive(false);
+        isLoading = false;
+        Debug.Log("Loading selesai");
     }
 
     private void OnEnable()
     {
-        EventCallBack.Vignette += PlayerFall;
-        //EventCallBack.NextWorld += PlayerWake;
+        EventCallBack.Vignette += ShowLoading;
     }
 
     private void OnDisable()
     {
-        EventCallBack.Vignette -= PlayerFall;
-        //EventCallBack.NextWorld -= PlayerWake;
+        EventCallBack.Vignette -= ShowLoading;
     }
 }

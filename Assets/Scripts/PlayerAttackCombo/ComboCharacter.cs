@@ -50,6 +50,6 @@ public class ComboCharacter : MonoBehaviour
 
     private void PlaySfxKen()
     {
-        //AudioManager.Instance.PlaySFX("attackSFX");
+        AudioManager.Instance.PlaySFX("attackSFX");
     }
 }
