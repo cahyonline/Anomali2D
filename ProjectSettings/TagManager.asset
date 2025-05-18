@@ -16,6 +16,7 @@ TagManager:
   - Tanah
   - Batu
   - MegaATKHB
+  - RockATKHB
   layers:
   - Default
   - TransparentFX

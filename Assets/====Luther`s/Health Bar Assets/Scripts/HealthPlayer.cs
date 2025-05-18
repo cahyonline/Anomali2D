@@ -9,14 +9,22 @@ using UnityEngine.UI;
 public class HealthPlayer : MonoBehaviour
 {
     public Image healthBar;
+    public Image energyBar;
+    public Image whiteBar;
     public float Maxhealth = 100f;
+    public float MaxEnergy = 100f;
+    public float healAmp = 1.2f;
     public float healthAmount;
+    public float energyAmount;
+    private float whiteAmount;
+    public float debilitateDegenValue = 1f;
     public float healthRegenValue = 0.1f;
-    public float healthRegenRate = 0f;
+
     private float Whathit = 1f;
-    public float MegaDM = 75;
+    public float MegaDM = 75f;
     public float SpikeDM = 30f;
     public float SmallDM = 10f;
+    public float RockDM = 100f;
     public float BigDM = 40f;
     public float LavaDM = 0.3f;
     public float SpikeCD = 3f;
@@ -25,22 +33,27 @@ public class HealthPlayer : MonoBehaviour
     private bool isRegen = false;
     private Coroutine regenCoroutine;
     public Rigidbody2D playerRB;
-    private float kncockbackForce;
-    private float defaultKnock;    
+    private float kncockbackForce = 50f;
+    private float yMultyplayer;
+    private float xMultyplayer;
+    private float defaultKnock;
+    private bool whiteVis;    
     public float delayDeathUi = 5f;
     public GameObject deathMenu;
     public Animator pAnimator;
     public UnityEngine.Vector2 knockbackDirection = new UnityEngine.Vector2(-1,1);
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     void Start()
     {
         Whathit = 1f;
         deathMenu.SetActive(false);
         healthAmount = Maxhealth;
+        energyAmount = MaxEnergy;
+        whiteAmount = Maxhealth;
         defaultKnock = kncockbackForce;
-        //kncockbackForce = SpikeDM * 5 - (110f + healthAmount);
     }
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     void Update()
     {
         if (healthAmount <= 0)
@@ -60,18 +73,40 @@ public class HealthPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             TakeDamage(10);
+            //Debilitating(10);
             //Debug.LogWarning("Took 10 Damage");
         }
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             Healing(10);
+            Rejuvenating(10);
+            WhiteUpdate();
+            //EnergyDeplete();
             //Debug.LogWarning("Healed 10 Points");
         }
-    }
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        if (Input.GetKey(KeyCode.I) && healthAmount != Maxhealth && healthAmount! >= 0)
+        {
+            if (energyAmount > 0)
+            {
+                Debilitating(debilitateDegenValue);
+                Healing(debilitateDegenValue * healAmp);  
+            }
+
+            // if (energyAmount <= 0)
+            // {
+            //     return;
+            // }
+        }
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#region Methods
+    
     public void TakeDamage(float damage)
     {
+        StartCoroutine(LateWhiteUpdate());
         pAnimator.SetTrigger("is_PHurt");
         healthAmount -= damage;
         healthBar.fillAmount = healthAmount / Maxhealth;
@@ -93,6 +128,59 @@ public class HealthPlayer : MonoBehaviour
             isRegen = false;
             if (regenCoroutine != null) StopCoroutine(regenCoroutine);
         }
+
+        //whiteAmount = healthAmount;
+        //whiteBar.fillAmount = healthBar.fillAmount;
+    }
+
+    public void Rejuvenating(float energyRejuAmount)
+    {
+        energyAmount += energyRejuAmount;
+        energyAmount = Mathf.Clamp(energyAmount, 0,MaxEnergy);
+        energyBar.fillAmount = energyAmount / MaxEnergy;
+        
+    }
+
+    public void Debilitating(float debilitate)
+    {
+        energyAmount -= debilitate;
+        energyBar.fillAmount = energyAmount / MaxEnergy;        
+    }
+
+    public void EnergyFulling()
+    {;
+        energyAmount = MaxEnergy; 
+        energyBar.fillAmount = energyAmount / MaxEnergy;  
+    }
+
+    private void WhiteUpdate()
+    {
+        float whiteSpeed = 1f;
+        while (whiteBar.fillAmount > healthBar.fillAmount)
+        {
+            whiteBar.fillAmount = Mathf.MoveTowards(whiteBar.fillAmount,healthBar.fillAmount,whiteSpeed * Time.deltaTime);
+            whiteVis = false;
+            return;
+        }
+    }
+
+    public void Blood4Energy()
+    {
+        StartCoroutine(B4ECD());
+    }
+
+    bool hangOn = false ;
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    #region Enumerator
+
+    IEnumerator B4ECD()
+    {
+        if(hangOn)yield break;
+        hangOn = true;
+        Rejuvenating(10);
+        yield return new WaitForSeconds(0.5f);
+        hangOn = false;
     }
 
     IEnumerator NaturalRegenCD()
@@ -110,6 +198,8 @@ public class HealthPlayer : MonoBehaviour
         {
             yield return new WaitForSeconds(1f);
             healthAmount += healthRegenValue;
+            whiteAmount = healthAmount;
+            whiteBar.fillAmount = healthBar.fillAmount;
             healthAmount = Mathf.Clamp(healthAmount, 0, Maxhealth);
             healthBar.fillAmount = healthAmount / Maxhealth;
 
@@ -123,23 +213,51 @@ public class HealthPlayer : MonoBehaviour
         isRegen = false;
     }
 
+    IEnumerator LateWhiteUpdate()
+    {
+        if(whiteVis)yield break;
+        whiteVis = true;
+        yield return new WaitForSeconds(0.5f);
+
+        float whiteSpeed = 0.3f;
+        while (whiteBar.fillAmount > healthBar.fillAmount)
+        {
+            whiteBar.fillAmount = Mathf.MoveTowards(whiteBar.fillAmount,healthBar.fillAmount,whiteSpeed * Time.deltaTime);
+            whiteVis = false;
+            yield return null;
+        }
+        //WhiteUpdate();
+        
+    }
+    #endregion
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#endregion
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#region Kncockback
+
     private void GiveKnockback(UnityEngine.Vector2 sourcePos)
     {
         UnityEngine.Vector2 direction = ((UnityEngine.Vector2)transform.position - sourcePos).normalized;
 
-        direction.y = 0f;
+        direction.y = yMultyplayer;
+        direction.x = xMultyplayer;
         direction.Normalize();
         playerRB.velocity = new UnityEngine.Vector2(0f, 0f);
         playerRB.AddForce(direction * kncockbackForce,ForceMode2D.Impulse);
+        yMultyplayer = 0f;
+        xMultyplayer = 1f;
     }
-
+#endregion
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    #region Registator
     private void OnTriggerStay2D(Collider2D other)
     {
         if (vulnerable && other.CompareTag("SpikeHB"))
         {
+            yMultyplayer = 1f;
+            xMultyplayer = 0f;
             vulnerable = false;
-            kncockbackForce = SpikeDM * 2 - (-110f + healthAmount);
-            //Debug.LogWarning(kncockbackForce);
+            kncockbackForce = 10 - (-50f + healthAmount);
             Whathit = SpikeCD;
             TakeDamage(SpikeDM);
             GiveKnockback(other.transform.position);
@@ -156,6 +274,8 @@ public class HealthPlayer : MonoBehaviour
         if (vulnerable && other.CompareTag("BigATKHB"))
         {
             vulnerable = false;
+            kncockbackForce = defaultKnock;
+            GiveKnockback(other.transform.position);
             TakeDamage(BigDM);
             StartCoroutine(InvulnerableCD());
         }
@@ -169,12 +289,26 @@ public class HealthPlayer : MonoBehaviour
             StartCoroutine(InvulnerableCD());
         }
 
+        if (vulnerable && other.CompareTag("RockATKHB"))
+        {
+            vulnerable = false;
+            TakeDamage(RockDM);
+        
+            StartCoroutine(InvulnerableCD());
+        }
+
         if (other.CompareTag("LavaHB"))
         {
             TakeDamage(LavaDM);
         }
-    }
 
+        if (energyAmount != MaxEnergy && other.CompareTag("Finish"))
+        {
+            Rejuvenating(0.7f);
+        }
+    }
+    #endregion
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     private IEnumerator InvulnerableCD()
     {
         yield return new WaitForSeconds(Whathit);
