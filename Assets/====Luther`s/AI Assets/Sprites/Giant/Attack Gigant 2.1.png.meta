@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 58d3b11858638e343a8997a4af3926eb
+guid: 102d9863a7d1cf84d964fb35d9a03f0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 569382157894961115
-    second: Run Gigant_0
+      213: 6716363439213528830
+    second: Attack Gigant 2.1_0
   - first:
-      213: 5115676956390537620
-    second: Run Gigant_1
+      213: -9016658089092454340
+    second: Attack Gigant 2.1_1
   - first:
-      213: 4916830654071492742
-    second: Run Gigant_2
+      213: 6242139923709221081
+    second: Attack Gigant 2.1_2
   - first:
-      213: -6024078441776798462
-    second: Run Gigant_3
+      213: -2550354949943173603
+    second: Attack Gigant 2.1_3
   - first:
-      213: 536189320972374541
-    second: Run Gigant_4
+      213: -6936083395205394639
+    second: Attack Gigant 2.1_4
   - first:
-      213: -88894838458626023
-    second: Run Gigant_5
+      213: -8473129609520420846
+    second: Attack Gigant 2.1_5
   - first:
-      213: -8873246434813354921
-    second: Run Gigant_6
+      213: -1936346242931498307
+    second: Attack Gigant 2.1_6
   - first:
-      213: 464271908828808710
-    second: Run Gigant_7
+      213: -3941023031458613795
+    second: Attack Gigant 2.1_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,169 +121,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run Gigant_0
+      name: Attack Gigant 2.1_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 12
-        width: 68
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 36
+        y: 20
+        width: 64
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4662334, y: 0.43519598}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd746ce4e0ad6e700800000000000000
-      internalID: 569382157894961115
+      spriteID: ef64eb096f0553d50800000000000000
+      internalID: 6716363439213528830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run Gigant_1
+      name: Attack Gigant 2.1_1
       rect:
         serializedVersion: 2
-        x: 181
-        y: 14
-        width: 83
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 196
+        y: 20
+        width: 64
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4493568, y: 0.42168406}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4993f4b76198ef640800000000000000
-      internalID: 5115676956390537620
+      spriteID: c38ed728d356ed280800000000000000
+      internalID: -9016658089092454340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run Gigant_2
+      name: Attack Gigant 2.1_2
       rect:
         serializedVersion: 2
-        x: 322
-        y: 12
-        width: 69
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 355
+        y: 20
+        width: 77
+        height: 109
+      alignment: 9
+      pivot: {x: 0.3761886, y: 0.42294487}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 680deaced671c3440800000000000000
-      internalID: 4916830654071492742
+      spriteID: 9d8d8f6303980a650800000000000000
+      internalID: 6242139923709221081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run Gigant_3
+      name: Attack Gigant 2.1_3
       rect:
         serializedVersion: 2
-        x: 465
-        y: 14
-        width: 69
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 19
+        width: 92
+        height: 79
+      alignment: 9
+      pivot: {x: 0.6825701, y: 0.59614736}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2052ecaf29c266ca0800000000000000
-      internalID: -6024078441776798462
+      spriteID: d1e5a757fa15b9cd0800000000000000
+      internalID: -2550354949943173603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run Gigant_4
+      name: Attack Gigant 2.1_4
       rect:
         serializedVersion: 2
-        x: 611
-        y: 7
-        width: 68
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 638
+        y: 20
+        width: 92
+        height: 79
+      alignment: 9
+      pivot: {x: 0.6947267, y: 0.58199126}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d029ae8b85de07700800000000000000
-      internalID: 536189320972374541
+      spriteID: 13f0c48a6e41ebf90800000000000000
+      internalID: -6936083395205394639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run Gigant_5
+      name: Attack Gigant 2.1_5
       rect:
         serializedVersion: 2
-        x: 753
-        y: 14
-        width: 83
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 797
+        y: 20
+        width: 92
+        height: 79
+      alignment: 9
+      pivot: {x: 0.693768, y: 0.5837014}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 910de4b8d9e24cef0800000000000000
-      internalID: -88894838458626023
+      spriteID: 218e0b04385696a80800000000000000
+      internalID: -8473129609520420846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run Gigant_6
+      name: Attack Gigant 2.1_6
       rect:
         serializedVersion: 2
-        x: 901
-        y: 12
-        width: 69
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 970
+        y: 20
+        width: 78
+        height: 87
+      alignment: 9
+      pivot: {x: 0.6409646, y: 0.52823645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75cd2784165ebd480800000000000000
-      internalID: -8873246434813354921
+      spriteID: db2e7ebe957b025e0800000000000000
+      internalID: -1936346242931498307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run Gigant_7
+      name: Attack Gigant 2.1_7
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 7
-        width: 69
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1137
+        y: 20
+        width: 85
+        height: 90
+      alignment: 9
+      pivot: {x: 0.49422392, y: 0.5103999}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6060fec57dc617600800000000000000
-      internalID: 464271908828808710
+      spriteID: dd5b64eee6cae49c0800000000000000
+      internalID: -3941023031458613795
       vertices: []
       indices: 
       edges: []
@@ -291,7 +291,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a29948fc645db7646ab0c3896aba8045
     internalID: 0
     vertices: []
     indices: 
@@ -299,14 +299,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run Gigant_0: 569382157894961115
-      Run Gigant_1: 5115676956390537620
-      Run Gigant_2: 4916830654071492742
-      Run Gigant_3: -6024078441776798462
-      Run Gigant_4: 536189320972374541
-      Run Gigant_5: -88894838458626023
-      Run Gigant_6: -8873246434813354921
-      Run Gigant_7: 464271908828808710
+      Attack Gigant 2.1_0: 6716363439213528830
+      Attack Gigant 2.1_1: -9016658089092454340
+      Attack Gigant 2.1_2: 6242139923709221081
+      Attack Gigant 2.1_3: -2550354949943173603
+      Attack Gigant 2.1_4: -6936083395205394639
+      Attack Gigant 2.1_5: -8473129609520420846
+      Attack Gigant 2.1_6: -1936346242931498307
+      Attack Gigant 2.1_7: -3941023031458613795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
