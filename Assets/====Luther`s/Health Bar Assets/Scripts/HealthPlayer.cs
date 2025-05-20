@@ -31,6 +31,10 @@ public class HealthPlayer : MonoBehaviour
     public Animator pAnimator;
     public UnityEngine.Vector2 knockbackDirection = new UnityEngine.Vector2(-1,1);
 
+    private bool isDead = false;
+    private bool hasPlayedDeathAnim = false;
+
+
     void Start()
     {
         Whathit = 1f;
@@ -47,7 +51,12 @@ public class HealthPlayer : MonoBehaviour
             canRegen = false;
             isRegen = false;
             if (regenCoroutine != null) StopCoroutine(regenCoroutine);
-            StartCoroutine(CountDown());
+            if (!hasPlayedDeathAnim)
+            {
+                hasPlayedDeathAnim = true;
+                StartCoroutine(CountDown());
+            }
+            //StartCoroutine(CountDown());
         }
 
         if (canRegen && !isRegen && healthAmount < Maxhealth)
@@ -196,6 +205,7 @@ public class HealthPlayer : MonoBehaviour
 
     private IEnumerator CountDown()
     {
+        Debug.Log("Mati");
         pAnimator.SetTrigger("is_PDie");
         yield return new WaitForSeconds(delayDeathUi);
         deathMenu.SetActive(true);

@@ -45,6 +45,8 @@ public class PlayerAnimator : MonoBehaviour
 
         if (mov.IsSliding)
         {
+            
+
             tiltProgress = 0.25f;
         }
         else
@@ -104,10 +106,13 @@ public class PlayerAnimator : MonoBehaviour
         }
         if (startedWallJump)
         {
-            anim.SetTrigger("WallJump");
+            anim.SetTrigger("Jump");
             startedWallJump = false;
             return;
         }
+
+        anim.SetBool("isSliding", mov.IsSliding);
+
 
         anim.SetFloat("Vel Y", mov.RB.velocity.y);
     }

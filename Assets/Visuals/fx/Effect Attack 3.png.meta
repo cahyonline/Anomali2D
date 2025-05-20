@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: df33556efdcd2a046823b3522c9ce777
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5705099279961916311
+    second: Effect Attack 3_0
+  - first:
+      213: 24132657760526840
+    second: Effect Attack 3_1
+  - first:
+      213: -5005980414490315272
+    second: Effect Attack 3_2
+  - first:
+      213: 4941547395185177861
+    second: Effect Attack 3_3
+  - first:
+      213: 3459357800420803030
+    second: Effect Attack 3_4
+  - first:
+      213: -7245175319141091785
+    second: Effect Attack 3_5
+  - first:
+      213: -4951827116772331842
+    second: Effect Attack 3_6
+  - first:
+      213: -9094269412990637981
+    second: Effect Attack 3_7
+  - first:
+      213: -3865716209228959513
+    second: Effect Attack 3_8
+  - first:
+      213: -8014562045349810931
+    second: Effect Attack 3_9
+  - first:
+      213: 3179574474321458224
+    second: Effect Attack 3_10
+  - first:
+      213: -6771051606955798607
+    second: Effect Attack 3_11
+  - first:
+      213: 745272451596779356
+    second: Effect Attack 3_12
+  - first:
+      213: -4871636975901984930
+    second: Effect Attack 3_13
+  - first:
+      213: 694290684807976272
+    second: Effect Attack 3_14
+  - first:
+      213: 6537838006659044206
+    second: Effect Attack 3_15
+  - first:
+      213: -511893623742855977
+    second: Effect Attack 3_16
+  - first:
+      213: 4981483381117753991
+    second: Effect Attack 3_17
+  - first:
+      213: -8561598842630124921
+    second: Effect Attack 3_18
+  - first:
+      213: 1683229787779157940
+    second: Effect Attack 3_19
+  - first:
+      213: 5225694755521078446
+    second: Effect Attack 3_20
+  - first:
+      213: 5908538691467490733
+    second: Effect Attack 3_21
+  - first:
+      213: 8126140614523348277
+    second: Effect Attack 3_22
+  - first:
+      213: 8362815969411641752
+    second: Effect Attack 3_23
+  - first:
+      213: 7984359955011477181
+    second: Effect Attack 3_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect Attack 3_0
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 0
+        width: 179
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364e0f101a42fd44d8df8503690fac84
+      internalID: 870560529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Attack 3_1
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 0
+        width: 179
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f0b0f0391bafe46b371b7e0393bff3
+      internalID: -1455276930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Attack 3_2
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 179
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21076ff1b863aa4cae7b94190bcc649
+      internalID: -1325740766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Attack 3_3
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 0
+        width: 179
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af19d95b4f97104ab78cd241499ac39
+      internalID: -1604235729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Attack 3_4
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 0
+        width: 179
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90074583c4562f6478af256f0607d4fc
+      internalID: -1828527206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Attack 3_5
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 0
+        width: 179
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f939428dd6f4578448525ea4fef2d81b
+      internalID: -588748267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8ca2917dcb4371d43966ba0ffd8f2613
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Effect Attack 3_0: 870560529
+      Effect Attack 3_1: -1455276930
+      Effect Attack 3_2: -1325740766
+      Effect Attack 3_3: -1604235729
+      Effect Attack 3_4: -1828527206
+      Effect Attack 3_5: -588748267
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

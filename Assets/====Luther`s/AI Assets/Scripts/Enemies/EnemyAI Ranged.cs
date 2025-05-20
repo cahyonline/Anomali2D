@@ -206,7 +206,10 @@ public void TakesDamagesFromPlayer()
     TakeDamage(PlayerDamage);
     enemyANIM.SetBool("hurtAN", true);
 
-    StartCoroutine(InvulnerableCD());
+        EventCallBack.HitStop.Invoke();
+
+
+        StartCoroutine(InvulnerableCD());
     StartCoroutine(AnimatorHitCD());
     //takingDamage = false;
 }
@@ -351,7 +354,7 @@ IEnumerator Flee()
         yield return new WaitForSeconds(Whathit);
         //playerANIM.SetBool("hurtAN", false);
         vulnerable = true;
-        //Debug.LogWarning("vulnerable");
+        Debug.LogWarning("vulnerable");
     }
 
     private IEnumerator AnimatorHitCD()
@@ -360,7 +363,7 @@ IEnumerator Flee()
         yield return new WaitForSeconds(0.3f);
         //EventCallBack.HitStop.Invoke();
         enemyANIM.SetBool("hurtAN", false);
-        EventCallBack.HitStop.Invoke();
+ 
         fieldOfViewAngle = defaultFieldOfViewAnge;
         sightRange = defaultSight;
         fleeRange = defaultFleeR;

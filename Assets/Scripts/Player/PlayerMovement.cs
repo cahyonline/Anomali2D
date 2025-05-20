@@ -35,8 +35,8 @@ public class PlayerMovement : MonoBehaviour
 	private Vector2 _lastDashDir;
 	private bool _isDashAttacking;
 
-    private float _leftShiftCooldownTime; // Waktu cooldown untuk Left Shift
-    private float _lastLeftShiftTime; // Waktu terakhir Left Shift ditekan
+    private float _leftShiftCooldownTime; 
+    private float _lastLeftShiftTime; 
 
     //NEW
     private bool _isItemCollected;
@@ -284,10 +284,13 @@ public class PlayerMovement : MonoBehaviour
                 WallJump(_lastWallJumpDir);
             }
             #region SLIDE CHECKS
-            if (CanSlide() && ((LastOnWallLeftTime > 0 && _moveInput.x < 0) || (LastOnWallRightTime > 0 && _moveInput.x > 0)))
-                IsSliding = true;
-            else
-                IsSliding = false;
+            bool touchingWall = (LastOnWallLeftTime > 0 && _moveInput.x < 0) || (LastOnWallRightTime > 0 && _moveInput.x > 0);
+            bool falling = RB.velocity.y < -0.1f;
+
+            IsSliding = CanSlide() && touchingWall && falling;
+			//Debug.Log("sada" + falling);
+			//Debug.Log("sada" + touchingWall);
+
             #endregion
         }
         #endregion

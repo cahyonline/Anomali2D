@@ -46,6 +46,7 @@ public class Save : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Y))
         {
+            EventCallBack.Vignette();
             Load();
         }
     }
