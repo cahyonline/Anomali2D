@@ -40,7 +40,7 @@ public class EnemyAIGaint : MonoBehaviour
     [Header("HEALTH")]
     public Image healthBar;
     public float MaxHealth = 200f;
-    private float healthAmount;
+    public float healthAmount;
     public float PlayerDamage = 35f;
     private bool vulnerable;
     private float Whathit = 0.5f;

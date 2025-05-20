@@ -4,15 +4,17 @@ using UnityEngine.SceneManagement;
 public class SceneManagerer : MonoBehaviour
 {
     private bool isPaused = false;
+    private bool canPaused = true;
     public GameObject pausedUI;
 
     private void Start()
     {
+        Time.timeScale = 1f;
         pausedUI.SetActive(false);
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && canPaused)
         {
             TogglePause();
             Debug.LogWarning("Toggled");
@@ -38,14 +40,14 @@ public class SceneManagerer : MonoBehaviour
 
     public void QuitGame()
     {
-        //Application.Quit();
+        Application.Quit();
         Debug.LogError("APP QUIT");
     }
 
     public void PauseGame()
     {
-        Time.timeScale = 0f;
-        isPaused = true;
+       Time.timeScale = 0f;
+       isPaused = true;
     }
 
     public void UnpauseGame()
@@ -68,5 +70,14 @@ public class SceneManagerer : MonoBehaviour
             pausedUI.SetActive(true);
         }
             
+    }
+    public void MainMenuz()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void LoadingScene()
+    {
+        canPaused = !canPaused;
     }
 }

@@ -434,7 +434,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1588140091}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenus, Assembly-CSharp
         m_MethodName: QuitGames
         m_Mode: 1
@@ -515,7 +515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1588140092}
-  - component: {fileID: 1588140091}
+  - component: {fileID: 1588140093}
   m_Layer: 0
   m_Name: ManagerScene
   m_TagString: Untagged
@@ -523,18 +523,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1588140091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588140090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 582a2ab77039b2746b9dbb3ae70dd8db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1588140092
 Transform:
   m_ObjectHideFlags: 0
@@ -550,6 +538,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1588140093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588140090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27e5f485765f07d4eb0623e2e778c536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1607782473
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1588140091}
+      - m_Target: {fileID: 1588140093}
         m_TargetAssemblyTypeName: MainMenus, Assembly-CSharp
         m_MethodName: StartStory
         m_Mode: 1

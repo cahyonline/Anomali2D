@@ -52,4 +52,9 @@ public class ComboCharacter : MonoBehaviour
     {
         AudioManager.Instance.PlaySFX("attackSFX");
     }
+
+    private void UIDeathh()
+    {
+        EventCallBack.DeadNigga();
+    }
 }

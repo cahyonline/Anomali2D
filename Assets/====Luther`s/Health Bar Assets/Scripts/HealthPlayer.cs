@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using UnityEditor.Callbacks;
+//using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -37,8 +37,8 @@ public class HealthPlayer : MonoBehaviour
     private float yMultyplayer;
     private float xMultyplayer;
     private float defaultKnock;
-    private bool whiteVis;    
-    public float delayDeathUi = 5f;
+    private bool whiteVis;
+    public float delayDeathUi = 0f;
     public GameObject deathMenu;
     public Animator pAnimator;
     public UnityEngine.Vector2 knockbackDirection = new UnityEngine.Vector2(-1,1);
@@ -68,7 +68,10 @@ public class HealthPlayer : MonoBehaviour
             if (!hasPlayedDeathAnim)
             {
                 hasPlayedDeathAnim = true;
-                StartCoroutine(CountDown());
+                Debug.Log("Mati");
+                pAnimator.SetTrigger("is_PDie");
+                EventCallBack.RubahOrtho(15f, 2f);
+                //StartCoroutine(CountDown());
             }
             //StartCoroutine(CountDown());
         }
@@ -163,7 +166,7 @@ public class HealthPlayer : MonoBehaviour
 
     private void WhiteUpdate()
     {
-        float whiteSpeed = 1f;
+        float whiteSpeed = 0.8f;
         while (whiteBar.fillAmount > healthBar.fillAmount)
         {
             whiteBar.fillAmount = Mathf.MoveTowards(whiteBar.fillAmount,healthBar.fillAmount,whiteSpeed * Time.deltaTime);
@@ -331,21 +334,26 @@ public class HealthPlayer : MonoBehaviour
         healthBar.fillAmount = healthAmount / 100f;
     }
 
+    private void isDeads()
+    {
+        CountDown();
+    }
+
     private void OnEnable()
     {
         EventCallBack.Load += LoadHealth;
+        EventCallBack.DeadNigga += isDeads;
     }
 
     private void OnDisable()
     {
         EventCallBack.Load -= LoadHealth;
+        EventCallBack.DeadNigga -= isDeads;
     }
 
-    private IEnumerator CountDown()
+    private void CountDown()
     {
-        Debug.Log("Mati");
-        pAnimator.SetTrigger("is_PDie");
-        yield return new WaitForSeconds(delayDeathUi);
         deathMenu.SetActive(true);
     }
+    
 }

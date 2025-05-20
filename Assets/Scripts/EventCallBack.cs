@@ -27,4 +27,5 @@ public static class EventCallBack
 
 
     public static Action PlayerFalling { get; set; } = delegate { };
+    public static Action DeadNigga { get; set; } = delegate { };
 }

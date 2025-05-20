@@ -4,7 +4,8 @@ using UnityEngine;
 public class Vignette : MonoBehaviour
 {
     [SerializeField] private GameObject loadingUI;
-    private bool isLoading = false;
+    
+    public SceneManagerer sceneManagerer;
 
     private void Start()
     {
@@ -19,15 +20,15 @@ public class Vignette : MonoBehaviour
     private IEnumerator LoadingRoutine()
     {
         EventCallBack.OnAttack();
-        isLoading = true;
+        sceneManagerer.LoadingScene();
         loadingUI.SetActive(true);
 
         // Tunggu 2 detik atau sesuaikan durasi loading
         yield return new WaitForSeconds(2f);
-
+        sceneManagerer.LoadingScene();
         EventCallBack.EndAttack();
         loadingUI.SetActive(false);
-        isLoading = false;
+        
         Debug.Log("Loading selesai");
     }
 
