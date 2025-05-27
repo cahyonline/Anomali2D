@@ -11,7 +11,7 @@ public class CameraManager : MonoBehaviour
 
     private IEnumerator WaitForHitam(int areaIndex)
     {
-        yield return new WaitForSeconds(1f); 
+        yield return new WaitForSeconds(0f); 
         ChangeCameraArea(areaIndex); 
     }
 

@@ -8,6 +8,7 @@ public class StateMachine : MonoBehaviour
 
     public State CurrentState { get; private set; }
     private State nextState;
+    public int currentState = 0;
 
     void Update()
     {

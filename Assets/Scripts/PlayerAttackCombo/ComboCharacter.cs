@@ -9,7 +9,7 @@ public class ComboCharacter : MonoBehaviour
     private StateMachine meleeStateMachine;
 
     [SerializeField] public Collider2D hitbox;
-    [SerializeField] public GameObject Hiteffect;
+    [SerializeField] public GameObject[] Hiteffect;
 
     void Start()
     {
@@ -56,5 +56,9 @@ public class ComboCharacter : MonoBehaviour
     private void UIDeathh()
     {
         EventCallBack.DeadNigga();
+    }
+    private void EndIT()
+    {
+        EventCallBack.EndAttack();
     }
 }

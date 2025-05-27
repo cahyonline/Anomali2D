@@ -201,7 +201,7 @@ public void TakesDamagesFromPlayer()
     fleeRange = 0f;
     sightRange = 0f;
     canFlee = false;
-    Debug.Log("Damage Taken");
+    //Debug.Log("Damage Taken");
 
     TakeDamage(PlayerDamage);
     enemyANIM.SetBool("hurtAN", true);
@@ -354,7 +354,7 @@ IEnumerator Flee()
         yield return new WaitForSeconds(Whathit);
         //playerANIM.SetBool("hurtAN", false);
         vulnerable = true;
-        Debug.LogWarning("vulnerable");
+        //Debug.LogWarning("vulnerable");
     }
 
     private IEnumerator AnimatorHitCD()

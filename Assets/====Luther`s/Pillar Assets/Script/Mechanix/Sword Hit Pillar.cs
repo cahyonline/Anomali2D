@@ -21,7 +21,7 @@ public class SwordHitPillar : MonoBehaviour
     {
         if(other.CompareTag("PlayerDamage"))
         {
-            Debug.LogWarning(" Sword Hit Pillar ");
+            //Debug.LogWarning(" Sword Hit Pillar ");
             animatorP.SetBool("isHit" , true);
         }
     }

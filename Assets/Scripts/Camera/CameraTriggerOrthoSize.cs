@@ -6,13 +6,15 @@ using Cinemachine;
 public class CameraTriggerOrthoSize : MonoBehaviour
 {
     [SerializeField] private CinemachineVirtualCamera virtualCam;
+    [SerializeField] private float Zoom = 5.6f;
+    [SerializeField] private float WaktuZoom = 2f;
     //[SerializeField] private float targetOrthoSize = 5.6f;
     //[SerializeField] private float transitionDuaration = 2f;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            EventCallBack.RubahOrtho(5.6f, 2f);
+            EventCallBack.RubahOrtho(Zoom, WaktuZoom);
 
             //Debug.Log("sdghj");
             //StartCoroutine(ChangeOrthoSize(targetOrthoSize, transitionDuaration));

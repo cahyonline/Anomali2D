@@ -20,6 +20,7 @@ public class PlayerAnimator : MonoBehaviour
     public bool justLanded { private get; set; }
     public bool StartDashing { private get; set; }
     public bool startedWallJump { private get; set; }
+    public bool InteractE { private get; set; }
 
 
     public float currentVelY;
@@ -45,8 +46,6 @@ public class PlayerAnimator : MonoBehaviour
 
         if (mov.IsSliding)
         {
-            
-
             tiltProgress = 0.25f;
         }
         else
@@ -109,6 +108,15 @@ public class PlayerAnimator : MonoBehaviour
             anim.SetTrigger("Jump");
             startedWallJump = false;
             return;
+        }
+
+        if (InteractE)
+        {
+           //Debug.Log("InteracPlayer");
+            anim.SetTrigger("InteractPlayer");
+            InteractE = false;
+            return;
+
         }
 
         anim.SetBool("isSliding", mov.IsSliding);

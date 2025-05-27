@@ -9,7 +9,7 @@ public class GroundEntryState : MeleeBaseState
         base.OnEnter(_stateMachine);
 
         //Attack
-        attackIndex = 1;
+        attackIndex = 0;
         duration = 0.5f;
         animator.SetTrigger("Attack" + attackIndex);
         //Debug.Log(attackIndex);

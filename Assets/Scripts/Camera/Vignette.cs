@@ -29,7 +29,7 @@ public class Vignette : MonoBehaviour
         EventCallBack.EndAttack();
         loadingUI.SetActive(false);
         
-        Debug.Log("Loading selesai");
+        //Debug.Log("Loading selesai");
     }
 
     private void OnEnable()

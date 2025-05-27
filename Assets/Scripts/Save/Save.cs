@@ -1,5 +1,6 @@
 using System.IO;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Save : MonoBehaviour
 {
@@ -7,8 +8,18 @@ public class Save : MonoBehaviour
     private string savePath;
     public GameController _saveLastPoss;
     public HealthPlayer _saveHealthPlayered;
+    [SerializeField] private GameObject UIpickupE;
+    public bool EInteract;
+    private Transform playerTransform;
+    public PlayerAnimator AnimHandler;
 
-    
+
+    private void Start()
+    {
+        //AnimHandler = GetComponent<PlayerAnimator>();
+        UIpickupE.SetActive(false);
+    }
+
     private void Awake()
     {
         savePath = Application.persistentDataPath + "/savefile.json";
@@ -37,10 +48,25 @@ public class Save : MonoBehaviour
         return null;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.LogFormat("Saved");
-        SaveGame(collision.transform.position, _saveLastPoss.currentArea, _saveHealthPlayered.healthAmount);
+        if (collision.CompareTag("Player"))
+        {
+            EInteract = true;
+            UIpickupE.SetActive(true);
+            playerTransform = collision.transform;
+        }
+        
+        
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            EInteract = false;
+            UIpickupE.SetActive(false);
+            //Debug.Log("OUSIDE");
+        }
     }
     private void Update()
     {
@@ -48,6 +74,16 @@ public class Save : MonoBehaviour
         {
             EventCallBack.Vignette();
             Load();
+        }
+        if (EInteract && Input.GetKey(KeyCode.E))
+        {
+            EventCallBack.OnAttack();
+            AnimHandler.InteractE = true;
+            EInteract = false;
+            UIpickupE.SetActive(false);
+            SaveGame(playerTransform.transform.position, _saveLastPoss.currentArea, _saveHealthPlayered.healthAmount);
+            Debug.LogFormat("Saved");
+           
         }
     }
     public void Load()
@@ -66,6 +102,8 @@ public class Save : MonoBehaviour
             }
         }
     }
+
+
 }
 
 [System.Serializable]
@@ -74,4 +112,5 @@ public class SaveData
     public Vector3 checkpointPosition;
     public int Area;
     public float HealthInfor;
+    //
 }

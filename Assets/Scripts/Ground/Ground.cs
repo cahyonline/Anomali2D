@@ -4,21 +4,22 @@ using System.Linq;
 
 public class Ground : MonoBehaviour
 {
-    public float Delay = 0.5f;
-    private bool isHolding = false;
+    [SerializeField] private float Delay = 0.2f;
+    public static bool isHolding = false;
 
     void Update()
     {
         // Cek apakah tombol "S" dan "Spasi" ditekan bersamaan
-        if (Input.GetKey(KeyCode.S) && Input.GetKeyDown(KeyCode.Space) && !isHolding)
+        if (Input.GetKey(KeyCode.S) && Input.GetKeyDown(KeyCode.Space))
         {
             StartCoroutine(HoldAndDisableColliders());
+            isHolding = true;
         }
     }
 
     private IEnumerator HoldAndDisableColliders()
     {
-        isHolding = true;
+        //isHolding = true;
 
         yield return new WaitForSeconds(0f);
 

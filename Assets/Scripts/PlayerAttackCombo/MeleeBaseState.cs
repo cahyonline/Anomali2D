@@ -19,7 +19,7 @@ public class MeleeBaseState : State
     // Cached already struck objects of said attack to avoid overlapping attacks on same target
     private List<Collider2D> collidersDamaged;
     // The Hit Effect to Spawn on the afflicted Enemy
-    private GameObject HitEffectPrefab;
+    private GameObject[] HitEffectPrefab;
 
     // Input buffer Timer
     private float AttackPressedTimer = 0;
@@ -39,6 +39,7 @@ public class MeleeBaseState : State
 
     public override void OnUpdate()
     {
+        
         base.OnUpdate();
         AttackPressedTimer -= Time.deltaTime;
 
@@ -85,7 +86,7 @@ public class MeleeBaseState : State
                 else if (collider.CompareTag("Enemy"))
                 {
                     // Spawn efek hit dan simpan referensinya
-                    GameObject hitEffect = UnityEngine.Object.Instantiate(HitEffectPrefab, hitPosition, Quaternion.identity);
+                    GameObject hitEffect = UnityEngine.Object.Instantiate(HitEffectPrefab[attackIndex], hitPosition, Quaternion.identity);
 
                     // Hancurkan efek setelah 0.5 detik
                     Destroy(hitEffect, 0.5f); // <<=== INI YANG DITAMBAHKAN

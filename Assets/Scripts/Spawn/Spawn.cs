@@ -11,7 +11,7 @@ public class Spawn : MonoBehaviour
 
     private IEnumerator GetSpawn(int areaIndex)
     {
-        yield return new WaitForSeconds(0.2f); 
+        yield return new WaitForSeconds(0.5f); 
 
         if (Player != null && SpawnPoints != null && areaIndex >= 0 && areaIndex < SpawnPoints.Count)
         {
@@ -23,14 +23,14 @@ public class Spawn : MonoBehaviour
             }
             else if (areaIndex < currentAreaIndex)
             {
-                Debug.Log("Player berpindah ke PREV SPAWN: " + areaIndex);
+               // Debug.Log("Player berpindah ke PREV SPAWN: " + areaIndex);
             }
             else
             {
                 Debug.Log("Player tetap di area yang sama: " + areaIndex);
             }
 
-            currentAreaIndex = areaIndex; // Update indeks area saat ini
+            currentAreaIndex = areaIndex;
         }
         else
         {
@@ -40,16 +40,16 @@ public class Spawn : MonoBehaviour
 
     private void Spawner(int areaIndex)
     {
-        StartCoroutine(GetSpawn(areaIndex)); // Mulai coroutine untuk spawn
+        StartCoroutine(GetSpawn(areaIndex));
     }
 
     private void OnEnable()
     {
-        EventCallBack.ChangeAreaSpawn += Spawner; // Daftarkan event ChangeAreaSpawn
+        EventCallBack.ChangeAreaSpawn += Spawner;
     }
 
     private void OnDisable()
     {
-        EventCallBack.ChangeAreaSpawn -= Spawner; // Hapus event ChangeAreaSpawn
+        EventCallBack.ChangeAreaSpawn -= Spawner;
     }
 }

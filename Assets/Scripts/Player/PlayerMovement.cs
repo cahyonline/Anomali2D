@@ -257,7 +257,7 @@ public class PlayerMovement : MonoBehaviour
         if (!IsDashing)
         {
             //Jump
-            if (CanJump() && LastPressedJumpTime > 0)
+            if (CanJump() && LastPressedJumpTime > 0 )
             {
                 IsJumping = true;
                 IsWallJumping = false;
@@ -562,7 +562,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool CanJump()
     {
-		return LastOnGroundTime > 0 && !IsJumping;
+		return LastOnGroundTime > 0 && !IsJumping && !Ground.isHolding;
     }
 
 	private bool CanWallJump()

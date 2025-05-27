@@ -70,7 +70,7 @@ public class HealthPlayer : MonoBehaviour
                 hasPlayedDeathAnim = true;
                 Debug.Log("Mati");
                 pAnimator.SetTrigger("is_PDie");
-                EventCallBack.RubahOrtho(15f, 2f);
+                //EventCallBack.RubahOrtho(15f, 2f);
                 //StartCoroutine(CountDown());
             }
             //StartCoroutine(CountDown());

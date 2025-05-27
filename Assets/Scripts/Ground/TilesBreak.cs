@@ -41,4 +41,9 @@ public class TilesBreak : MonoBehaviour
 
         isBreaking = false;
     }
+
+    private void WOi()
+    {
+        isBreaking = false;
+    }
 }
