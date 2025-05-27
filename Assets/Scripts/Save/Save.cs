@@ -72,8 +72,8 @@ public class Save : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Y))
         {
-            EventCallBack.Vignette();
-            Load();
+            
+            EventCallBack.LoadGame();
         }
         if (EInteract && Input.GetKey(KeyCode.E))
         {
@@ -88,6 +88,7 @@ public class Save : MonoBehaviour
     }
     public void Load()
     {
+        EventCallBack.Vignette();
         SaveData data = LoadGame();
         if (data != null)
         {
@@ -101,6 +102,15 @@ public class Save : MonoBehaviour
                 Debug.LogError("Gapunya save!");
             }
         }
+    }
+    private void OnEnable()
+    {
+        EventCallBack.LoadGame += Load;
+    }
+    private void OnDisable()
+    {
+        EventCallBack.LoadGame -= Load;
+        
     }
 
 
