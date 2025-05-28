@@ -1,0 +1,914 @@
+fileFormatVersion: 2
+guid: 28befc839baf3444697ece61b74fdaa4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8827758847366335350
+    second: habib@2x_0
+  - first:
+      213: -5606448439721763080
+    second: habib@2x_1
+  - first:
+      213: 2924555663386821616
+    second: habib@2x_2
+  - first:
+      213: 3999233590446454424
+    second: habib@2x_3
+  - first:
+      213: -9105987704996765804
+    second: habib@2x_4
+  - first:
+      213: -5590139792284810283
+    second: habib@2x_5
+  - first:
+      213: -7596958676696757220
+    second: habib@2x_6
+  - first:
+      213: 2980586349918114685
+    second: habib@2x_7
+  - first:
+      213: 5599322590772691487
+    second: habib@2x_8
+  - first:
+      213: 3206653833959855067
+    second: habib@2x_9
+  - first:
+      213: -4699408674469888821
+    second: habib@2x_10
+  - first:
+      213: 2596565566181565406
+    second: habib@2x_11
+  - first:
+      213: -6011446740048602573
+    second: habib@2x_12
+  - first:
+      213: -7917076552411858513
+    second: habib@2x_13
+  - first:
+      213: 4416948440055397185
+    second: habib@2x_14
+  - first:
+      213: -4994399294156772125
+    second: habib@2x_15
+  - first:
+      213: -1595217499115396224
+    second: habib@2x_16
+  - first:
+      213: 2352781050556647879
+    second: habib@2x_17
+  - first:
+      213: 8306001371589365509
+    second: habib@2x_18
+  - first:
+      213: 8820770098031243282
+    second: habib@2x_19
+  - first:
+      213: 2292350638643063157
+    second: habib@2x_20
+  - first:
+      213: -3181514789294763755
+    second: habib@2x_21
+  - first:
+      213: -8308757581269356439
+    second: habib@2x_22
+  - first:
+      213: -2484061503519877298
+    second: habib@2x_23
+  - first:
+      213: -1063701262825497750
+    second: habib@2x_24
+  - first:
+      213: -756405494287873109
+    second: habib@2x_25
+  - first:
+      213: -8367007279693640913
+    second: habib@2x_26
+  - first:
+      213: 5842030351049576569
+    second: habib@2x_27
+  - first:
+      213: -2178805744254739809
+    second: habib@2x_28
+  - first:
+      213: 6854649643033987405
+    second: habib@2x_29
+  - first:
+      213: -5173402624494062361
+    second: habib@2x_30
+  - first:
+      213: -2769992159803004245
+    second: habib@2x_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: habib@2x_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 105
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b051476ef728a70800000000000000
+      internalID: 8827758847366335350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 105
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe57da29d4e132b0800000000000000
+      internalID: -5606448439721763080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 105
+        width: 109
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3470281eb169820800000000000000
+      internalID: 2924555663386821616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 105
+        width: 85
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896fe5cf2c1208730800000000000000
+      internalID: 3999233590446454424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_4
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 105
+        width: 109
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fd79a8d6801a180800000000000000
+      internalID: -9105987704996765804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_5
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 105
+        width: 85
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3861c0a75db62b0800000000000000
+      internalID: -5590139792284810283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 105
+        width: 85
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c0b2e755e229690800000000000000
+      internalID: -7596958676696757220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 57
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d735f315e7b2d5920800000000000000
+      internalID: 2980586349918114685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 57
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1283d5da3ac4bd40800000000000000
+      internalID: 5599322590772691487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 81
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd352d22ca2508c20800000000000000
+      internalID: 3206653833959855067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_10
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 57
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc35d785b858ceb0800000000000000
+      internalID: -4699408674469888821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_11
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 57
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3634010aad80420800000000000000
+      internalID: 2596565566181565406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 57
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a19393a0d039ca0800000000000000
+      internalID: -6011446740048602573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 57
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9bae172d4e02290800000000000000
+      internalID: -7917076552411858513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_14
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 57
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bb7b844372c4d30800000000000000
+      internalID: 4416948440055397185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_15
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 57
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ece25dad4450bab0800000000000000
+      internalID: -4994399294156772125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_16
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 57
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0836db9e226acd9e0800000000000000
+      internalID: -1595217499115396224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_17
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 57
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c903b066e1c6a020800000000000000
+      internalID: 2352781050556647879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_18
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 81
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fcd798d38d44370800000000000000
+      internalID: 8306001371589365509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_19
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 57
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2103a827baba96a70800000000000000
+      internalID: 8820770098031243282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_20
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 57
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579a5fca2c010df10800000000000000
+      internalID: 2292350638643063157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_21
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 57
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5111f60d72df8d3d0800000000000000
+      internalID: -3181514789294763755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_22
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 57
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9603b93600d51bc80800000000000000
+      internalID: -8308757581269356439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_23
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 57
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4799724937d68dd0800000000000000
+      internalID: -2484061503519877298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_24
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 81
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bd6225659fc31f0800000000000000
+      internalID: -1063701262825497750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_25
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 57
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab41d6e535b085f0800000000000000
+      internalID: -756405494287873109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_26
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 57
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bc0cc953b62eb80800000000000000
+      internalID: -8367007279693640913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_27
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 57
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9705c51e6af031150800000000000000
+      internalID: 5842030351049576569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_28
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 57
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a9d1b28b353c1e0800000000000000
+      internalID: -2178805744254739809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_29
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 81
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d498cc8688b902f50800000000000000
+      internalID: 6854649643033987405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_30
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 57
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e435fe09b16438b0800000000000000
+      internalID: -5173402624494062361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: habib@2x_31
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 57
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa23548ec20f89d0800000000000000
+      internalID: -2769992159803004245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      habib@2x_0: 8827758847366335350
+      habib@2x_1: -5606448439721763080
+      habib@2x_10: -4699408674469888821
+      habib@2x_11: 2596565566181565406
+      habib@2x_12: -6011446740048602573
+      habib@2x_13: -7917076552411858513
+      habib@2x_14: 4416948440055397185
+      habib@2x_15: -4994399294156772125
+      habib@2x_16: -1595217499115396224
+      habib@2x_17: 2352781050556647879
+      habib@2x_18: 8306001371589365509
+      habib@2x_19: 8820770098031243282
+      habib@2x_2: 2924555663386821616
+      habib@2x_20: 2292350638643063157
+      habib@2x_21: -3181514789294763755
+      habib@2x_22: -8308757581269356439
+      habib@2x_23: -2484061503519877298
+      habib@2x_24: -1063701262825497750
+      habib@2x_25: -756405494287873109
+      habib@2x_26: -8367007279693640913
+      habib@2x_27: 5842030351049576569
+      habib@2x_28: -2178805744254739809
+      habib@2x_29: 6854649643033987405
+      habib@2x_3: 3999233590446454424
+      habib@2x_30: -5173402624494062361
+      habib@2x_31: -2769992159803004245
+      habib@2x_4: -9105987704996765804
+      habib@2x_5: -5590139792284810283
+      habib@2x_6: -7596958676696757220
+      habib@2x_7: 2980586349918114685
+      habib@2x_8: 5599322590772691487
+      habib@2x_9: 3206653833959855067
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

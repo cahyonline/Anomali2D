@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: ff294f2e9614d344bb6f3f08308b0238
+guid: e98cfe07404db7e4fb00bec96a6fd61e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3457237757663037021
-    second: Dialog border_0
+      213: -4997231352225560543
+    second: Exit(Pause)_0
+  - first:
+      213: -608501631204872205
+    second: Exit(Pause)_1
+  - first:
+      213: -4246803194875675379
+    second: Exit(Pause)_2
+  - first:
+      213: 1040871578883555935
+    second: Exit(Pause)_3
+  - first:
+      213: -6399012060288076540
+    second: Exit(Pause)_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,56 +108,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dialog border_0
+      name: Exit(Pause)_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 6
-        width: 890
-        height: 163
+        x: 224
+        y: 27
+        width: 40
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +126,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a93d6e939c6500d0800000000000000
-      internalID: -3457237757663037021
+      spriteID: 1288626cf8446aab0800000000000000
+      internalID: -4997231352225560543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exit(Pause)_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 27
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffa9ca8dfa2e87f0800000000000000
+      internalID: -608501631204872205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exit(Pause)_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 60
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0df07aaef25015c0800000000000000
+      internalID: -4246803194875675379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exit(Pause)_3
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 27
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52872caf2be17e00800000000000000
+      internalID: 1040871578883555935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exit(Pause)_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 27
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405b6114f642237a0800000000000000
+      internalID: -6399012060288076540
       vertices: []
       indices: 
       edges: []
@@ -162,7 +219,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -170,7 +227,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dialog border_0: -3457237757663037021
+      Exit(Pause)_0: -4997231352225560543
+      Exit(Pause)_1: -608501631204872205
+      Exit(Pause)_2: -4246803194875675379
+      Exit(Pause)_3: 1040871578883555935
+      Exit(Pause)_4: -6399012060288076540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

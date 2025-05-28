@@ -1,0 +1,1089 @@
+fileFormatVersion: 2
+guid: 326c952c28a144e44bc35204c6109535
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7838953542572691512
+    second: nuno@2x_0
+  - first:
+      213: 2346941595666853
+    second: nuno@2x_1
+  - first:
+      213: -66408650248023222
+    second: nuno@2x_2
+  - first:
+      213: -7408928008180027373
+    second: nuno@2x_3
+  - first:
+      213: -3906263237359094813
+    second: nuno@2x_4
+  - first:
+      213: 6924297298064342288
+    second: nuno@2x_5
+  - first:
+      213: 9214539901163422251
+    second: nuno@2x_6
+  - first:
+      213: -4287408680713763724
+    second: nuno@2x_7
+  - first:
+      213: 1191513142426858273
+    second: nuno@2x_8
+  - first:
+      213: -5962506198567213936
+    second: nuno@2x_9
+  - first:
+      213: 4966042435849764228
+    second: nuno@2x_10
+  - first:
+      213: 1087597897591261741
+    second: nuno@2x_11
+  - first:
+      213: 907978954802123240
+    second: nuno@2x_12
+  - first:
+      213: -9012368358252662535
+    second: nuno@2x_13
+  - first:
+      213: 8850347410464837951
+    second: nuno@2x_14
+  - first:
+      213: 8963952680659977769
+    second: nuno@2x_15
+  - first:
+      213: 5720235661278072789
+    second: nuno@2x_16
+  - first:
+      213: 5136177408628628778
+    second: nuno@2x_17
+  - first:
+      213: 9054733094885782951
+    second: nuno@2x_18
+  - first:
+      213: -3653441910846766424
+    second: nuno@2x_19
+  - first:
+      213: -3890138387076656328
+    second: nuno@2x_20
+  - first:
+      213: 66860865725175385
+    second: nuno@2x_21
+  - first:
+      213: -6911064968319968809
+    second: nuno@2x_22
+  - first:
+      213: -4491893434836188641
+    second: nuno@2x_23
+  - first:
+      213: -3741435030050193133
+    second: nuno@2x_24
+  - first:
+      213: 6873523293906068463
+    second: nuno@2x_25
+  - first:
+      213: 6049077710256701623
+    second: nuno@2x_26
+  - first:
+      213: -7253392915832690233
+    second: nuno@2x_27
+  - first:
+      213: 2203008729652923475
+    second: nuno@2x_28
+  - first:
+      213: 2971079749234817942
+    second: nuno@2x_29
+  - first:
+      213: -3344105285469397703
+    second: nuno@2x_30
+  - first:
+      213: -7245846337285949769
+    second: nuno@2x_31
+  - first:
+      213: -199730091414935588
+    second: nuno@2x_32
+  - first:
+      213: 1830079835164821029
+    second: nuno@2x_33
+  - first:
+      213: -3942807403752698522
+    second: nuno@2x_34
+  - first:
+      213: -5636329769754915595
+    second: nuno@2x_35
+  - first:
+      213: 5947368903355587280
+    second: nuno@2x_36
+  - first:
+      213: 1390370949850816931
+    second: nuno@2x_37
+  - first:
+      213: 386353011672471058
+    second: nuno@2x_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nuno@2x_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 97
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf2a2c1941763390800000000000000
+      internalID: -7838953542572691512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 97
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a94e1ce786580000800000000000000
+      internalID: 2346941595666853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 97
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4314f73fa1141ff0800000000000000
+      internalID: -66408650248023222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 97
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310bcf11b333e2990800000000000000
+      internalID: -7408928008180027373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 97
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e33b0a284a2ac9c0800000000000000
+      internalID: -3906263237359094813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_5
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 97
+        width: 109
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d7252c4bb081060800000000000000
+      internalID: 6924297298064342288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_6
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 97
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b224289283f90ef70800000000000000
+      internalID: 9214539901163422251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_7
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 144
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474412345801084c0800000000000000
+      internalID: -4287408680713763724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_8
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 97
+        width: 109
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123ff8fd3ea198010800000000000000
+      internalID: 1191513142426858273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_9
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 97
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094265ff33ce04da0800000000000000
+      internalID: -5962506198567213936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_10
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 97
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d3750c84deae440800000000000000
+      internalID: 4966042435849764228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 45
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a8368868ce71f00800000000000000
+      internalID: 1087597897591261741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 45
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1d2887c0ac99c00800000000000000
+      internalID: 907978954802123240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 45
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0316d4ab2ade280800000000000000
+      internalID: -9012368358252662535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 45
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f311e832410c2da70800000000000000
+      internalID: 8850347410464837951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 45
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9260622587b566c70800000000000000
+      internalID: 8963952680659977769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 45
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df400ed60c526f40800000000000000
+      internalID: 5720235661278072789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 45
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d12b8f32e574740800000000000000
+      internalID: 5136177408628628778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 45
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5f3a896cfd8ad70800000000000000
+      internalID: 9054733094885782951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_19
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 69
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2447850fd5c4dc0800000000000000
+      internalID: -3653441910846766424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_20
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 35
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8335f2f6fb3730ac0800000000000000
+      internalID: -3890138387076656328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 45
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9569ce66a998de000800000000000000
+      internalID: 66860865725175385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_22
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 45
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d954a71707f610a0800000000000000
+      internalID: -6911064968319968809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_23
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 45
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f120ea758b699a1c0800000000000000
+      internalID: -4491893434836188641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_24
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 45
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311c7a3c9a0c31cc0800000000000000
+      internalID: -3741435030050193133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_25
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 45
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3e4a0b409a36f50800000000000000
+      internalID: 6873523293906068463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_26
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 45
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0859ac024a2f350800000000000000
+      internalID: 6049077710256701623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_27
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 69
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9257bb295c65b90800000000000000
+      internalID: -7253392915832690233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_28
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 45
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c0c0084c8a29e10800000000000000
+      internalID: 2203008729652923475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_29
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 45
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b7f7c5a456b3920800000000000000
+      internalID: 2971079749234817942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_30
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 45
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d1710f5f95791d0800000000000000
+      internalID: -3344105285469397703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_31
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 45
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b671097525917b90800000000000000
+      internalID: -7245846337285949769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_32
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 45
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7a1424a8a6a3df0800000000000000
+      internalID: -199730091414935588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_33
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 45
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526ca95f9efb56910800000000000000
+      internalID: 1830079835164821029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_34
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 45
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d4a816e855849c0800000000000000
+      internalID: -3942807403752698522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_35
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 45
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc8cccdfebb7c1b0800000000000000
+      internalID: -5636329769754915595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_36
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 69
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dad6b0d18c498250800000000000000
+      internalID: 5947368903355587280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_37
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 45
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a161eb23079b4310800000000000000
+      internalID: 1390370949850816931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuno@2x_38
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 45
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216d3a2640a9c5500800000000000000
+      internalID: 386353011672471058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      nuno@2x_0: -7838953542572691512
+      nuno@2x_1: 2346941595666853
+      nuno@2x_10: 4966042435849764228
+      nuno@2x_11: 1087597897591261741
+      nuno@2x_12: 907978954802123240
+      nuno@2x_13: -9012368358252662535
+      nuno@2x_14: 8850347410464837951
+      nuno@2x_15: 8963952680659977769
+      nuno@2x_16: 5720235661278072789
+      nuno@2x_17: 5136177408628628778
+      nuno@2x_18: 9054733094885782951
+      nuno@2x_19: -3653441910846766424
+      nuno@2x_2: -66408650248023222
+      nuno@2x_20: -3890138387076656328
+      nuno@2x_21: 66860865725175385
+      nuno@2x_22: -6911064968319968809
+      nuno@2x_23: -4491893434836188641
+      nuno@2x_24: -3741435030050193133
+      nuno@2x_25: 6873523293906068463
+      nuno@2x_26: 6049077710256701623
+      nuno@2x_27: -7253392915832690233
+      nuno@2x_28: 2203008729652923475
+      nuno@2x_29: 2971079749234817942
+      nuno@2x_3: -7408928008180027373
+      nuno@2x_30: -3344105285469397703
+      nuno@2x_31: -7245846337285949769
+      nuno@2x_32: -199730091414935588
+      nuno@2x_33: 1830079835164821029
+      nuno@2x_34: -3942807403752698522
+      nuno@2x_35: -5636329769754915595
+      nuno@2x_36: 5947368903355587280
+      nuno@2x_37: 1390370949850816931
+      nuno@2x_38: 386353011672471058
+      nuno@2x_4: -3906263237359094813
+      nuno@2x_5: 6924297298064342288
+      nuno@2x_6: 9214539901163422251
+      nuno@2x_7: -4287408680713763724
+      nuno@2x_8: 1191513142426858273
+      nuno@2x_9: -5962506198567213936
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

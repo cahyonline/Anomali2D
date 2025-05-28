@@ -6,6 +6,7 @@ public class SceneManagerer : MonoBehaviour
     private bool isPaused = false;
     private bool canPaused = true;
     public GameObject pausedUI;
+    public GameObject OptionPanel;
 
     private void Start()
     {
@@ -54,6 +55,7 @@ public class SceneManagerer : MonoBehaviour
     {
         Time.timeScale = 1f;
         isPaused = false;
+        pausedUI.SetActive(false);
     }
 
     public void TogglePause()
@@ -61,6 +63,7 @@ public class SceneManagerer : MonoBehaviour
         if (isPaused)
         {
             pausedUI.SetActive(false);
+            OptionPanel.SetActive(false);
             UnpauseGame();
         }
             
@@ -71,7 +74,19 @@ public class SceneManagerer : MonoBehaviour
         }
             
     }
-    public void MainMenuz()
+
+    public void OptionButton()
+    {
+        pausedUI.SetActive(false);
+        OptionPanel.SetActive(true);
+    }
+    public void Backbutton()
+    {
+        pausedUI.SetActive(true);
+        OptionPanel.SetActive(false);
+    }
+
+    public void MainMenubutton()
     {
         SceneManager.LoadScene("MainMenu");
     }

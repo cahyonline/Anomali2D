@@ -57,3 +57,6 @@ TagManager:
   - name: Enemie
     uniqueID: 1676062291
     locked: 0
+  - name: UI
+    uniqueID: 507121601
+    locked: 0

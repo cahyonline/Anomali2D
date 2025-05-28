@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 21454736908377c4a8728f1292da4062
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7098828328101858974
+    second: Luthfi@2x_0
+  - first:
+      213: 5610969508248963314
+    second: Luthfi@2x_1
+  - first:
+      213: 7230242231136531959
+    second: Luthfi@2x_2
+  - first:
+      213: -5980898374295191636
+    second: Luthfi@2x_3
+  - first:
+      213: 3973439600169066214
+    second: Luthfi@2x_4
+  - first:
+      213: 8784234845194852217
+    second: Luthfi@2x_5
+  - first:
+      213: 6009715678090070305
+    second: Luthfi@2x_6
+  - first:
+      213: 2448690316450232920
+    second: Luthfi@2x_7
+  - first:
+      213: 737712134457993091
+    second: Luthfi@2x_8
+  - first:
+      213: -4258887615993227683
+    second: Luthfi@2x_9
+  - first:
+      213: 5861006914867872970
+    second: Luthfi@2x_10
+  - first:
+      213: 6781626451542810233
+    second: Luthfi@2x_11
+  - first:
+      213: 4238497281856903444
+    second: Luthfi@2x_12
+  - first:
+      213: 6015895281187077737
+    second: Luthfi@2x_13
+  - first:
+      213: 6573151218098576866
+    second: Luthfi@2x_14
+  - first:
+      213: -1137872973571445969
+    second: Luthfi@2x_15
+  - first:
+      213: 3989264637564141131
+    second: Luthfi@2x_16
+  - first:
+      213: 8335685071123752073
+    second: Luthfi@2x_17
+  - first:
+      213: -5158861225829329826
+    second: Luthfi@2x_18
+  - first:
+      213: -2069121807112461105
+    second: Luthfi@2x_19
+  - first:
+      213: 8941374863989258206
+    second: Luthfi@2x_20
+  - first:
+      213: 6890011326515078138
+    second: Luthfi@2x_21
+  - first:
+      213: -7580529063802430939
+    second: Luthfi@2x_22
+  - first:
+      213: -2819728788572171778
+    second: Luthfi@2x_23
+  - first:
+      213: -7799003661959669228
+    second: Luthfi@2x_24
+  - first:
+      213: 8532556358822115523
+    second: Luthfi@2x_25
+  - first:
+      213: -1479347851340146227
+    second: Luthfi@2x_26
+  - first:
+      213: 3383531439312781836
+    second: Luthfi@2x_27
+  - first:
+      213: 9151201443087121889
+    second: Luthfi@2x_28
+  - first:
+      213: 3664634864522140333
+    second: Luthfi@2x_29
+  - first:
+      213: -7723578996064555283
+    second: Luthfi@2x_30
+  - first:
+      213: -7806683137346378396
+    second: Luthfi@2x_31
+  - first:
+      213: 1157834314452544971
+    second: Luthfi@2x_32
+  - first:
+      213: 1134650742816872890
+    second: Luthfi@2x_33
+  - first:
+      213: 1855510036984039414
+    second: Luthfi@2x_34
+  - first:
+      213: 1312280440495496512
+    second: Luthfi@2x_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Luthfi@2x_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 91
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261320e2f35eb7d90800000000000000
+      internalID: -7098828328101858974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 91
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f84ab02a0b2edd40800000000000000
+      internalID: 5610969508248963314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 91
+        width: 127
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5bbe2700bf65460800000000000000
+      internalID: 7230242231136531959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 138
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf7c62ed949ffca0800000000000000
+      internalID: -5980898374295191636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 91
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee1c80a34e742730800000000000000
+      internalID: 3973439600169066214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_5
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 91
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97792730d0fd7e970800000000000000
+      internalID: 8784234845194852217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_6
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 91
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12987a1819cc66350800000000000000
+      internalID: 6009715678090070305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_7
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 91
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a74fc7ede7bf120800000000000000
+      internalID: 2448690316450232920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_8
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 91
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3872dd81741ec3a00800000000000000
+      internalID: 737712134457993091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_9
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 91
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56d96e174465e4c0800000000000000
+      internalID: -4258887615993227683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_10
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 91
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4cec27cba765150800000000000000
+      internalID: 5861006914867872970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_11
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 138
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e1a9bb35d2d1e50800000000000000
+      internalID: 6781626451542810233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_12
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 91
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4191a8242da22da30800000000000000
+      internalID: 4238497281856903444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_13
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 91
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96eba1972e0cc7350800000000000000
+      internalID: 6015895281187077737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 43
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed11b1f436883b50800000000000000
+      internalID: 6573151218098576866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 43
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ba1ca2f867530f0800000000000000
+      internalID: -1137872973571445969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 43
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4eb9054d07bc5730800000000000000
+      internalID: 3989264637564141131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984abd7686d4ea370800000000000000
+      internalID: 8335685071123752073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 43
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5418e44c0b0868b0800000000000000
+      internalID: -5158861225829329826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 43
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc42c0adda00943e0800000000000000
+      internalID: -2069121807112461105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 43
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7bfabb015261c70800000000000000
+      internalID: 8941374863989258206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 43
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3695febcc3e9f50800000000000000
+      internalID: 6890011326515078138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_22
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 43
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a1886dafc8cc690800000000000000
+      internalID: -7580529063802430939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_23
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 43
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1963a3b9f4ed8d0800000000000000
+      internalID: -2819728788572171778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_24
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 43
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a5ce68d7f54c390800000000000000
+      internalID: -7799003661959669228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_25
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 43
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8b7990dcab96670800000000000000
+      internalID: 8532556358822115523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_26
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 43
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc912a597fc487be0800000000000000
+      internalID: -1479347851340146227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_27
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 43
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02ca96dae7b4fe20800000000000000
+      internalID: 3383531439312781836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_28
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 43
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edff333a399ffe70800000000000000
+      internalID: 9151201443087121889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_29
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 43
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa9a534ef56bd230800000000000000
+      internalID: 3664634864522140333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_30
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 43
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee67e803d550d490800000000000000
+      internalID: -7723578996064555283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_31
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 33
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465ef645c0719a390800000000000000
+      internalID: -7806683137346378396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_32
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 43
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcda3bdac24711010800000000000000
+      internalID: 1157834314452544971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_33
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 43
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab99bb5c6d61fbf00800000000000000
+      internalID: 1134650742816872890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_34
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 43
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f70b973c8810c910800000000000000
+      internalID: 1855510036984039414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luthfi@2x_35
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 43
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d5d6d9b18263210800000000000000
+      internalID: 1312280440495496512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Luthfi@2x_0: -7098828328101858974
+      Luthfi@2x_1: 5610969508248963314
+      Luthfi@2x_10: 5861006914867872970
+      Luthfi@2x_11: 6781626451542810233
+      Luthfi@2x_12: 4238497281856903444
+      Luthfi@2x_13: 6015895281187077737
+      Luthfi@2x_14: 6573151218098576866
+      Luthfi@2x_15: -1137872973571445969
+      Luthfi@2x_16: 3989264637564141131
+      Luthfi@2x_17: 8335685071123752073
+      Luthfi@2x_18: -5158861225829329826
+      Luthfi@2x_19: -2069121807112461105
+      Luthfi@2x_2: 7230242231136531959
+      Luthfi@2x_20: 8941374863989258206
+      Luthfi@2x_21: 6890011326515078138
+      Luthfi@2x_22: -7580529063802430939
+      Luthfi@2x_23: -2819728788572171778
+      Luthfi@2x_24: -7799003661959669228
+      Luthfi@2x_25: 8532556358822115523
+      Luthfi@2x_26: -1479347851340146227
+      Luthfi@2x_27: 3383531439312781836
+      Luthfi@2x_28: 9151201443087121889
+      Luthfi@2x_29: 3664634864522140333
+      Luthfi@2x_3: -5980898374295191636
+      Luthfi@2x_30: -7723578996064555283
+      Luthfi@2x_31: -7806683137346378396
+      Luthfi@2x_32: 1157834314452544971
+      Luthfi@2x_33: 1134650742816872890
+      Luthfi@2x_34: 1855510036984039414
+      Luthfi@2x_35: 1312280440495496512
+      Luthfi@2x_4: 3973439600169066214
+      Luthfi@2x_5: 8784234845194852217
+      Luthfi@2x_6: 6009715678090070305
+      Luthfi@2x_7: 2448690316450232920
+      Luthfi@2x_8: 737712134457993091
+      Luthfi@2x_9: -4258887615993227683
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

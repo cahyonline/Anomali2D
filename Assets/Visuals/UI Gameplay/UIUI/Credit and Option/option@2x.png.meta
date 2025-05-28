@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ff294f2e9614d344bb6f3f08308b0238
+guid: 72996d660a990474f966553e6feea781
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3457237757663037021
-    second: Dialog border_0
+      213: 2634369050965824900
+    second: option@2x_0
+  - first:
+      213: 3983034640338273995
+    second: option@2x_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,56 +99,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dialog border_0
+      name: option@2x_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 6
-        width: 890
-        height: 163
+        x: 18
+        y: 28
+        width: 328
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +117,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a93d6e939c6500d0800000000000000
-      internalID: -3457237757663037021
+      spriteID: 485d912c1b82f8420800000000000000
+      internalID: 2634369050965824900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: option@2x_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 28
+        width: 287
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6407107e4964730800000000000000
+      internalID: 3983034640338273995
       vertices: []
       indices: 
       edges: []
@@ -170,7 +155,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dialog border_0: -3457237757663037021
+      option@2x_0: 2634369050965824900
+      option@2x_1: 3983034640338273995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

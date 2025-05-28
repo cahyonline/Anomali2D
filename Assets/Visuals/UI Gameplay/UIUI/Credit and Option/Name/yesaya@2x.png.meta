@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 538c2e52c6b566045822a2ea4327fbaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2034185483164620285
+    second: yesaya@2x_0
+  - first:
+      213: -3688264220998557010
+    second: yesaya@2x_1
+  - first:
+      213: -6933351663373489601
+    second: yesaya@2x_2
+  - first:
+      213: 8083884889704678432
+    second: yesaya@2x_3
+  - first:
+      213: -4747437301571409134
+    second: yesaya@2x_4
+  - first:
+      213: 6761446905780607866
+    second: yesaya@2x_5
+  - first:
+      213: 888312203388774810
+    second: yesaya@2x_6
+  - first:
+      213: -5683872974662110537
+    second: yesaya@2x_7
+  - first:
+      213: -3963269604217436442
+    second: yesaya@2x_8
+  - first:
+      213: 6310121954503043163
+    second: yesaya@2x_9
+  - first:
+      213: 6276393553473114798
+    second: yesaya@2x_10
+  - first:
+      213: -916484898471390559
+    second: yesaya@2x_11
+  - first:
+      213: -3386106114999186357
+    second: yesaya@2x_12
+  - first:
+      213: 3811745985487251883
+    second: yesaya@2x_13
+  - first:
+      213: 8287515517928120400
+    second: yesaya@2x_14
+  - first:
+      213: 5493728827369047033
+    second: yesaya@2x_15
+  - first:
+      213: 9176998356678021719
+    second: yesaya@2x_16
+  - first:
+      213: -3677191168220601482
+    second: yesaya@2x_17
+  - first:
+      213: 977826614032525395
+    second: yesaya@2x_18
+  - first:
+      213: 2700371635470699809
+    second: yesaya@2x_19
+  - first:
+      213: 4449089683940255388
+    second: yesaya@2x_20
+  - first:
+      213: -1774553250633316867
+    second: yesaya@2x_21
+  - first:
+      213: -4089570217229342525
+    second: yesaya@2x_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yesaya@2x_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 91
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a67b4a41f15c3e0800000000000000
+      internalID: -2034185483164620285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 91
+        width: 139
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea229957b37a0dcc0800000000000000
+      internalID: -3688264220998557010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 73
+        width: 97
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a62c98569c7cf90800000000000000
+      internalID: -6933351663373489601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 91
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024cef71a7abf2070800000000000000
+      internalID: 8083884889704678432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 91
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ba56e5de6bd1eb0800000000000000
+      internalID: -4747437301571409134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_5
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 91
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b97ba132c75dd50800000000000000
+      internalID: 6761446905780607866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_6
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 91
+        width: 97
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99e1a41e3be35c00800000000000000
+      internalID: 888312203388774810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_7
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 91
+        width: 79
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b272dcd4a3de11b0800000000000000
+      internalID: -5683872974662110537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_8
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 91
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e644831b43aff8c0800000000000000
+      internalID: -3963269604217436442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 33
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b582c833c7e029750800000000000000
+      internalID: 6310121954503043163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 33
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea21151eeaa3a1750800000000000000
+      internalID: 6276393553473114798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 57
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a25a9037ddf743f0800000000000000
+      internalID: -916484898471390559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 33
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c02b3cd622201d0800000000000000
+      internalID: -3386106114999186357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba92dfe37ca06e430800000000000000
+      internalID: 3811745985487251883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 33
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050a4a4547b230370800000000000000
+      internalID: 8287515517928120400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 33
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3c7afe245ad3c40800000000000000
+      internalID: 5493728827369047033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_16
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 33
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7521322326f3b5f70800000000000000
+      internalID: 9176998356678021719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_17
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 33
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673e1077d1ef7fcc0800000000000000
+      internalID: -3677191168220601482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_18
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 33
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358e45def10f19d00800000000000000
+      internalID: 977826614032525395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_19
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 33
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d85cdf1b5a97520800000000000000
+      internalID: 2700371635470699809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_20
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 57
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c962d19ce775ebd30800000000000000
+      internalID: 4449089683940255388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 33
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df58cf478358f57e0800000000000000
+      internalID: -1774553250633316867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yesaya@2x_22
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 33
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8270e0e8dee37c0800000000000000
+      internalID: -4089570217229342525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      yesaya@2x_0: -2034185483164620285
+      yesaya@2x_1: -3688264220998557010
+      yesaya@2x_10: 6276393553473114798
+      yesaya@2x_11: -916484898471390559
+      yesaya@2x_12: -3386106114999186357
+      yesaya@2x_13: 3811745985487251883
+      yesaya@2x_14: 8287515517928120400
+      yesaya@2x_15: 5493728827369047033
+      yesaya@2x_16: 9176998356678021719
+      yesaya@2x_17: -3677191168220601482
+      yesaya@2x_18: 977826614032525395
+      yesaya@2x_19: 2700371635470699809
+      yesaya@2x_2: -6933351663373489601
+      yesaya@2x_20: 4449089683940255388
+      yesaya@2x_21: -1774553250633316867
+      yesaya@2x_22: -4089570217229342525
+      yesaya@2x_3: 8083884889704678432
+      yesaya@2x_4: -4747437301571409134
+      yesaya@2x_5: 6761446905780607866
+      yesaya@2x_6: 888312203388774810
+      yesaya@2x_7: -5683872974662110537
+      yesaya@2x_8: -3963269604217436442
+      yesaya@2x_9: 6310121954503043163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
