@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: ad98351667716174381007e74b24bc2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3876582820987308185
+    second: Effect Debu_0
+  - first:
+      213: 21328389576965184
+    second: Effect Debu_1
+  - first:
+      213: -2456326689032659673
+    second: Effect Debu_2
+  - first:
+      213: 5215690697030189763
+    second: Effect Debu_3
+  - first:
+      213: -2273971738735129917
+    second: Effect Debu_4
+  - first:
+      213: 2066946857714356311
+    second: Effect Debu_5
+  - first:
+      213: -5214382002366400116
+    second: Effect Debu_6
+  - first:
+      213: -6188479719883996051
+    second: Effect Debu_7
+  - first:
+      213: 5139361068010946590
+    second: Effect Debu_8
+  - first:
+      213: -1666562416602413813
+    second: Effect Debu_9
+  - first:
+      213: 7718332382475470881
+    second: Effect Debu_10
+  - first:
+      213: 2946135636843897753
+    second: Effect Debu_11
+  - first:
+      213: 7455611032812838251
+    second: Effect Debu_12
+  - first:
+      213: -2329290015887419648
+    second: Effect Debu_13
+  - first:
+      213: -445724256304503810
+    second: Effect Debu_14
+  - first:
+      213: 7209710806713111614
+    second: Effect Debu_15
+  - first:
+      213: 7840253198556214682
+    second: Effect Debu_16
+  - first:
+      213: -992107230846512863
+    second: Effect Debu_17
+  - first:
+      213: -600665258021798180
+    second: Effect Debu_18
+  - first:
+      213: 6605851325138987864
+    second: Effect Debu_19
+  - first:
+      213: -6159588978296532375
+    second: Effect Debu_20
+  - first:
+      213: -1254370430778016872
+    second: Effect Debu_21
+  - first:
+      213: -8375181200432309614
+    second: Effect Debu_22
+  - first:
+      213: 2395010020972011799
+    second: Effect Debu_23
+  - first:
+      213: -3885050059719011114
+    second: Effect Debu_24
+  - first:
+      213: 8921210563290098586
+    second: Effect Debu_25
+  - first:
+      213: -2365849228397588021
+    second: Effect Debu_26
+  - first:
+      213: -550597902424066886
+    second: Effect Debu_27
+  - first:
+      213: -3702127254214348498
+    second: Effect Debu_28
+  - first:
+      213: 8387678245533428676
+    second: Effect Debu_29
+  - first:
+      213: 4334097109703911025
+    second: Effect Debu_30
+  - first:
+      213: 3407945067857639423
+    second: Effect Debu_31
+  - first:
+      213: 6631838002308657300
+    second: Effect Debu_32
+  - first:
+      213: 1803641748144944070
+    second: Effect Debu_33
+  - first:
+      213: 8382224143790398256
+    second: Effect Debu_34
+  - first:
+      213: -4414401747890746096
+    second: Effect Debu_35
+  - first:
+      213: -5023552438987977150
+    second: Effect Debu_36
+  - first:
+      213: 127019620764437364
+    second: Effect Debu_37
+  - first:
+      213: 4399772493817487585
+    second: Effect Debu_38
+  - first:
+      213: -8655910873198307358
+    second: Effect Debu_39
+  - first:
+      213: 8520541853127290530
+    second: Effect Debu_40
+  - first:
+      213: -548563275634555460
+    second: Effect Debu_41
+  - first:
+      213: 3810032997234937747
+    second: Effect Debu_42
+  - first:
+      213: -1640370355075970245
+    second: Effect Debu_43
+  - first:
+      213: -1951338368387936755
+    second: Effect Debu_44
+  - first:
+      213: -1295661825032664045
+    second: Effect Debu_45
+  - first:
+      213: 288163134261798805
+    second: Effect Debu_46
+  - first:
+      213: 6608359525141140854
+    second: Effect Debu_47
+  - first:
+      213: -3598665331559689766
+    second: Effect Debu_48
+  - first:
+      213: 8212353128294769203
+    second: Effect Debu_49
+  - first:
+      213: 1860171496163336561
+    second: Effect Debu_50
+  - first:
+      213: 8386208015917430844
+    second: Effect Debu_51
+  - first:
+      213: -5105121503423580718
+    second: Effect Debu_52
+  - first:
+      213: 4656025055258489169
+    second: Effect Debu_53
+  - first:
+      213: -1786234876081392340
+    second: Effect Debu_54
+  - first:
+      213: 9040905929782449710
+    second: Effect Debu_55
+  - first:
+      213: 4007054225162555232
+    second: Effect Debu_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect Debu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5794492, y: 0.6530132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998845369836cc530800000000000000
+      internalID: 3876582820987308185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Debu_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6206449, y: 0.6588983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cbd5cae06cb4000800000000000000
+      internalID: 21328389576965184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Debu_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 0
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.60298973, y: 0.6500706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d95e7f3ef59edd0800000000000000
+      internalID: -2456326689032659673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Debu_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.57650673, y: 0.64712805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c24bc61e0bd16840800000000000000
+      internalID: 5215690697030189763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect Debu_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5470809, y: 0.6588983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca4a6b60ca3170e0800000000000000
+      internalID: -2273971738735129917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0c4de418cbd94df4eb2b0adcead75eec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Effect Debu_0: 3876582820987308185
+      Effect Debu_1: 21328389576965184
+      Effect Debu_2: -2456326689032659673
+      Effect Debu_3: 5215690697030189763
+      Effect Debu_4: -2273971738735129917
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

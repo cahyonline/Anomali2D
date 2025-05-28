@@ -45,6 +45,7 @@ public class HealthPlayer : MonoBehaviour
 
     private bool isDead = false;
     private bool hasPlayedDeathAnim = false;
+    private bool Kebals = false;
 
 
     void Start()
@@ -83,6 +84,7 @@ public class HealthPlayer : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
+            vulnerable = false;
             TakeDamage(10);
             //Debilitating(10);
             //Debug.LogWarning("Took 10 Damage");
@@ -117,6 +119,14 @@ public class HealthPlayer : MonoBehaviour
     
     public void TakeDamage(float damage)
     {
+
+        //Debug.Log("vul" + vulnerable);
+        //Debug.Log("kebal" + Kebals);
+        if (Kebals) return;
+        CinemachineShake.Instance.ShakeCamera(3f, 0.2f);
+        EventCallBack.HitStop();
+
+        EventCallBack.OnAttack();
         StartCoroutine(LateWhiteUpdate());
         pAnimator.SetTrigger("is_PHurt");
         healthAmount -= damage;
@@ -338,17 +348,30 @@ public class HealthPlayer : MonoBehaviour
     {
         CountDown();
     }
+    private void Kebal()
+    {
+        StartCoroutine(Kbal());
+    }
+
+    private IEnumerator Kbal()
+    {
+        Kebals = true;
+        yield return new WaitForSeconds(0.5f);
+        Kebals = false;
+    }
 
     private void OnEnable()
     {
         EventCallBack.Load += LoadHealth;
         EventCallBack.DeadNigga += isDeads;
+        EventCallBack.Kebal += Kebal;
     }
 
     private void OnDisable()
     {
         EventCallBack.Load -= LoadHealth;
         EventCallBack.DeadNigga -= isDeads;
+        EventCallBack.Kebal -= Kebal;
     }
 
     private void CountDown()

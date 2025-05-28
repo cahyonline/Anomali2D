@@ -81,7 +81,7 @@ public class MeleeBaseState : State
             {
                 if (collider.CompareTag("Batu") || (collider.CompareTag("Tanah")))
                 {
-                    if (hitSomething == false) ;
+                    //if (hitSomething == false) ;
                 }
                 else if (collider.CompareTag("Enemy"))
                 {

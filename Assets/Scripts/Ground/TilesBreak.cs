@@ -6,6 +6,7 @@ public class TilesBreak : MonoBehaviour
     private bool isBreaking = false;
     private Animator tilesAnim;
     private Collider2D tileCollider;
+    [SerializeField] private GameObject Asaps;
 
     private void Start()
     {
@@ -40,6 +41,17 @@ public class TilesBreak : MonoBehaviour
         //tileCollider.enabled = true; 
 
         isBreaking = false;
+    }
+
+    private void Asap()
+    {
+        Instantiate(Asaps,transform.position, Quaternion.identity);
+        if (Asaps != null)
+        {
+            GameObject effect = Instantiate(Asaps, transform.position, Quaternion.identity);
+            Destroy(effect, 1f);
+        }
+
     }
 
     private void WOi()

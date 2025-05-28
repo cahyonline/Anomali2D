@@ -16,7 +16,7 @@ public class ComboCharacter : MonoBehaviour
         meleeStateMachine = GetComponent<StateMachine>();
     }
 
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.J) && meleeStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
         {
