@@ -241,7 +241,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cristal Ancur_0: -39726107869028956
+      Cristal Ancur_1: 1293178179978263384
+      Cristal Ancur_2: 8770327134585295955
+      Cristal Ancur_3: 8188356253567619510
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

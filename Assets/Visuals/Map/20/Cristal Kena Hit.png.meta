@@ -241,7 +241,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cristal Kena Hit_0: -6667944339504458277
+      Cristal Kena Hit_1: 6616616859172458179
+      Cristal Kena Hit_2: 7759556669054912166
+      Cristal Kena Hit_3: 6618409783992351551
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

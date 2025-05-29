@@ -265,7 +265,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Animasi Pintu_0: 5176500919771491095
+      Animasi Pintu_1: -3851324121917637990
+      Animasi Pintu_2: 4935679237908643398
+      Animasi Pintu_3: 5412145663327366026
+      Animasi Pintu_4: -1675124445154914833
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
