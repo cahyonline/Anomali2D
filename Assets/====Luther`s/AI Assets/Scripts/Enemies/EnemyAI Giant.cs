@@ -305,23 +305,36 @@ public class EnemyAIGaint : MonoBehaviour
     }
 
 
-////////////////////////////////////////////////////////////
-/// HEALTH DAMAGE COUNTER
+    ////////////////////////////////////////////////////////////
+    /// HEALTH DAMAGE COUNTER
     void OnTriggerEnter2D(Collider2D other)
     {
-        
+
         if (other.CompareTag("PlayerDamage"))
         {
             StartCoroutine(InvulnerableCD());
             TakeDamage(PlayerDamage);
-            
 
-            if(!hurtCanceled)
+
+            if (!hurtCanceled)
             {
                 EventCallBack.HitStop.Invoke();
-                giantAnimator.SetBool("hurtAN",true);
+                giantAnimator.SetBool("hurtAN", true);
                 //Debug.Log("Enemy Took Damage");
-                StartCoroutine(AnimationReset());  
+                StartCoroutine(AnimationReset());
+            }
+        }
+        
+        if (other.CompareTag("PlayerDamageBig"))
+        {
+            TakeDamage(PlayerDamage * 3);
+
+            if (!hurtCanceled)
+            {
+                EventCallBack.HitStop.Invoke();
+                giantAnimator.SetBool("hurtAN", true);
+                //Debug.Log("Enemy Took Damage");
+                StartCoroutine(AnimationReset());
             }
         }
 

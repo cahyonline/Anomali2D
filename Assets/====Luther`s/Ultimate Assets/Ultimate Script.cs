@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class UltimateScript : MonoBehaviour
 {
     public UnityEngine.UI.Image ultBar;
-    public UnityEngine.UI.Image whiteBar;
+    //public UnityEngine.UI.Image whiteBar;
     public GameObject playerBigDamage;
     public BoxCollider2D playerDefaultDamage;
     public float currentUlt = 0f;
@@ -18,22 +18,22 @@ public class UltimateScript : MonoBehaviour
     private float MaxUlt = 100f;
     private float defaultMaxUlt;
     private float percentage = 0.90f;
-    private float durationPercentage;
+    //private float durationPercentage;
     private bool ultAvailable = false;
     private bool ultimateOn = false;
     private bool attackingPG = false;
     private UnityEngine.Vector2 originalBoxSize;
 
-    public float ultDuration;
+    //public float ultDuration;
     private float timer;
     // Start is called before the first frame update
     void Start()
     {
         defaultMaxUlt = MaxUlt;
         currentUlt = 0f;
-        whiteBar.fillAmount = currentUlt;
+        //whiteBar.fillAmount = currentUlt;
         defaultMaxUlt = defaultMaxUlt * percentage;
-        durationPercentage = 1f / ultDuration;
+        //durationPercentage = 1f / ultDuration;
         playerBigDamage.SetActive(false);
         originalBoxSize = playerDefaultDamage.size;
     }
@@ -49,18 +49,18 @@ public class UltimateScript : MonoBehaviour
             //StartCoroutine(LateWhiteUpdate());
         }
 
-        if (currentUlt >= MaxUlt)
-        {
-            whiteBar.fillAmount = currentUlt;
-        }
+        // if (currentUlt >= MaxUlt)
+        // {
+        //     //whiteBar.fillAmount = currentUlt;
+        // }
 
-        if (currentUlt == MaxUlt)
+        if (currentUlt >= MaxUlt)
         {
             Debug.Log("ready");
             ultAvailable = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.U))
+        if (Input.GetKeyDown(KeyCode.U) && ultAvailable)
         {
             UseUlt();
         }
@@ -76,13 +76,13 @@ public class UltimateScript : MonoBehaviour
             RegainUlt(10);
         }
 
-        if (ultimateOn && !attackingPG)
-        {
-            if (Input.GetKeyDown(KeyCode.J))
-            {
-                StartCoroutine(Attacking());
-            }
-        }
+        // if (ultimateOn && !attackingPG)
+        // {
+        //     if (Input.GetKeyDown(KeyCode.J))
+        //     {
+        //         StartCoroutine(Attacking());
+        //     }
+        // }
 
         // if (ultimateOn)
         // {
@@ -115,43 +115,20 @@ public class UltimateScript : MonoBehaviour
             ultimateOn = true;
             currentUlt = 0f;
             timer = 0f;
-            StartCoroutine(OnUltimateSkillTimer());
+            //StartCoroutine(OnUltimateSkillTimer());
+            OnUltimateSkillTimer();
+            StartCoroutine(Attacking());
             DegenUlt(MaxUlt);
-            StartCoroutine(LateWhiteUpdate());
+            //StartCoroutine(LateWhiteUpdate());
         }
 
     }
-    // private void WhiteUpdate()
-    // {
-    //     float whiteSpeed = 0.8f;
-    //     while (whiteBar.fillAmount > ultBar.fillAmount)
-    //     {
-    //         whiteBar.fillAmount = Mathf.MoveTowards(whiteBar.fillAmount,ultBar.fillAmount,whiteSpeed * Time.deltaTime);
-    //         whiteVis = false;
-    //         return;
-    //     }
-    // }
 
-    IEnumerator LateWhiteUpdate()
-    {
-        if (whiteVis) yield break;
-        whiteVis = true;
-        yield return new WaitForSeconds(0.2f);
-
-        float whiteSpeed = durationPercentage;
-        while (whiteBar.fillAmount > ultBar.fillAmount)
-        {
-            whiteBar.fillAmount = Mathf.MoveTowards(whiteBar.fillAmount, ultBar.fillAmount, whiteSpeed * Time.deltaTime);
-            whiteVis = false;
-            yield return null;
-        }
-    }
-
-    IEnumerator OnUltimateSkillTimer()
+    public void OnUltimateSkillTimer()
     {
         //Debug.Log("Ulting");
         playerDefaultDamage.size = UnityEngine.Vector2.zero ;
-        yield return new WaitForSeconds(ultDuration);
+
         playerDefaultDamage.size = originalBoxSize;
         ultimateOn = false;
         //Debug.Log("Done");
@@ -175,12 +152,12 @@ public class UltimateScript : MonoBehaviour
         if (currentUlt <= defaultMaxUlt && other.CompareTag("Finish") && !ultimateOn)
         {
             timer = timer + 0.5f;
-            float whiteSpeed = 3f;
-            while (whiteBar.fillAmount < percentage)
-            {
-                whiteBar.fillAmount = Mathf.MoveTowards(whiteBar.fillAmount, percentage, whiteSpeed * Time.deltaTime);
-                return;
-            }
+            // float whiteSpeed = 3f;
+            // while (whiteBar.fillAmount < percentage)
+            // {
+            //     whiteBar.fillAmount = Mathf.MoveTowards(whiteBar.fillAmount, percentage, whiteSpeed * Time.deltaTime);
+            //     return;
+            // }
         }
     }
 }

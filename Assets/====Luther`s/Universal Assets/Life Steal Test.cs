@@ -6,12 +6,12 @@ public class LifeStealTest : MonoBehaviour
 {
 
     public HealthPlayer healthPlayer;
-    private bool hangOn;
+    //private bool hangOn;
 
     // Start is called before the first frame update
     void Start()
     {
-        hangOn = false;
+        //hangOn = false;
     }
 
     // Update is called once per frame

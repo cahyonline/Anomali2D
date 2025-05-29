@@ -11,16 +11,16 @@ public class DialogueTriggerCS2 : MonoBehaviour
     public DialogueStartCS2.Dialogue npcDialogue;
     //public DialoguesManagererNormal dialogueManager;
     //public PlayableDirector CutscenePlayer2; 
-    private bool inRange = false;
-    private bool interactingDialog;
-    static bool dialogueDone;
+    //private bool inRange = false;
+    //private bool interactingDialog;
+    //static bool dialogueDone;
     //public DialoguesManagererNormal.Dialogue[] dialogues;
 
     void Start()
     {
         //UIinteractE.SetActive(false);
-        interactingDialog = false;
-        dialogueDone = false;
+        //interactingDialog = false;
+        //dialogueDone = false;
         dialogUIparent.SetActive(false);
     }
 
@@ -76,12 +76,12 @@ public class DialogueTriggerCS2 : MonoBehaviour
         dialogueStarterCS2.StartDialogue(npcDialogue,finalDialog);
         //UIinteractE.SetActive(false);
         //inRange = false;
-        interactingDialog = true;
+        //interactingDialog = true;
         dialogUIparent.SetActive(true);
     }
     public void DoneDialog()
     {
-        dialogueDone = true;
+        //dialogueDone = true;
 
     }
 }

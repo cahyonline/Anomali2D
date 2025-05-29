@@ -32,8 +32,8 @@ public class DialoguesManagererAD : MonoBehaviour
 
         private Dialogue[] currentDialogues;
         private int currentDialogueIndex = 0;
-        public PlayerControl PlayerControllerScriptGoesHere;
-        public DialogueTrigger dialogueTrigger;
+        //public PlayerControl PlayerControllerScriptGoesHere;
+        public DialogueTriggerAD1 dialogueTrigger;
 
     void Start()
     {
@@ -53,7 +53,7 @@ public class DialoguesManagererAD : MonoBehaviour
 
         currentDialogues = dialogues;
         currentDialogueIndex = 0;
-        PlayerControllerScriptGoesHere.enabled = false;
+        //PlayerControllerScriptGoesHere.enabled = false;
         ShowDialogue();
     }
 
@@ -188,7 +188,7 @@ void ShowResponses(ResponseOption[] responses)
         NPCPanel.SetActive(false);
         responsePanel.SetActive(false);
         Debug.Log("Dialogue OVER.");
-        PlayerControllerScriptGoesHere.enabled = true;
+        //PlayerControllerScriptGoesHere.enabled = true;
         dialogueTrigger.DoneDialog();
 
         choosenResponses.Clear(); //////////
@@ -200,7 +200,7 @@ void ShowResponses(ResponseOption[] responses)
         responsePanel.SetActive(false);
         Debug.Log("Dialogue POSTPONED.");
         dialogueTrigger.PostponeDialog();
-        PlayerControllerScriptGoesHere.enabled = true;
+        //PlayerControllerScriptGoesHere.enabled = true;
         //choosenResponses.Clear(); //////////
         //dialogueTrigger.DoneDialog();
     }
@@ -210,7 +210,7 @@ void ShowResponses(ResponseOption[] responses)
         choosenResponses.Clear(); //////////
         NPCPanel.SetActive(false);
         responsePanel.SetActive(false);
-        PlayerControllerScriptGoesHere.enabled = true;
+        //PlayerControllerScriptGoesHere.enabled = true;
     }
 
     public void RestartDIalogADData()

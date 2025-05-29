@@ -13,17 +13,17 @@ public class DialogueTriggerCSFKE : MonoBehaviour
     
     //public DialoguesManagererNormal dialogueManager;
     //public PlayableDirector CutscenePlayer2; 
-    private bool inRange = false;
-    private bool interactingDialog;
+    //private bool inRange = false;
+    //private bool interactingDialog;
     private bool startBabel = false;
-    static bool dialogueDone;
-    //public DialoguesManagererNormal.Dialogue[] dialogues;
+    //static bool dialogueDone;
+    ////public DialoguesManagererNormal.Dialogue[] dialogues;
 
     void Start()
     {
         //UIinteractE.SetActive(false);
-        interactingDialog = false;
-        dialogueDone = false;
+        //interactingDialog = false;
+        //dialogueDone = false;
         dialogUIparent.SetActive(false);
         startBabel = false;
     }
@@ -87,13 +87,13 @@ public class DialogueTriggerCSFKE : MonoBehaviour
         dialogueStarterCSFKE.StartDialogue(npcDialogue, finalDialog);
         //UIinteractE.SetActive(false);
         //inRange = false;
-        interactingDialog = true;
+        //interactingDialog = true;
         dialogUIparent.SetActive(true);
         Debug.Log("called");
     }
     public void DoneDialog()
     {
-        dialogueDone = true;
+        //dialogueDone = true;
 
     }
 }
