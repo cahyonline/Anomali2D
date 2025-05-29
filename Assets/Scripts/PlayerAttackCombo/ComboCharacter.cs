@@ -18,6 +18,7 @@ public class ComboCharacter : MonoBehaviour
 
     private void Update()
     {
+        if (GamesState.InInteract) return;
         if (Input.GetKeyDown(KeyCode.J) && meleeStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
         {
             EventCallBack.OnAttack();
@@ -59,6 +60,7 @@ public class ComboCharacter : MonoBehaviour
     }
     private void EndIT()
     {
+        GamesState.InInteract = false;
         EventCallBack.EndAttack();
     }
 }

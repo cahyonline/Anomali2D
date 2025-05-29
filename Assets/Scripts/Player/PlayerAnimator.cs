@@ -21,6 +21,7 @@ public class PlayerAnimator : MonoBehaviour
     public bool StartDashing { private get; set; }
     public bool startedWallJump { private get; set; }
     public bool InteractE { private get; set; }
+    public bool AfterInteract { private get; set; }
 
 
     public float currentVelY;
@@ -112,12 +113,20 @@ public class PlayerAnimator : MonoBehaviour
 
         if (InteractE)
         {
-           //Debug.Log("InteracPlayer");
+           Debug.Log("InteracPlayer");
             anim.SetTrigger("InteractPlayer");
             InteractE = false;
             return;
 
         }
+        if (AfterInteract)
+        {
+            Debug.Log("AfterInteract");
+            anim.SetTrigger("AfterInteract");
+            AfterInteract = false;
+            return;
+        }
+
 
         anim.SetBool("isSliding", mov.IsSliding);
 

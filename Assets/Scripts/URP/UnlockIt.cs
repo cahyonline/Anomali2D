@@ -1,9 +1,9 @@
 using System.Collections;
 using UnityEngine;
 
-public class PickupItem : MonoBehaviour
+public class UnlockIt : MonoBehaviour
 {
-    public InventoryItem itemData; 
+    public InventoryItem itemData;
     public int amount = 1;
     [SerializeField] private GameObject UIpickupE;
     [SerializeField] private bool EInteractTerang;
@@ -11,7 +11,7 @@ public class PickupItem : MonoBehaviour
     [SerializeField] private PlayerAnimator animHandler;
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && itemData != null)
+        if (collision.CompareTag("Player") && itemData != null && inventory.HasItem(ItemType.KeyItem))
         {
             EInteractTerang = true;
             UIpickupE.SetActive(true);
@@ -20,7 +20,7 @@ public class PickupItem : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && itemData != null && inventory.HasItem(ItemType.KeyItem))
         {
             EInteractTerang = false;
             UIpickupE.SetActive(false);
@@ -29,7 +29,7 @@ public class PickupItem : MonoBehaviour
 
     private void Update()
     {
-        if( GamesState.InCutscene ) return;
+        if (GamesState.InCutscene) return;
         if (EInteractTerang && Input.GetKeyDown(KeyCode.E))
         {
             isTerang(); // Pick up item
@@ -53,7 +53,7 @@ public class PickupItem : MonoBehaviour
     private IEnumerator destroy()
     {
         yield return new WaitForSeconds(0.5f);
-            Destroy(gameObject);
+        Destroy(gameObject);
     }
 
 }

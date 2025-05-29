@@ -97,8 +97,13 @@ public class PlayerMovement : MonoBehaviour
 
 		LastPressedJumpTime -= Time.deltaTime;
 		LastPressedDashTime -= Time.deltaTime;
-        #endregion
-        #region INPUT HANDLER
+		#endregion
+
+		#region INPUT HANDLER
+
+		//Interact?
+		if (GamesState.InInteract) return;
+
         if (!IsDashing && !isAttack)
         {
             _moveInput.x = Input.GetAxisRaw("Horizontal");
@@ -185,6 +190,7 @@ public class PlayerMovement : MonoBehaviour
 		#region DASH CHECKS
 		if (CanDash() && LastPressedDashTime > 0)
 		{
+			GamesState.InCutscene = true;
             AnimHandler.StartDashing = true;
             //AudioManager.Instance.PlaySFX("Dash");
 
@@ -519,9 +525,11 @@ public class PlayerMovement : MonoBehaviour
 
 		//Dash over
 		IsDashing = false;
-	}
+        GamesState.InCutscene = false;
 
-	private IEnumerator RefillDash(int amount)
+    }
+
+    private IEnumerator RefillDash(int amount)
 	{
 		//SHoet cooldown, so we can't constantly dash along the ground, again this is the implementation in Celeste, feel free to change it up
 		_dashRefilling = true;

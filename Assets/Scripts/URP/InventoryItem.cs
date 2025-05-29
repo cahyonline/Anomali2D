@@ -4,6 +4,7 @@ public enum ItemType
 {
     Tool,
     KeyItem,
+    CanEnterHouse,
     Consumable,
     LightSource,
     QuestItem
