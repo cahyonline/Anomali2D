@@ -17,6 +17,7 @@ TagManager:
   - Batu
   - MegaATKHB
   - RockATKHB
+  - PlayerDamageBig
   layers:
   - Default
   - TransparentFX
