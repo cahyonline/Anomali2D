@@ -1,19 +1,19 @@
 using UnityEngine;
 
-public class DialogueTrigger : MonoBehaviour
+public class DialogueTriggerAD : MonoBehaviour
 {
     public GameObject UIinteractE;
     public string finalDialog = "FUCK OFF !";
     private string defaultFinalDialog;
-    public DialogueStart dialogueStartScript;
+    public DialogueStartAD1 dialogueStartScript;
     public GameObject dialogUIparent;
-    public DialogueStart.Dialogue npcDialogue;
-    public DialoguesManagererAD dialogueManager;
+    public DialogueStartAD1.Dialogue npcDialogue;
+    public DialoguesManagererAD1 dialogueManager;
     private bool inRange = false;
     private bool interactingDialog;
     private bool postponeDialogCheck = false;
     static bool dialogueDone;
-    public DialoguesManagererAD.Dialogue[] dialogues;
+    public DialoguesManagererAD1.Dialogue[] dialogues;
 
     void Start()
     {

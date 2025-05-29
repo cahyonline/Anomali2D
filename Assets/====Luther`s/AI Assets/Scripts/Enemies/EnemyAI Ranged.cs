@@ -51,18 +51,19 @@ public class EnemyAIRanged : MonoBehaviour
     public float PlayerDamage = 35f;
     public bool vulnerable = true;
     private bool isDied = false;
-
+    private BoxCollider2D boxCollider2D;
     private bool takingDamage = false;
     //[Header("IMPORTANT")]
     //public GameObject EnemyRootObject;
 
-////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         defaultFleeR = fleeRange;
         defaultSight = sightRange;
         defaultFieldOfViewAnge = fieldOfViewAngle;
+        boxCollider2D = GetComponent<BoxCollider2D>();
     }
 ////////////////////////////////////////////////////////////
     void FixedUpdate()
@@ -93,9 +94,10 @@ public class EnemyAIRanged : MonoBehaviour
             
         }
 
-        if(isDied)
+        if (isDied)
         {
             Idle();
+            boxCollider2D.enabled = false;
         }
         
         if(healthAmount <=0)
@@ -184,15 +186,22 @@ bool CanSeePlayer()
         newProjectile.GetComponent<ProjectileProperties>().SetDirection(direction);
         //playerANIM.SetBool("attAN",false);
     }
-////////////////////////////////////////////////////////////
-/// HEALTH DAMAGE COUNTER
-void OnTriggerEnter2D(Collider2D other)
-{
-    if (other.CompareTag("PlayerDamage") && !isDied)
+    ////////////////////////////////////////////////////////////
+    /// HEALTH DAMAGE COUNTER
+    void OnTriggerEnter2D(Collider2D other)
     {
-        takingDamage = true;
+        if (other.CompareTag("PlayerDamage") && !isDied)
+        {
+            takingDamage = true;
+            TakeDamage(PlayerDamage);
+        }
+    
+        if (other.CompareTag("PlayerDamageBig") && !isDied)
+        {
+            takingDamage = true;
+            TakeDamage(PlayerDamage * 3);
+        }
     }
-}
 
 public void TakesDamagesFromPlayer()
 {
@@ -201,9 +210,9 @@ public void TakesDamagesFromPlayer()
     fleeRange = 0f;
     sightRange = 0f;
     canFlee = false;
-    //Debug.Log("Damage Taken");
+    Debug.Log("Damage Taken");
 
-    TakeDamage(PlayerDamage);
+    
     enemyANIM.SetBool("hurtAN", true);
 
         EventCallBack.HitStop.Invoke();
@@ -354,7 +363,7 @@ IEnumerator Flee()
         yield return new WaitForSeconds(Whathit);
         //playerANIM.SetBool("hurtAN", false);
         vulnerable = true;
-        //Debug.LogWarning("vulnerable");
+        Debug.LogWarning("vulnerable");
     }
 
     private IEnumerator AnimatorHitCD()

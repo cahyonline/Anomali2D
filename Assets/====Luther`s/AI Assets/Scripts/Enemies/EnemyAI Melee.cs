@@ -446,32 +446,55 @@ IEnumerator AttackReset()
     isStunned = false;
     attackRange = defaultAttackRange;
 }
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// HEALTH DAMAGE COUNTER
-void OnTriggerEnter2D(Collider2D other)
-{
-    if (other.CompareTag("PlayerDamage") && !isDead )
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /// HEALTH DAMAGE COUNTER
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Vector2 attackDirection = (transform.position - other.transform.position).normalized;
-
-        if (other.CompareTag("PlayerDamage") && IsShieldBlocking(other.transform.position))
+        if (other.CompareTag("PlayerDamage") && !isDead)
         {
-            Knockback(attackDirection);
-            Debug.Log("Damage Blocked");
-            isBlocked = true;
-            return; // Block attack, do nothing
+            Vector2 attackDirection = (transform.position - other.transform.position).normalized;
+
+            if (other.CompareTag("PlayerDamage") && IsShieldBlocking(other.transform.position))
+            {
+                Knockback(attackDirection);
+                Debug.Log("Damage Blocked");
+                isBlocked = true;
+                return; // Block attack, do nothing
+            }
+
+            //TakeDamage(); // If not blocked, take damage
+            meleeAN.SetBool("hurtAN", true);
+
+            EventCallBack.HitStop.Invoke();
+            Debug.Log("Damage Taken");
+            StartCoroutine(AnimationReset());
+            TakeDamage(PlayerDamage);
+            isBlocked = false;
         }
-        
-        //TakeDamage(); // If not blocked, take damage
-        meleeAN.SetBool("hurtAN",true);
-        
-        EventCallBack.HitStop.Invoke();
-        Debug.Log("Damage Taken");
-        StartCoroutine(AnimationReset());
-        TakeDamage(PlayerDamage);
-        isBlocked = false;
+    
+        if (other.CompareTag("PlayerDamageBig") && !isDead)
+        {
+            //Vector2 attackDirection = (transform.position - other.transform.position).normalized;
+
+            // if (other.CompareTag("PlayerDamage") && IsShieldBlocking(other.transform.position))
+            // {
+                 //Knockback(attackDirection);
+            //     Debug.Log("Damage Blocked");
+            //     isBlocked = true;
+            //     return; // Block attack, do nothing
+            // }
+
+            //TakeDamage(); // If not blocked, take damage
+            meleeAN.SetBool("hurtAN", true);
+
+            EventCallBack.HitStop.Invoke();
+            Debug.Log("Damage Taken");
+            StartCoroutine(AnimationReset());
+            TakeDamage(PlayerDamage * 3);
+            //if (other.CompareTag("PlayerDamageBig")) { TakeDamage(PlayerDamage * 2); }
+            isBlocked = false;
+        } 
     }
-}
 
 IEnumerator AnimationReset()
 {
