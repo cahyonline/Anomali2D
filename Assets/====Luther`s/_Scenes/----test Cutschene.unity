@@ -2040,7 +2040,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.42
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2065,7 +2065,7 @@ Transform:
   m_GameObject: {fileID: 354322535}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.400002, y: 16.3888, z: -10.081656}
+  m_LocalPosition: {x: -197.77686, y: 26.924274, z: -390.4214}
   m_LocalScale: {x: 2.18, y: 2.88, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3777,7 +3777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &705169431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4878,7 +4878,7 @@ Transform:
   m_GameObject: {fileID: 768436848}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 82.28297, y: -3.6581504, z: 380.33972}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8645,7 +8645,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -12085,7 +12085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 4472890066703171901}
-  spriteFlip: 1
+  lookLeft: 0
   sightRange: 19.25
   obstacleLayer:
     serializedVersion: 2
@@ -12099,9 +12099,12 @@ MonoBehaviour:
   walkSpeed: 3
   healthBar: {fileID: 1835172606}
   MaxHealth: 350
+  healthAmount: 0
   PlayerDamage: 35
   EnemyRootObject: {fileID: 148394693}
+  ThisEnemyCollider: {fileID: 0}
   attackHB: {fileID: 1870822859}
+  giantAnimator: {fileID: 0}
 --- !u!224 &1960015096 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8351674073115874114, guid: afc54b53cea2ee14bb688f5ca552a29e, type: 3}
@@ -13659,6 +13662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customName: Combat
+  currentState: 0
 --- !u!224 &2215947198754297693
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13719,12 +13723,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1713686465}
+  energyBar: {fileID: 0}
+  whiteBar: {fileID: 0}
   Maxhealth: 100
+  MaxEnergy: 100
+  healAmp: 1.2
   healthAmount: 100
+  energyAmount: 0
+  debilitateDegenValue: 1
   healthRegenValue: 5
-  healthRegenRate: 5
+  MegaDM: 75
   SpikeDM: 20
   SmallDM: 10
+  RockDM: 100
   BigDM: 40
   LavaDM: 0.3
   SpikeCD: 1
@@ -14948,12 +14959,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1713686465}
+  energyBar: {fileID: 0}
+  whiteBar: {fileID: 0}
   Maxhealth: 150
+  MaxEnergy: 100
+  healAmp: 1.2
   healthAmount: 150
+  energyAmount: 0
+  debilitateDegenValue: 1
   healthRegenValue: 3
-  healthRegenRate: 0
+  MegaDM: 75
   SpikeDM: 40
   SmallDM: 10
+  RockDM: 100
   BigDM: 40
   LavaDM: 0.3
   SpikeCD: 1
@@ -15134,8 +15152,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 8644068754013502039}
-  maxTilt: 0
-  tiltSpeed: 0.08
   jumpFX: {fileID: 3234584074981126610, guid: 4246e7bd1b4a16946af462fce8607683, type: 3}
   landFX: {fileID: 3234584074981126610, guid: f5834c5a434eb97499bc8cbea7b01824, type: 3}
   currentVelY: 0
@@ -15347,7 +15363,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitbox: {fileID: 4090745489845883199}
-  Hiteffect: {fileID: 3234584074981126610, guid: ef64e6572022fbb47969c1618d73ef20, type: 3}
+  Hiteffect:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  surfaceDetector: {fileID: 0}
 --- !u!4 &5307103012264202427
 Transform:
   m_ObjectHideFlags: 0
@@ -16539,6 +16559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customName: Combat
+  currentState: 0
 --- !u!114 &6674529406335651350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16590,6 +16611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Data: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  playerCollider: {fileID: 0}
   _groundCheckPoint: {fileID: 482800388370698973}
   _groundCheckSize: {x: 0.49, y: 0.03}
   _frontWallCheckPoint: {fileID: 1374044631371498729}
@@ -16598,6 +16620,9 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 128
+  _wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!212 &6762074066381829464
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16709,8 +16734,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 8495329107231090632}
-  maxTilt: 0
-  tiltSpeed: 0.08
   jumpFX: {fileID: 3234584074981126610, guid: 4246e7bd1b4a16946af462fce8607683, type: 3}
   landFX: {fileID: 3234584074981126610, guid: f5834c5a434eb97499bc8cbea7b01824, type: 3}
   currentVelY: 0
@@ -16726,6 +16749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb273e93daa2fc54e944dd9fda23d139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerRb: {fileID: 0}
   currentArea: 0
 --- !u!114 &6911558706421110000
 MonoBehaviour:
@@ -16852,6 +16876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Data: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  playerCollider: {fileID: 0}
   _groundCheckPoint: {fileID: 6449977973945437274}
   _groundCheckSize: {x: 0.49, y: 0.03}
   _frontWallCheckPoint: {fileID: 6503675670327499977}
@@ -16860,6 +16885,9 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 128
+  _wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!4 &7131160282749590694
 Transform:
   m_ObjectHideFlags: 0
@@ -16950,7 +16978,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitbox: {fileID: 2398786785008040148}
-  Hiteffect: {fileID: 3234584074981126610, guid: ef64e6572022fbb47969c1618d73ef20, type: 3}
+  Hiteffect:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  surfaceDetector: {fileID: 0}
 --- !u!1 &7341667964083694083
 GameObject:
   m_ObjectHideFlags: 0
@@ -17278,12 +17310,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1713686465}
+  energyBar: {fileID: 0}
+  whiteBar: {fileID: 0}
   Maxhealth: 100
+  MaxEnergy: 100
+  healAmp: 1.2
   healthAmount: 200
+  energyAmount: 0
+  debilitateDegenValue: 1
   healthRegenValue: 3
-  healthRegenRate: 0
+  MegaDM: 75
   SpikeDM: 40
   SmallDM: 10
+  RockDM: 100
   BigDM: 40
   LavaDM: 0.3
   SpikeCD: 1
@@ -17641,6 +17680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb273e93daa2fc54e944dd9fda23d139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerRb: {fileID: 0}
   currentArea: 0
 --- !u!95 &8644068754013502039
 Animator:
