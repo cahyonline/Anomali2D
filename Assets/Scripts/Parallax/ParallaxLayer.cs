@@ -1,11 +1,15 @@
 using UnityEngine;
+using System.Collections;
 
 public class ParallaxLayer : MonoBehaviour
 {
     public float parallaxFactor;
+    public float moveDelay = 5f; 
     private Vector3 startPos;
-    private bool isPlayerInside = false; // Status pemain di dalam collider
-    private float lastDelta; // Menyimpan delta terakhir
+    private bool isPlayerInside = false;
+    private bool canMove = false; 
+    private bool coroutineStarted = false; 
+    private float lastDelta;
 
     private void Awake()
     {
@@ -27,6 +31,10 @@ public class ParallaxLayer : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInside = true;
+            if (!coroutineStarted)
+            {
+                StartCoroutine(DelayBeforeMove());
+            }
         }
     }
 
@@ -35,12 +43,24 @@ public class ParallaxLayer : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInside = false;
+            canMove = false;
+            coroutineStarted = false;
+        }
+    }
+
+    private IEnumerator DelayBeforeMove()
+    {
+        coroutineStarted = true;
+        yield return new WaitForSeconds(moveDelay);
+        if (isPlayerInside)
+        {
+            canMove = true;
         }
     }
 
     public void Move(float delta)
     {
-        if (isPlayerInside) 
+        if (isPlayerInside && canMove)
         {
             Vector3 newPos = transform.localPosition;
             newPos.x -= delta * parallaxFactor;
@@ -52,10 +72,20 @@ public class ParallaxLayer : MonoBehaviour
     private void ResetPosition()
     {
         isPlayerInside = false;
+        canMove = false;
+        coroutineStarted = false;
+
         Vector3 pos = transform.localPosition;
-        pos.x = startPos.x; 
+        pos.x = startPos.x;
         transform.localPosition = pos;
 
-        lastDelta = 0; 
+        lastDelta = 0;
     }
+
+    //private void isFlse()
+    //{
+    //    isPlayerInside = false;
+    //    canMove = false;
+    //    coroutineStarted = false;
+    //}
 }
