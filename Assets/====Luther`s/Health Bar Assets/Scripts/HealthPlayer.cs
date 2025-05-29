@@ -123,7 +123,7 @@ public class HealthPlayer : MonoBehaviour
         //Debug.Log("vul" + vulnerable);
         //Debug.Log("kebal" + Kebals);
         if (Kebals) return;
-        CinemachineShake.Instance.ShakeCamera(3f, 0.2f);
+        //CinemachineShake.Instance.ShakeCamera(3f, 0.2f);
         EventCallBack.HitStop();
 
         EventCallBack.OnAttack();
