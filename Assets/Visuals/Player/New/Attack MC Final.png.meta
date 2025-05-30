@@ -1,0 +1,833 @@
+fileFormatVersion: 2
+guid: f2eb17158108b8f45b41233e764b2593
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8371548575738861263
+    second: Attack MC Final_0
+  - first:
+      213: 2546800405876557708
+    second: Attack MC Final_1
+  - first:
+      213: -6509118837353135578
+    second: Attack MC Final_2
+  - first:
+      213: -1462388398201888065
+    second: Attack MC Final_3
+  - first:
+      213: 818535285030687078
+    second: Attack MC Final_4
+  - first:
+      213: 4336799642281200930
+    second: Attack MC Final_5
+  - first:
+      213: -7381601735617554098
+    second: Attack MC Final_6
+  - first:
+      213: 3240702584984942061
+    second: Attack MC Final_7
+  - first:
+      213: 4410616517894178634
+    second: Attack MC Final_8
+  - first:
+      213: 4252535709073226833
+    second: Attack MC Final_9
+  - first:
+      213: 5716616289720511985
+    second: Attack MC Final_10
+  - first:
+      213: 545503412686314921
+    second: Attack MC Final_11
+  - first:
+      213: -6902550192453365308
+    second: Attack MC Final_12
+  - first:
+      213: 3726729827623399061
+    second: Attack MC Final_13
+  - first:
+      213: -3698428420994587850
+    second: Attack MC Final_14
+  - first:
+      213: 5817845091581314992
+    second: Attack MC Final_15
+  - first:
+      213: -5260091029635077529
+    second: Attack MC Final_16
+  - first:
+      213: 3266993785006723352
+    second: Attack MC Final_17
+  - first:
+      213: 4902766071609663617
+    second: Attack MC Final_18
+  - first:
+      213: -1203887371421448140
+    second: Attack MC Final_19
+  - first:
+      213: 37668013653772723
+    second: Attack MC Final_20
+  - first:
+      213: -5451457030696210783
+    second: Attack MC Final_21
+  - first:
+      213: -7737286558590806117
+    second: Attack MC Final_22
+  - first:
+      213: -1859178512032069203
+    second: Attack MC Final_23
+  - first:
+      213: -2558422561309201467
+    second: Attack MC Final_24
+  - first:
+      213: -4174401737266603939
+    second: Attack MC Final_25
+  - first:
+      213: 8339874949452728773
+    second: Attack MC Final_26
+  - first:
+      213: 13793903301146811
+    second: Attack MC Final_27
+  - first:
+      213: -6174137294380432460
+    second: Attack MC Final_28
+  - first:
+      213: -8494125215600224786
+    second: Attack MC Final_29
+  - first:
+      213: 2206028953392147167
+    second: Attack MC Final_30
+  - first:
+      213: -7575670073306050497
+    second: Attack MC Final_31
+  - first:
+      213: 1953474017586151944
+    second: Attack MC Final_32
+  - first:
+      213: -5079087172658752883
+    second: Attack MC Final_33
+  - first:
+      213: -1312509303056583768
+    second: Attack MC Final_34
+  - first:
+      213: -3869618215384149792
+    second: Attack MC Final_35
+  - first:
+      213: 5476512038205172521
+    second: Attack MC Final_36
+  - first:
+      213: 7885870890518211921
+    second: Attack MC Final_37
+  - first:
+      213: 205239745874335781
+    second: Attack MC Final_38
+  - first:
+      213: 2447524191564926063
+    second: Attack MC Final_39
+  - first:
+      213: 3054822836695399769
+    second: Attack MC Final_40
+  - first:
+      213: -857149497584086195
+    second: Attack MC Final_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack MC Final_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 29
+        width: 64
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8822578, y: 0.5535451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139682bbce842db80800000000000000
+      internalID: -8371548575738861263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 29
+        width: 82
+        height: 64
+      alignment: 9
+      pivot: {x: 0.6797497, y: 0.5082428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87c712c97d085320800000000000000
+      internalID: 2546800405876557708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_2
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 29
+        width: 50
+        height: 80
+      alignment: 9
+      pivot: {x: 0.66129637, y: 0.4094003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62243ca77e6faa5a0800000000000000
+      internalID: -6509118837353135578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_3
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 29
+        width: 83
+        height: 81
+      alignment: 9
+      pivot: {x: 0.49019614, y: 0.40098995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb22689ff7d84bbe0800000000000000
+      internalID: -1462388398201888065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_4
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 29
+        width: 90
+        height: 53
+      alignment: 9
+      pivot: {x: 0.43556857, y: 0.6158037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661906441850c5b00800000000000000
+      internalID: 818535285030687078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_5
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 29
+        width: 47
+        height: 58
+      alignment: 9
+      pivot: {x: 0.81463236, y: 0.56133693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d463c1c486f2c30800000000000000
+      internalID: 4336799642281200930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_6
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 29
+        width: 49
+        height: 54
+      alignment: 9
+      pivot: {x: 0.7760882, y: 0.60306215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49db13b4584f8990800000000000000
+      internalID: -7381601735617554098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_7
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 29
+        width: 102
+        height: 54
+      alignment: 9
+      pivot: {x: 0.3712673, y: 0.60309535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5b7b0c4d949fc20800000000000000
+      internalID: 3240702584984942061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_8
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 29
+        width: 73
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5226883, y: 0.6166094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a478d85ca58a53d30800000000000000
+      internalID: 4410616517894178634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_9
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 29
+        width: 65
+        height: 52
+      alignment: 9
+      pivot: {x: 0.8058181, y: 0.6298793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c39fd42ba040b30800000000000000
+      internalID: 4252535709073226833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_10
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 29
+        width: 65
+        height: 52
+      alignment: 9
+      pivot: {x: 0.82530797, y: 0.6280564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fda0024a30855f40800000000000000
+      internalID: 5716616289720511985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_11
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 29
+        width: 53
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8615861, y: 0.55389184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad5ee0b674029700800000000000000
+      internalID: 545503412686314921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_12
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 29
+        width: 61
+        height: 83
+      alignment: 9
+      pivot: {x: 0.84938526, y: 0.39335555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c15386db273530a0800000000000000
+      internalID: -6902550192453365308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_13
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 29
+        width: 58
+        height: 79
+      alignment: 9
+      pivot: {x: 0.64668643, y: 0.41297555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e685d780108b330800000000000000
+      internalID: 3726729827623399061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_14
+      rect:
+        serializedVersion: 2
+        x: 3265
+        y: 29
+        width: 98
+        height: 80
+      alignment: 9
+      pivot: {x: 0.38863203, y: 0.4076181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633a86b32fa8cacc0800000000000000
+      internalID: -3698428420994587850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_15
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 29
+        width: 112
+        height: 70
+      alignment: 9
+      pivot: {x: 0.3603516, y: 0.4656251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b744f959432db050800000000000000
+      internalID: 5817845091581314992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_17
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 29
+        width: 125
+        height: 64
+      alignment: 9
+      pivot: {x: 0.32872656, y: 0.509399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8111cb6c981b65d20800000000000000
+      internalID: 3266993785006723352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_18
+      rect:
+        serializedVersion: 2
+        x: 4463
+        y: 29
+        width: 64
+        height: 52
+      alignment: 9
+      pivot: {x: 0.6084137, y: 0.627846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180a12324cf1a0440800000000000000
+      internalID: 4902766071609663617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_19
+      rect:
+        serializedVersion: 2
+        x: 4644
+        y: 29
+        width: 56
+        height: 53
+      alignment: 9
+      pivot: {x: 0.6804548, y: 0.6143962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43888dc60deea4fe0800000000000000
+      internalID: -1203887371421448140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_20
+      rect:
+        serializedVersion: 2
+        x: 4822
+        y: 29
+        width: 64
+        height: 59
+      alignment: 9
+      pivot: {x: 0.87610626, y: 0.55239064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b94a3ddbd2d58000800000000000000
+      internalID: 37668013653772723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_21
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 29
+        width: 80
+        height: 50
+      alignment: 9
+      pivot: {x: 0.48707733, y: 0.65167886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aeeb01b6b88854b0800000000000000
+      internalID: -5451457030696210783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_22
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 29
+        width: 47
+        height: 50
+      alignment: 9
+      pivot: {x: 0.6357941, y: 0.55208105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b975acd6ed2af9490800000000000000
+      internalID: -7737286558590806117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_23
+      rect:
+        serializedVersion: 2
+        x: 3865
+        y: 29
+        width: 122
+        height: 43
+      alignment: 9
+      pivot: {x: 0.3128462, y: 0.76060814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da90a406efed236e0800000000000000
+      internalID: -1859178512032069203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_25
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 22
+        width: 120
+        height: 53
+      alignment: 9
+      pivot: {x: 0.2927287, y: 0.7489273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d585374acbb8116c0800000000000000
+      internalID: -4174401737266603939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack MC Final_27
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 23
+        width: 128
+        height: 58
+      alignment: 9
+      pivot: {x: 0.32089233, y: 0.6653183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8b4526b71013000800000000000000
+      internalID: 13793903301146811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ab5b2221a5eb06a408c69398598f5d2c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Attack MC Final_0: -8371548575738861263
+      Attack MC Final_1: 2546800405876557708
+      Attack MC Final_10: 5716616289720511985
+      Attack MC Final_11: 545503412686314921
+      Attack MC Final_12: -6902550192453365308
+      Attack MC Final_13: 3726729827623399061
+      Attack MC Final_14: -3698428420994587850
+      Attack MC Final_15: 5817845091581314992
+      Attack MC Final_16: -5260091029635077529
+      Attack MC Final_17: 3266993785006723352
+      Attack MC Final_18: 4902766071609663617
+      Attack MC Final_19: -1203887371421448140
+      Attack MC Final_2: -6509118837353135578
+      Attack MC Final_20: 37668013653772723
+      Attack MC Final_21: -5451457030696210783
+      Attack MC Final_22: -7737286558590806117
+      Attack MC Final_23: -1859178512032069203
+      Attack MC Final_24: -2558422561309201467
+      Attack MC Final_25: -4174401737266603939
+      Attack MC Final_26: 8339874949452728773
+      Attack MC Final_27: 13793903301146811
+      Attack MC Final_28: -6174137294380432460
+      Attack MC Final_29: -8494125215600224786
+      Attack MC Final_3: -1462388398201888065
+      Attack MC Final_30: 2206028953392147167
+      Attack MC Final_31: -7575670073306050497
+      Attack MC Final_32: 1953474017586151944
+      Attack MC Final_33: -5079087172658752883
+      Attack MC Final_34: -1312509303056583768
+      Attack MC Final_35: -3869618215384149792
+      Attack MC Final_36: 5476512038205172521
+      Attack MC Final_37: 7885870890518211921
+      Attack MC Final_38: 205239745874335781
+      Attack MC Final_39: 2447524191564926063
+      Attack MC Final_4: 818535285030687078
+      Attack MC Final_40: 3054822836695399769
+      Attack MC Final_41: -857149497584086195
+      Attack MC Final_5: 4336799642281200930
+      Attack MC Final_6: -7381601735617554098
+      Attack MC Final_7: 3240702584984942061
+      Attack MC Final_8: 4410616517894178634
+      Attack MC Final_9: 4252535709073226833
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

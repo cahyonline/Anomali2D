@@ -9,7 +9,7 @@ public class Save : MonoBehaviour
     public GameController _saveLastPoss;
     public HealthPlayer _saveHealthPlayered;
     [SerializeField] private GameObject UIpickupE;
-    public bool EInteract;
+    [SerializeField] private bool EinteractSaver;
     private Transform playerTransform;
     public PlayerAnimator AnimHandler;
 
@@ -52,7 +52,7 @@ public class Save : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            EInteract = true;
+            EinteractSaver = true;
             UIpickupE.SetActive(true);
             playerTransform = collision.transform;
         }
@@ -63,7 +63,7 @@ public class Save : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            EInteract = false;
+            EinteractSaver = false;
             UIpickupE.SetActive(false);
             //Debug.Log("OUSIDE");
         }
@@ -75,15 +75,15 @@ public class Save : MonoBehaviour
             
             EventCallBack.LoadGame();
         }
-        if (EInteract && Input.GetKey(KeyCode.E))
+        if (EinteractSaver && Input.GetKey(KeyCode.E))
         {
-            EventCallBack.OnAttack();
+            GamesState.InInteract = true;
+            //EventCallBack.OnAttack();
             AnimHandler.InteractE = true;
-            EInteract = false;
+            EinteractSaver = false;
             UIpickupE.SetActive(false);
             SaveGame(playerTransform.transform.position, _saveLastPoss.currentArea, _saveHealthPlayered.healthAmount);
             Debug.LogFormat("Saved");
-           
         }
     }
     public void Load()

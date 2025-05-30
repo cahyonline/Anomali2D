@@ -43,7 +43,7 @@ public class HealthPlayer : MonoBehaviour
     public Animator pAnimator;
     public UnityEngine.Vector2 knockbackDirection = new UnityEngine.Vector2(-1,1);
 
-    private bool isDead = false;
+    //private bool isDead = false;
     private bool hasPlayedDeathAnim = false;
     private bool Kebals = false;
 
@@ -123,10 +123,10 @@ public class HealthPlayer : MonoBehaviour
         //Debug.Log("vul" + vulnerable);
         //Debug.Log("kebal" + Kebals);
         if (Kebals) return;
-        CinemachineShake.Instance.ShakeCamera(3f, 0.2f);
-        EventCallBack.HitStop();
+        //CinemachineShake.Instance.ShakeCamera(3f, 0.2f);
+        //EventCallBack.HitStop();
 
-        EventCallBack.OnAttack();
+        //EventCallBack.OnAttack();
         StartCoroutine(LateWhiteUpdate());
         pAnimator.SetTrigger("is_PHurt");
         healthAmount -= damage;

@@ -21,6 +21,9 @@ public class PlayerAnimator : MonoBehaviour
     public bool StartDashing { private get; set; }
     public bool startedWallJump { private get; set; }
     public bool InteractE { private get; set; }
+    public bool AfterInteract { private get; set; }
+    private bool wasSliding = false;
+
 
 
     public float currentVelY;
@@ -118,8 +121,26 @@ public class PlayerAnimator : MonoBehaviour
             return;
 
         }
+        if (AfterInteract)
+        {
+            //Debug.Log("AfterInteract");
+            anim.SetTrigger("AfterInteract");
+            AfterInteract = false;
+            return;
+        }
 
-        anim.SetBool("isSliding", mov.IsSliding);
+        // Trigger "Slide" sekali saat mulai sliding
+        if (mov.IsSliding && !wasSliding)
+        {
+            //anim.SetBool("isSliding", mov.IsSliding);
+            anim.SetTrigger("SlideTrigger");
+            Debug.Log("Trigger");
+        }
+        wasSliding = mov.IsSliding;
+
+
+
+        //anim.SetBool("isSliding", mov.IsSliding);
 
 
         anim.SetFloat("Vel Y", mov.RB.velocity.y);

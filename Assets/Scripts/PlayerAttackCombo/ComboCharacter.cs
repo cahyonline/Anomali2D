@@ -18,6 +18,7 @@ public class ComboCharacter : MonoBehaviour
 
     private void Update()
     {
+        if (GamesState.InInteract) return;
         if (Input.GetKeyDown(KeyCode.J) && meleeStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
         {
             EventCallBack.OnAttack();
@@ -39,7 +40,7 @@ public class ComboCharacter : MonoBehaviour
         {
             case SurfaceType.Tanah:
                 AudioManager.Instance.PlaySFX("StepTanah");
-                //Debug.Log("TanahP");
+                //Debug.Log("TanahP");x
                 break;
             case SurfaceType.Batu:
                 AudioManager.Instance.PlaySFX("StepBatu");
@@ -51,6 +52,7 @@ public class ComboCharacter : MonoBehaviour
     private void PlaySfxKen()
     {
         AudioManager.Instance.PlaySFX("attackSFX");
+        //Debug.Log("Ken");
     }
 
     private void UIDeathh()
@@ -59,6 +61,11 @@ public class ComboCharacter : MonoBehaviour
     }
     private void EndIT()
     {
+        GamesState.InInteract = false;
         EventCallBack.EndAttack();
+    }
+    private void StrtIt()
+    {
+        EventCallBack.OnAttack();
     }
 }

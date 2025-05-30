@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: 6e1bfeae8b75eab4cbe2721af6f59b1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -443106562853283787
+    second: Run MC Final_0
+  - first:
+      213: 5697586936241696160
+    second: Run MC Final_1
+  - first:
+      213: 6135161084515550943
+    second: Run MC Final_2
+  - first:
+      213: 322287910496118428
+    second: Run MC Final_3
+  - first:
+      213: -3104127597243582618
+    second: Run MC Final_4
+  - first:
+      213: -495915602126497232
+    second: Run MC Final_5
+  - first:
+      213: -3417172309054609903
+    second: Run MC Final_6
+  - first:
+      213: 5217516380436599109
+    second: Run MC Final_7
+  - first:
+      213: -6813003024947037023
+    second: Run MC Final_8
+  - first:
+      213: 3853510038598888068
+    second: Run MC Final_9
+  - first:
+      213: -4594817429314671344
+    second: Run MC Final_10
+  - first:
+      213: -6057138508752034581
+    second: Run MC Final_11
+  - first:
+      213: 2643974565509686533
+    second: Run MC Final_12
+  - first:
+      213: 5240217112323466650
+    second: Run MC Final_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run MC Final_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3
+        width: 60
+        height: 53
+      alignment: 9
+      pivot: {x: 0.84631306, y: 0.6325645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5385c73cde4c9d9f0800000000000000
+      internalID: -443106562853283787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 3
+        width: 62
+        height: 54
+      alignment: 9
+      pivot: {x: 0.8203814, y: 0.6221051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ada793a125e11f40800000000000000
+      internalID: 5697586936241696160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3
+        width: 66
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7722508, y: 0.6326051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6895a3088742550800000000000000
+      internalID: 6135161084515550943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3
+        width: 67
+        height: 54
+      alignment: 9
+      pivot: {x: 0.78402936, y: 0.61796945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c962684a52ff87400800000000000000
+      internalID: 322287910496118428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 3
+        width: 65
+        height: 54
+      alignment: 9
+      pivot: {x: 0.7989408, y: 0.6221471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6673fcc856cebe4d0800000000000000
+      internalID: -3104127597243582618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 3
+        width: 61
+        height: 53
+      alignment: 9
+      pivot: {x: 0.86676276, y: 0.6345424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a1da823672e19f0800000000000000
+      internalID: -495915602126497232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_6
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 3
+        width: 59
+        height: 52
+      alignment: 9
+      pivot: {x: 0.84897524, y: 0.64570016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116af7ec3e3c390d0800000000000000
+      internalID: -3417172309054609903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_7
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 3
+        width: 58
+        height: 53
+      alignment: 9
+      pivot: {x: 0.859597, y: 0.634542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54194b12187586840800000000000000
+      internalID: 5217516380436599109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_8
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 3
+        width: 59
+        height: 54
+      alignment: 9
+      pivot: {x: 0.8610643, y: 0.62379783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acbe5c78d95371a0800000000000000
+      internalID: -6813003024947037023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_9
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 3
+        width: 61
+        height: 55
+      alignment: 9
+      pivot: {x: 0.85074306, y: 0.6303786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48aa61d96fa6a7530800000000000000
+      internalID: 3853510038598888068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_10
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 3
+        width: 60
+        height: 54
+      alignment: 9
+      pivot: {x: 0.8559743, y: 0.6210418}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dece574edeb30c0800000000000000
+      internalID: -4594817429314671344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_11
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3
+        width: 61
+        height: 54
+      alignment: 9
+      pivot: {x: 0.84781635, y: 0.6222984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4ee7e4e98b0fba0800000000000000
+      internalID: -6057138508752034581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_12
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3
+        width: 61
+        height: 53
+      alignment: 9
+      pivot: {x: 0.8740134, y: 0.63577676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5056f54ebd841b420800000000000000
+      internalID: 2643974565509686533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run MC Final_13
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 3
+        width: 59
+        height: 52
+      alignment: 9
+      pivot: {x: 0.84372514, y: 0.6446781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95a6f523bdf8b840800000000000000
+      internalID: 5240217112323466650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 19077efc43690794b8bf330e0b2600de
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Run MC Final_0: -443106562853283787
+      Run MC Final_1: 5697586936241696160
+      Run MC Final_10: -4594817429314671344
+      Run MC Final_11: -6057138508752034581
+      Run MC Final_12: 2643974565509686533
+      Run MC Final_13: 5240217112323466650
+      Run MC Final_2: 6135161084515550943
+      Run MC Final_3: 322287910496118428
+      Run MC Final_4: -3104127597243582618
+      Run MC Final_5: -495915602126497232
+      Run MC Final_6: -3417172309054609903
+      Run MC Final_7: 5217516380436599109
+      Run MC Final_8: -6813003024947037023
+      Run MC Final_9: 3853510038598888068
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
