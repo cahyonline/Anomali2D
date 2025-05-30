@@ -126,7 +126,7 @@ public class HealthPlayer : MonoBehaviour
         //CinemachineShake.Instance.ShakeCamera(3f, 0.2f);
         //EventCallBack.HitStop();
 
-        EventCallBack.OnAttack();
+        //EventCallBack.OnAttack();
         StartCoroutine(LateWhiteUpdate());
         pAnimator.SetTrigger("is_PHurt");
         healthAmount -= damage;

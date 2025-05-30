@@ -8,7 +8,7 @@ public class Testrt : MonoBehaviour
     {
         if (collision.CompareTag("PlayerDamage"))
         {
-            Debug.Log("PlayerDamage");
+            //Debug.Log("PlayerDamage");
             EventCallBack.HitStop.Invoke();
         }
     }
