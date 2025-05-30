@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: f888c78816306ff41888b1bd4300ce30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2975731743825217155
+    second: Kena Hit-Sheet_0
+  - first:
+      213: -750979342226300834
+    second: Kena Hit-Sheet_1
+  - first:
+      213: -4048460393903791170
+    second: Kena Hit-Sheet_2
+  - first:
+      213: 5704284877022037273
+    second: Kena Hit-Sheet_3
+  - first:
+      213: 2915781545990981246
+    second: Kena Hit-Sheet_4
+  - first:
+      213: -3529249506562101407
+    second: Kena Hit-Sheet_5
+  - first:
+      213: -8725020031807647519
+    second: Kena Hit-Sheet_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kena Hit-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 15
+        width: 52
+        height: 70
+      alignment: 9
+      pivot: {x: 0.52022964, y: 0.5220411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3864e81414ceb4920800000000000000
+      internalID: 2975731743825217155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 14
+        width: 58
+        height: 70
+      alignment: 9
+      pivot: {x: 0.32732654, y: 0.5358918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50e1f0644cf395f0800000000000000
+      internalID: -750979342226300834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 14
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3602ea8baf0d7c0800000000000000
+      internalID: -4048460393903791170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 14
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91508808fd0b92f40800000000000000
+      internalID: 5704284877022037273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 14
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e768e6b1edfe67820800000000000000
+      internalID: 2915781545990981246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 14
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fa4a5c546950fc0800000000000000
+      internalID: -3529249506562101407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kena Hit-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 14
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e010f912808ae680800000000000000
+      internalID: -8725020031807647519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1b044a595469fa743adc4f72d6888aba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kena Hit-Sheet_0: 2975731743825217155
+      Kena Hit-Sheet_1: -750979342226300834
+      Kena Hit-Sheet_2: -4048460393903791170
+      Kena Hit-Sheet_3: 5704284877022037273
+      Kena Hit-Sheet_4: 2915781545990981246
+      Kena Hit-Sheet_5: -3529249506562101407
+      Kena Hit-Sheet_6: -8725020031807647519
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

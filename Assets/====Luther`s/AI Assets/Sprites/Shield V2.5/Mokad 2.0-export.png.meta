@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: 17c789ff4e33c4e46a17cf0a2a0975df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5054847653737367015
+    second: Mokad 2.0-export_0
+  - first:
+      213: -7010526940834427443
+    second: Mokad 2.0-export_1
+  - first:
+      213: 3377691403322986722
+    second: Mokad 2.0-export_2
+  - first:
+      213: 3792324971047756596
+    second: Mokad 2.0-export_3
+  - first:
+      213: -8763584693261081702
+    second: Mokad 2.0-export_4
+  - first:
+      213: -5888537417595275122
+    second: Mokad 2.0-export_5
+  - first:
+      213: 3879068754906351032
+    second: Mokad 2.0-export_6
+  - first:
+      213: 6999232353350730867
+    second: Mokad 2.0-export_7
+  - first:
+      213: -3050516440539443827
+    second: Mokad 2.0-export_8
+  - first:
+      213: -6892548975250467253
+    second: Mokad 2.0-export_9
+  - first:
+      213: -55555341541057293
+    second: Mokad 2.0-export_10
+  - first:
+      213: 5282480553926176419
+    second: Mokad 2.0-export_11
+  - first:
+      213: 4307573136431205407
+    second: Mokad 2.0-export_12
+  - first:
+      213: 4462469392411607843
+    second: Mokad 2.0-export_13
+  - first:
+      213: 7320147805452969946
+    second: Mokad 2.0-export_14
+  - first:
+      213: 5881404337095631186
+    second: Mokad 2.0-export_15
+  - first:
+      213: -1662466249425124242
+    second: Mokad 2.0-export_16
+  - first:
+      213: -359579255562771480
+    second: Mokad 2.0-export_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mokad 2.0-export_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 10
+        width: 58
+        height: 67
+      alignment: 9
+      pivot: {x: 0.53771037, y: 0.51758033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e58bbac82d662640800000000000000
+      internalID: 5054847653737367015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 16
+        width: 65
+        height: 73
+      alignment: 9
+      pivot: {x: 0.44773185, y: 0.39087328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd024304ea95be90800000000000000
+      internalID: -7010526940834427443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 10
+        width: 83
+        height: 74
+      alignment: 9
+      pivot: {x: 0.50657415, y: 0.4534898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e015ff7f68ffde20800000000000000
+      internalID: 3377691403322986722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 10
+        width: 92
+        height: 44
+      alignment: 9
+      pivot: {x: 0.42560112, y: 0.7886043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5828bfa7835d530800000000000000
+      internalID: 3879068754906351032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_9
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 10
+        width: 100
+        height: 41
+      alignment: 9
+      pivot: {x: 0.40812987, y: 0.97927475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46963da93fb850a0800000000000000
+      internalID: -6892548975250467253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 8
+        width: 98
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3471804, y: 0.8941198}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcd11216b0aa3ff0800000000000000
+      internalID: -55555341541057293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_11
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 8
+        width: 98
+        height: 47
+      alignment: 9
+      pivot: {x: 0.35514364, y: 0.89411986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aeada573142f4940800000000000000
+      internalID: 5282480553926176419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_12
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 6
+        width: 98
+        height: 24
+      alignment: 9
+      pivot: {x: 0.33509982, y: 1.8393364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c4ff0f1f297cb30800000000000000
+      internalID: 4307573136431205407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_13
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 6
+        width: 98
+        height: 24
+      alignment: 9
+      pivot: {x: 0.35602367, y: 1.8376571}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3234fbbe440eded30800000000000000
+      internalID: 4462469392411607843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_14
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 6
+        width: 98
+        height: 24
+      alignment: 9
+      pivot: {x: 0.34596968, y: 1.8391074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7216f25a3669560800000000000000
+      internalID: 7320147805452969946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_15
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 3
+        width: 102
+        height: 27
+      alignment: 9
+      pivot: {x: 0.38115257, y: 1.7415125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251e6056512fe9150800000000000000
+      internalID: 5881404337095631186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_16
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 2
+        width: 87
+        height: 31
+      alignment: 9
+      pivot: {x: 0.27475503, y: 1.5522559}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6480f711cbbde8e0800000000000000
+      internalID: -1662466249425124242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mokad 2.0-export_17
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 5
+        width: 76
+        height: 21
+      alignment: 9
+      pivot: {x: 0.15626125, y: 2.1467404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3e49b7294820bf0800000000000000
+      internalID: -359579255562771480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 896bdc4b290b461438aac786484bc598
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mokad 2.0-export_0: 5054847653737367015
+      Mokad 2.0-export_1: -7010526940834427443
+      Mokad 2.0-export_10: -55555341541057293
+      Mokad 2.0-export_11: 5282480553926176419
+      Mokad 2.0-export_12: 4307573136431205407
+      Mokad 2.0-export_13: 4462469392411607843
+      Mokad 2.0-export_14: 7320147805452969946
+      Mokad 2.0-export_15: 5881404337095631186
+      Mokad 2.0-export_16: -1662466249425124242
+      Mokad 2.0-export_17: -359579255562771480
+      Mokad 2.0-export_2: 3377691403322986722
+      Mokad 2.0-export_3: 3792324971047756596
+      Mokad 2.0-export_4: -8763584693261081702
+      Mokad 2.0-export_5: -5888537417595275122
+      Mokad 2.0-export_6: 3879068754906351032
+      Mokad 2.0-export_7: 6999232353350730867
+      Mokad 2.0-export_8: -3050516440539443827
+      Mokad 2.0-export_9: -6892548975250467253
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

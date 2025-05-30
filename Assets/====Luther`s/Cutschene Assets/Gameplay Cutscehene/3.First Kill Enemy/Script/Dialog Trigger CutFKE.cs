@@ -49,6 +49,8 @@ public class DialogueTriggerCSFKE : MonoBehaviour
         if (enemyAIRanged.healthAmount <= 0f && startBabel == false)
         {
             StartCutsceneDialog();
+            GamesState.InCutscene = true;
+            EventCallBack.OnAttack();
         }
 
      }
@@ -94,6 +96,8 @@ public class DialogueTriggerCSFKE : MonoBehaviour
     public void DoneDialog()
     {
         //dialogueDone = true;
+        GamesState.InCutscene = false;
+        EventCallBack.EndAttack();
 
     }
 }

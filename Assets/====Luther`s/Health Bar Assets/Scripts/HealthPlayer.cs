@@ -5,6 +5,7 @@ using System.Numerics;
 //using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthPlayer : MonoBehaviour
 {
@@ -72,9 +73,9 @@ public class HealthPlayer : MonoBehaviour
                 Debug.Log("Mati");
                 pAnimator.SetTrigger("is_PDie");
                 //EventCallBack.RubahOrtho(15f, 2f);
-                //StartCoroutine(CountDown());
+                StartCoroutine(CountDownBeforeDies());
             }
-            //StartCoroutine(CountDown());
+            StartCoroutine(CountDownBeforeDies());
         }
 
         if (canRegen && !isRegen && healthAmount < Maxhealth)
@@ -250,11 +251,19 @@ public class HealthPlayer : MonoBehaviour
         //WhiteUpdate();
         
     }
+
+    IEnumerator CountDownBeforeDies()
+    {
+        yield return new WaitForSeconds(delayDeathUi);
+        //Scenemanager goes here
+        Debug.LogError("OI BIB");
+    }
+
     #endregion
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#endregion
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#region Kncockback
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    #endregion
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    #region Kncockback
 
     private void GiveKnockback(UnityEngine.Vector2 sourcePos)
     {
@@ -264,7 +273,7 @@ public class HealthPlayer : MonoBehaviour
         direction.x = xMultyplayer;
         direction.Normalize();
         playerRB.velocity = new UnityEngine.Vector2(0f, 0f);
-        playerRB.AddForce(direction * kncockbackForce,ForceMode2D.Impulse);
+        playerRB.AddForce(direction * kncockbackForce, ForceMode2D.Impulse);
         yMultyplayer = 0f;
         xMultyplayer = 1f;
     }
@@ -346,7 +355,7 @@ public class HealthPlayer : MonoBehaviour
 
     private void isDeads()
     {
-        CountDown();
+        //CountDown();
     }
     private void Kebal()
     {
@@ -373,10 +382,4 @@ public class HealthPlayer : MonoBehaviour
         EventCallBack.DeadNigga -= isDeads;
         EventCallBack.Kebal -= Kebal;
     }
-
-    private void CountDown()
-    {
-        deathMenu.SetActive(true);
-    }
-    
 }

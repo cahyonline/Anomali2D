@@ -103,13 +103,14 @@ public class PlayerMovement : MonoBehaviour
 
 		//Interact?
 		if (GamesState.InInteract) return;
+		if (GamesState.InCutscene) return;
 
         if (!IsDashing && !isAttack)
-        {
-            _moveInput.x = Input.GetAxisRaw("Horizontal");
-            _moveInput.y = Input.GetAxisRaw("Vertical");
+		{
+			_moveInput.x = Input.GetAxisRaw("Horizontal");
+			_moveInput.y = Input.GetAxisRaw("Vertical");
 
-        }
+		}
 
         if (_moveInput.x != 0)
             CheckDirectionToFace(_moveInput.x > 0);

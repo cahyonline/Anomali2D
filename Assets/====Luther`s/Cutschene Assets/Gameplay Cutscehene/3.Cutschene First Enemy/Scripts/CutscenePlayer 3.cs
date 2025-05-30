@@ -14,7 +14,7 @@ public class CutscenePlayer3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Cutscene1 Trigger Ready");
+        //Debug.Log("Cutscene1 Trigger Ready");
         NPC.SetActive(true);
     }
     // Update is called once per frame
@@ -30,6 +30,8 @@ public class CutscenePlayer3 : MonoBehaviour
         {
             Debug.Log("Detected");
             Cutscene3.Play();
+            GamesState.InCutscene = true;
+            EventCallBack.OnAttack();
             //theTrigger.SetActive(false);
             //playerScript.enabled = false;
         }
@@ -40,6 +42,8 @@ public class CutscenePlayer3 : MonoBehaviour
         //playerScript.enabled = true;
         theTrigger.SetActive(false);
         Debug.Log("Cutscene Ended");
+        GamesState.InCutscene = false;
+        EventCallBack.EndAttack();
         NPC.SetActive(false);
     }
 
