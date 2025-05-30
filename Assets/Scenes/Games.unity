@@ -22502,7 +22502,7 @@ Transform:
   m_GameObject: {fileID: 336071575}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -188.22418, y: 27.212921, z: -10.122484}
+  m_LocalPosition: {x: -186.45828, y: 27.21994, z: -10.122484}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43784,7 +43784,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &784027507
 Transform:
   m_ObjectHideFlags: 0
@@ -62446,7 +62446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1255524492
 RectTransform:
   m_ObjectHideFlags: 0
@@ -72512,7 +72512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1488850076
 Transform:
   m_ObjectHideFlags: 0
@@ -75232,7 +75232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1542381950
 RectTransform:
   m_ObjectHideFlags: 0
@@ -75253,7 +75253,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -1.929, y: 2.264}
-  m_SizeDelta: {x: 1940.796, y: 1106.62}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542381951
 MonoBehaviour:
@@ -104625,8 +104625,7 @@ MonoBehaviour:
   canRegen: 1
   vulnerable: 1
   playerRB: {fileID: 5253407967930456654}
-  delayDeathUi: 5
-  deathMenu: {fileID: 1255524491}
+  delayDeathUi: 1
   pAnimator: {fileID: 2118786265224154026}
   knockbackDirection: {x: -1, y: 1}
 --- !u!114 &8744593169905888660

@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: cb938538d87da6245ba37ede572e5659
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3759528853899741681
+    second: MainMenu Dead copy 2@2x_0
+  - first:
+      213: 361369292580277967
+    second: MainMenu Dead copy 2@2x_1
+  - first:
+      213: 6057153553715844292
+    second: MainMenu Dead copy 2@2x_2
+  - first:
+      213: -1278233935166068418
+    second: MainMenu Dead copy 2@2x_3
+  - first:
+      213: 2215280029761923424
+    second: MainMenu Dead copy 2@2x_4
+  - first:
+      213: 1284436104810818725
+    second: MainMenu Dead copy 2@2x_5
+  - first:
+      213: -9194769861527019345
+    second: MainMenu Dead copy 2@2x_6
+  - first:
+      213: -40321996846101451
+    second: MainMenu Dead copy 2@2x_7
+  - first:
+      213: 3674851219242089982
+    second: MainMenu Dead copy 2@2x_8
+  - first:
+      213: 5514661568364996650
+    second: MainMenu Dead copy 2@2x_9
+  - first:
+      213: -3528320385999235076
+    second: MainMenu Dead copy 2@2x_10
+  - first:
+      213: -8642459409800815151
+    second: MainMenu Dead copy 2@2x_11
+  - first:
+      213: -8092317401611992822
+    second: MainMenu Dead copy 2@2x_12
+  - first:
+      213: -7940681866760755924
+    second: MainMenu Dead copy 2@2x_13
+  - first:
+      213: 8404009073171637888
+    second: MainMenu Dead copy 2@2x_14
+  - first:
+      213: -5988017832743734284
+    second: MainMenu Dead copy 2@2x_15
+  - first:
+      213: 919257253328340412
+    second: MainMenu Dead copy 2@2x_16
+  - first:
+      213: 3185720934237230602
+    second: MainMenu Dead copy 2@2x_17
+  - first:
+      213: 3908543665250260116
+    second: MainMenu Dead copy 2@2x_18
+  - first:
+      213: 1263761908090284268
+    second: MainMenu Dead copy 2@2x_19
+  - first:
+      213: 7012521622651296389
+    second: MainMenu Dead copy 2@2x_20
+  - first:
+      213: -583085629539916253
+    second: MainMenu Dead copy 2@2x_21
+  - first:
+      213: -3225869622031001671
+    second: MainMenu Dead copy 2@2x_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 54
+        width: 79
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06797c1d6873dbc0800000000000000
+      internalID: -3759528853899741681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 54
+        width: 71
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce4bfcf477d30500800000000000000
+      internalID: 361369292580277967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 54
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c45a3f90155f0450800000000000000
+      internalID: 6057153553715844292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 54
+        width: 79
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39a392220dc24ee0800000000000000
+      internalID: -1278233935166068418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 54
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069e9f333714ebe10800000000000000
+      internalID: 2215280029761923424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 54
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac6fe305db33d110800000000000000
+      internalID: 1284436104810818725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_6
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 54
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0e634e68d956080800000000000000
+      internalID: -9194769861527019345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_7
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 54
+        width: 62
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c8a558b5fb07ff0800000000000000
+      internalID: -40321996846101451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_8
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 54
+        width: 79
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efdf555b6b1bff230800000000000000
+      internalID: 3674851219242089982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_9
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 54
+        width: 71
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28e4ee7a73088c40800000000000000
+      internalID: 5514661568364996650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_10
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 54
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf71fb28d43e80fc0800000000000000
+      internalID: -3528320385999235076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_11
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 54
+        width: 71
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd171dd4f0df0880800000000000000
+      internalID: -8642459409800815151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_12
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 54
+        width: 78
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01843bb23052bf80800000000000000
+      internalID: -8092317401611992822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_13
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 54
+        width: 78
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25e659e9e70dc190800000000000000
+      internalID: -7940681866760755924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_14
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 54
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0862e87c9b901a470800000000000000
+      internalID: 8404009073171637888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_15
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 54
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3fa9ac18946eca0800000000000000
+      internalID: -5988017832743734284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_16
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 54
+        width: 71
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb546d9f99bd1cc00800000000000000
+      internalID: 919257253328340412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_17
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 54
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a065cbe9f44f53c20800000000000000
+      internalID: 3185720934237230602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_18
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 54
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494585451cfed3630800000000000000
+      internalID: 3908543665250260116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_19
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 54
+        width: 79
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8246c72c8c98110800000000000000
+      internalID: 1263761908090284268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_20
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 54
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a50e9034b715160800000000000000
+      internalID: 7012521622651296389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_21
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 54
+        width: 79
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32663a195b678e7f0800000000000000
+      internalID: -583085629539916253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainMenu Dead copy 2@2x_22
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 54
+        width: 79
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b75e1f8ba86b33d0800000000000000
+      internalID: -3225869622031001671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MainMenu Dead copy 2@2x_0: -3759528853899741681
+      MainMenu Dead copy 2@2x_1: 361369292580277967
+      MainMenu Dead copy 2@2x_10: -3528320385999235076
+      MainMenu Dead copy 2@2x_11: -8642459409800815151
+      MainMenu Dead copy 2@2x_12: -8092317401611992822
+      MainMenu Dead copy 2@2x_13: -7940681866760755924
+      MainMenu Dead copy 2@2x_14: 8404009073171637888
+      MainMenu Dead copy 2@2x_15: -5988017832743734284
+      MainMenu Dead copy 2@2x_16: 919257253328340412
+      MainMenu Dead copy 2@2x_17: 3185720934237230602
+      MainMenu Dead copy 2@2x_18: 3908543665250260116
+      MainMenu Dead copy 2@2x_19: 1263761908090284268
+      MainMenu Dead copy 2@2x_2: 6057153553715844292
+      MainMenu Dead copy 2@2x_20: 7012521622651296389
+      MainMenu Dead copy 2@2x_21: -583085629539916253
+      MainMenu Dead copy 2@2x_22: -3225869622031001671
+      MainMenu Dead copy 2@2x_3: -1278233935166068418
+      MainMenu Dead copy 2@2x_4: 2215280029761923424
+      MainMenu Dead copy 2@2x_5: 1284436104810818725
+      MainMenu Dead copy 2@2x_6: -9194769861527019345
+      MainMenu Dead copy 2@2x_7: -40321996846101451
+      MainMenu Dead copy 2@2x_8: 3674851219242089982
+      MainMenu Dead copy 2@2x_9: 5514661568364996650
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
