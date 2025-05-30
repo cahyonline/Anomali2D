@@ -40,11 +40,11 @@ public class ComboCharacter : MonoBehaviour
         {
             case SurfaceType.Tanah:
                 AudioManager.Instance.PlaySFX("StepTanah");
-                //Debug.Log("TanahP");
+                Debug.Log("TanahP");
                 break;
             case SurfaceType.Batu:
                 AudioManager.Instance.PlaySFX("StepBatu");
-                //Debug.Log("BatuP");
+                Debug.Log("BatuP");
                 break;
         }
     }
@@ -52,6 +52,7 @@ public class ComboCharacter : MonoBehaviour
     private void PlaySfxKen()
     {
         AudioManager.Instance.PlaySFX("attackSFX");
+        Debug.Log("Ken");
     }
 
     private void UIDeathh()
