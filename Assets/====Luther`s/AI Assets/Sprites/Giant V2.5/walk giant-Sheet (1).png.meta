@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: 83f9fb636c81a2e44b9cf4b9fc4b7bee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8917029661076830229
+    second: walk giant-Sheet (1)_0
+  - first:
+      213: -5476078239506777955
+    second: walk giant-Sheet (1)_1
+  - first:
+      213: -2869718976059998554
+    second: walk giant-Sheet (1)_2
+  - first:
+      213: 3383505074566215970
+    second: walk giant-Sheet (1)_3
+  - first:
+      213: 585895793651407396
+    second: walk giant-Sheet (1)_4
+  - first:
+      213: 3122915230306383804
+    second: walk giant-Sheet (1)_5
+  - first:
+      213: 6422877360583216492
+    second: walk giant-Sheet (1)_6
+  - first:
+      213: 966137941326945673
+    second: walk giant-Sheet (1)_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walk giant-Sheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 75
+        height: 91
+      alignment: 9
+      pivot: {x: 0.4898523, y: 0.5298694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7c4e784c8504480800000000000000
+      internalID: -8917029661076830229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk giant-Sheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3
+        width: 75
+        height: 93
+      alignment: 9
+      pivot: {x: 0.4898523, y: 0.5298694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98b3fbcadf0104b0800000000000000
+      internalID: -5476078239506777955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk giant-Sheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 9
+        width: 72
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4898523, y: 0.5298694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aefeb2bbc5bc28d0800000000000000
+      internalID: -2869718976059998554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk giant-Sheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 9
+        width: 72
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4898523, y: 0.5298694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229304150ff94fe20800000000000000
+      internalID: 3383505074566215970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk giant-Sheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 4
+        width: 70
+        height: 91
+      alignment: 9
+      pivot: {x: 0.4898523, y: 0.5298694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42adcffbe15812800800000000000000
+      internalID: 585895793651407396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk giant-Sheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2
+        width: 75
+        height: 94
+      alignment: 9
+      pivot: {x: 0.4898523, y: 0.5298694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7b1162bd2d65b20800000000000000
+      internalID: 3122915230306383804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk giant-Sheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 6
+        width: 75
+        height: 91
+      alignment: 9
+      pivot: {x: 0.4898523, y: 0.5298694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d0679fde4a22950800000000000000
+      internalID: 6422877360583216492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk giant-Sheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 8
+        width: 70
+        height: 89
+      alignment: 9
+      pivot: {x: 0.4898523, y: 0.5298694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dd1dcb659686d00800000000000000
+      internalID: 966137941326945673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b6d9cda5552c6ca4d8ebc51e59a24dc2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      walk giant-Sheet (1)_0: -8917029661076830229
+      walk giant-Sheet (1)_1: -5476078239506777955
+      walk giant-Sheet (1)_2: -2869718976059998554
+      walk giant-Sheet (1)_3: 3383505074566215970
+      walk giant-Sheet (1)_4: 585895793651407396
+      walk giant-Sheet (1)_5: 3122915230306383804
+      walk giant-Sheet (1)_6: 6422877360583216492
+      walk giant-Sheet (1)_7: 966137941326945673
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

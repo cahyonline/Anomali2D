@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: 822ce9d3820beca43ae3c3576289f874
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7071088962538342632
+    second: run mc Naked_0
+  - first:
+      213: -83791744359634770
+    second: run mc Naked_1
+  - first:
+      213: -9016956825393557701
+    second: run mc Naked_2
+  - first:
+      213: -2456470133761311380
+    second: run mc Naked_3
+  - first:
+      213: -6137130615743568517
+    second: run mc Naked_4
+  - first:
+      213: 7031042078679959979
+    second: run mc Naked_5
+  - first:
+      213: 4240098288223614149
+    second: run mc Naked_6
+  - first:
+      213: -7839006522060376411
+    second: run mc Naked_7
+  - first:
+      213: 3243245406276027957
+    second: run mc Naked_8
+  - first:
+      213: -729948395825944699
+    second: run mc Naked_9
+  - first:
+      213: -6803531758389930384
+    second: run mc Naked_10
+  - first:
+      213: 2420262923785988535
+    second: run mc Naked_11
+  - first:
+      213: -6462469529450224181
+    second: run mc Naked_12
+  - first:
+      213: -2071681644373096831
+    second: run mc Naked_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: run mc Naked_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3
+        width: 48
+        height: 51
+      alignment: 9
+      pivot: {x: 0.48866272, y: 0.5641468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81777b48d027edd90800000000000000
+      internalID: -7071088962538342632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 3
+        width: 49
+        height: 52
+      alignment: 9
+      pivot: {x: 0.47870216, y: 0.5534789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8655a3adf46def0800000000000000
+      internalID: -83791744359634770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3
+        width: 53
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4627035, y: 0.54388446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f026b8a855dd280800000000000000
+      internalID: -9016956825393557701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4711703, y: 0.5557427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dfcc3ad6dd8edd0800000000000000
+      internalID: -2456470133761311380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_4
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 3
+        width: 50
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5086859, y: 0.5668913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b752e6c883884daa0800000000000000
+      internalID: -6137130615743568517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_5
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 3
+        width: 47
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5785692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba90b8cb487439160800000000000000
+      internalID: 7031042078679959979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_6
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 3
+        width: 47
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5567008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c47f4a9dead7da30800000000000000
+      internalID: 4240098288223614149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_7
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 3
+        width: 47
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5567008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6fe9cd911463390800000000000000
+      internalID: -7839006522060376411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_8
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 3
+        width: 47
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5567008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53600887382520d20800000000000000
+      internalID: 3243245406276027957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_9
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 3
+        width: 47
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5567008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587ad6a2dc3bed5f0800000000000000
+      internalID: -729948395825944699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_10
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3
+        width: 48
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5090904, y: 0.5567008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076541399eff491a0800000000000000
+      internalID: -6803531758389930384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_11
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 3
+        width: 48
+        height: 51
+      alignment: 9
+      pivot: {x: 0.51082486, y: 0.56642956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9ef4b5e40869120800000000000000
+      internalID: 2420262923785988535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_12
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 3
+        width: 47
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5567008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5655dd332b056a0800000000000000
+      internalID: -6462469529450224181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run mc Naked_13
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 3
+        width: 47
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5000026, y: 0.5567008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186c17b4588ef33e0800000000000000
+      internalID: -2071681644373096831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c72c8d99af603cb4294ef076fb60178f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      run mc Naked_0: -7071088962538342632
+      run mc Naked_1: -83791744359634770
+      run mc Naked_10: -6803531758389930384
+      run mc Naked_11: 2420262923785988535
+      run mc Naked_12: -6462469529450224181
+      run mc Naked_13: -2071681644373096831
+      run mc Naked_2: -9016956825393557701
+      run mc Naked_3: -2456470133761311380
+      run mc Naked_4: -6137130615743568517
+      run mc Naked_5: 7031042078679959979
+      run mc Naked_6: 4240098288223614149
+      run mc Naked_7: -7839006522060376411
+      run mc Naked_8: 3243245406276027957
+      run mc Naked_9: -729948395825944699
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

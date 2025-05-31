@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 4492352988729ac43bfd26368929f67f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1182516783081295399
+    second: IDLE Mc Naked_0
+  - first:
+      213: 571503114587264877
+    second: IDLE Mc Naked_1
+  - first:
+      213: 4927592196713474648
+    second: IDLE Mc Naked_2
+  - first:
+      213: 8467205941432499553
+    second: IDLE Mc Naked_3
+  - first:
+      213: -1423446912773452634
+    second: IDLE Mc Naked_4
+  - first:
+      213: 8306120131378838948
+    second: IDLE Mc Naked_5
+  - first:
+      213: 5774457665238350794
+    second: IDLE Mc Naked_6
+  - first:
+      213: -7867493281136978899
+    second: IDLE Mc Naked_7
+  - first:
+      213: 5601125400656021214
+    second: IDLE Mc Naked_8
+  - first:
+      213: 133078333386128702
+    second: IDLE Mc Naked_9
+  - first:
+      213: 507989138366736409
+    second: IDLE Mc Naked_10
+  - first:
+      213: 6996484731365110262
+    second: IDLE Mc Naked_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IDLE Mc Naked_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1
+        width: 47
+        height: 57
+      alignment: 9
+      pivot: {x: 0.499601, y: 0.5088989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d17083404bd69fe0800000000000000
+      internalID: -1182516783081295399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 47
+        height: 57
+      alignment: 9
+      pivot: {x: 0.499601, y: 0.5088989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67d0050e036ee700800000000000000
+      internalID: 571503114587264877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ae713def2526440800000000000000
+      internalID: 4927592196713474648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d392b41fe818570800000000000000
+      internalID: 8467205941432499553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_4
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac03871396ee3ce0800000000000000
+      internalID: -1423446912773452634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad7e847044454370800000000000000
+      internalID: 8306120131378838948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_6
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb3013f6aef22050800000000000000
+      internalID: 5774457665238350794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_7
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24de096b8c01d290800000000000000
+      internalID: -7867493281136978899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_8
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6058830e13bbd40800000000000000
+      internalID: 5601125400656021214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_9
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3df7c40a0ac8d100800000000000000
+      internalID: 133078333386128702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_10
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1
+        width: 47
+        height: 57
+      alignment: 9
+      pivot: {x: 0.499601, y: 0.5088989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9182b1e0e6dbc0700800000000000000
+      internalID: 507989138366736409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE Mc Naked_11
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1
+        width: 47
+        height: 57
+      alignment: 9
+      pivot: {x: 0.499601, y: 0.5088989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f136715bc1881160800000000000000
+      internalID: 6996484731365110262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d10eeb7622c61be45a7f9262428a5c77
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IDLE Mc Naked_0: -1182516783081295399
+      IDLE Mc Naked_1: 571503114587264877
+      IDLE Mc Naked_10: 507989138366736409
+      IDLE Mc Naked_11: 6996484731365110262
+      IDLE Mc Naked_2: 4927592196713474648
+      IDLE Mc Naked_3: 8467205941432499553
+      IDLE Mc Naked_4: -1423446912773452634
+      IDLE Mc Naked_5: 8306120131378838948
+      IDLE Mc Naked_6: 5774457665238350794
+      IDLE Mc Naked_7: -7867493281136978899
+      IDLE Mc Naked_8: 5601125400656021214
+      IDLE Mc Naked_9: 133078333386128702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

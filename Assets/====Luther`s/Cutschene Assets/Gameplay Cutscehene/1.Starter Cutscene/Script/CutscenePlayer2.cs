@@ -11,6 +11,7 @@ public class CutscenePlayer2 : MonoBehaviour
     public GameObject fade;
 
     public GameObject CutSceneGameRoot;
+    [SerializeField] private GameObject playerGoesHere;
     ////////////////////////////////////////////////////////////////
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class CutscenePlayer2 : MonoBehaviour
         CutSceneGameRoot.SetActive(true);
         fade.SetActive(true);
         PlayCutscene();
+        playerGoesHere.SetActive(false);
     }
     // Update is called once per frame
     void Update()
@@ -36,12 +38,14 @@ public class CutscenePlayer2 : MonoBehaviour
         //playerScript.enabled = true;
         //theTrigger.SetActive(false);
         StartCoroutine(TimerDestroy());
+        
         //Debug.Log("Cutscene Ended");
     }
 
     public void CutsceneInstantOver()
     {
         CutSceneGameRoot.SetActive(false);
+        playerGoesHere.SetActive(true);
     }
 
     public void PauseCutscene()

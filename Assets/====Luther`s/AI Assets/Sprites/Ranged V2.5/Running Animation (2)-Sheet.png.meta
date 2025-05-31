@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 6133e087b181c924bae33a97ee2e107f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3347739587982466765
+    second: Running Animation (2)-Sheet_0
+  - first:
+      213: 6660534732727149786
+    second: Running Animation (2)-Sheet_1
+  - first:
+      213: -2285016550055506925
+    second: Running Animation (2)-Sheet_2
+  - first:
+      213: 3218919896898065077
+    second: Running Animation (2)-Sheet_3
+  - first:
+      213: -1881452093392598875
+    second: Running Animation (2)-Sheet_4
+  - first:
+      213: 4363778055306811637
+    second: Running Animation (2)-Sheet_5
+  - first:
+      213: -6541805057529938359
+    second: Running Animation (2)-Sheet_6
+  - first:
+      213: -2649133602823317598
+    second: Running Animation (2)-Sheet_7
+  - first:
+      213: 2136769391674757988
+    second: Running Animation (2)-Sheet_8
+  - first:
+      213: 2719972473188768390
+    second: Running Animation (2)-Sheet_9
+  - first:
+      213: -7467397947907894071
+    second: Running Animation (2)-Sheet_10
+  - first:
+      213: -61542149215650288
+    second: Running Animation (2)-Sheet_11
+  - first:
+      213: -7135751776243429263
+    second: Running Animation (2)-Sheet_12
+  - first:
+      213: 609819607817752657
+    second: Running Animation (2)-Sheet_13
+  - first:
+      213: -4579554891545823855
+    second: Running Animation (2)-Sheet_14
+  - first:
+      213: -8882668308393285480
+    second: Running Animation (2)-Sheet_15
+  - first:
+      213: 7293228352466248975
+    second: Running Animation (2)-Sheet_16
+  - first:
+      213: 8852577176732684293
+    second: Running Animation (2)-Sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 14
+        width: 52
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5198691, y: 0.5358445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce153e0b6f857e20800000000000000
+      internalID: 3347739587982466765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 14
+        width: 62
+        height: 70
+      alignment: 9
+      pivot: {x: 0.33831516, y: 0.5370006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad46a56ec09fe6c50800000000000000
+      internalID: 6660534732727149786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 14
+        width: 69
+        height: 48
+      alignment: 9
+      pivot: {x: 0.2628333, y: 0.7802075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c8d04ed8df940e0800000000000000
+      internalID: -2285016550055506925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 14
+        width: 54
+        height: 48
+      alignment: 9
+      pivot: {x: 0.43829855, y: 0.8524088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2db077796ebac20800000000000000
+      internalID: 3218919896898065077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 14
+        width: 49
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4978943, y: 0.9177001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a84b671a4db3e5e0800000000000000
+      internalID: -1881452093392598875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 14
+        width: 54
+        height: 38
+      alignment: 9
+      pivot: {x: 0.49587, y: 0.9883752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8153165014f8c30800000000000000
+      internalID: 4363778055306811637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 14
+        width: 55
+        height: 37
+      alignment: 9
+      pivot: {x: 0.49761853, y: 1.0170368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ef21cc5f6d635a0800000000000000
+      internalID: -6541805057529938359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 14
+        width: 51
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5026556, y: 0.78476137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a75a2126036c3bd0800000000000000
+      internalID: -2649133602823317598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 14
+        width: 61
+        height: 50
+      alignment: 9
+      pivot: {x: 0.50982964, y: 0.79272133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46393bdc07457ad10800000000000000
+      internalID: 2136769391674757988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 14
+        width: 51
+        height: 39
+      alignment: 9
+      pivot: {x: 0.4502145, y: 1.0464687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ad147ad884fb520800000000000000
+      internalID: 2719972473188768390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 14
+        width: 51
+        height: 36
+      alignment: 9
+      pivot: {x: 0.49690038, y: 1.09856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4187e51297e5890800000000000000
+      internalID: -7467397947907894071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 14
+        width: 49
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4605389, y: 0.91560864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e7949cdbb552ff0800000000000000
+      internalID: -61542149215650288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 14
+        width: 55
+        height: 38
+      alignment: 9
+      pivot: {x: 0.51337224, y: 0.99047357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170d5abf097b8fc90800000000000000
+      internalID: -7135751776243429263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 14
+        width: 55
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5011652, y: 1.0126072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1509b0dc3b3867800800000000000000
+      internalID: 609819607817752657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 14
+        width: 51
+        height: 50
+      alignment: 9
+      pivot: {x: 0.53081197, y: 0.7498998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1953204f6172270c0800000000000000
+      internalID: -4579554891545823855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 14
+        width: 69
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27885106, y: 0.7830851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89829946c3c6ab480800000000000000
+      internalID: -8882668308393285480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 14
+        width: 62
+        height: 70
+      alignment: 9
+      pivot: {x: 0.33794183, y: 0.5364712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05ee8e9b80c63560800000000000000
+      internalID: 7293228352466248975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running Animation (2)-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 14
+        width: 52
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5198691, y: 0.5358445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500d1ed0a0caada70800000000000000
+      internalID: 8852577176732684293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 69ebf6ea2aa779a4d863526de9e57a4e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Running Animation (2)-Sheet_0: 3347739587982466765
+      Running Animation (2)-Sheet_1: 6660534732727149786
+      Running Animation (2)-Sheet_10: -7467397947907894071
+      Running Animation (2)-Sheet_11: -61542149215650288
+      Running Animation (2)-Sheet_12: -7135751776243429263
+      Running Animation (2)-Sheet_13: 609819607817752657
+      Running Animation (2)-Sheet_14: -4579554891545823855
+      Running Animation (2)-Sheet_15: -8882668308393285480
+      Running Animation (2)-Sheet_16: 7293228352466248975
+      Running Animation (2)-Sheet_17: 8852577176732684293
+      Running Animation (2)-Sheet_2: -2285016550055506925
+      Running Animation (2)-Sheet_3: 3218919896898065077
+      Running Animation (2)-Sheet_4: -1881452093392598875
+      Running Animation (2)-Sheet_5: 4363778055306811637
+      Running Animation (2)-Sheet_6: -6541805057529938359
+      Running Animation (2)-Sheet_7: -2649133602823317598
+      Running Animation (2)-Sheet_8: 2136769391674757988
+      Running Animation (2)-Sheet_9: 2719972473188768390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

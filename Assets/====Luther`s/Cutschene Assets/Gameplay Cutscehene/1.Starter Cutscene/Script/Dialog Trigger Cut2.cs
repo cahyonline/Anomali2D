@@ -7,8 +7,10 @@ public class DialogueTriggerCS2 : MonoBehaviour
     //public GameObject UIinteractE;
     public string finalDialog = "FUCK OFF";
         public DialogueStartCS2 dialogueStarterCS2;
+    //[SerializeField] private GameObject playerGoesHere;
     public GameObject dialogUIparent;
     public DialogueStartCS2.Dialogue npcDialogue;
+    
     //public DialoguesManagererNormal dialogueManager;
     //public PlayableDirector CutscenePlayer2; 
     //private bool inRange = false;
@@ -22,6 +24,7 @@ public class DialogueTriggerCS2 : MonoBehaviour
         //interactingDialog = false;
         //dialogueDone = false;
         dialogUIparent.SetActive(false);
+        //playerGoesHere.SetActive(false);
     }
 
     // void Update()
@@ -82,6 +85,6 @@ public class DialogueTriggerCS2 : MonoBehaviour
     public void DoneDialog()
     {
         //dialogueDone = true;
-
+        //playerGoesHere.SetActive(true);
     }
 }
