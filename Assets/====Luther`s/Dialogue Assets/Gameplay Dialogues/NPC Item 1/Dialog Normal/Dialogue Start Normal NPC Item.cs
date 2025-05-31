@@ -16,7 +16,7 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
     public GameObject NPCPanel;
     public GameObject responsePanel;
     [SerializeField] private PlayerInventory playerInventory; public InventoryItem inventoryItem; public int amount;
-    
+
     public DialogueTriggerNormalNPCItem dialogueTriggerNormal; // Reference to DialogueTrigger script
     //public PlayerControl PlayerControllerScriptGoesHere;
     //public ComboCharacter comboCharacter;
@@ -62,13 +62,13 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
         }
 
         //////////////////////////////////////////////////////////////////////
-            if (phaseTalk == 2)
-            {
-                //EventCallBack.OnAttack();
-                repeatLine = repeatText2;
-                ShowRepeatLine();
-                return;
-            }
+        if (phaseTalk == 2)
+        {
+            //EventCallBack.OnAttack();
+            repeatLine = repeatText2;
+            ShowRepeatLine();
+            return;
+        }
 
         NPCPanel.SetActive(true);
 
@@ -141,11 +141,15 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
         NPCPanel.SetActive(true);
         dialogueText.text = repeatLine;
         StartCoroutine(ClosePanelAfterDelay());
+        //GamesState.InCutscene = false;
+        //EventCallBack.EndAttack();
     }
 
     IEnumerator ClosePanelAfterDelay()
     {
         yield return new WaitForSeconds(1.5f);
+        //GamesState.InCutscene = false;
+        //EventCallBack.EndAttack();
         NPCPanel.SetActive(false);
     }
 
@@ -160,5 +164,10 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
         //comboCharacter.enabled = true;
         GamesState.InInteract = false;
         dialogueTriggerNormal.DoneDialog();
+    }
+
+    public void Item1Collected()
+    {
+        itemCheck1 = true;
     }
 }

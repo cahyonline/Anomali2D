@@ -55,6 +55,7 @@ public class DialogueStartCS3 : MonoBehaviour
         currentLineIndex = 0;
         isDialogueActive = true;
         //PlayerControllerScriptGoesHere.enabled = false;
+        //EventCallBack.OnAttack();
         //comboCharacter.enabled = false;
 
         ShowNextLine();

@@ -26,13 +26,16 @@ public class DialogueTriggerAD1 : MonoBehaviour
 
     void Update()
     {
-        if(inRange && Input.GetKey(KeyCode.E) && !postponeDialogCheck)
+        if (inRange && Input.GetKey(KeyCode.E) && !postponeDialogCheck)
         {
-            dialogueStartScript.StartDialogue(npcDialogue,finalDialog);
+            dialogueStartScript.StartDialogue(npcDialogue, finalDialog);
             UIinteractE.SetActive(false);
             inRange = false;
             interactingDialog = true;
             dialogUIparent.SetActive(true);
+            
+            GamesState.InCutscene = true;
+            EventCallBack.OnAttack();            
         }
         
         if(inRange && dialogueDone && Input.GetKey(KeyCode.E))
@@ -41,13 +44,15 @@ public class DialogueTriggerAD1 : MonoBehaviour
             UIinteractE.SetActive(false);
             inRange = false;
         }
-        if(inRange && Input.GetKey(KeyCode.E) && postponeDialogCheck)
+        if (inRange && Input.GetKey(KeyCode.E) && postponeDialogCheck)
         {
             DialogueAD();
             UIinteractE.SetActive(false);
             inRange = false;
             interactingDialog = true;
-            Debug.LogWarning("PostPoned DT");
+            GamesState.InCutscene = true;
+            EventCallBack.OnAttack();
+            //Debug.LogWarning("PostPoned DT");
         }
 
         //if (interactingDialog) UIinteractE.SetActive(false);
@@ -68,6 +73,8 @@ public class DialogueTriggerAD1 : MonoBehaviour
             //dialogueManager.StartDialogue(dialogues);
             UIinteractE.SetActive(true);
             inRange = true;
+            GamesState.InCutscene = false;
+            EventCallBack.EndAttack();
             //dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
             Debug.Log("UI Show done");
         }
@@ -85,18 +92,24 @@ public class DialogueTriggerAD1 : MonoBehaviour
     public void DialogueAD()
     {
         dialogueManager.StartDialogue(dialogues);
+        GamesState.InCutscene = true;
+        EventCallBack.OnAttack();
     }
 
     public void DoneDialog()
     {
         dialogueDone = true;
+        GamesState.InCutscene = false;
+        EventCallBack.EndAttack();
     }
 
     public void PostponeDialog()
     {
         interactingDialog = false;
         dialogueDone = false;
-        postponeDialogCheck =  true;
+        postponeDialogCheck = true;
+        GamesState.InCutscene = false;
+        EventCallBack.EndAttack();
     }
     public void RestartDialogTG()
     {
@@ -104,5 +117,7 @@ public class DialogueTriggerAD1 : MonoBehaviour
         dialogueDone = false;
         postponeDialogCheck = false;
         dialogueStartScript.RestartStartDialog();
+        GamesState.InCutscene = false;
+        EventCallBack.EndAttack();
     }
 }

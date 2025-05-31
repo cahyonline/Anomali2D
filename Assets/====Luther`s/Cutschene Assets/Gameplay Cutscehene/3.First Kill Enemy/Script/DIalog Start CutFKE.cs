@@ -114,7 +114,7 @@ public class DialogueStartCSFKE : MonoBehaviour
     void EndDialogue()
     {
         //cutscenePlayer2.ResumeCutscene();
-        Debug.Log("done");
+        //Debug.Log("done");
         invisWall.SetActive(false);
         isDialogueActive = false;
         //dialogueTriggerNormal.DialogueAD(); ////////////////////// EXTEND DIALOGUE TO OPTIONS DIALOG AD

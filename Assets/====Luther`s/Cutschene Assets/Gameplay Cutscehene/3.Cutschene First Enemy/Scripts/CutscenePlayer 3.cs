@@ -28,7 +28,7 @@ public class CutscenePlayer3 : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Detected");
+            //Debug.Log("Detected");
             Cutscene3.Play();
             GamesState.InCutscene = true;
             EventCallBack.OnAttack();

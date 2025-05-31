@@ -91,7 +91,7 @@ public class DialogueTriggerCSFKE : MonoBehaviour
         //inRange = false;
         //interactingDialog = true;
         dialogUIparent.SetActive(true);
-        Debug.Log("called");
+        //Debug.Log("called");
     }
     public void DoneDialog()
     {

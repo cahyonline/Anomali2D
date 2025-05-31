@@ -27,21 +27,24 @@ public class DialogueTriggerNormalNPCItem : MonoBehaviour
 
     void Update()
     {
-        if (inRange && Input.GetKey(KeyCode.E))
+        if (inRange && Input.GetKey(KeyCode.E)) //STARTER
         {
             dialogueStartManager.StartDialogue(npcDialogue, finalDialog, lastDialog);
             UIinteractE.SetActive(false);
             inRange = false;
             interactingDialog = true;
             dialogUIparent.SetActive(true);
+            GamesState.InCutscene = true;
+            EventCallBack.OnAttack();
         }
 
-        if (inRange && dialogueDone && Input.GetKey(KeyCode.E))
+        if (inRange && dialogueDone && Input.GetKey(KeyCode.E)) //REAPEAT DEFAULT
         {
             dialogueStartManager.StartDialogue(npcDialogue, finalDialog, lastDialog);
             UIinteractE.SetActive(false);
             interactingDialog = true;
             inRange = false;
+
         }
     }
     void OnTriggerStay2D(Collider2D other)
@@ -62,8 +65,10 @@ public class DialogueTriggerNormalNPCItem : MonoBehaviour
             UIinteractE.SetActive(true);
             inRange = true;
             interactingDialog = true;
+            GamesState.InCutscene = false;
+            EventCallBack.EndAttack();
             //dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
-            Debug.Log("UI Show done");
+            //Debug.Log("UI Show done");
         }
     }
     void OnTriggerExit2D(Collider2D other)
@@ -82,10 +87,14 @@ public class DialogueTriggerNormalNPCItem : MonoBehaviour
         //inRange = false;
         interactingDialog = true;
         dialogUIparent.SetActive(true);
+
+        
     }
     public void DoneDialog()
     {
         dialogueDone = true;
+        GamesState.InCutscene = false;
+        EventCallBack.EndAttack();
     }
 
     public void ReDialog()
