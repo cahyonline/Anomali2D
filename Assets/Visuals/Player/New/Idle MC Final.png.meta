@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: 960021631fc7edc46ad7281b860c90e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6425283355022434464
+    second: Idle MC Final_0
+  - first:
+      213: -2249256582224243940
+    second: Idle MC Final_1
+  - first:
+      213: -4461712854073517512
+    second: Idle MC Final_2
+  - first:
+      213: -4788687248583466800
+    second: Idle MC Final_3
+  - first:
+      213: 5669911039574501382
+    second: Idle MC Final_4
+  - first:
+      213: 5333746033152657096
+    second: Idle MC Final_5
+  - first:
+      213: -8691570312929924527
+    second: Idle MC Final_6
+  - first:
+      213: 2876988493466933004
+    second: Idle MC Final_7
+  - first:
+      213: 7558978659659789302
+    second: Idle MC Final_8
+  - first:
+      213: -21951021769148110
+    second: Idle MC Final_9
+  - first:
+      213: -2354178084971843795
+    second: Idle MC Final_10
+  - first:
+      213: -4920695466047199615
+    second: Idle MC Final_11
+  - first:
+      213: -1535705116397855828
+    second: Idle MC Final_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle MC Final_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 63
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8961723, y: 0.55342007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0a7553b213b2950800000000000000
+      internalID: 6425283355022434464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1
+        width: 63
+        height: 59
+      alignment: 9
+      pivot: {x: 0.89617074, y: 0.5534201}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1390d73e0909c0e0800000000000000
+      internalID: -2249256582224243940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1
+        width: 61
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8937963, y: 0.5534197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a57236ccfc412c0800000000000000
+      internalID: -4461712854073517512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1
+        width: 61
+        height: 59
+      alignment: 9
+      pivot: {x: 0.89100623, y: 0.5534202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d06db7a15a2b8db0800000000000000
+      internalID: -4788687248583466800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1
+        width: 62
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8915671, y: 0.5534202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60867edcc029fae40800000000000000
+      internalID: 5669911039574501382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_5
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1
+        width: 62
+        height: 60
+      alignment: 9
+      pivot: {x: 0.89327216, y: 0.5429825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6863cf1c5450a40800000000000000
+      internalID: 5333746033152657096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_6
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1
+        width: 63
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8948955, y: 0.5534686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a2b7da9d6516780800000000000000
+      internalID: -8691570312929924527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_7
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1
+        width: 63
+        height: 60
+      alignment: 9
+      pivot: {x: 0.89375913, y: 0.54421306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c079bf7bacd1de720800000000000000
+      internalID: 2876988493466933004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_8
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1
+        width: 62
+        height: 60
+      alignment: 9
+      pivot: {x: 0.892017, y: 0.54540807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3b7c1ba03e6e860800000000000000
+      internalID: 7558978659659789302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_9
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1
+        width: 62
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8943294, y: 0.55346906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2393ef879a302bff0800000000000000
+      internalID: -21951021769148110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_10
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1
+        width: 61
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8913884, y: 0.5546842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f6e333187445fd0800000000000000
+      internalID: -2354178084971843795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_11
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1
+        width: 61
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8937438, y: 0.5534692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186a16a6b8d26bbb0800000000000000
+      internalID: -4920695466047199615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle MC Final_12
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1
+        width: 63
+        height: 59
+      alignment: 9
+      pivot: {x: 0.89603096, y: 0.5534688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab1b59455410bae0800000000000000
+      internalID: -1535705116397855828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 048c8a5a184aab649a7b34216856fd9d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Idle MC Final_0: 6425283355022434464
+      Idle MC Final_1: -2249256582224243940
+      Idle MC Final_10: -2354178084971843795
+      Idle MC Final_11: -4920695466047199615
+      Idle MC Final_12: -1535705116397855828
+      Idle MC Final_2: -4461712854073517512
+      Idle MC Final_3: -4788687248583466800
+      Idle MC Final_4: 5669911039574501382
+      Idle MC Final_5: 5333746033152657096
+      Idle MC Final_6: -8691570312929924527
+      Idle MC Final_7: 2876988493466933004
+      Idle MC Final_8: 7558978659659789302
+      Idle MC Final_9: -21951021769148110
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
