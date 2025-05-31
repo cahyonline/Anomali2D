@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: f1bd7c9edd5af5e47ad141eca9876831
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2037354055077040798
+    second: Dapet Ulti_0
+  - first:
+      213: -70607276553158705
+    second: Dapet Ulti_1
+  - first:
+      213: 7415560855734183571
+    second: Dapet Ulti_2
+  - first:
+      213: -3037104905691782946
+    second: Dapet Ulti_3
+  - first:
+      213: 4639883034805910221
+    second: Dapet Ulti_4
+  - first:
+      213: 4007510365630264083
+    second: Dapet Ulti_5
+  - first:
+      213: 3781786918742080094
+    second: Dapet Ulti_6
+  - first:
+      213: 4287796390177929218
+    second: Dapet Ulti_7
+  - first:
+      213: -984439168587478694
+    second: Dapet Ulti_8
+  - first:
+      213: -7831802224164228285
+    second: Dapet Ulti_9
+  - first:
+      213: -4944085212720476871
+    second: Dapet Ulti_10
+  - first:
+      213: -6260510236485966778
+    second: Dapet Ulti_11
+  - first:
+      213: 6985319160998910226
+    second: Dapet Ulti_12
+  - first:
+      213: -1537398583751744683
+    second: Dapet Ulti_13
+  - first:
+      213: 4458331846845547432
+    second: Dapet Ulti_14
+  - first:
+      213: 7040270087588626134
+    second: Dapet Ulti_15
+  - first:
+      213: 4145029324499095371
+    second: Dapet Ulti_16
+  - first:
+      213: 8384537917668824106
+    second: Dapet Ulti_17
+  - first:
+      213: 1605528015347318804
+    second: Dapet Ulti_18
+  - first:
+      213: 3284916286979992578
+    second: Dapet Ulti_19
+  - first:
+      213: 2074831551623647565
+    second: Dapet Ulti_20
+  - first:
+      213: 789767051648433694
+    second: Dapet Ulti_21
+  - first:
+      213: 7073635271259892946
+    second: Dapet Ulti_22
+  - first:
+      213: 3333976223133839006
+    second: Dapet Ulti_23
+  - first:
+      213: 6455942647029758578
+    second: Dapet Ulti_24
+  - first:
+      213: -1831329569285041100
+    second: Dapet Ulti_25
+  - first:
+      213: 3982292080523204219
+    second: Dapet Ulti_26
+  - first:
+      213: 5439744734729035488
+    second: Dapet Ulti_27
+  - first:
+      213: -3274030843866354292
+    second: Dapet Ulti_28
+  - first:
+      213: 2757122382919715441
+    second: Dapet Ulti_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dapet Ulti_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 72
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92919ef7b2264c10800000000000000
+      internalID: 2037354055077040798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dapet Ulti_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 72
+        width: 128
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4919698, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396e3581f4d59e660800000000000000
+      internalID: 7415560855734183571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dapet Ulti_4
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 72
+        width: 128
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5072799, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcab7f8790d246040800000000000000
+      internalID: 4639883034805910221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dapet Ulti_6
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 72
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a37d37a2b9b7430800000000000000
+      internalID: 3781786918742080094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dapet Ulti_8
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 72
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59cc5dbac19652f0800000000000000
+      internalID: -984439168587478694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dapet Ulti_10
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 72
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dc884a1b4136bb0800000000000000
+      internalID: -4944085212720476871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e19a00c219e983e42b147e4f2fa70fb3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dapet Ulti_0: 2037354055077040798
+      Dapet Ulti_1: -70607276553158705
+      Dapet Ulti_10: -4944085212720476871
+      Dapet Ulti_11: -6260510236485966778
+      Dapet Ulti_12: 6985319160998910226
+      Dapet Ulti_13: -1537398583751744683
+      Dapet Ulti_14: 4458331846845547432
+      Dapet Ulti_15: 7040270087588626134
+      Dapet Ulti_16: 4145029324499095371
+      Dapet Ulti_17: 8384537917668824106
+      Dapet Ulti_18: 1605528015347318804
+      Dapet Ulti_19: 3284916286979992578
+      Dapet Ulti_2: 7415560855734183571
+      Dapet Ulti_20: 2074831551623647565
+      Dapet Ulti_21: 789767051648433694
+      Dapet Ulti_22: 7073635271259892946
+      Dapet Ulti_23: 3333976223133839006
+      Dapet Ulti_24: 6455942647029758578
+      Dapet Ulti_25: -1831329569285041100
+      Dapet Ulti_26: 3982292080523204219
+      Dapet Ulti_27: 5439744734729035488
+      Dapet Ulti_28: -3274030843866354292
+      Dapet Ulti_29: 2757122382919715441
+      Dapet Ulti_3: -3037104905691782946
+      Dapet Ulti_4: 4639883034805910221
+      Dapet Ulti_5: 4007510365630264083
+      Dapet Ulti_6: 3781786918742080094
+      Dapet Ulti_7: 4287796390177929218
+      Dapet Ulti_8: -984439168587478694
+      Dapet Ulti_9: -7831802224164228285
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
