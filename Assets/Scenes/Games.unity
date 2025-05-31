@@ -25508,7 +25508,7 @@ Transform:
   m_GameObject: {fileID: 336071575}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -183.88292, y: 25.730164, z: -10.073587}
+  m_LocalPosition: {x: -183.90369, y: 25.730103, z: -10.073587}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -123136,7 +123136,7 @@ MonoBehaviour:
   canRegen: 1
   vulnerable: 1
   playerRB: {fileID: 5253407967930456654}
-  delayDeathUi: 5
+  delayDeathUi: 3
   deathMenu: {fileID: 1255524491}
   pAnimator: {fileID: 2118786265224154026}
   knockbackDirection: {x: -1, y: 1}
