@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: b84a30634df674e42b7ea4b5faca2b9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2833238624045112941
+    second: Animasi Gedung Kebuka_0
+  - first:
+      213: -1358475376728723535
+    second: Animasi Gedung Kebuka_1
+  - first:
+      213: -5735810254870996721
+    second: Animasi Gedung Kebuka_2
+  - first:
+      213: -5091370224793803532
+    second: Animasi Gedung Kebuka_3
+  - first:
+      213: 25943613663792295
+    second: Animasi Gedung Kebuka_4
+  - first:
+      213: 8642295553716189878
+    second: Animasi Gedung Kebuka_5
+  - first:
+      213: 7559215629043898387
+    second: Animasi Gedung Kebuka_6
+  - first:
+      213: -4271948297286403339
+    second: Animasi Gedung Kebuka_7
+  - first:
+      213: 4615757971076341338
+    second: Animasi Gedung Kebuka_8
+  - first:
+      213: -7144358146144353776
+    second: Animasi Gedung Kebuka_9
+  - first:
+      213: 237476703036046912
+    second: Animasi Gedung Kebuka_10
+  - first:
+      213: 3282429503393531026
+    second: Animasi Gedung Kebuka_11
+  - first:
+      213: -976551254156897127
+    second: Animasi Gedung Kebuka_12
+  - first:
+      213: 4380795723377792260
+    second: Animasi Gedung Kebuka_13
+  - first:
+      213: 7934699240569243260
+    second: Animasi Gedung Kebuka_14
+  - first:
+      213: -5507662311984985192
+    second: Animasi Gedung Kebuka_15
+  - first:
+      213: 7784765784482871004
+    second: Animasi Gedung Kebuka_16
+  - first:
+      213: -7259791601822900171
+    second: Animasi Gedung Kebuka_17
+  - first:
+      213: -753729088866888172
+    second: Animasi Gedung Kebuka_18
+  - first:
+      213: -4210515682107129354
+    second: Animasi Gedung Kebuka_19
+  - first:
+      213: -2389581958991964441
+    second: Animasi Gedung Kebuka_20
+  - first:
+      213: 8892303593650639433
+    second: Animasi Gedung Kebuka_21
+  - first:
+      213: 3267952884684009851
+    second: Animasi Gedung Kebuka_22
+  - first:
+      213: -8714124606263322686
+    second: Animasi Gedung Kebuka_23
+  - first:
+      213: 1440383108239306234
+    second: Animasi Gedung Kebuka_24
+  - first:
+      213: -7341574087793768534
+    second: Animasi Gedung Kebuka_25
+  - first:
+      213: 5676201916672920238
+    second: Animasi Gedung Kebuka_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 111
+        width: 263
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e1026748fa15720800000000000000
+      internalID: 2833238624045112941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_1
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 111
+        width: 267
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf28f5a7d9b52de0800000000000000
+      internalID: -1358475376728723535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_2
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 111
+        width: 267
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f091f5b76fe4660b0800000000000000
+      internalID: -5735810254870996721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_3
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 111
+        width: 219
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f42a2b71c1d759b0800000000000000
+      internalID: -5091370224793803532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_4
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 206
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acce94449b2c5000800000000000000
+      internalID: 25943613663792295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_5
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 111
+        width: 219
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6baf03b640a9fe770800000000000000
+      internalID: 8642295553716189878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_6
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 111
+        width: 219
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3181ebd609ab7e860800000000000000
+      internalID: 7559215629043898387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_7
+      rect:
+        serializedVersion: 2
+        x: 3313
+        y: 111
+        width: 219
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fab86948adf6b4c0800000000000000
+      internalID: -4271948297286403339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_8
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 111
+        width: 196
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ede2b5b677e0040800000000000000
+      internalID: 4615757971076341338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_9
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 216
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012c5e65e142adc90800000000000000
+      internalID: -7144358146144353776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_10
+      rect:
+        serializedVersion: 2
+        x: 4045
+        y: 215
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ef4ee9dcfab4300800000000000000
+      internalID: 237476703036046912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_11
+      rect:
+        serializedVersion: 2
+        x: 4379
+        y: 111
+        width: 198
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29488060e388d8d20800000000000000
+      internalID: 3282429503393531026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_12
+      rect:
+        serializedVersion: 2
+        x: 4539
+        y: 209
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994140feec79272f0800000000000000
+      internalID: -976551254156897127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_13
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 215
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405db7dff76bbcc30800000000000000
+      internalID: 4380795723377792260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_14
+      rect:
+        serializedVersion: 2
+        x: 4912
+        y: 111
+        width: 198
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7601b16be6bd1e60800000000000000
+      internalID: 7934699240569243260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_15
+      rect:
+        serializedVersion: 2
+        x: 5078
+        y: 209
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b045fde4ad093b0800000000000000
+      internalID: -5507662311984985192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_16
+      rect:
+        serializedVersion: 2
+        x: 5111
+        y: 215
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd677bb4c3b090c60800000000000000
+      internalID: 7784765784482871004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_17
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 196
+        width: 55
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5306bfd800a004b90800000000000000
+      internalID: -7259791601822900171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_18
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 196
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416d53913673a85f0800000000000000
+      internalID: -753729088866888172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_19
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 196
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f10bce9b4e3195c0800000000000000
+      internalID: -4210515682107129354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_20
+      rect:
+        serializedVersion: 2
+        x: 4039
+        y: 196
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e61a9c6edf76ded0800000000000000
+      internalID: -2389581958991964441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_21
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 196
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942d976410fc76b70800000000000000
+      internalID: 8892303593650639433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_22
+      rect:
+        serializedVersion: 2
+        x: 5108
+        y: 196
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71bd4295d91a5d20800000000000000
+      internalID: 3267952884684009851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_23
+      rect:
+        serializedVersion: 2
+        x: 4035
+        y: 154
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c71f2b07d5311780800000000000000
+      internalID: -8714124606263322686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_24
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 139
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afda3133ec44df310800000000000000
+      internalID: 1440383108239306234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_25
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 139
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa707d4b34d7d1a90800000000000000
+      internalID: -7341574087793768534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animasi Gedung Kebuka_26
+      rect:
+        serializedVersion: 2
+        x: 5109
+        y: 139
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa4ea4c19be5ce40800000000000000
+      internalID: 5676201916672920238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Animasi Gedung Kebuka_0: 2833238624045112941
+      Animasi Gedung Kebuka_1: -1358475376728723535
+      Animasi Gedung Kebuka_10: 237476703036046912
+      Animasi Gedung Kebuka_11: 3282429503393531026
+      Animasi Gedung Kebuka_12: -976551254156897127
+      Animasi Gedung Kebuka_13: 4380795723377792260
+      Animasi Gedung Kebuka_14: 7934699240569243260
+      Animasi Gedung Kebuka_15: -5507662311984985192
+      Animasi Gedung Kebuka_16: 7784765784482871004
+      Animasi Gedung Kebuka_17: -7259791601822900171
+      Animasi Gedung Kebuka_18: -753729088866888172
+      Animasi Gedung Kebuka_19: -4210515682107129354
+      Animasi Gedung Kebuka_2: -5735810254870996721
+      Animasi Gedung Kebuka_20: -2389581958991964441
+      Animasi Gedung Kebuka_21: 8892303593650639433
+      Animasi Gedung Kebuka_22: 3267952884684009851
+      Animasi Gedung Kebuka_23: -8714124606263322686
+      Animasi Gedung Kebuka_24: 1440383108239306234
+      Animasi Gedung Kebuka_25: -7341574087793768534
+      Animasi Gedung Kebuka_26: 5676201916672920238
+      Animasi Gedung Kebuka_3: -5091370224793803532
+      Animasi Gedung Kebuka_4: 25943613663792295
+      Animasi Gedung Kebuka_5: 8642295553716189878
+      Animasi Gedung Kebuka_6: 7559215629043898387
+      Animasi Gedung Kebuka_7: -4271948297286403339
+      Animasi Gedung Kebuka_8: 4615757971076341338
+      Animasi Gedung Kebuka_9: -7144358146144353776
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

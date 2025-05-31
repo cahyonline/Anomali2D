@@ -25,7 +25,7 @@ public class MeleeBaseState : State
     private float AttackPressedTimer = 0;
 
     //
-    private bool hasMissedAttack = false;
+   //private bool hasMissedAttack = false;
 
 
     public override void OnEnter(StateMachine _stateMachine)

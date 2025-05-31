@@ -7,7 +7,11 @@ public enum ItemType
     CanEnterHouse,
     Consumable,
     LightSource,
-    QuestItem
+    QuestItem,
+    Boneka,
+    Potion,
+    Fragment,
+    WallJump
 }
 
 [CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
