@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Animations;
+//using UnityEditor.Animations;
 using UnityEngine;
 
 public class isUnlock1: MonoBehaviour
@@ -20,6 +20,7 @@ public class isUnlock1: MonoBehaviour
             isUnlocks = true;
             UIpickupE.SetActive(true);
             //Debug.Log("kont");
+            //
         }
     }
 
