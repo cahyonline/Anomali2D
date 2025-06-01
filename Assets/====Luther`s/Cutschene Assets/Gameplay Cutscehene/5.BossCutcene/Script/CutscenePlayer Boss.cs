@@ -13,6 +13,9 @@ public class CutscenePlayerBoss : MonoBehaviour
     //public GameObject bossObject;
     public EnemyAIGBoss enemyAIGBoss;
     public GameObject CutSceneGameRoot;
+    public GameObject theBossParent;
+    public Animator whiteFlashBang;
+    public GameObject invisBarier;
     //[SerializeField] private GameObject playerGoesHere;
     ////////////////////////////////////////////////////////////////
     // Start is called before the first frame update
@@ -20,11 +23,12 @@ public class CutscenePlayerBoss : MonoBehaviour
     {
         //Debug.Log("Cutscene1 Trigger Ready");
         CutSceneGameRoot.SetActive(true);
-        fade.SetActive(true);
-
+        //theBossParent.SetActive(true);
+        fade.SetActive(false);
         //PlayCutscene();
         //bossObject.SetActive(false);
         //playerGoesHere.SetActive(false);
+        invisBarier.SetActive(true);
     }
     // Update is called once per frame
     void Update()
@@ -79,6 +83,10 @@ public class CutscenePlayerBoss : MonoBehaviour
 
     public void TriggerAtLast()
     {
-        Debug.LogError("ENding");
+        //Debug.LogError("ENding");
+        fade.SetActive(true);
+        theBossParent.SetActive(false);
+        whiteFlashBang.SetBool("FlashBang", true);
+        invisBarier.SetActive(false);
     }
 }

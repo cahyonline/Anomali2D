@@ -17,7 +17,7 @@ public class DialogueStartFalling : MonoBehaviour
     public GameObject NPCPanel;
     //public GameObject invisWall;
     //public GameObject responsePanel;
-    public DialogueTriggerFalling dialogueTriggerFalling; // Reference to DialogueTrigger script
+    public DialogueTriggerEnding dialogueTriggerFalling; // Reference to DialogueTrigger script
     //public PlayerControl PlayerControllerScriptGoesHere;
     //public CutscenePlayer2 cutscenePlayer2;
     //public ComboCharacter comboCharacter;
