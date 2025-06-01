@@ -22,6 +22,7 @@ public class UltimateScript : MonoBehaviour
     private bool ultAvailable = false;
     private bool ultimateOn = false;
     private bool attackingPG = false;
+    public bool isHaveUlt = false;
     private UnityEngine.Vector2 originalBoxSize;
 
     //public float ultDuration;
@@ -36,12 +37,13 @@ public class UltimateScript : MonoBehaviour
         //durationPercentage = 1f / ultDuration;
         playerBigDamage.SetActive(false);
         originalBoxSize = playerDefaultDamage.size;
+        isHaveUlt = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timer < timerToFill && currentUlt <= MaxUlt && !ultimateOn)
+        if (timer < timerToFill && currentUlt <= MaxUlt && !ultimateOn && isHaveUlt)
         {
             timer += Time.deltaTime;
             float fillerAmount = timer / timerToFill;
@@ -65,16 +67,20 @@ public class UltimateScript : MonoBehaviour
             UseUlt();
         }
 
+        if (!isHaveUlt)
+        {
+            currentUlt = 0f;
+        }
 
         // if (Input.GetKeyDown(KeyCode.DownArrow))
-        //     {
-        //         UseUlt();
-        //     }
+            //     {
+            //         UseUlt();
+            //     }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            RegainUlt(10);
-        }
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                RegainUlt(10);
+            }
 
         // if (ultimateOn && !attackingPG)
         // {

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-public class DialogueTriggerFalling : MonoBehaviour
+public class DialogueTriggerEnding : MonoBehaviour
 {
     //public GameObject UIinteractE;
     public string finalDialog = "FUCK OFF";

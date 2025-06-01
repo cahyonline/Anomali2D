@@ -21,6 +21,8 @@ public class HealthPlayer : MonoBehaviour
     public float debilitateDegenValue = 1f;
     public float healthRegenValue = 0.1f;
 
+    public bool isHaveEnergy = false;
+
     private float Whathit = 1f;
     public float MegaDM = 75f;
     public float SpikeDM = 30f;
@@ -55,9 +57,11 @@ public class HealthPlayer : MonoBehaviour
         Whathit = 1f;
         deathMenu.SetActive(false);
         healthAmount = Maxhealth;
-        energyAmount = MaxEnergy;
+        //energyAmount = MaxEnergy;
         whiteAmount = Maxhealth;
         defaultKnock = kncockbackForce;
+        isHaveEnergy = false;
+        
     }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     void Update()
@@ -91,6 +95,13 @@ public class HealthPlayer : MonoBehaviour
             //Debilitating(10);
             //Debug.LogWarning("Took 10 Damage");
         }
+
+
+        if (!isHaveEnergy)
+        {
+            energyAmount = 0f;
+        }
+        
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
@@ -193,6 +204,11 @@ public class HealthPlayer : MonoBehaviour
     }
 
     bool hangOn = false ;
+
+    public void RefillEnergy()
+    {
+        Rejuvenating(MaxEnergy);
+    }
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     #region Enumerator
