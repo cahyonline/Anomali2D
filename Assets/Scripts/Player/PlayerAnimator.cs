@@ -14,8 +14,10 @@ public class PlayerAnimator : MonoBehaviour
     [Header("Particle FX")]
     [SerializeField] private GameObject jumpFX;
     [SerializeField] private GameObject landFX;
+    [SerializeField] private GameObject dashFX;
     private ParticleSystem _jumpParticle;
     private ParticleSystem _landParticle;
+    private ParticleSystem _dashParticle;
     public bool startedJumping {  private get; set; }
     public bool justLanded { private get; set; }
     public bool StartDashing { private get; set; }
@@ -38,6 +40,7 @@ public class PlayerAnimator : MonoBehaviour
 
         _jumpParticle = jumpFX.GetComponent<ParticleSystem>();
         _landParticle = landFX.GetComponent<ParticleSystem>();
+        _dashParticle = dashFX.GetComponent<ParticleSystem>();
     }
 
     private void LateUpdate()
@@ -101,7 +104,11 @@ public class PlayerAnimator : MonoBehaviour
             anim.SetBool("IsRunning", false);
             anim.SetTrigger("Dash");
             AudioManager.Instance.PlaySFX("Dash");
-            GameObject obj = Instantiate(jumpFX, transform.position - (Vector3.up * transform.localScale.y / 2), Quaternion.Euler(-90, 0, 0));
+            //GameObject obj = Instantiate(dashFX, transform.position - (Vector3.up * transform.localScale.y / 2), Quaternion.Euler(0, -90, 0));
+            Vector3 spawnPos = transform.position - (Vector3.up * transform.localScale.y / 2);
+            Quaternion fxRotation = mov.IsFacingRight ? Quaternion.Euler(0, -90, 0) : Quaternion.Euler(0, 90, 0);
+            GameObject obj = Instantiate(dashFX, spawnPos, fxRotation);
+
             Destroy(obj, 1);
             StartDashing = false;
             return;

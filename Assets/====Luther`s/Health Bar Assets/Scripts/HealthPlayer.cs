@@ -256,8 +256,8 @@ public class HealthPlayer : MonoBehaviour
     IEnumerator CountDownBeforeDies()
     {
         yield return new WaitForSeconds(delayDeathUi);
-        //Scenemanager goes here
-        Debug.LogError("OI BIB");
+        SceneManager.LoadScene("DeadScene");
+        Debug.LogError("Dead cuy");
     }
 
     #endregion

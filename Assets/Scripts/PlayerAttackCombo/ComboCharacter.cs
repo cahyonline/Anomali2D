@@ -10,6 +10,7 @@ public class ComboCharacter : MonoBehaviour
 
     [SerializeField] public Collider2D hitbox;
     [SerializeField] public GameObject[] Hiteffect;
+    [SerializeField] public PlayerMovement playerMv;
 
     void Start()
     {
