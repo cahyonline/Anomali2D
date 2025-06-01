@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 
 public class Save : MonoBehaviour
 {
-    [SerializeField] private GameObject Paused;
+    //[SerializeField] private GameObject Paused;
     private string savePath;
     public GameController _saveLastPoss;
     public HealthPlayer _saveHealthPlayered;

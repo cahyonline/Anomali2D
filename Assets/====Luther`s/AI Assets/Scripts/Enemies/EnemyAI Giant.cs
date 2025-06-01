@@ -137,8 +137,12 @@ public class EnemyAIGaint : MonoBehaviour
         if(healthAmount <=0)
         {
             //Debug.LogError("Enemy DIED");
-            isDead = true;
-            Dies();
+            if (!isDead)
+            {
+                isDead = true;
+                Dies();
+
+            }
             //Destroy(EnemyRootObject);
         }
 
@@ -298,9 +302,9 @@ public class EnemyAIGaint : MonoBehaviour
 
             giantAnimator.SetBool("attAN",true);
             giantAnimator.SetBool("hurtAN",false);
-
             yield return new WaitForSeconds(0.4f);
 
+            AudioManager.Instance.PlaySFX("GiantAtt");
             hurtCanceled = false;
             giantAnimator.SetBool("attAN",false);
             attackHB.SetActive(true);
@@ -359,6 +363,7 @@ public class EnemyAIGaint : MonoBehaviour
 
     void Dies()
     {
+        AudioManager.Instance.PlaySFX("GiantDeath");
         giantAnimator.SetBool("deadAN",true);
         giantAnimator.SetBool("attAN",false);
         giantAnimator.SetBool("runAN",false);

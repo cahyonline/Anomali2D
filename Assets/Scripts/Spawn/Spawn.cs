@@ -19,11 +19,13 @@ public class Spawn : MonoBehaviour
 
             if (areaIndex > currentAreaIndex)
             {
+                AudioManager.Instance.SFXaddOn("SpawnMC");
                 //Debug.Log("Player berpindah ke NEXT SPAWN: " + areaIndex);
             }
             else if (areaIndex < currentAreaIndex)
             {
-               // Debug.Log("Player berpindah ke PREV SPAWN: " + areaIndex);
+                AudioManager.Instance.SFXaddOn("SpawnMC");
+                // Debug.Log("Player berpindah ke PREV SPAWN: " + areaIndex);
             }
             else
             {

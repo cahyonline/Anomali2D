@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class PickupItem : MonoBehaviour
+public class Boneka :MonoBehaviour
 {
     public InventoryItem itemData; 
     public int amount = 1;
@@ -61,6 +61,7 @@ public class PickupItem : MonoBehaviour
 
         if (inventory != null && itemData != null)
         {
+            AudioManager.Instance.SFXaddOn("CollectItem");
             isInteract = true;
             animHandler.CollectItem = true;
             yield return new WaitForSeconds(1.1f);

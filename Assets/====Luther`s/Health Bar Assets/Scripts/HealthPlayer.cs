@@ -138,7 +138,7 @@ public class HealthPlayer : MonoBehaviour
         if (Kebals) return;
         //CinemachineShake.Instance.ShakeCamera(3f, 0.2f);
         //EventCallBack.HitStop();
-
+        AudioManager.Instance.SFXaddOn("PlayerDiHit");
         //EventCallBack.OnAttack();
         StartCoroutine(LateWhiteUpdate());
         pAnimator.SetTrigger("is_PHurt");
@@ -316,8 +316,8 @@ public class HealthPlayer : MonoBehaviour
             vulnerable = false;
             TakeDamage(SmallDM);
             EventCallBack.HitStop();
-            AudioManager.Instance.PlaySFX("PlayerDiHit");
-            CinemachineShake.Instance.ShakeCamera(12f, 12f);
+            AudioManager.Instance.SFXaddOn("PlayerDiHit");
+            CinemachineShake.Instance.ShakeCamera(1f, 1f);
             StartCoroutine(InvulnerableCD());
         }
 
@@ -325,6 +325,9 @@ public class HealthPlayer : MonoBehaviour
         {
             vulnerable = false;
             kncockbackForce = defaultKnock;
+            EventCallBack.HitStop();
+            AudioManager.Instance.PlaySFX("PlayerDiHit");
+            CinemachineShake.Instance.ShakeCamera(6f, 1f);
             GiveKnockback(other.transform.position);
             TakeDamage(BigDM);
             StartCoroutine(InvulnerableCD());
@@ -332,6 +335,9 @@ public class HealthPlayer : MonoBehaviour
 
         if (vulnerable && other.CompareTag("MegaATKHB"))
         {
+            EventCallBack.HitStop();
+            AudioManager.Instance.PlaySFX("PlayerDiHit");
+            CinemachineShake.Instance.ShakeCamera(6, 1f);
             vulnerable = false;
             kncockbackForce = MegaDM * 5 - (-210f + healthAmount);
             GiveKnockback(other.transform.position);
@@ -341,9 +347,12 @@ public class HealthPlayer : MonoBehaviour
 
         if (vulnerable && other.CompareTag("RockATKHB"))
         {
+            EventCallBack.HitStop();
+            AudioManager.Instance.PlaySFX("PlayerDiHit");
+            CinemachineShake.Instance.ShakeCamera(5f, 1f);
             vulnerable = false;
             TakeDamage(RockDM);
-        
+
             StartCoroutine(InvulnerableCD());
         }
 
@@ -354,6 +363,9 @@ public class HealthPlayer : MonoBehaviour
 
         if (other.CompareTag("BossLavaATKHB"))
         {
+            EventCallBack.HitStop();
+            AudioManager.Instance.PlaySFX("PlayerDiHit");
+            CinemachineShake.Instance.ShakeCamera(6f, 1.5f);
             TakeDamage(BossLavaDM);
         }
 

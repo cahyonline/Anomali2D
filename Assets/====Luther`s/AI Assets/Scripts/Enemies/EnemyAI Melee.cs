@@ -152,8 +152,12 @@ public class EnemyAIMelee : MonoBehaviour
 
         if(healthAmount <=0)
         {
-            isDead = true;
-            Dies();
+            if (!isDead)
+            {
+                Dies();
+                isDead = true;
+
+            }
         }
 
         if (playerPosition > sightRange)
@@ -340,7 +344,7 @@ IEnumerator Attack()
 
     meleeAN.SetBool("walkAN",false);
     meleeAN.SetBool("attAN",true);
-
+    AudioManager.Instance.PlaySFX("ShieldAtt");
     isAttacking = true; // Mark that the enemy is attacking
     shieldUp = false; // Lower shield
     attackHB.SetActive(true); // Enable attack hitbox
@@ -456,6 +460,7 @@ IEnumerator AttackReset()
 
             if (other.CompareTag("PlayerDamage") && IsShieldBlocking(other.transform.position))
             {
+                AudioManager.Instance.PlaySFX("ShieldDiAttack");
                 Knockback(attackDirection);
                 Debug.Log("Damage Blocked");
                 isBlocked = true;
@@ -526,6 +531,7 @@ IEnumerator AnimationReset()
         //isDead = true;
         shieldUp = false;
         shieldVis.SetActive(false);
+        AudioManager.Instance.PlaySFX("ShieldDeath");
         meleeAN.SetBool("deadAN",true);
         meleeAN.SetBool("walkAN", false);
         meleeAN.SetBool("turnAN",false);

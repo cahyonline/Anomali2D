@@ -12,8 +12,8 @@ public class UltimateScript : MonoBehaviour
     //public UnityEngine.UI.Image whiteBar;
     public GameObject playerBigDamage;
     public BoxCollider2D playerDefaultDamage;
-    public float currentUlt = 0f; 
-    public float timerToFill = 60f;    
+    public float currentUlt = 0f;
+    public float timerToFill = 60f;
     private bool whiteVis;
     private float MaxUlt = 100f;
     private float defaultMaxUlt;
@@ -79,14 +79,14 @@ public class UltimateScript : MonoBehaviour
         }
 
         // if (Input.GetKeyDown(KeyCode.DownArrow))
-            //     {
-            //         UseUlt();
-            //     }
+        //     {
+        //         UseUlt();
+        //     }
 
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                RegainUlt(10);
-            }
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            RegainUlt(10);
+        }
 
         // if (ultimateOn && !attackingPG)
         // {
@@ -117,12 +117,13 @@ public class UltimateScript : MonoBehaviour
         currentUlt = Mathf.Clamp(currentUlt, 0, MaxUlt);
         ultBar.fillAmount = currentUlt / MaxUlt;
         //ultBar.fillAmount = Mathf.MoveTowards(ultBar.fillAmount, 0f, 0.5f * Time.deltaTime);
-        
+
     }
     public void UseUlt()
     {
         if (currentUlt == MaxUlt && ultAvailable)
         {
+
             ultAvailable = false;
             ultimateOn = true;
             currentUlt = 0f;
@@ -139,7 +140,7 @@ public class UltimateScript : MonoBehaviour
     public void OnUltimateSkillTimer()
     {
         //Debug.Log("Ulting");
-        playerDefaultDamage.size = UnityEngine.Vector2.zero ;
+        playerDefaultDamage.size = UnityEngine.Vector2.zero;
 
         playerDefaultDamage.size = originalBoxSize;
         ultimateOn = false;
@@ -151,15 +152,15 @@ public class UltimateScript : MonoBehaviour
         if (attackingPG) yield break;
         attackingPG = true;
         ////
-       if (!isUltimates)
-       {
+        if (!isUltimates)
+        {
             playerAnimator.Ultimate = true;
             Debug.Log("Kontol");
             isUltimates = true;
-       }
+        }
         ////
         yield return new WaitForSeconds(0.2f);
-
+        AudioManager.Instance.SFXaddOn("Ultimate");
         playerBigDamage.SetActive(true);
 
         yield return new WaitForSeconds(0.1f);
@@ -179,5 +180,10 @@ public class UltimateScript : MonoBehaviour
             //     return;
             // }
         }
+    }
+
+    public void HasUlt()
+    {
+        isHaveUlt = true;
     }
 }

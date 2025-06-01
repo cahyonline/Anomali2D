@@ -107,7 +107,12 @@ public class EnemyAIRanged : MonoBehaviour
             enemyANIM.SetBool("dieAN" ,true);
             enemyANIM.SetBool("attAN" ,false);
             enemyANIM.SetBool("runAN" ,false);
-            isDied = true;
+            if (!isDied)
+            {
+                isDied = true;
+                AudioManager.Instance.PlaySFX("SpearDeath");
+
+            }
             
         }
 
@@ -156,7 +161,7 @@ bool CanSeePlayer()
         if (Time.time >= nextFireTime && !takingDamage)
         {
             nextFireTime = Time.time + fireCD;
-
+            AudioManager.Instance.PlaySFX("SpearAtt");
             enemyANIM.SetBool("attAN" ,true);
             StartCoroutine(DelayBeforeShoot());
             StartCoroutine(AnimatorCD());
@@ -178,6 +183,7 @@ bool CanSeePlayer()
     {
         yield return new WaitForSeconds(0.3f);
         GameObject newProjectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
+        //AudioManager.Instance.PlaySFX("RangedAtt");
             
          // Determine the direction based on enemy's local scale
         int direction = transform.localScale.x < 0 ? -1 : 1;
@@ -227,8 +233,9 @@ public void TakesDamagesFromPlayer()
 /// HEALTH DAMAGE COUNTER
         public void TakeDamage (float damage)
     {
+        EventCallBack.HitStop();
         healthAmount -= damage;
-        healthBar.fillAmount = healthAmount / 200f;
+//        healthBar.fillAmount = healthAmount / 200f;
     }
     public void Healing (float healAmount)
     {
@@ -242,6 +249,7 @@ IEnumerator Flee()
 {
     fieldOfViewAngle = 0f;
     sightRange = 0f;
+    AudioManager.Instance.SFXaddOn("Flee");
     enemyANIM.SetBool("runAN" ,true);
     fleeRange = 0f;
     canFlee = false;
@@ -348,7 +356,7 @@ IEnumerator Flee()
     IEnumerator FleeChanceCoolDown()
     {
         //playerANIM.SetBool("hurtAN", false);
-        Debug.LogWarning("Cooldown");
+        //Debug.LogWarning("Cooldown");
         canFlee = false;
         isFleeing = false;
 
@@ -364,7 +372,7 @@ IEnumerator Flee()
         yield return new WaitForSeconds(Whathit);
         //playerANIM.SetBool("hurtAN", false);
         vulnerable = true;
-        Debug.LogWarning("vulnerable");
+        //Debug.LogWarning("vulnerable");
     }
 
     private IEnumerator AnimatorHitCD()

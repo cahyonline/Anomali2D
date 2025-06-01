@@ -29,6 +29,7 @@ public class DialoguesManagererAD2 : MonoBehaviour
 
         public Button responseButtonPrefab;
         public Transform responseContainer;
+        [SerializeField] public UltimateScript ultimateScript;
 
         private Dialogue[] currentDialogues;
         private int currentDialogueIndex = 0;
@@ -87,11 +88,13 @@ public class DialoguesManagererAD2 : MonoBehaviour
 
         if (currentDialogueIndex == -69)
         {
+            ultimateScript.HasUlt();Debug.LogWarning("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
             dialogueTrigger.DoneDialog();
             EndDialogue();
             EventCallBack.ChangeArea(22);
             EventCallBack.ChangeAreaSpawn(48);
             EventCallBack.Vignette();
+            
             return;
         }
 
