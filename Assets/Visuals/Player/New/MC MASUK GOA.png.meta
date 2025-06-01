@@ -1,22 +1,37 @@
 fileFormatVersion: 2
-guid: 6973a720f658f684ea7d0e8be93114aa
+guid: 046126adc2dae8d489513688073dbaec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5176500919771491095
-    second: Animasi Pintu_0
+      213: 7100889579053488921
+    second: MC MASUK GOA_0
   - first:
-      213: -3851324121917637990
-    second: Animasi Pintu_1
+      213: -5179243187907568040
+    second: MC MASUK GOA_1
   - first:
-      213: 4935679237908643398
-    second: Animasi Pintu_2
+      213: -8083827637617369303
+    second: MC MASUK GOA_2
   - first:
-      213: 5412145663327366026
-    second: Animasi Pintu_3
+      213: -3070381281137489578
+    second: MC MASUK GOA_3
   - first:
-      213: -1675124445154914833
-    second: Animasi Pintu_4
+      213: -6833893511840621072
+    second: MC MASUK GOA_4
+  - first:
+      213: -1393036365341363732
+    second: MC MASUK GOA_5
+  - first:
+      213: 1210262829370315366
+    second: MC MASUK GOA_6
+  - first:
+      213: -7282317625029055086
+    second: MC MASUK GOA_7
+  - first:
+      213: -6249496867935925512
+    second: MC MASUK GOA_8
+  - first:
+      213: 7210436969565370944
+    second: MC MASUK GOA_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,8 +99,8 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
-    resizeAlgorithm: 1
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -97,19 +112,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -151,106 +153,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Animasi Pintu_0
+      name: MC MASUK GOA_0
       rect:
         serializedVersion: 2
-        x: 1212
-        y: 391
-        width: 133
-        height: 122
+        x: 93
+        y: 4
+        width: 52
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71b66760920a6d740800000000000000
-      internalID: 5176500919771491095
+      spriteID: 91b91c4337d6b8260800000000000000
+      internalID: 7100889579053488921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animasi Pintu_1
+      name: MC MASUK GOA_1
       rect:
         serializedVersion: 2
-        x: 3756
-        y: 391
-        width: 133
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 246
+        y: 4
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5247509, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9ab436cd195d8ac0800000000000000
-      internalID: -3851324121917637990
+      spriteID: 85e586be2c1af18b0800000000000000
+      internalID: -5179243187907568040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animasi Pintu_2
+      name: MC MASUK GOA_2
       rect:
         serializedVersion: 2
-        x: 6300
-        y: 391
-        width: 133
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 396
+        y: 8
+        width: 40
+        height: 60
+      alignment: 9
+      pivot: {x: 0.71825635, y: 0.4952968}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64eb0d4dd1e0f7440800000000000000
-      internalID: 4935679237908643398
+      spriteID: 92fd452f79970df80800000000000000
+      internalID: -8083827637617369303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animasi Pintu_3
+      name: MC MASUK GOA_3
       rect:
         serializedVersion: 2
-        x: 8844
-        y: 391
-        width: 133
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 550
+        y: 11
+        width: 39
+        height: 62
+      alignment: 9
+      pivot: {x: 0.73780704, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8b6c475ecdcb1b40800000000000000
-      internalID: 5412145663327366026
+      spriteID: 6598acc0e70d365d0800000000000000
+      internalID: -3070381281137489578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animasi Pintu_4
+      name: MC MASUK GOA_4
       rect:
         serializedVersion: 2
-        x: 11388
-        y: 391
-        width: 133
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 706
+        y: 12
+        width: 30
+        height: 65
+      alignment: 9
+      pivot: {x: 0.8653951, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fedc7fb3133c0c8e0800000000000000
-      internalID: -1675124445154914833
+      spriteID: 0fd94e9fe022921a0800000000000000
+      internalID: -6833893511840621072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC MASUK GOA_5
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 15
+        width: 30
+        height: 63
+      alignment: 9
+      pivot: {x: 0.89229125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce170ac6ec0faace0800000000000000
+      internalID: -1393036365341363732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC MASUK GOA_6
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 34
+        width: 27
+        height: 40
+      alignment: 9
+      pivot: {x: 1.0785139, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6621a7d81a7bbc010800000000000000
+      internalID: 1210262829370315366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC MASUK GOA_7
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 35
+        width: 13
+        height: 35
+      alignment: 9
+      pivot: {x: 1.5300668, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29da39214b200fa90800000000000000
+      internalID: -7282317625029055086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC MASUK GOA_8
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 38
+        width: 13
+        height: 35
+      alignment: 9
+      pivot: {x: 1.6121638, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa43c9b5b35549a0800000000000000
+      internalID: -6249496867935925512
       vertices: []
       indices: 
       edges: []
@@ -258,7 +344,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 804377e97d4578d419dbd0b0593bed6e
     internalID: 0
     vertices: []
     indices: 
@@ -266,11 +352,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Animasi Pintu_0: 5176500919771491095
-      Animasi Pintu_1: -3851324121917637990
-      Animasi Pintu_2: 4935679237908643398
-      Animasi Pintu_3: 5412145663327366026
-      Animasi Pintu_4: -1675124445154914833
+      MC MASUK GOA_0: 7100889579053488921
+      MC MASUK GOA_1: -5179243187907568040
+      MC MASUK GOA_2: -8083827637617369303
+      MC MASUK GOA_3: -3070381281137489578
+      MC MASUK GOA_4: -6833893511840621072
+      MC MASUK GOA_5: -1393036365341363732
+      MC MASUK GOA_6: 1210262829370315366
+      MC MASUK GOA_7: -7282317625029055086
+      MC MASUK GOA_8: -6249496867935925512
+      MC MASUK GOA_9: 7210436969565370944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

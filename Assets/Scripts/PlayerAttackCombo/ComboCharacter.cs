@@ -23,8 +23,8 @@ public class ComboCharacter : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.J))
         {
-            Debug.Log("Key J pressed"); // Log input
-            Debug.Log("Current State: " + meleeStateMachine.CurrentState.GetType()); // Log status state
+            //Debug.Log("Key J pressed"); 
+            //Debug.Log("Current State: " + meleeStateMachine.CurrentState.GetType()); 
             if (meleeStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
             {
                 EventCallBack.OnAttack();

@@ -23,6 +23,10 @@ public class PlayerAnimator : MonoBehaviour
     public bool StartDashing { private get; set; }
     public bool startedWallJump { private get; set; }
     public bool InteractE { private get; set; }
+    public bool InteractE2 { private get; set; }
+    public bool CollectItem { private get; set; }
+    public bool MasukGoa { private get; set; }
+    public bool Ultimate { private get; set; }
     public bool AfterInteract { private get; set; }
     private bool wasSliding = false;
 
@@ -122,18 +126,41 @@ public class PlayerAnimator : MonoBehaviour
 
         if (InteractE)
         {
-           //Debug.Log("InteracPlayer");
+            EventCallBack.OnAttack();
+            //GamesState.InInteract = true;
+            //Debug.Log("InteracPlayer");
             anim.SetTrigger("InteractPlayer");
             InteractE = false;
             return;
 
         }
+        if (InteractE2)
+        {
+            EventCallBack.OnAttack();
+            GamesState.InInteract = true;
+            //Debug.Log("InteracPlayer");
+            anim.SetTrigger("InteractPlayer");
+            InteractE2 = false;
+            return;
+        }
         if (AfterInteract)
         {
+ 
             //Debug.Log("AfterInteract");
             anim.SetTrigger("AfterInteract");
             AfterInteract = false;
             return;
+        }
+        if (CollectItem)
+        {   
+            //anim.SetTrigger("");
+        }
+        if (MasukGoa)
+        {
+            EventCallBack.OnAttack();
+            GamesState.InCutscene = true;
+            anim.SetTrigger("isMasukGoa");
+            MasukGoa = false;
         }
 
         // Trigger "Slide" sekali saat mulai sliding

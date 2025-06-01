@@ -64,14 +64,14 @@ public class HealthPlayer : MonoBehaviour
     {
         if (healthAmount <= 0)
         {
-            Debug.LogError("PLAYER DIED , DELAY BEFORE UI");
+            //Debug.LogError("PLAYER DIED , DELAY BEFORE UI");
             canRegen = false;
             isRegen = false;
             if (regenCoroutine != null) StopCoroutine(regenCoroutine);
             if (!hasPlayedDeathAnim)
             {
                 hasPlayedDeathAnim = true;
-                Debug.Log("Mati");
+                //Debug.Log("Mati");
                 pAnimator.SetTrigger("is_PDie");
                 //EventCallBack.RubahOrtho(15f, 2f);
                 StartCoroutine(CountDownBeforeDies());
@@ -257,7 +257,7 @@ public class HealthPlayer : MonoBehaviour
     {
         yield return new WaitForSeconds(delayDeathUi);
         SceneManager.LoadScene("DeadScene");
-        Debug.LogError("Dead cuy");
+        //Debug.LogError("Dead cuy");
     }
 
     #endregion
