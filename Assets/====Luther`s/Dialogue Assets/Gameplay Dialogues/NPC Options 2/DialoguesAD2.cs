@@ -85,6 +85,16 @@ public class DialoguesManagererAD2 : MonoBehaviour
             return;
         }
 
+        if (currentDialogueIndex == -69)
+        {
+            dialogueTrigger.DoneDialog();
+            EndDialogue();
+            EventCallBack.ChangeArea(22);
+            EventCallBack.ChangeAreaSpawn(48);
+            EventCallBack.Vignette();
+            return;
+        }
+
         Dialogue currentDialogue = currentDialogues[currentDialogueIndex];
         npcDialogueText.text = currentDialogue.npcText;
         ShowResponses(currentDialogue.responses);

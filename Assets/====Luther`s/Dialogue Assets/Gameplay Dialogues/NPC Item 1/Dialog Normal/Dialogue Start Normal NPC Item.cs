@@ -16,7 +16,7 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
     public GameObject NPCPanel;
     public GameObject responsePanel;
     [SerializeField] private PlayerInventory playerInventory; public InventoryItem inventoryItem; public int amount;
-
+    public Animator NPC1AN;
     public DialogueTriggerNormalNPCItem dialogueTriggerNormal; // Reference to DialogueTrigger script
     //public PlayerControl PlayerControllerScriptGoesHere;
     //public ComboCharacter comboCharacter;
@@ -102,6 +102,11 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
             //Debug.Log("REupdate = " + currentLineIndex);
         }
 
+        if (playerInventory.HasItem(ItemType.Potion))
+        {
+            itemCheck1 = true;
+            //NPC1AN.SetBool("isHealthy", true);
+        }
         //Debug.Log(currentLineIndex);
     }
 
@@ -164,6 +169,12 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
         //comboCharacter.enabled = true;
         GamesState.InInteract = false;
         dialogueTriggerNormal.DoneDialog();
+
+        if (playerInventory.HasItem(ItemType.Potion))
+        {
+            itemCheck1 = true;
+            NPC1AN.SetBool("isHealthy", true);
+        }
     }
 
     public void Item1Collected()

@@ -61,11 +61,11 @@ public class UltimateScript : MonoBehaviour
 
         if (currentUlt >= MaxUlt)
         {
-            Debug.Log("ready");
+            //Debug.Log("ready");
             ultAvailable = true;
             isUltimates = false;
 
-            Debug.Log(isUltimates);
+            //Debug.Log(isUltimates);
         }
 
         if (Input.GetKeyDown(KeyCode.U) && ultAvailable)

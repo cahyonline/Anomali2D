@@ -25,11 +25,10 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
     private int currentLineIndex = 0;
     private bool isDialogueActive = false;
     //private bool hasTalkedBefore = false; //////////////////////////////////////////////////
-    public bool itemCheck2;
+    [SerializeField] public bool itemCheck2;
     private bool checker1;
     private int phaseTalk = 0;
     private string repeatLine = ""; // Will be set from DialogueTrigger
-
     void Start()
     {
         NPCPanel.SetActive(false);
@@ -102,6 +101,10 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
             Debug.Log("REupdate = " + currentLineIndex);
         }
 
+        if (playerInventory.HasItem(ItemType.Boneka))
+        {
+            itemCheck2 = true;
+        }
         //Debug.Log(currentLineIndex);
     }
 
