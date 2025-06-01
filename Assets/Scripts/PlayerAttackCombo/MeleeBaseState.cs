@@ -21,6 +21,8 @@ public class MeleeBaseState : State
     // The Hit Effect to Spawn on the afflicted Enemy
     private GameObject[] HitEffectPrefab;
 
+    private PlayerMovement PlayerMvv;
+
     // Input buffer Timer
     private float AttackPressedTimer = 0;
 
@@ -35,6 +37,7 @@ public class MeleeBaseState : State
         collidersDamaged = new List<Collider2D>();
         hitCollider = GetComponent<ComboCharacter>().hitbox;
         HitEffectPrefab = GetComponent<ComboCharacter>().Hiteffect;
+        PlayerMvv = GetComponent<ComboCharacter>().playerMv;
     }
 
     public override void OnUpdate()
@@ -86,7 +89,17 @@ public class MeleeBaseState : State
                 else if (collider.CompareTag("Enemy"))
                 {
                     // Spawn efek hit dan simpan referensinya
+                    //GameObject hitEffect = UnityEngine.Object.Instantiate(HitEffectPrefab[attackIndex], hitPosition, Quaternion.identity);
+
+                    bool isFacingRight = PlayerMvv.IsFacingRight;
                     GameObject hitEffect = UnityEngine.Object.Instantiate(HitEffectPrefab[attackIndex], hitPosition, Quaternion.identity);
+                    Vector3 scale = hitEffect.transform.localScale;
+                    scale.x = isFacingRight ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
+                    hitEffect.transform.localScale = scale;
+
+
+                    //Quaternion hitRotation = isFacingRight ? Quaternion.identity : Quaternion.Euler(0, 180, 0);
+                    //GameObject hitEffect = UnityEngine.Object.Instantiate(HitEffectPrefab[attackIndex], hitPosition, hitRotation);
 
                     // Hancurkan efek setelah 0.5 detik
                     Destroy(hitEffect, 0.5f); // <<=== INI YANG DITAMBAHKAN
