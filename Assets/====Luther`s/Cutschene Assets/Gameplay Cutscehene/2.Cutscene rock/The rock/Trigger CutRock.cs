@@ -10,6 +10,7 @@ public class TriggerCutrock : MonoBehaviour
     public GameObject CanvasRender;
     public GameObject invisibleWall;
     public GameObject intereactEUI;
+    [SerializeField] private PlayerAnimator playerAnimator;
     private bool activeCutschene = false;
 
 
@@ -25,18 +26,23 @@ public class TriggerCutrock : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && !activeCutschene)
-        {
-            activeCutschene = true;
-            CanvasRender.SetActive(true);
-            cutsceneRock.Play();
-        }
+
     }
 
-    void OTriggerStay2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            if (Input.GetKeyDown(KeyCode.E) && !activeCutschene)
+            {
+                activeCutschene = true;
+                CanvasRender.SetActive(true);
+                cutsceneRock.Play();
+                playerAnimator.InteractE = true;
+                GamesState.InCutscene = true;
+                EventCallBack.OnAttack();
+            }
+
             intereactEUI.SetActive(true);
         }
     }

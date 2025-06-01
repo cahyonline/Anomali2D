@@ -2,13 +2,13 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-public class DialogueTriggerNormal : MonoBehaviour
+public class DialogueTriggerNormal: MonoBehaviour
 {
     public GameObject UIinteractE;
     public string finalDialog = "FUCK OFF";
-    public DialogueStartNormal dialogueStartManager;
+    public DialogueStartBoss dialogueStartNormal;
     public GameObject dialogUIparent;
-    public DialogueStartNormal.Dialogue npcDialogue;
+    public DialogueStartBoss.Dialogue npcDialogue;
     //public DialoguesManagererNormal dialogueManager;
     //public PlayableDirector Cutscene1; 
     private bool inRange = false;
@@ -26,18 +26,18 @@ public class DialogueTriggerNormal : MonoBehaviour
 
     void Update()
     {
-        if(inRange && Input.GetKey(KeyCode.E))
+        if (inRange && Input.GetKey(KeyCode.E))
         {
-            dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
+            dialogueStartNormal.StartDialogue(npcDialogue, finalDialog);
             UIinteractE.SetActive(false);
             inRange = false;
             interactingDialog = true;
             dialogUIparent.SetActive(true);
         }
-        
-        if(inRange && dialogueDone && Input.GetKey(KeyCode.E))
+
+        if (inRange && dialogueDone && Input.GetKey(KeyCode.E))
         {
-            dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
+            dialogueStartNormal.StartDialogue(npcDialogue, finalDialog);
             UIinteractE.SetActive(false);
             inRange = false;
         }
@@ -64,16 +64,16 @@ public class DialogueTriggerNormal : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-          UIinteractE.SetActive(false);  
-          inRange = false;
+            UIinteractE.SetActive(false);
+            inRange = false;
         }
-        
+
     }
     public void StartCutsceneDialog()
     {
-        dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
+        dialogueStartNormal.StartDialogue(npcDialogue, finalDialog);
         UIinteractE.SetActive(false);
         //inRange = false;
         interactingDialog = true;

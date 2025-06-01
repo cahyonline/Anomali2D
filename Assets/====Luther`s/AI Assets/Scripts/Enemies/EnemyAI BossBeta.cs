@@ -72,6 +72,7 @@ public class EnemyAIGBoss : MonoBehaviour
         sightRange = 0f;
         attackRange = 0f;
         //defaultSpeed = walkSpeed;
+        FlipSprite();
         attackHB.SetActive(false);
     }
 ////////////////////////////////////////////////////////////
@@ -100,7 +101,7 @@ public class EnemyAIGBoss : MonoBehaviour
                 if (!movingToMiddle)
                 {
                     StartCoroutine(MoveToMiddleAndPatrol());
-                    Debug.Log("BACK TO MID 1");
+                    //Debug.Log("BACK TO MID 1");
                 }
                 else
                 {
@@ -111,7 +112,7 @@ public class EnemyAIGBoss : MonoBehaviour
                 if(!CanSeePlayer() && !movingToMiddle)
                 {
                     StartCoroutine(MoveToMiddleAndPatrol());
-                    Debug.Log("BACK TO MID 2");
+                    //Debug.Log("BACK TO MID 2");
                 }
             }
 
@@ -287,7 +288,6 @@ public class EnemyAIGBoss : MonoBehaviour
             isAttacking = true;
 
             bossAnimator.SetBool("attAN",true);
-            bossAnimator.SetBool("hurtAN",false);
 
             yield return new WaitForSeconds(0.4f);
 
@@ -326,7 +326,6 @@ public class EnemyAIGBoss : MonoBehaviour
             if (!hurtCanceled)
             {
                 EventCallBack.HitStop.Invoke();
-                bossAnimator.SetBool("hurtAN", true);
                 //Debug.Log("Enemy Took Damage");
                 StartCoroutine(AnimationReset());
             }
@@ -339,7 +338,6 @@ public class EnemyAIGBoss : MonoBehaviour
             if (!hurtCanceled)
             {
                 EventCallBack.HitStop.Invoke();
-                bossAnimator.SetBool("hurtAN", true);
                 //Debug.Log("Enemy Took Damage");
                 StartCoroutine(AnimationReset());
             }
@@ -352,7 +350,6 @@ public class EnemyAIGBoss : MonoBehaviour
         bossAnimator.SetBool("deadAN",true);
         bossAnimator.SetBool("attAN",false);
         bossAnimator.SetBool("runAN",false);
-        bossAnimator.SetBool("hurtAN",false);
 
         sightRange = 0f;
         walkSpeed = 0f;

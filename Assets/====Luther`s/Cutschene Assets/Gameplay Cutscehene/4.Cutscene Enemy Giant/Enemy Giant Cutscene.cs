@@ -44,4 +44,20 @@ public class EnemyGiantCutscene : MonoBehaviour
         invisibleWall.SetActive(false);
         //Debug.Log("Ended");
     }
+
+    public void ShakeCam()
+    {
+        CinemachineShake.Instance.ShakeCamera(30f, 4f);
+    }
+
+    public void SlowMotions()
+    {
+        Time.timeScale = 0.1f;
+    }
+    public void NormalTime()
+    {
+        Time.timeScale = Mathf.Clamp(0.3f, 1f , 0.3f);
+    }
+
+
 }

@@ -1,0 +1,1830 @@
+fileFormatVersion: 2
+guid: 3f00b38935d40ef41accbe4a361d588b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4177624102944258600
+    second: Tambahan Debu_0
+  - first:
+      213: -8878898772002710968
+    second: Tambahan Debu_1
+  - first:
+      213: -6613984001954496950
+    second: Tambahan Debu_2
+  - first:
+      213: 1779985664076911021
+    second: Tambahan Debu_3
+  - first:
+      213: 5047498671727688987
+    second: Tambahan Debu_4
+  - first:
+      213: 1809503201649484171
+    second: Tambahan Debu_5
+  - first:
+      213: -3604827648384508166
+    second: Tambahan Debu_6
+  - first:
+      213: -443949540743534805
+    second: Tambahan Debu_7
+  - first:
+      213: 6158656835378644625
+    second: Tambahan Debu_8
+  - first:
+      213: -5198400533574729083
+    second: Tambahan Debu_9
+  - first:
+      213: -4059642983164664120
+    second: Tambahan Debu_10
+  - first:
+      213: 6675271775338294594
+    second: Tambahan Debu_11
+  - first:
+      213: -5596573287275896720
+    second: Tambahan Debu_12
+  - first:
+      213: -8164335601033994391
+    second: Tambahan Debu_13
+  - first:
+      213: -293654277683781110
+    second: Tambahan Debu_14
+  - first:
+      213: -4258352166076629392
+    second: Tambahan Debu_15
+  - first:
+      213: -566225998304268124
+    second: Tambahan Debu_16
+  - first:
+      213: 8206004631200897136
+    second: Tambahan Debu_17
+  - first:
+      213: -9057794235591066504
+    second: Tambahan Debu_18
+  - first:
+      213: -1991283109309985927
+    second: Tambahan Debu_19
+  - first:
+      213: -5164435761329437774
+    second: Tambahan Debu_20
+  - first:
+      213: -7536209700592300637
+    second: Tambahan Debu_21
+  - first:
+      213: 7563032853402747753
+    second: Tambahan Debu_22
+  - first:
+      213: 4604597696660999827
+    second: Tambahan Debu_23
+  - first:
+      213: 7397461693005512302
+    second: Tambahan Debu_24
+  - first:
+      213: 6798671206139528416
+    second: Tambahan Debu_25
+  - first:
+      213: -1728684208448962701
+    second: Tambahan Debu_26
+  - first:
+      213: 1685432024435413627
+    second: Tambahan Debu_27
+  - first:
+      213: -627239367360433694
+    second: Tambahan Debu_28
+  - first:
+      213: 74208262717307173
+    second: Tambahan Debu_29
+  - first:
+      213: -3213748296925700704
+    second: Tambahan Debu_30
+  - first:
+      213: 374185478527400490
+    second: Tambahan Debu_31
+  - first:
+      213: -547537315447220253
+    second: Tambahan Debu_32
+  - first:
+      213: 4635716587955707329
+    second: Tambahan Debu_33
+  - first:
+      213: -1720622174152192447
+    second: Tambahan Debu_34
+  - first:
+      213: -1303737904525711287
+    second: Tambahan Debu_35
+  - first:
+      213: -7175843142911868817
+    second: Tambahan Debu_36
+  - first:
+      213: -1768850763744741217
+    second: Tambahan Debu_37
+  - first:
+      213: 1812360992719398132
+    second: Tambahan Debu_38
+  - first:
+      213: 4585814589198964511
+    second: Tambahan Debu_39
+  - first:
+      213: -8116777214012310963
+    second: Tambahan Debu_40
+  - first:
+      213: -8929780101119511060
+    second: Tambahan Debu_41
+  - first:
+      213: -5415299076300210812
+    second: Tambahan Debu_42
+  - first:
+      213: 6967740420996702616
+    second: Tambahan Debu_43
+  - first:
+      213: 4085461948991413690
+    second: Tambahan Debu_44
+  - first:
+      213: -5814542341724303894
+    second: Tambahan Debu_45
+  - first:
+      213: 4529283108681615147
+    second: Tambahan Debu_46
+  - first:
+      213: -928680176703154276
+    second: Tambahan Debu_47
+  - first:
+      213: 3127857512676253800
+    second: Tambahan Debu_48
+  - first:
+      213: -8618471617213683348
+    second: Tambahan Debu_49
+  - first:
+      213: -4957162528388134895
+    second: Tambahan Debu_50
+  - first:
+      213: -6869894413289758783
+    second: Tambahan Debu_51
+  - first:
+      213: -1072986399436571731
+    second: Tambahan Debu_52
+  - first:
+      213: 6370872037508400635
+    second: Tambahan Debu_53
+  - first:
+      213: -4799826471507584977
+    second: Tambahan Debu_54
+  - first:
+      213: 1813431239640549033
+    second: Tambahan Debu_55
+  - first:
+      213: -896135836076755391
+    second: Tambahan Debu_56
+  - first:
+      213: -8059134111606231496
+    second: Tambahan Debu_57
+  - first:
+      213: 8478719247390934484
+    second: Tambahan Debu_58
+  - first:
+      213: -2043030601520243627
+    second: Tambahan Debu_59
+  - first:
+      213: -1288171583153299591
+    second: Tambahan Debu_60
+  - first:
+      213: 7197039987096073111
+    second: Tambahan Debu_61
+  - first:
+      213: -5756942711795779116
+    second: Tambahan Debu_62
+  - first:
+      213: -6933911143261520934
+    second: Tambahan Debu_63
+  - first:
+      213: -5178717670091585084
+    second: Tambahan Debu_64
+  - first:
+      213: -1123756002158284181
+    second: Tambahan Debu_65
+  - first:
+      213: 2530830898997543290
+    second: Tambahan Debu_66
+  - first:
+      213: -5221945341345452443
+    second: Tambahan Debu_67
+  - first:
+      213: 4453715732075364073
+    second: Tambahan Debu_68
+  - first:
+      213: -584342775811213324
+    second: Tambahan Debu_69
+  - first:
+      213: 6120595137468255979
+    second: Tambahan Debu_70
+  - first:
+      213: -1723112274249350418
+    second: Tambahan Debu_71
+  - first:
+      213: -4870712520645447579
+    second: Tambahan Debu_72
+  - first:
+      213: -4902584792118078364
+    second: Tambahan Debu_73
+  - first:
+      213: 7517251100584389661
+    second: Tambahan Debu_74
+  - first:
+      213: 4888461494897205824
+    second: Tambahan Debu_75
+  - first:
+      213: 1369577936289223481
+    second: Tambahan Debu_76
+  - first:
+      213: 6397327903775192774
+    second: Tambahan Debu_77
+  - first:
+      213: 9101479043184286472
+    second: Tambahan Debu_78
+  - first:
+      213: -1344236745958477975
+    second: Tambahan Debu_79
+  - first:
+      213: 1374305037818428930
+    second: Tambahan Debu_80
+  - first:
+      213: 4485432958700306262
+    second: Tambahan Debu_81
+  - first:
+      213: -6244678802091787301
+    second: Tambahan Debu_82
+  - first:
+      213: -6169034883149621611
+    second: Tambahan Debu_83
+  - first:
+      213: -6749469652076234305
+    second: Tambahan Debu_84
+  - first:
+      213: -5371310324506470702
+    second: Tambahan Debu_85
+  - first:
+      213: -3029625709988268656
+    second: Tambahan Debu_86
+  - first:
+      213: -2506426108778694430
+    second: Tambahan Debu_87
+  - first:
+      213: 3645684082381310355
+    second: Tambahan Debu_88
+  - first:
+      213: 4369413488413439581
+    second: Tambahan Debu_89
+  - first:
+      213: -2370386725595464509
+    second: Tambahan Debu_90
+  - first:
+      213: -8043112509742883212
+    second: Tambahan Debu_91
+  - first:
+      213: -3237498586103227041
+    second: Tambahan Debu_92
+  - first:
+      213: -5903134333475893639
+    second: Tambahan Debu_93
+  - first:
+      213: 4870247496074995249
+    second: Tambahan Debu_94
+  - first:
+      213: 8244098624257999228
+    second: Tambahan Debu_95
+  - first:
+      213: 4360014804745250006
+    second: Tambahan Debu_96
+  - first:
+      213: 6377755508464802017
+    second: Tambahan Debu_97
+  - first:
+      213: 2079096602254498804
+    second: Tambahan Debu_98
+  - first:
+      213: -136773935575745152
+    second: Tambahan Debu_99
+  - first:
+      213: -8942961452705096847
+    second: Tambahan Debu_100
+  - first:
+      213: -525008582212571602
+    second: Tambahan Debu_101
+  - first:
+      213: -176953531629245684
+    second: Tambahan Debu_102
+  - first:
+      213: 2498420253621898045
+    second: Tambahan Debu_103
+  - first:
+      213: -1114930820735523203
+    second: Tambahan Debu_104
+  - first:
+      213: -8520527804892728003
+    second: Tambahan Debu_105
+  - first:
+      213: 3870214388757454189
+    second: Tambahan Debu_106
+  - first:
+      213: -4346414500601037389
+    second: Tambahan Debu_107
+  - first:
+      213: 5363357907624691046
+    second: Tambahan Debu_108
+  - first:
+      213: 3497730105905958303
+    second: Tambahan Debu_109
+  - first:
+      213: 1522951091450194777
+    second: Tambahan Debu_110
+  - first:
+      213: 9158122629009592539
+    second: Tambahan Debu_111
+  - first:
+      213: 1635504379874004227
+    second: Tambahan Debu_112
+  - first:
+      213: 430987769536448368
+    second: Tambahan Debu_113
+  - first:
+      213: 9203363282290772542
+    second: Tambahan Debu_114
+  - first:
+      213: 193228333327357752
+    second: Tambahan Debu_115
+  - first:
+      213: 7807583508901518327
+    second: Tambahan Debu_116
+  - first:
+      213: 9172136011187971597
+    second: Tambahan Debu_117
+  - first:
+      213: 4315364879554040958
+    second: Tambahan Debu_118
+  - first:
+      213: 1585326119513754671
+    second: Tambahan Debu_119
+  - first:
+      213: 6460635812133336701
+    second: Tambahan Debu_120
+  - first:
+      213: -877601300226114762
+    second: Tambahan Debu_121
+  - first:
+      213: 6893522879100267398
+    second: Tambahan Debu_122
+  - first:
+      213: 1128341786098478055
+    second: Tambahan Debu_123
+  - first:
+      213: 2815474050699442896
+    second: Tambahan Debu_124
+  - first:
+      213: 2751023201729938109
+    second: Tambahan Debu_125
+  - first:
+      213: -1793727958927901232
+    second: Tambahan Debu_126
+  - first:
+      213: 1085944095116170606
+    second: Tambahan Debu_127
+  - first:
+      213: 8847668855382455164
+    second: Tambahan Debu_128
+  - first:
+      213: 4884830313672114644
+    second: Tambahan Debu_129
+  - first:
+      213: -3201624540506165851
+    second: Tambahan Debu_130
+  - first:
+      213: -557267440196206381
+    second: Tambahan Debu_131
+  - first:
+      213: -6947587420985686427
+    second: Tambahan Debu_132
+  - first:
+      213: -2489447783018664601
+    second: Tambahan Debu_133
+  - first:
+      213: -1151911478237333094
+    second: Tambahan Debu_134
+  - first:
+      213: -3773430622896670700
+    second: Tambahan Debu_135
+  - first:
+      213: -1054810253710817009
+    second: Tambahan Debu_136
+  - first:
+      213: 3567441219318911247
+    second: Tambahan Debu_137
+  - first:
+      213: -959327628823425909
+    second: Tambahan Debu_138
+  - first:
+      213: -8027166295419971072
+    second: Tambahan Debu_139
+  - first:
+      213: 8195590670898695402
+    second: Tambahan Debu_140
+  - first:
+      213: 1612566877658086585
+    second: Tambahan Debu_141
+  - first:
+      213: 492612314946791693
+    second: Tambahan Debu_142
+  - first:
+      213: 1378306219429051844
+    second: Tambahan Debu_143
+  - first:
+      213: 201781120277175117
+    second: Tambahan Debu_144
+  - first:
+      213: -1153968966954605656
+    second: Tambahan Debu_145
+  - first:
+      213: -856255762455120632
+    second: Tambahan Debu_146
+  - first:
+      213: -2545337588466372953
+    second: Tambahan Debu_147
+  - first:
+      213: -3371168454653550267
+    second: Tambahan Debu_148
+  - first:
+      213: 6648889543864531895
+    second: Tambahan Debu_149
+  - first:
+      213: -5784950472989955964
+    second: Tambahan Debu_150
+  - first:
+      213: 9061331925440689447
+    second: Tambahan Debu_151
+  - first:
+      213: 5297686065435786275
+    second: Tambahan Debu_152
+  - first:
+      213: 2687435223022817124
+    second: Tambahan Debu_153
+  - first:
+      213: -1586425260458937404
+    second: Tambahan Debu_154
+  - first:
+      213: 5452593786323675077
+    second: Tambahan Debu_155
+  - first:
+      213: -3774169975702534424
+    second: Tambahan Debu_156
+  - first:
+      213: 3770430896706941378
+    second: Tambahan Debu_157
+  - first:
+      213: 2240677028119740710
+    second: Tambahan Debu_158
+  - first:
+      213: -6944832295673436760
+    second: Tambahan Debu_159
+  - first:
+      213: -5579789375982365745
+    second: Tambahan Debu_160
+  - first:
+      213: -1726117029112846213
+    second: Tambahan Debu_161
+  - first:
+      213: -4940435511963287970
+    second: Tambahan Debu_162
+  - first:
+      213: -8752601411727633087
+    second: Tambahan Debu_163
+  - first:
+      213: -517457324052021786
+    second: Tambahan Debu_164
+  - first:
+      213: 5989173169511259817
+    second: Tambahan Debu_165
+  - first:
+      213: -5150145485157253570
+    second: Tambahan Debu_166
+  - first:
+      213: 246897587993696594
+    second: Tambahan Debu_167
+  - first:
+      213: -8539713973130844212
+    second: Tambahan Debu_168
+  - first:
+      213: 8599115825684760884
+    second: Tambahan Debu_169
+  - first:
+      213: 7081867559904504754
+    second: Tambahan Debu_170
+  - first:
+      213: 8215135858964694603
+    second: Tambahan Debu_171
+  - first:
+      213: -8190449875385708532
+    second: Tambahan Debu_172
+  - first:
+      213: -8397432833965990515
+    second: Tambahan Debu_173
+  - first:
+      213: 2457637348068414369
+    second: Tambahan Debu_174
+  - first:
+      213: -185457172172819593
+    second: Tambahan Debu_175
+  - first:
+      213: 7855634489020815878
+    second: Tambahan Debu_176
+  - first:
+      213: 8512471565129446133
+    second: Tambahan Debu_177
+  - first:
+      213: 2595877911565063855
+    second: Tambahan Debu_178
+  - first:
+      213: -5354862082233378734
+    second: Tambahan Debu_179
+  - first:
+      213: 7477933803582937218
+    second: Tambahan Debu_180
+  - first:
+      213: -7904621123547772502
+    second: Tambahan Debu_181
+  - first:
+      213: 2769217280677922944
+    second: Tambahan Debu_182
+  - first:
+      213: 8125448506756621405
+    second: Tambahan Debu_183
+  - first:
+      213: 2323894185554227872
+    second: Tambahan Debu_184
+  - first:
+      213: 5665571142057417832
+    second: Tambahan Debu_185
+  - first:
+      213: -7082286827108625662
+    second: Tambahan Debu_186
+  - first:
+      213: 8338225079571506031
+    second: Tambahan Debu_187
+  - first:
+      213: 758423318913862976
+    second: Tambahan Debu_188
+  - first:
+      213: 2616804478962630011
+    second: Tambahan Debu_189
+  - first:
+      213: 311168039116022099
+    second: Tambahan Debu_190
+  - first:
+      213: -2749467655167769577
+    second: Tambahan Debu_191
+  - first:
+      213: -6248346310899118179
+    second: Tambahan Debu_192
+  - first:
+      213: -8497072911827420963
+    second: Tambahan Debu_193
+  - first:
+      213: 1290965203956268065
+    second: Tambahan Debu_194
+  - first:
+      213: 1054257831252778965
+    second: Tambahan Debu_195
+  - first:
+      213: -5616117728464552024
+    second: Tambahan Debu_196
+  - first:
+      213: -3946664688120873375
+    second: Tambahan Debu_197
+  - first:
+      213: 4439272355404917309
+    second: Tambahan Debu_198
+  - first:
+      213: -4725906590057532409
+    second: Tambahan Debu_199
+  - first:
+      213: -3310828554908421272
+    second: Tambahan Debu_200
+  - first:
+      213: 7622618419540217603
+    second: Tambahan Debu_201
+  - first:
+      213: 6856993514047860105
+    second: Tambahan Debu_202
+  - first:
+      213: 6723422525924559576
+    second: Tambahan Debu_203
+  - first:
+      213: -5751644270634104342
+    second: Tambahan Debu_204
+  - first:
+      213: -7149181291150106275
+    second: Tambahan Debu_205
+  - first:
+      213: -5744185796271838549
+    second: Tambahan Debu_206
+  - first:
+      213: -4594524306066822456
+    second: Tambahan Debu_207
+  - first:
+      213: 1405523590655363390
+    second: Tambahan Debu_208
+  - first:
+      213: -1599556177851681544
+    second: Tambahan Debu_209
+  - first:
+      213: 324778648378634671
+    second: Tambahan Debu_210
+  - first:
+      213: -6090137836247658619
+    second: Tambahan Debu_211
+  - first:
+      213: 5435212380064224718
+    second: Tambahan Debu_212
+  - first:
+      213: -786144435416970154
+    second: Tambahan Debu_213
+  - first:
+      213: 7237295291693642891
+    second: Tambahan Debu_214
+  - first:
+      213: 1865000115862316364
+    second: Tambahan Debu_215
+  - first:
+      213: 8992321411801687046
+    second: Tambahan Debu_216
+  - first:
+      213: -8551204868892368598
+    second: Tambahan Debu_217
+  - first:
+      213: -5985557295077618683
+    second: Tambahan Debu_218
+  - first:
+      213: 4296617054605958982
+    second: Tambahan Debu_219
+  - first:
+      213: 3141636227188829060
+    second: Tambahan Debu_220
+  - first:
+      213: 4227861697926375917
+    second: Tambahan Debu_221
+  - first:
+      213: 4758502831086071537
+    second: Tambahan Debu_222
+  - first:
+      213: -6179024443532554350
+    second: Tambahan Debu_223
+  - first:
+      213: -5548004166436813799
+    second: Tambahan Debu_224
+  - first:
+      213: 6682907814088497253
+    second: Tambahan Debu_225
+  - first:
+      213: 2078623417862027704
+    second: Tambahan Debu_226
+  - first:
+      213: -5148147077319247530
+    second: Tambahan Debu_227
+  - first:
+      213: -4482323291642484881
+    second: Tambahan Debu_228
+  - first:
+      213: -7767758173524039442
+    second: Tambahan Debu_229
+  - first:
+      213: -3014973774940279637
+    second: Tambahan Debu_230
+  - first:
+      213: -5179244554033855670
+    second: Tambahan Debu_231
+  - first:
+      213: 2681449890328786682
+    second: Tambahan Debu_232
+  - first:
+      213: -3302345583101485330
+    second: Tambahan Debu_233
+  - first:
+      213: 4493472399169627705
+    second: Tambahan Debu_234
+  - first:
+      213: -1347627160641297469
+    second: Tambahan Debu_235
+  - first:
+      213: 7362838172835632048
+    second: Tambahan Debu_236
+  - first:
+      213: -3236677357592647594
+    second: Tambahan Debu_237
+  - first:
+      213: -6971178480881417324
+    second: Tambahan Debu_238
+  - first:
+      213: -5125381735600770504
+    second: Tambahan Debu_239
+  - first:
+      213: -1892432504068992782
+    second: Tambahan Debu_240
+  - first:
+      213: -521920380172775314
+    second: Tambahan Debu_241
+  - first:
+      213: -6459764449710469453
+    second: Tambahan Debu_242
+  - first:
+      213: 5228178926674803982
+    second: Tambahan Debu_243
+  - first:
+      213: -9166625930926705289
+    second: Tambahan Debu_244
+  - first:
+      213: -7753627975459961143
+    second: Tambahan Debu_245
+  - first:
+      213: 1770364725441251215
+    second: Tambahan Debu_246
+  - first:
+      213: 6622524865765836853
+    second: Tambahan Debu_247
+  - first:
+      213: 1181339668144055886
+    second: Tambahan Debu_248
+  - first:
+      213: 6413954628135056395
+    second: Tambahan Debu_249
+  - first:
+      213: 8236662776303505480
+    second: Tambahan Debu_250
+  - first:
+      213: 970882963534231469
+    second: Tambahan Debu_251
+  - first:
+      213: -429605350942961591
+    second: Tambahan Debu_252
+  - first:
+      213: -9177190732514245325
+    second: Tambahan Debu_253
+  - first:
+      213: 2974098002847904883
+    second: Tambahan Debu_254
+  - first:
+      213: 8772128914647903498
+    second: Tambahan Debu_255
+  - first:
+      213: 5906791263650953924
+    second: Tambahan Debu_256
+  - first:
+      213: 7906755462655416723
+    second: Tambahan Debu_257
+  - first:
+      213: -3210618731289985338
+    second: Tambahan Debu_258
+  - first:
+      213: 5227562737316092188
+    second: Tambahan Debu_259
+  - first:
+      213: -8489576762376749544
+    second: Tambahan Debu_260
+  - first:
+      213: -2814526130698319127
+    second: Tambahan Debu_261
+  - first:
+      213: -3212003336549669922
+    second: Tambahan Debu_262
+  - first:
+      213: 1494018151413154678
+    second: Tambahan Debu_263
+  - first:
+      213: 6973986822601442244
+    second: Tambahan Debu_264
+  - first:
+      213: 6578339498909704925
+    second: Tambahan Debu_265
+  - first:
+      213: 353317961474874445
+    second: Tambahan Debu_266
+  - first:
+      213: 7777632550018544533
+    second: Tambahan Debu_267
+  - first:
+      213: 615720158736610450
+    second: Tambahan Debu_268
+  - first:
+      213: 1543754208930836955
+    second: Tambahan Debu_269
+  - first:
+      213: 3405850361439113808
+    second: Tambahan Debu_270
+  - first:
+      213: 8119826749080489750
+    second: Tambahan Debu_271
+  - first:
+      213: 8830921715043544980
+    second: Tambahan Debu_272
+  - first:
+      213: 5586960343479626584
+    second: Tambahan Debu_273
+  - first:
+      213: 8758258761239314744
+    second: Tambahan Debu_274
+  - first:
+      213: 7592461321414858865
+    second: Tambahan Debu_275
+  - first:
+      213: 2453652711121364991
+    second: Tambahan Debu_276
+  - first:
+      213: -85097278212295331
+    second: Tambahan Debu_277
+  - first:
+      213: -7563360191236421158
+    second: Tambahan Debu_278
+  - first:
+      213: 2569005938832546116
+    second: Tambahan Debu_279
+  - first:
+      213: 2209936844976423857
+    second: Tambahan Debu_280
+  - first:
+      213: -762631129719742395
+    second: Tambahan Debu_281
+  - first:
+      213: 255760029173690068
+    second: Tambahan Debu_282
+  - first:
+      213: -400016422584187927
+    second: Tambahan Debu_283
+  - first:
+      213: -1656192155290480593
+    second: Tambahan Debu_284
+  - first:
+      213: 7898429862319167678
+    second: Tambahan Debu_285
+  - first:
+      213: -4377969732847342329
+    second: Tambahan Debu_286
+  - first:
+      213: 7458313601980148354
+    second: Tambahan Debu_287
+  - first:
+      213: 124259820942228557
+    second: Tambahan Debu_288
+  - first:
+      213: 1579129700883916244
+    second: Tambahan Debu_289
+  - first:
+      213: 1955977383711533471
+    second: Tambahan Debu_290
+  - first:
+      213: -4367041976669501400
+    second: Tambahan Debu_291
+  - first:
+      213: 7883369800693100615
+    second: Tambahan Debu_292
+  - first:
+      213: -5578888521690730204
+    second: Tambahan Debu_293
+  - first:
+      213: -8146866784745211172
+    second: Tambahan Debu_294
+  - first:
+      213: 1432131473485170821
+    second: Tambahan Debu_295
+  - first:
+      213: 5224488011282219995
+    second: Tambahan Debu_296
+  - first:
+      213: 3221874953102936083
+    second: Tambahan Debu_297
+  - first:
+      213: 6335106571336136633
+    second: Tambahan Debu_298
+  - first:
+      213: 5755493630791588744
+    second: Tambahan Debu_299
+  - first:
+      213: -4980708491074722857
+    second: Tambahan Debu_300
+  - first:
+      213: 6729127631610101929
+    second: Tambahan Debu_301
+  - first:
+      213: 645881775215154304
+    second: Tambahan Debu_302
+  - first:
+      213: -622304264886697564
+    second: Tambahan Debu_303
+  - first:
+      213: 1406188089276601101
+    second: Tambahan Debu_304
+  - first:
+      213: -679896387890038256
+    second: Tambahan Debu_305
+  - first:
+      213: 5527026492118868803
+    second: Tambahan Debu_306
+  - first:
+      213: 9157669712755609319
+    second: Tambahan Debu_307
+  - first:
+      213: 2064338441987037041
+    second: Tambahan Debu_308
+  - first:
+      213: -3024555225054231331
+    second: Tambahan Debu_309
+  - first:
+      213: 8752107584462727270
+    second: Tambahan Debu_310
+  - first:
+      213: 5437092594499966226
+    second: Tambahan Debu_311
+  - first:
+      213: -6388451535175185558
+    second: Tambahan Debu_312
+  - first:
+      213: -6986335591859486954
+    second: Tambahan Debu_313
+  - first:
+      213: -5858295061199521829
+    second: Tambahan Debu_314
+  - first:
+      213: 4263907670106018069
+    second: Tambahan Debu_315
+  - first:
+      213: -919481462508682932
+    second: Tambahan Debu_316
+  - first:
+      213: 3211880533196091312
+    second: Tambahan Debu_317
+  - first:
+      213: 820374065080365309
+    second: Tambahan Debu_318
+  - first:
+      213: -3125383455059229474
+    second: Tambahan Debu_319
+  - first:
+      213: 8211525650706659908
+    second: Tambahan Debu_320
+  - first:
+      213: 2794807049595608454
+    second: Tambahan Debu_321
+  - first:
+      213: -8918672617116411464
+    second: Tambahan Debu_322
+  - first:
+      213: -3395847857278301354
+    second: Tambahan Debu_323
+  - first:
+      213: -7539138091224878273
+    second: Tambahan Debu_324
+  - first:
+      213: 1462148748996817212
+    second: Tambahan Debu_325
+  - first:
+      213: -2557107308033490862
+    second: Tambahan Debu_326
+  - first:
+      213: 6167939379709262064
+    second: Tambahan Debu_327
+  - first:
+      213: -2655118183633218255
+    second: Tambahan Debu_328
+  - first:
+      213: -2966416805176440806
+    second: Tambahan Debu_329
+  - first:
+      213: 4615562227498464465
+    second: Tambahan Debu_330
+  - first:
+      213: 3666415712970685474
+    second: Tambahan Debu_331
+  - first:
+      213: -474618275543132388
+    second: Tambahan Debu_332
+  - first:
+      213: -2456001819017991281
+    second: Tambahan Debu_333
+  - first:
+      213: 1008564398049905691
+    second: Tambahan Debu_334
+  - first:
+      213: -6786071713908030508
+    second: Tambahan Debu_335
+  - first:
+      213: -4494386482255277398
+    second: Tambahan Debu_336
+  - first:
+      213: -3184400821084445842
+    second: Tambahan Debu_337
+  - first:
+      213: -481648695799349080
+    second: Tambahan Debu_338
+  - first:
+      213: -216102743973242121
+    second: Tambahan Debu_339
+  - first:
+      213: 4478403174208092151
+    second: Tambahan Debu_340
+  - first:
+      213: 4875695364809579620
+    second: Tambahan Debu_341
+  - first:
+      213: -2836226935355200114
+    second: Tambahan Debu_342
+  - first:
+      213: 7847601596361864644
+    second: Tambahan Debu_343
+  - first:
+      213: -8178372689780316049
+    second: Tambahan Debu_344
+  - first:
+      213: -2520097087075543865
+    second: Tambahan Debu_345
+  - first:
+      213: 128027223194010731
+    second: Tambahan Debu_346
+  - first:
+      213: -1775936827358459514
+    second: Tambahan Debu_347
+  - first:
+      213: -2805830261350573619
+    second: Tambahan Debu_348
+  - first:
+      213: 6737054310797863713
+    second: Tambahan Debu_349
+  - first:
+      213: 8737204060694429134
+    second: Tambahan Debu_350
+  - first:
+      213: -6217183574726145422
+    second: Tambahan Debu_351
+  - first:
+      213: 353414888088096395
+    second: Tambahan Debu_352
+  - first:
+      213: -6325653099961117247
+    second: Tambahan Debu_353
+  - first:
+      213: -2380217266503920044
+    second: Tambahan Debu_354
+  - first:
+      213: -7657381186540086912
+    second: Tambahan Debu_355
+  - first:
+      213: -3501231307134912805
+    second: Tambahan Debu_356
+  - first:
+      213: 7568530154690457372
+    second: Tambahan Debu_357
+  - first:
+      213: -4861892655977090831
+    second: Tambahan Debu_358
+  - first:
+      213: 6824346142809495325
+    second: Tambahan Debu_359
+  - first:
+      213: -8116248962070482932
+    second: Tambahan Debu_360
+  - first:
+      213: 7952632202761902044
+    second: Tambahan Debu_361
+  - first:
+      213: -3100418646878893783
+    second: Tambahan Debu_362
+  - first:
+      213: 8822248106501748612
+    second: Tambahan Debu_363
+  - first:
+      213: -837213288080084423
+    second: Tambahan Debu_364
+  - first:
+      213: -2633425300461205058
+    second: Tambahan Debu_365
+  - first:
+      213: -7622584815927420811
+    second: Tambahan Debu_366
+  - first:
+      213: 4367383939308158888
+    second: Tambahan Debu_367
+  - first:
+      213: 4323775938966348836
+    second: Tambahan Debu_368
+  - first:
+      213: -7928567034284284011
+    second: Tambahan Debu_369
+  - first:
+      213: -4460620212972965624
+    second: Tambahan Debu_370
+  - first:
+      213: -4285158425410721500
+    second: Tambahan Debu_371
+  - first:
+      213: -5962586178030023299
+    second: Tambahan Debu_372
+  - first:
+      213: 1437258373320569387
+    second: Tambahan Debu_373
+  - first:
+      213: -553416033930945833
+    second: Tambahan Debu_374
+  - first:
+      213: 8007902790024338886
+    second: Tambahan Debu_375
+  - first:
+      213: -2745652408966421125
+    second: Tambahan Debu_376
+  - first:
+      213: 3039109104118969802
+    second: Tambahan Debu_377
+  - first:
+      213: -4202317157496092142
+    second: Tambahan Debu_378
+  - first:
+      213: 8008660015471674021
+    second: Tambahan Debu_379
+  - first:
+      213: -572537464950643686
+    second: Tambahan Debu_380
+  - first:
+      213: -8025792839654345969
+    second: Tambahan Debu_381
+  - first:
+      213: 553972804613952780
+    second: Tambahan Debu_382
+  - first:
+      213: -6808522163020828837
+    second: Tambahan Debu_383
+  - first:
+      213: 5608725484739863751
+    second: Tambahan Debu_384
+  - first:
+      213: -8133815944636982268
+    second: Tambahan Debu_385
+  - first:
+      213: 8906550535446157647
+    second: Tambahan Debu_386
+  - first:
+      213: -8814633893474379425
+    second: Tambahan Debu_387
+  - first:
+      213: 7453565956252081544
+    second: Tambahan Debu_388
+  - first:
+      213: -4148325442933521248
+    second: Tambahan Debu_389
+  - first:
+      213: 7433670134377636937
+    second: Tambahan Debu_390
+  - first:
+      213: 2980298075426903833
+    second: Tambahan Debu_391
+  - first:
+      213: -7198443090494996815
+    second: Tambahan Debu_392
+  - first:
+      213: -7460776254014500201
+    second: Tambahan Debu_393
+  - first:
+      213: -4032607717981406789
+    second: Tambahan Debu_394
+  - first:
+      213: 3926500990300619609
+    second: Tambahan Debu_395
+  - first:
+      213: -285847108997800296
+    second: Tambahan Debu_396
+  - first:
+      213: 644359047747373341
+    second: Tambahan Debu_397
+  - first:
+      213: 6472705142907339082
+    second: Tambahan Debu_398
+  - first:
+      213: -9141297800566685155
+    second: Tambahan Debu_399
+  - first:
+      213: 6774704327553835306
+    second: Tambahan Debu_400
+  - first:
+      213: 4506648314835008302
+    second: Tambahan Debu_401
+  - first:
+      213: 4997498601292313430
+    second: Tambahan Debu_402
+  - first:
+      213: -440643497135988543
+    second: Tambahan Debu_403
+  - first:
+      213: -7556628591098438497
+    second: Tambahan Debu_404
+  - first:
+      213: -219615696167080767
+    second: Tambahan Debu_405
+  - first:
+      213: 6034327127754425378
+    second: Tambahan Debu_406
+  - first:
+      213: -3167040833874037161
+    second: Tambahan Debu_407
+  - first:
+      213: 1521114114863207681
+    second: Tambahan Debu_408
+  - first:
+      213: -8716334543638540408
+    second: Tambahan Debu_409
+  - first:
+      213: 3327511833062771861
+    second: Tambahan Debu_410
+  - first:
+      213: -271215828686360920
+    second: Tambahan Debu_411
+  - first:
+      213: -7718232419071431225
+    second: Tambahan Debu_412
+  - first:
+      213: -8951833628625836046
+    second: Tambahan Debu_413
+  - first:
+      213: 3778432103419722940
+    second: Tambahan Debu_414
+  - first:
+      213: -8497144623622347177
+    second: Tambahan Debu_415
+  - first:
+      213: 8638771564315001359
+    second: Tambahan Debu_416
+  - first:
+      213: -1397281537834365269
+    second: Tambahan Debu_417
+  - first:
+      213: 1237818625546589665
+    second: Tambahan Debu_418
+  - first:
+      213: -5482980949216168550
+    second: Tambahan Debu_419
+  - first:
+      213: 5991315681688708332
+    second: Tambahan Debu_420
+  - first:
+      213: -7640021088079535244
+    second: Tambahan Debu_421
+  - first:
+      213: -3776700445316375748
+    second: Tambahan Debu_422
+  - first:
+      213: 405324206122870312
+    second: Tambahan Debu_423
+  - first:
+      213: 8627036963582477306
+    second: Tambahan Debu_424
+  - first:
+      213: 6995011948743403196
+    second: Tambahan Debu_425
+  - first:
+      213: -83415497614190240
+    second: Tambahan Debu_426
+  - first:
+      213: -1760629858187134884
+    second: Tambahan Debu_427
+  - first:
+      213: 7574520591727921827
+    second: Tambahan Debu_428
+  - first:
+      213: -3590880773188000358
+    second: Tambahan Debu_429
+  - first:
+      213: 7315972113351240538
+    second: Tambahan Debu_430
+  - first:
+      213: -4226854095314916562
+    second: Tambahan Debu_431
+  - first:
+      213: 3914594535966024351
+    second: Tambahan Debu_432
+  - first:
+      213: 6465150104726903529
+    second: Tambahan Debu_433
+  - first:
+      213: 3332527850560902049
+    second: Tambahan Debu_434
+  - first:
+      213: 4802893835886803199
+    second: Tambahan Debu_435
+  - first:
+      213: 6204512544836459014
+    second: Tambahan Debu_436
+  - first:
+      213: -7186373291809325107
+    second: Tambahan Debu_437
+  - first:
+      213: 4158534993797327444
+    second: Tambahan Debu_438
+  - first:
+      213: 7817411734576045113
+    second: Tambahan Debu_439
+  - first:
+      213: -7970257255045653814
+    second: Tambahan Debu_440
+  - first:
+      213: 1197339078913376644
+    second: Tambahan Debu_441
+  - first:
+      213: 8739770152285237260
+    second: Tambahan Debu_442
+  - first:
+      213: -4254266813921814370
+    second: Tambahan Debu_443
+  - first:
+      213: -6335657746498583084
+    second: Tambahan Debu_444
+  - first:
+      213: 2908174130404191716
+    second: Tambahan Debu_445
+  - first:
+      213: -3889792999802935431
+    second: Tambahan Debu_446
+  - first:
+      213: 8922581647648352574
+    second: Tambahan Debu_447
+  - first:
+      213: -13953266676647628
+    second: Tambahan Debu_448
+  - first:
+      213: 1668844339424716709
+    second: Tambahan Debu_449
+  - first:
+      213: -9037347670720987299
+    second: Tambahan Debu_450
+  - first:
+      213: -1853654107754519556
+    second: Tambahan Debu_451
+  - first:
+      213: -713102624047236532
+    second: Tambahan Debu_452
+  - first:
+      213: -7956160415930697188
+    second: Tambahan Debu_453
+  - first:
+      213: -7074505967342102833
+    second: Tambahan Debu_454
+  - first:
+      213: 3792944651074536002
+    second: Tambahan Debu_455
+  - first:
+      213: -1926514399376251463
+    second: Tambahan Debu_456
+  - first:
+      213: 2843541992677640743
+    second: Tambahan Debu_457
+  - first:
+      213: -908371209081803872
+    second: Tambahan Debu_458
+  - first:
+      213: -8041165970872841767
+    second: Tambahan Debu_459
+  - first:
+      213: -8507226841087328389
+    second: Tambahan Debu_460
+  - first:
+      213: 1706549666218196019
+    second: Tambahan Debu_461
+  - first:
+      213: 6254042175076839714
+    second: Tambahan Debu_462
+  - first:
+      213: -3945483735673411287
+    second: Tambahan Debu_463
+  - first:
+      213: 5235664979912770968
+    second: Tambahan Debu_464
+  - first:
+      213: -1383482847386905664
+    second: Tambahan Debu_465
+  - first:
+      213: 7464462417080854321
+    second: Tambahan Debu_466
+  - first:
+      213: -8538260519643058394
+    second: Tambahan Debu_467
+  - first:
+      213: -6923767342339923143
+    second: Tambahan Debu_468
+  - first:
+      213: -810684331939390336
+    second: Tambahan Debu_469
+  - first:
+      213: -824871575316673332
+    second: Tambahan Debu_470
+  - first:
+      213: -6059943865043538967
+    second: Tambahan Debu_471
+  - first:
+      213: 7296193104116335675
+    second: Tambahan Debu_472
+  - first:
+      213: -2467769366237620268
+    second: Tambahan Debu_473
+  - first:
+      213: -3820409538614573713
+    second: Tambahan Debu_474
+  - first:
+      213: 3379800013646086952
+    second: Tambahan Debu_475
+  - first:
+      213: -500124542731263714
+    second: Tambahan Debu_476
+  - first:
+      213: -273826974170706902
+    second: Tambahan Debu_477
+  - first:
+      213: 2987753633792765011
+    second: Tambahan Debu_478
+  - first:
+      213: 399932269173959087
+    second: Tambahan Debu_479
+  - first:
+      213: -7900466665208576944
+    second: Tambahan Debu_480
+  - first:
+      213: -3047643057832952604
+    second: Tambahan Debu_481
+  - first:
+      213: 3012446929541305431
+    second: Tambahan Debu_482
+  - first:
+      213: 6737728446055068893
+    second: Tambahan Debu_483
+  - first:
+      213: 2194808740397820939
+    second: Tambahan Debu_484
+  - first:
+      213: -8702989037821940364
+    second: Tambahan Debu_485
+  - first:
+      213: 8480492735486019909
+    second: Tambahan Debu_486
+  - first:
+      213: -7293057549733731936
+    second: Tambahan Debu_487
+  - first:
+      213: 3617346971614816899
+    second: Tambahan Debu_488
+  - first:
+      213: 2370051911124333330
+    second: Tambahan Debu_489
+  - first:
+      213: -5891549795924012778
+    second: Tambahan Debu_490
+  - first:
+      213: -2671148884352816662
+    second: Tambahan Debu_491
+  - first:
+      213: 1420342548567830618
+    second: Tambahan Debu_492
+  - first:
+      213: 1413712799482721802
+    second: Tambahan Debu_493
+  - first:
+      213: -7413665502087020979
+    second: Tambahan Debu_494
+  - first:
+      213: -4529922609908676139
+    second: Tambahan Debu_495
+  - first:
+      213: -5813102309962095305
+    second: Tambahan Debu_496
+  - first:
+      213: -76771849465218033
+    second: Tambahan Debu_497
+  - first:
+      213: -6718460299287625651
+    second: Tambahan Debu_498
+  - first:
+      213: 2023106320648205124
+    second: Tambahan Debu_499
+  - first:
+      213: 6007074917757372571
+    second: Tambahan Debu_500
+  - first:
+      213: -324698589630939257
+    second: Tambahan Debu_501
+  - first:
+      213: -9133709828931090825
+    second: Tambahan Debu_502
+  - first:
+      213: -6458538333281870475
+    second: Tambahan Debu_503
+  - first:
+      213: -3390289991400802945
+    second: Tambahan Debu_504
+  - first:
+      213: -3740298892964246740
+    second: Tambahan Debu_505
+  - first:
+      213: -5304612680877806692
+    second: Tambahan Debu_506
+  - first:
+      213: 5006114458798186346
+    second: Tambahan Debu_507
+  - first:
+      213: 8628005374097817250
+    second: Tambahan Debu_508
+  - first:
+      213: -8867690297005680639
+    second: Tambahan Debu_509
+  - first:
+      213: 20096267784226726
+    second: Tambahan Debu_510
+  - first:
+      213: 8203892263141353170
+    second: Tambahan Debu_511
+  - first:
+      213: -6873372146661022515
+    second: Tambahan Debu_512
+  - first:
+      213: 3416792249405978171
+    second: Tambahan Debu_513
+  - first:
+      213: 8577137480323847703
+    second: Tambahan Debu_514
+  - first:
+      213: -4299123516546497557
+    second: Tambahan Debu_515
+  - first:
+      213: 2260763188648678953
+    second: Tambahan Debu_516
+  - first:
+      213: -8779442300625746336
+    second: Tambahan Debu_517
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tambahan Debu_0
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 345
+        width: 710
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -381.5}
+        - {x: 300, y: 0}
+        - {x: 0, y: 381.5}
+        - {x: -300, y: 0}
+      physicsShape:
+      - - {x: 0, y: -381.5}
+        - {x: 300, y: 0}
+        - {x: 0, y: 381.5}
+        - {x: -300, y: 0}
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a3a15dcf6e9f930800000000000000
+      internalID: 4177624102944258600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambahan Debu_1
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 406
+        width: 687
+        height: 218
+      alignment: 9
+      pivot: {x: 0.4878445, y: 0.9979822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a502afb90d7c480800000000000000
+      internalID: -8878898772002710968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambahan Debu_2
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 391
+        width: 664
+        height: 214
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.71462214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4eb265b7986634a0800000000000000
+      internalID: -6613984001954496950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambahan Debu_3
+      rect:
+        serializedVersion: 2
+        x: 5111
+        y: 414
+        width: 740
+        height: 187
+      alignment: 9
+      pivot: {x: 0.4097214, y: 0.36602995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1979cd787c3b810800000000000000
+      internalID: 1779985664076911021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambahan Debu_4
+      rect:
+        serializedVersion: 2
+        x: 6657
+        y: 441
+        width: 691
+        height: 210
+      alignment: 9
+      pivot: {x: 0.4611933, y: 0.18990071}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1db5949c415c0640800000000000000
+      internalID: 5047498671727688987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambahan Debu_5
+      rect:
+        serializedVersion: 2
+        x: 8203
+        y: 494
+        width: 710
+        height: 210
+      alignment: 9
+      pivot: {x: 0.47301936, y: -0.10195763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81ef322395ac1910800000000000000
+      internalID: 1809503201649484171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambahan Debu_6
+      rect:
+        serializedVersion: 2
+        x: 9776
+        y: 551
+        width: 737
+        height: 203
+      alignment: 9
+      pivot: {x: 0.4480143, y: -0.5189878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afed88d5a5419fdc0800000000000000
+      internalID: -3604827648384508166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b048f156e298c0c4d95d1339cd526bb2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tambahan Debu_0: 4177624102944258600
+      Tambahan Debu_1: -8878898772002710968
+      Tambahan Debu_2: -6613984001954496950
+      Tambahan Debu_3: 1779985664076911021
+      Tambahan Debu_4: 5047498671727688987
+      Tambahan Debu_5: 1809503201649484171
+      Tambahan Debu_6: -3604827648384508166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -16,7 +16,7 @@ public class CutscenePlayer2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Cutscene1 Trigger Ready");
+        //Debug.Log("Cutscene1 Trigger Ready");
         CutSceneGameRoot.SetActive(true);
         fade.SetActive(true);
         PlayCutscene();

@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: b8458656abb90b547801a40f23ecd24f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8121877501566387792
+    second: Berubah_0
+  - first:
+      213: -1192864861076291703
+    second: Berubah_1
+  - first:
+      213: 5948094648836441589
+    second: Berubah_2
+  - first:
+      213: 5986133099979331405
+    second: Berubah_3
+  - first:
+      213: 7515702097509874312
+    second: Berubah_4
+  - first:
+      213: -6231674133161869630
+    second: Berubah_5
+  - first:
+      213: -222838557993956400
+    second: Berubah_6
+  - first:
+      213: -1757107972871452516
+    second: Berubah_7
+  - first:
+      213: -5592215867651685288
+    second: Berubah_8
+  - first:
+      213: -6587131886327218284
+    second: Berubah_9
+  - first:
+      213: 5458286304266018988
+    second: Berubah_10
+  - first:
+      213: 2171893252085142363
+    second: Berubah_11
+  - first:
+      213: 3452240867492802783
+    second: Berubah_12
+  - first:
+      213: -5281021664671861757
+    second: Berubah_13
+  - first:
+      213: 2336437991067468846
+    second: Berubah_14
+  - first:
+      213: -6118532797663574077
+    second: Berubah_15
+  - first:
+      213: 1098098471333120363
+    second: Berubah_16
+  - first:
+      213: -3371071478196261667
+    second: Berubah_17
+  - first:
+      213: 8980162122511870276
+    second: Berubah_18
+  - first:
+      213: -8842644803275028659
+    second: Berubah_19
+  - first:
+      213: 2969367069931706617
+    second: Berubah_20
+  - first:
+      213: 1194048005990239616
+    second: Berubah_21
+  - first:
+      213: 1902831307856371217
+    second: Berubah_22
+  - first:
+      213: 6423059885872038461
+    second: Berubah_23
+  - first:
+      213: -5952277890504906905
+    second: Berubah_24
+  - first:
+      213: -589379371494078291
+    second: Berubah_25
+  - first:
+      213: 6186201770084920576
+    second: Berubah_26
+  - first:
+      213: -4017026036554489767
+    second: Berubah_27
+  - first:
+      213: -3503937495443501102
+    second: Berubah_28
+  - first:
+      213: -2292241015703733234
+    second: Berubah_29
+  - first:
+      213: -5154956180887185169
+    second: Berubah_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Berubah_0
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 152
+        width: 51
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5574, y: 0.49046215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0560a1e5e84b6b070800000000000000
+      internalID: 8121877501566387792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_1
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 152
+        width: 55
+        height: 58
+      alignment: 9
+      pivot: {x: 0.571915, y: 0.46468118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672e6ddc57185ed4695aa369bfa8c244
+      internalID: -1192864861076291703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_2
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 149
+        width: 43
+        height: 62
+      alignment: 9
+      pivot: {x: 0.47561717, y: 0.4830908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cdb6691f3a6794590424ba306576e5
+      internalID: 5948094648836441589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_3
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 148
+        width: 43
+        height: 66
+      alignment: 9
+      pivot: {x: 0.47507778, y: 0.46927226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781c8b3bfb4ce6849b386ab77b5b0e7a
+      internalID: 5986133099979331405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_4
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 152
+        width: 49
+        height: 60
+      alignment: 9
+      pivot: {x: 0.4790014, y: 0.44916764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7493f1aac9026f24f8b0690607abde21
+      internalID: 7515702097509874312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_5
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 150
+        width: 41
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4974157, y: 0.50000054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7033947121e0746abeb6203de54c37
+      internalID: -6231674133161869630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_6
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 150
+        width: 49
+        height: 59
+      alignment: 9
+      pivot: {x: 0.55861366, y: 0.4902292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f15b773ece10241bdda718fa098e47
+      internalID: -222838557993956400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_7
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 150
+        width: 43
+        height: 60
+      alignment: 9
+      pivot: {x: 0.49790493, y: 0.4820119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db425285055a3e74da9bf01a24d9a212
+      internalID: -1757107972871452516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_8
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 150
+        width: 47
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5187261, y: 0.46659237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9df003bb945084196717da94e1d011
+      internalID: -5592215867651685288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_9
+      rect:
+        serializedVersion: 2
+        x: 3625
+        y: 150
+        width: 43
+        height: 59
+      alignment: 9
+      pivot: {x: 0.45061547, y: 0.4907749}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de590015a2ea524a8ea0caf5a5d4a66
+      internalID: -6587131886327218284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_10
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 147
+        width: 44
+        height: 63
+      alignment: 9
+      pivot: {x: 0.48676646, y: 0.5067909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcba0c82c05457d489bc7204fccece41
+      internalID: 5458286304266018988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_11
+      rect:
+        serializedVersion: 2
+        x: 4395
+        y: 151
+        width: 46
+        height: 57
+      alignment: 9
+      pivot: {x: 0.46462083, y: 0.49105567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4a0db0c465d024992e815b64b47650
+      internalID: 2171893252085142363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_12
+      rect:
+        serializedVersion: 2
+        x: 4777
+        y: 150
+        width: 47
+        height: 62
+      alignment: 9
+      pivot: {x: 0.54029876, y: 0.46686235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35315bb6ca7d72b42ba85a1b68d3d374
+      internalID: 3452240867492802783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_13
+      rect:
+        serializedVersion: 2
+        x: 5164
+        y: 149
+        width: 53
+        height: 76
+      alignment: 9
+      pivot: {x: 0.4630841, y: 0.39388013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b80e81abad1f9e4db376773a0721fd8
+      internalID: -5281021664671861757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_14
+      rect:
+        serializedVersion: 2
+        x: 5547
+        y: 151
+        width: 55
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5013672, y: 0.3628649}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880bbe46b1970ed4b8869427081bc980
+      internalID: 2336437991067468846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_15
+      rect:
+        serializedVersion: 2
+        x: 5925
+        y: 151
+        width: 72
+        height: 87
+      alignment: 9
+      pivot: {x: 0.49569362, y: 0.3213059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824b30c093af56f4bb8e8eb898947f84
+      internalID: -6118532797663574077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_16
+      rect:
+        serializedVersion: 2
+        x: 6310
+        y: 148
+        width: 84
+        height: 177
+      alignment: 9
+      pivot: {x: 0.46806407, y: 0.14713205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227ebb70a9d0d2b458aebf4e62cfc129
+      internalID: 1098098471333120363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_17
+      rect:
+        serializedVersion: 2
+        x: 6684
+        y: 149
+        width: 100
+        height: 171
+      alignment: 9
+      pivot: {x: 0.52266115, y: 0.15211104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86043a3ff07c6b94bb1e7c9f636b26e2
+      internalID: -3371071478196261667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_19
+      rect:
+        serializedVersion: 2
+        x: 8624
+        y: 150
+        width: 84
+        height: 65
+      alignment: 9
+      pivot: {x: 0.4749349, y: 0.44451764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc6849b82a09574bb9d334e93532c1e
+      internalID: -8842644803275028659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_20
+      rect:
+        serializedVersion: 2
+        x: 9016
+        y: 150
+        width: 67
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5094887, y: 0.46135822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27dcf9852444ca4bae02ebbc244184e
+      internalID: 2969367069931706617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_21
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 149
+        width: 65
+        height: 63
+      alignment: 9
+      pivot: {x: 0.4301983, y: 0.48799255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5477312713db86e4685aac771f0ef038
+      internalID: 1194048005990239616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berubah_22
+      rect:
+        serializedVersion: 2
+        x: 10176
+        y: 150
+        width: 64
+        height: 62
+      alignment: 9
+      pivot: {x: 0.4133911, y: 0.46522644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62e1fd90c6862743aa32102553504b1
+      internalID: 1902831307856371217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7c9089b309dd6ea4e8c55241136953c4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Berubah_0: 8121877501566387792
+      Berubah_1: -1192864861076291703
+      Berubah_10: 5458286304266018988
+      Berubah_11: 2171893252085142363
+      Berubah_12: 3452240867492802783
+      Berubah_13: -5281021664671861757
+      Berubah_14: 2336437991067468846
+      Berubah_15: -6118532797663574077
+      Berubah_16: 1098098471333120363
+      Berubah_17: -3371071478196261667
+      Berubah_18: 8980162122511870276
+      Berubah_19: -8842644803275028659
+      Berubah_2: 5948094648836441589
+      Berubah_20: 2969367069931706617
+      Berubah_21: 1194048005990239616
+      Berubah_22: 1902831307856371217
+      Berubah_3: 5986133099979331405
+      Berubah_4: 7515702097509874312
+      Berubah_5: -6231674133161869630
+      Berubah_6: -222838557993956400
+      Berubah_7: -1757107972871452516
+      Berubah_8: -5592215867651685288
+      Berubah_9: -6587131886327218284
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

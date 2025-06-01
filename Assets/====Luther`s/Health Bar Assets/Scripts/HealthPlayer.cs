@@ -28,6 +28,7 @@ public class HealthPlayer : MonoBehaviour
     public float RockDM = 100f;
     public float BigDM = 40f;
     public float LavaDM = 0.3f;
+    public float BossLavaDM = 0.5f;
     public float SpikeCD = 3f;
     public bool canRegen = true;
     public bool vulnerable = true;
@@ -330,6 +331,11 @@ public class HealthPlayer : MonoBehaviour
         if (other.CompareTag("LavaHB"))
         {
             TakeDamage(LavaDM);
+        }
+
+        if (other.CompareTag("BossLavaATKHB"))
+        {
+            TakeDamage(BossLavaDM);
         }
 
         if (energyAmount != MaxEnergy && other.CompareTag("Finish"))

@@ -18,7 +18,7 @@ public class DialogueTriggerFalling : MonoBehaviour
 
     //private bool inRange = false;
     //private bool interactingDialog;
-    private bool startBabel = false;
+    //private bool startBabel = false;
     //static bool dialogueDone;
     ////public DialoguesManagererNormal.Dialogue[] dialogues;
 
@@ -28,7 +28,7 @@ public class DialogueTriggerFalling : MonoBehaviour
         //interactingDialog = false;
         //dialogueDone = false;
         dialogUIparent.SetActive(false);
-        startBabel = false;
+        //startBabel = false;
     }
 
     void Update()
@@ -99,7 +99,7 @@ public class DialogueTriggerFalling : MonoBehaviour
     // }
     public void StartCutsceneDialog()
     {
-        startBabel = true;
+        //startBabel = true;
         dialogueStarterFalling.StartDialogue(npcDialogue, finalDialog);
         //UIinteractE.SetActive(false);
         //inRange = false;

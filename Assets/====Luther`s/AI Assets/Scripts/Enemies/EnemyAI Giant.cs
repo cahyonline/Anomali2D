@@ -17,6 +17,7 @@ public class EnemyAIGaint : MonoBehaviour
     public LayerMask obstacleLayer;
     private float defaultSpeed;
     private float defaultSight;
+    private float defaultAttackRange;
 
     [Header("Turning Settings")]
     public float turnCooldown = 1f; // Cooldown before turning
@@ -65,6 +66,9 @@ public class EnemyAIGaint : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentTarget = pointA; 
         defaultSight = sightRange;
+        defaultAttackRange = attackRange;
+        //sightRange = 0f;
+        //attackRange = 0f;
         healthAmount = MaxHealth;
         //defaultSpeed = walkSpeed;
         attackHB.SetActive(false);
@@ -245,13 +249,26 @@ public class EnemyAIGaint : MonoBehaviour
         transform.localScale = currentScale;
     }
 
+
+    public void StartBattle()
+    {
+        attackRange = defaultAttackRange;
+        sightRange = defaultSight;
+    }
+
+    public void ZeroEv()
+    {
+        attackRange = 0f;
+        sightRange = 0f;
+    }
+
     void Idle()
     {
         rb.velocity = Vector2.zero;
         giantAnimator.SetBool("runAN",false);
         giantAnimator.SetBool("attAN",false);
         giantAnimator.SetBool("backAN",false);
-        Debug.LogWarning("IDLE");
+        //Debug.LogWarning("IDLE");
     }
     // void FaceDirection(Vector2 target)
     // {

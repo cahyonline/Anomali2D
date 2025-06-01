@@ -45,7 +45,7 @@ public class EnemyAIRanged : MonoBehaviour
 ////////////////////////////////////////////////////////////
 /// HEALTH 
     [Header("HEALTH")]
-    public UnityEngine.UI.Image healthBar;
+    private UnityEngine.UI.Image healthBar;
     public float healthAmount = 200f;
     private float Whathit = 2f;
     public float PlayerDamage = 35f;

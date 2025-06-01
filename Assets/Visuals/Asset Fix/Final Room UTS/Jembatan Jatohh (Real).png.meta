@@ -1,0 +1,3841 @@
+fileFormatVersion: 2
+guid: d2f0ab665791de64a8a610b8bc4575a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1583259285569615634
+    second: Jembatan Jatohh (Real)_0
+  - first:
+      213: -9091661251017304403
+    second: Jembatan Jatohh (Real)_1
+  - first:
+      213: -2998233942496615350
+    second: Jembatan Jatohh (Real)_2
+  - first:
+      213: 840648354890524804
+    second: Jembatan Jatohh (Real)_3
+  - first:
+      213: 1096589681228383822
+    second: Jembatan Jatohh (Real)_4
+  - first:
+      213: 7492366066256003690
+    second: Jembatan Jatohh (Real)_5
+  - first:
+      213: 2372798270661195814
+    second: Jembatan Jatohh (Real)_6
+  - first:
+      213: -2268057695002764156
+    second: Jembatan Jatohh (Real)_7
+  - first:
+      213: 8760192700151083466
+    second: Jembatan Jatohh (Real)_8
+  - first:
+      213: -8072810255720986369
+    second: Jembatan Jatohh (Real)_9
+  - first:
+      213: 7223522059877045392
+    second: Jembatan Jatohh (Real)_10
+  - first:
+      213: 5110978684446024510
+    second: Jembatan Jatohh (Real)_11
+  - first:
+      213: 1004477243279219682
+    second: Jembatan Jatohh (Real)_12
+  - first:
+      213: 8845755021134867573
+    second: Jembatan Jatohh (Real)_13
+  - first:
+      213: 1804479988536032305
+    second: Jembatan Jatohh (Real)_14
+  - first:
+      213: 1307781003404494
+    second: Jembatan Jatohh (Real)_15
+  - first:
+      213: -8705271278856231737
+    second: Jembatan Jatohh (Real)_16
+  - first:
+      213: 6446224187619158339
+    second: Jembatan Jatohh (Real)_17
+  - first:
+      213: 3162409514653532764
+    second: Jembatan Jatohh (Real)_18
+  - first:
+      213: -7286670462730664081
+    second: Jembatan Jatohh (Real)_19
+  - first:
+      213: -1702123613969917357
+    second: Jembatan Jatohh (Real)_20
+  - first:
+      213: 7381621314563903587
+    second: Jembatan Jatohh (Real)_21
+  - first:
+      213: -5586529644161422280
+    second: Jembatan Jatohh (Real)_22
+  - first:
+      213: 4863554177098966370
+    second: Jembatan Jatohh (Real)_23
+  - first:
+      213: 4337245917816365104
+    second: Jembatan Jatohh (Real)_24
+  - first:
+      213: -2744826259067271284
+    second: Jembatan Jatohh (Real)_25
+  - first:
+      213: -8854293051527027700
+    second: Jembatan Jatohh (Real)_26
+  - first:
+      213: 3891351717165894018
+    second: Jembatan Jatohh (Real)_27
+  - first:
+      213: -8071784117367498379
+    second: Jembatan Jatohh (Real)_28
+  - first:
+      213: -6514884256577476181
+    second: Jembatan Jatohh (Real)_29
+  - first:
+      213: -859143513527872882
+    second: Jembatan Jatohh (Real)_30
+  - first:
+      213: 251307221417614374
+    second: Jembatan Jatohh (Real)_31
+  - first:
+      213: -3093783069409030615
+    second: Jembatan Jatohh (Real)_32
+  - first:
+      213: -9079668833608251978
+    second: Jembatan Jatohh (Real)_33
+  - first:
+      213: 5774451958261752307
+    second: Jembatan Jatohh (Real)_34
+  - first:
+      213: 2186692143178926106
+    second: Jembatan Jatohh (Real)_35
+  - first:
+      213: -4023108068192467806
+    second: Jembatan Jatohh (Real)_36
+  - first:
+      213: -1301720871208571853
+    second: Jembatan Jatohh (Real)_37
+  - first:
+      213: 5970621437627966508
+    second: Jembatan Jatohh (Real)_38
+  - first:
+      213: -3538037683453474496
+    second: Jembatan Jatohh (Real)_39
+  - first:
+      213: -2513334399569995149
+    second: Jembatan Jatohh (Real)_40
+  - first:
+      213: 6838197704533506256
+    second: Jembatan Jatohh (Real)_41
+  - first:
+      213: 8267938756235434011
+    second: Jembatan Jatohh (Real)_42
+  - first:
+      213: 3881573280074672800
+    second: Jembatan Jatohh (Real)_43
+  - first:
+      213: 6028959190980156155
+    second: Jembatan Jatohh (Real)_44
+  - first:
+      213: 2153138973094068888
+    second: Jembatan Jatohh (Real)_45
+  - first:
+      213: -8200781443830832022
+    second: Jembatan Jatohh (Real)_46
+  - first:
+      213: 1674934322332655694
+    second: Jembatan Jatohh (Real)_47
+  - first:
+      213: 2396815350368574955
+    second: Jembatan Jatohh (Real)_48
+  - first:
+      213: -2776792766278089775
+    second: Jembatan Jatohh (Real)_49
+  - first:
+      213: -6272480769219453305
+    second: Jembatan Jatohh (Real)_50
+  - first:
+      213: -3628239455187620225
+    second: Jembatan Jatohh (Real)_51
+  - first:
+      213: 2467836731007458594
+    second: Jembatan Jatohh (Real)_52
+  - first:
+      213: 3969371640272044366
+    second: Jembatan Jatohh (Real)_53
+  - first:
+      213: 5474258252804459988
+    second: Jembatan Jatohh (Real)_54
+  - first:
+      213: -6801295870207767322
+    second: Jembatan Jatohh (Real)_55
+  - first:
+      213: 6691187424780960592
+    second: Jembatan Jatohh (Real)_56
+  - first:
+      213: -4018597462465802397
+    second: Jembatan Jatohh (Real)_57
+  - first:
+      213: -8459736980902886045
+    second: Jembatan Jatohh (Real)_58
+  - first:
+      213: -3939149593225952775
+    second: Jembatan Jatohh (Real)_59
+  - first:
+      213: 2152631388136091464
+    second: Jembatan Jatohh (Real)_60
+  - first:
+      213: -5063225517173191448
+    second: Jembatan Jatohh (Real)_61
+  - first:
+      213: -1698721940393869343
+    second: Jembatan Jatohh (Real)_62
+  - first:
+      213: 4044860189914832883
+    second: Jembatan Jatohh (Real)_63
+  - first:
+      213: -7483532682035871109
+    second: Jembatan Jatohh (Real)_64
+  - first:
+      213: -2188089144348331440
+    second: Jembatan Jatohh (Real)_65
+  - first:
+      213: -7774228703176107273
+    second: Jembatan Jatohh (Real)_66
+  - first:
+      213: 1311784635166983206
+    second: Jembatan Jatohh (Real)_67
+  - first:
+      213: -6820981555226833852
+    second: Jembatan Jatohh (Real)_68
+  - first:
+      213: 8649658843678292897
+    second: Jembatan Jatohh (Real)_69
+  - first:
+      213: 2516880639933944001
+    second: Jembatan Jatohh (Real)_70
+  - first:
+      213: -4988691116686891568
+    second: Jembatan Jatohh (Real)_71
+  - first:
+      213: -4230424414262000929
+    second: Jembatan Jatohh (Real)_72
+  - first:
+      213: -983953984659120471
+    second: Jembatan Jatohh (Real)_73
+  - first:
+      213: -8273281496336413972
+    second: Jembatan Jatohh (Real)_74
+  - first:
+      213: -2055451671493303033
+    second: Jembatan Jatohh (Real)_75
+  - first:
+      213: -7346091678708255717
+    second: Jembatan Jatohh (Real)_76
+  - first:
+      213: -7437342232819261623
+    second: Jembatan Jatohh (Real)_77
+  - first:
+      213: 194113485499665914
+    second: Jembatan Jatohh (Real)_78
+  - first:
+      213: 4918100137076851078
+    second: Jembatan Jatohh (Real)_79
+  - first:
+      213: 3476023040875361547
+    second: Jembatan Jatohh (Real)_80
+  - first:
+      213: 7745062891213754832
+    second: Jembatan Jatohh (Real)_81
+  - first:
+      213: -1616798546743209665
+    second: Jembatan Jatohh (Real)_82
+  - first:
+      213: -6837702685311676897
+    second: Jembatan Jatohh (Real)_83
+  - first:
+      213: -6038168941989942748
+    second: Jembatan Jatohh (Real)_84
+  - first:
+      213: 6956210175777019524
+    second: Jembatan Jatohh (Real)_85
+  - first:
+      213: 948954328520965145
+    second: Jembatan Jatohh (Real)_86
+  - first:
+      213: -672756115314981970
+    second: Jembatan Jatohh (Real)_87
+  - first:
+      213: 4756128963959289916
+    second: Jembatan Jatohh (Real)_88
+  - first:
+      213: -6870233280452936307
+    second: Jembatan Jatohh (Real)_89
+  - first:
+      213: -7514873955953559926
+    second: Jembatan Jatohh (Real)_90
+  - first:
+      213: 235085837397071351
+    second: Jembatan Jatohh (Real)_91
+  - first:
+      213: -3479850330942933052
+    second: Jembatan Jatohh (Real)_92
+  - first:
+      213: 3144471814948113531
+    second: Jembatan Jatohh (Real)_93
+  - first:
+      213: -3008026146293153476
+    second: Jembatan Jatohh (Real)_94
+  - first:
+      213: 5641660913855182578
+    second: Jembatan Jatohh (Real)_95
+  - first:
+      213: 2484408240622602044
+    second: Jembatan Jatohh (Real)_96
+  - first:
+      213: -171714017067295881
+    second: Jembatan Jatohh (Real)_97
+  - first:
+      213: 5783539083935472266
+    second: Jembatan Jatohh (Real)_98
+  - first:
+      213: 5299671479525599199
+    second: Jembatan Jatohh (Real)_99
+  - first:
+      213: 3269753368105892416
+    second: Jembatan Jatohh (Real)_100
+  - first:
+      213: -7422455802715144082
+    second: Jembatan Jatohh (Real)_101
+  - first:
+      213: -8582277930647193746
+    second: Jembatan Jatohh (Real)_102
+  - first:
+      213: -6640161937526368347
+    second: Jembatan Jatohh (Real)_103
+  - first:
+      213: -3213883202075964331
+    second: Jembatan Jatohh (Real)_104
+  - first:
+      213: -3802161161584122875
+    second: Jembatan Jatohh (Real)_105
+  - first:
+      213: -5656649564780747490
+    second: Jembatan Jatohh (Real)_106
+  - first:
+      213: 2465402174323573136
+    second: Jembatan Jatohh (Real)_107
+  - first:
+      213: -6965460958405251531
+    second: Jembatan Jatohh (Real)_108
+  - first:
+      213: 6594666529503597929
+    second: Jembatan Jatohh (Real)_109
+  - first:
+      213: -938289490513770880
+    second: Jembatan Jatohh (Real)_110
+  - first:
+      213: -79682352003466969
+    second: Jembatan Jatohh (Real)_111
+  - first:
+      213: 3041161367317623791
+    second: Jembatan Jatohh (Real)_112
+  - first:
+      213: 3123982451925645513
+    second: Jembatan Jatohh (Real)_113
+  - first:
+      213: -2842388737885911713
+    second: Jembatan Jatohh (Real)_114
+  - first:
+      213: 3460642728242425048
+    second: Jembatan Jatohh (Real)_115
+  - first:
+      213: -5786496174407303109
+    second: Jembatan Jatohh (Real)_116
+  - first:
+      213: 2336891830254550388
+    second: Jembatan Jatohh (Real)_117
+  - first:
+      213: -6107596268566911774
+    second: Jembatan Jatohh (Real)_118
+  - first:
+      213: -2000737693376338699
+    second: Jembatan Jatohh (Real)_119
+  - first:
+      213: -7692656115192253212
+    second: Jembatan Jatohh (Real)_120
+  - first:
+      213: 5885616369061028888
+    second: Jembatan Jatohh (Real)_121
+  - first:
+      213: -3346939404931480338
+    second: Jembatan Jatohh (Real)_122
+  - first:
+      213: 1291082482220723319
+    second: Jembatan Jatohh (Real)_123
+  - first:
+      213: 2157842518811985528
+    second: Jembatan Jatohh (Real)_124
+  - first:
+      213: -2760902110784682796
+    second: Jembatan Jatohh (Real)_125
+  - first:
+      213: -7192352776376658753
+    second: Jembatan Jatohh (Real)_126
+  - first:
+      213: 986000604476139880
+    second: Jembatan Jatohh (Real)_127
+  - first:
+      213: 8267556954577818928
+    second: Jembatan Jatohh (Real)_128
+  - first:
+      213: -1951498981103350674
+    second: Jembatan Jatohh (Real)_129
+  - first:
+      213: 7005966753401412093
+    second: Jembatan Jatohh (Real)_130
+  - first:
+      213: -3554632409861450576
+    second: Jembatan Jatohh (Real)_131
+  - first:
+      213: -8591296366378712554
+    second: Jembatan Jatohh (Real)_132
+  - first:
+      213: 1403755603123748235
+    second: Jembatan Jatohh (Real)_133
+  - first:
+      213: -4618042887320615025
+    second: Jembatan Jatohh (Real)_134
+  - first:
+      213: 4804796865633143375
+    second: Jembatan Jatohh (Real)_135
+  - first:
+      213: 5126966105694218826
+    second: Jembatan Jatohh (Real)_136
+  - first:
+      213: -5135875245002169199
+    second: Jembatan Jatohh (Real)_137
+  - first:
+      213: 1145725829749036452
+    second: Jembatan Jatohh (Real)_138
+  - first:
+      213: -6965878613015690223
+    second: Jembatan Jatohh (Real)_139
+  - first:
+      213: -1060434937122022568
+    second: Jembatan Jatohh (Real)_140
+  - first:
+      213: -1264657192390570686
+    second: Jembatan Jatohh (Real)_141
+  - first:
+      213: -8808753184718666831
+    second: Jembatan Jatohh (Real)_142
+  - first:
+      213: -5336437667326872798
+    second: Jembatan Jatohh (Real)_143
+  - first:
+      213: -6863739125173819196
+    second: Jembatan Jatohh (Real)_144
+  - first:
+      213: -8487355019971350559
+    second: Jembatan Jatohh (Real)_145
+  - first:
+      213: 4023591232339819981
+    second: Jembatan Jatohh (Real)_146
+  - first:
+      213: -3462118408848697044
+    second: Jembatan Jatohh (Real)_147
+  - first:
+      213: 2486616260201539992
+    second: Jembatan Jatohh (Real)_148
+  - first:
+      213: 8107530804214784233
+    second: Jembatan Jatohh (Real)_149
+  - first:
+      213: -3528707325617936264
+    second: Jembatan Jatohh (Real)_150
+  - first:
+      213: 924717328174068701
+    second: Jembatan Jatohh (Real)_151
+  - first:
+      213: -4330266072988497734
+    second: Jembatan Jatohh (Real)_152
+  - first:
+      213: -2883435395314569395
+    second: Jembatan Jatohh (Real)_153
+  - first:
+      213: 3408345271981153942
+    second: Jembatan Jatohh (Real)_154
+  - first:
+      213: 8714126177606268676
+    second: Jembatan Jatohh (Real)_155
+  - first:
+      213: 7797702299950129582
+    second: Jembatan Jatohh (Real)_156
+  - first:
+      213: 5220936550452091797
+    second: Jembatan Jatohh (Real)_157
+  - first:
+      213: -1684456321853111301
+    second: Jembatan Jatohh (Real)_158
+  - first:
+      213: 7447134094074155107
+    second: Jembatan Jatohh (Real)_159
+  - first:
+      213: -3879802676017809396
+    second: Jembatan Jatohh (Real)_160
+  - first:
+      213: -2384322472404967949
+    second: Jembatan Jatohh (Real)_161
+  - first:
+      213: 2661225086063077523
+    second: Jembatan Jatohh (Real)_162
+  - first:
+      213: 8963355476045264170
+    second: Jembatan Jatohh (Real)_163
+  - first:
+      213: 6571429649066114050
+    second: Jembatan Jatohh (Real)_164
+  - first:
+      213: -5702403048965298969
+    second: Jembatan Jatohh (Real)_165
+  - first:
+      213: 3756766189023855639
+    second: Jembatan Jatohh (Real)_166
+  - first:
+      213: -8555369862781425559
+    second: Jembatan Jatohh (Real)_167
+  - first:
+      213: 778791070744667512
+    second: Jembatan Jatohh (Real)_168
+  - first:
+      213: -7954114657205555410
+    second: Jembatan Jatohh (Real)_169
+  - first:
+      213: -4194353942740731747
+    second: Jembatan Jatohh (Real)_170
+  - first:
+      213: 4155762778806079903
+    second: Jembatan Jatohh (Real)_171
+  - first:
+      213: -460887766046730364
+    second: Jembatan Jatohh (Real)_172
+  - first:
+      213: -5594679384686445495
+    second: Jembatan Jatohh (Real)_173
+  - first:
+      213: -5981091320573013819
+    second: Jembatan Jatohh (Real)_174
+  - first:
+      213: -5906284660529026357
+    second: Jembatan Jatohh (Real)_175
+  - first:
+      213: -7517068017638513867
+    second: Jembatan Jatohh (Real)_176
+  - first:
+      213: 3630889762428044761
+    second: Jembatan Jatohh (Real)_177
+  - first:
+      213: -8440726918624182887
+    second: Jembatan Jatohh (Real)_178
+  - first:
+      213: -5790674306030883516
+    second: Jembatan Jatohh (Real)_179
+  - first:
+      213: -4527555136715508384
+    second: Jembatan Jatohh (Real)_180
+  - first:
+      213: -4193256435124299480
+    second: Jembatan Jatohh (Real)_181
+  - first:
+      213: -5138866324348009214
+    second: Jembatan Jatohh (Real)_182
+  - first:
+      213: -5081371691056097207
+    second: Jembatan Jatohh (Real)_183
+  - first:
+      213: 6411189081418030583
+    second: Jembatan Jatohh (Real)_184
+  - first:
+      213: -7428443283741649317
+    second: Jembatan Jatohh (Real)_185
+  - first:
+      213: -8508518641197686462
+    second: Jembatan Jatohh (Real)_186
+  - first:
+      213: -8373299335374987739
+    second: Jembatan Jatohh (Real)_187
+  - first:
+      213: 8476518897713641637
+    second: Jembatan Jatohh (Real)_188
+  - first:
+      213: -1495791409990805871
+    second: Jembatan Jatohh (Real)_189
+  - first:
+      213: 5102105522384908554
+    second: Jembatan Jatohh (Real)_190
+  - first:
+      213: -1686048345323298038
+    second: Jembatan Jatohh (Real)_191
+  - first:
+      213: -4951212762973027939
+    second: Jembatan Jatohh (Real)_192
+  - first:
+      213: -8033884509241876660
+    second: Jembatan Jatohh (Real)_193
+  - first:
+      213: -5000069160307457662
+    second: Jembatan Jatohh (Real)_194
+  - first:
+      213: -7598059667717928134
+    second: Jembatan Jatohh (Real)_195
+  - first:
+      213: -1111697448780313991
+    second: Jembatan Jatohh (Real)_196
+  - first:
+      213: 2265267521029131681
+    second: Jembatan Jatohh (Real)_197
+  - first:
+      213: -2851173762049090975
+    second: Jembatan Jatohh (Real)_198
+  - first:
+      213: 1229618404528124226
+    second: Jembatan Jatohh (Real)_199
+  - first:
+      213: -4294714312936353499
+    second: Jembatan Jatohh (Real)_200
+  - first:
+      213: -238560613628597373
+    second: Jembatan Jatohh (Real)_201
+  - first:
+      213: -8767070863949297814
+    second: Jembatan Jatohh (Real)_202
+  - first:
+      213: 1789566186682688965
+    second: Jembatan Jatohh (Real)_203
+  - first:
+      213: -4255429482162664811
+    second: Jembatan Jatohh (Real)_204
+  - first:
+      213: -2394242916211661220
+    second: Jembatan Jatohh (Real)_205
+  - first:
+      213: -3691484509248147881
+    second: Jembatan Jatohh (Real)_206
+  - first:
+      213: -918166244574701836
+    second: Jembatan Jatohh (Real)_207
+  - first:
+      213: 2806846031554451822
+    second: Jembatan Jatohh (Real)_208
+  - first:
+      213: 168852880818861427
+    second: Jembatan Jatohh (Real)_209
+  - first:
+      213: 1150706359044462266
+    second: Jembatan Jatohh (Real)_210
+  - first:
+      213: 542330703738722391
+    second: Jembatan Jatohh (Real)_211
+  - first:
+      213: 809766171207733949
+    second: Jembatan Jatohh (Real)_212
+  - first:
+      213: 5727735901362557487
+    second: Jembatan Jatohh (Real)_213
+  - first:
+      213: -2492456380506842340
+    second: Jembatan Jatohh (Real)_214
+  - first:
+      213: 5238451890167294963
+    second: Jembatan Jatohh (Real)_215
+  - first:
+      213: -874962709723833329
+    second: Jembatan Jatohh (Real)_216
+  - first:
+      213: -8794749986837925819
+    second: Jembatan Jatohh (Real)_217
+  - first:
+      213: 8215263212567228932
+    second: Jembatan Jatohh (Real)_218
+  - first:
+      213: -859906718411640077
+    second: Jembatan Jatohh (Real)_219
+  - first:
+      213: -5111355473774448588
+    second: Jembatan Jatohh (Real)_220
+  - first:
+      213: 8858731551653430430
+    second: Jembatan Jatohh (Real)_221
+  - first:
+      213: 7993589816900712965
+    second: Jembatan Jatohh (Real)_222
+  - first:
+      213: 6767804442875639181
+    second: Jembatan Jatohh (Real)_223
+  - first:
+      213: 9028800381134441497
+    second: Jembatan Jatohh (Real)_224
+  - first:
+      213: 6558157702451771893
+    second: Jembatan Jatohh (Real)_225
+  - first:
+      213: -6231432494985840544
+    second: Jembatan Jatohh (Real)_226
+  - first:
+      213: 9075662464527550434
+    second: Jembatan Jatohh (Real)_227
+  - first:
+      213: -6710816602044920367
+    second: Jembatan Jatohh (Real)_228
+  - first:
+      213: 8385404371028181812
+    second: Jembatan Jatohh (Real)_229
+  - first:
+      213: 2219185668395043474
+    second: Jembatan Jatohh (Real)_230
+  - first:
+      213: 1139067512433903522
+    second: Jembatan Jatohh (Real)_231
+  - first:
+      213: 3373392392096620832
+    second: Jembatan Jatohh (Real)_232
+  - first:
+      213: -6059879744504558289
+    second: Jembatan Jatohh (Real)_233
+  - first:
+      213: -2200238682755076986
+    second: Jembatan Jatohh (Real)_234
+  - first:
+      213: -7688805051281918695
+    second: Jembatan Jatohh (Real)_235
+  - first:
+      213: 5435448195872174339
+    second: Jembatan Jatohh (Real)_236
+  - first:
+      213: -5925767712620745063
+    second: Jembatan Jatohh (Real)_237
+  - first:
+      213: -180649812584047685
+    second: Jembatan Jatohh (Real)_238
+  - first:
+      213: -7990740128401030535
+    second: Jembatan Jatohh (Real)_239
+  - first:
+      213: -8887665305793658653
+    second: Jembatan Jatohh (Real)_240
+  - first:
+      213: 7623659132230985599
+    second: Jembatan Jatohh (Real)_241
+  - first:
+      213: 1823542400319739697
+    second: Jembatan Jatohh (Real)_242
+  - first:
+      213: -833947100657279707
+    second: Jembatan Jatohh (Real)_243
+  - first:
+      213: 6565714857874224005
+    second: Jembatan Jatohh (Real)_244
+  - first:
+      213: -7286259255871634556
+    second: Jembatan Jatohh (Real)_245
+  - first:
+      213: 1628008985610747983
+    second: Jembatan Jatohh (Real)_246
+  - first:
+      213: 99021852096395565
+    second: Jembatan Jatohh (Real)_247
+  - first:
+      213: -140378357333343747
+    second: Jembatan Jatohh (Real)_248
+  - first:
+      213: 8121208174966916866
+    second: Jembatan Jatohh (Real)_249
+  - first:
+      213: 6135651196423901498
+    second: Jembatan Jatohh (Real)_250
+  - first:
+      213: 3632116860960792387
+    second: Jembatan Jatohh (Real)_251
+  - first:
+      213: 816012605962980545
+    second: Jembatan Jatohh (Real)_252
+  - first:
+      213: -3455380260482717853
+    second: Jembatan Jatohh (Real)_253
+  - first:
+      213: -1788536956482000074
+    second: Jembatan Jatohh (Real)_254
+  - first:
+      213: -798831549513837986
+    second: Jembatan Jatohh (Real)_255
+  - first:
+      213: 5151229521633307814
+    second: Jembatan Jatohh (Real)_256
+  - first:
+      213: -9100464620307574196
+    second: Jembatan Jatohh (Real)_257
+  - first:
+      213: 8367344075565465412
+    second: Jembatan Jatohh (Real)_258
+  - first:
+      213: -441538026510093259
+    second: Jembatan Jatohh (Real)_259
+  - first:
+      213: 3185060441402069638
+    second: Jembatan Jatohh (Real)_260
+  - first:
+      213: -5377619005419565954
+    second: Jembatan Jatohh (Real)_261
+  - first:
+      213: 2644756459830689332
+    second: Jembatan Jatohh (Real)_262
+  - first:
+      213: -4318776272431846226
+    second: Jembatan Jatohh (Real)_263
+  - first:
+      213: -2827397802265963179
+    second: Jembatan Jatohh (Real)_264
+  - first:
+      213: -6819928050555055484
+    second: Jembatan Jatohh (Real)_265
+  - first:
+      213: -1942107621138855587
+    second: Jembatan Jatohh (Real)_266
+  - first:
+      213: -7189135704690772932
+    second: Jembatan Jatohh (Real)_267
+  - first:
+      213: 7287710133009036037
+    second: Jembatan Jatohh (Real)_268
+  - first:
+      213: -2443094593200413050
+    second: Jembatan Jatohh (Real)_269
+  - first:
+      213: -856703229970630458
+    second: Jembatan Jatohh (Real)_270
+  - first:
+      213: -4438662226682195025
+    second: Jembatan Jatohh (Real)_271
+  - first:
+      213: 4110033072104978496
+    second: Jembatan Jatohh (Real)_272
+  - first:
+      213: 2796013243055844936
+    second: Jembatan Jatohh (Real)_273
+  - first:
+      213: 6444876262262655883
+    second: Jembatan Jatohh (Real)_274
+  - first:
+      213: -7426136053797489873
+    second: Jembatan Jatohh (Real)_275
+  - first:
+      213: -244249071557091382
+    second: Jembatan Jatohh (Real)_276
+  - first:
+      213: -1888085054427702411
+    second: Jembatan Jatohh (Real)_277
+  - first:
+      213: 5080168013892384831
+    second: Jembatan Jatohh (Real)_278
+  - first:
+      213: -6608064563747390377
+    second: Jembatan Jatohh (Real)_279
+  - first:
+      213: 2923524263912307239
+    second: Jembatan Jatohh (Real)_280
+  - first:
+      213: 1044110924010712337
+    second: Jembatan Jatohh (Real)_281
+  - first:
+      213: -2439076042149842626
+    second: Jembatan Jatohh (Real)_282
+  - first:
+      213: -5009361066056637136
+    second: Jembatan Jatohh (Real)_283
+  - first:
+      213: -7142410982682566793
+    second: Jembatan Jatohh (Real)_284
+  - first:
+      213: 1118970879656523222
+    second: Jembatan Jatohh (Real)_285
+  - first:
+      213: -7321632434207858250
+    second: Jembatan Jatohh (Real)_286
+  - first:
+      213: -4713632831365080611
+    second: Jembatan Jatohh (Real)_287
+  - first:
+      213: 2167518213691480314
+    second: Jembatan Jatohh (Real)_288
+  - first:
+      213: -3324121509798545015
+    second: Jembatan Jatohh (Real)_289
+  - first:
+      213: -4801633942802567498
+    second: Jembatan Jatohh (Real)_290
+  - first:
+      213: -8666269049307643929
+    second: Jembatan Jatohh (Real)_291
+  - first:
+      213: -9206746141074798211
+    second: Jembatan Jatohh (Real)_292
+  - first:
+      213: -7616874535264602988
+    second: Jembatan Jatohh (Real)_293
+  - first:
+      213: -3738415399343274368
+    second: Jembatan Jatohh (Real)_294
+  - first:
+      213: -7609348235984459001
+    second: Jembatan Jatohh (Real)_295
+  - first:
+      213: 8749869093509522244
+    second: Jembatan Jatohh (Real)_296
+  - first:
+      213: -3957536271190512720
+    second: Jembatan Jatohh (Real)_297
+  - first:
+      213: 2552788582369494271
+    second: Jembatan Jatohh (Real)_298
+  - first:
+      213: 4035094911341332923
+    second: Jembatan Jatohh (Real)_299
+  - first:
+      213: -5633605479470746436
+    second: Jembatan Jatohh (Real)_300
+  - first:
+      213: 3430650322889749362
+    second: Jembatan Jatohh (Real)_301
+  - first:
+      213: -7722232725126225324
+    second: Jembatan Jatohh (Real)_302
+  - first:
+      213: 6696118443469581899
+    second: Jembatan Jatohh (Real)_303
+  - first:
+      213: -5395566321318569483
+    second: Jembatan Jatohh (Real)_304
+  - first:
+      213: 4769339037437373775
+    second: Jembatan Jatohh (Real)_305
+  - first:
+      213: -2657487068643070060
+    second: Jembatan Jatohh (Real)_306
+  - first:
+      213: -814042846983442858
+    second: Jembatan Jatohh (Real)_307
+  - first:
+      213: -474374950557747321
+    second: Jembatan Jatohh (Real)_308
+  - first:
+      213: 472365226449636421
+    second: Jembatan Jatohh (Real)_309
+  - first:
+      213: 2410734958925264523
+    second: Jembatan Jatohh (Real)_310
+  - first:
+      213: -5609988123687123502
+    second: Jembatan Jatohh (Real)_311
+  - first:
+      213: -3025548860658114187
+    second: Jembatan Jatohh (Real)_312
+  - first:
+      213: 5933124394843341008
+    second: Jembatan Jatohh (Real)_313
+  - first:
+      213: -2259681830693575919
+    second: Jembatan Jatohh (Real)_314
+  - first:
+      213: -2900841517362599123
+    second: Jembatan Jatohh (Real)_315
+  - first:
+      213: -6286829791191558704
+    second: Jembatan Jatohh (Real)_316
+  - first:
+      213: -2731506398611898084
+    second: Jembatan Jatohh (Real)_317
+  - first:
+      213: -6646155385814856689
+    second: Jembatan Jatohh (Real)_318
+  - first:
+      213: -1944666801629264061
+    second: Jembatan Jatohh (Real)_319
+  - first:
+      213: -8311063367698202686
+    second: Jembatan Jatohh (Real)_320
+  - first:
+      213: -8954074763065094266
+    second: Jembatan Jatohh (Real)_321
+  - first:
+      213: 4854418711642094974
+    second: Jembatan Jatohh (Real)_322
+  - first:
+      213: 1422220198864319997
+    second: Jembatan Jatohh (Real)_323
+  - first:
+      213: -7380576758627464804
+    second: Jembatan Jatohh (Real)_324
+  - first:
+      213: 4899224052848651284
+    second: Jembatan Jatohh (Real)_325
+  - first:
+      213: 188394742121228993
+    second: Jembatan Jatohh (Real)_326
+  - first:
+      213: -8149940489308242936
+    second: Jembatan Jatohh (Real)_327
+  - first:
+      213: -8250264176043220431
+    second: Jembatan Jatohh (Real)_328
+  - first:
+      213: -1237239627631302442
+    second: Jembatan Jatohh (Real)_329
+  - first:
+      213: -3746890418366586560
+    second: Jembatan Jatohh (Real)_330
+  - first:
+      213: -4152543222420493594
+    second: Jembatan Jatohh (Real)_331
+  - first:
+      213: -8375145998271798610
+    second: Jembatan Jatohh (Real)_332
+  - first:
+      213: 6494800642735019318
+    second: Jembatan Jatohh (Real)_333
+  - first:
+      213: -8272420727236316540
+    second: Jembatan Jatohh (Real)_334
+  - first:
+      213: 4238758149325136646
+    second: Jembatan Jatohh (Real)_335
+  - first:
+      213: -3109153716194069256
+    second: Jembatan Jatohh (Real)_336
+  - first:
+      213: -516334987896267743
+    second: Jembatan Jatohh (Real)_337
+  - first:
+      213: 7347469775184036868
+    second: Jembatan Jatohh (Real)_338
+  - first:
+      213: -7861266666137474470
+    second: Jembatan Jatohh (Real)_339
+  - first:
+      213: -4503676893278985437
+    second: Jembatan Jatohh (Real)_340
+  - first:
+      213: -1385311222432326512
+    second: Jembatan Jatohh (Real)_341
+  - first:
+      213: 3495456533368888203
+    second: Jembatan Jatohh (Real)_342
+  - first:
+      213: 9166340880170580770
+    second: Jembatan Jatohh (Real)_343
+  - first:
+      213: 1315448036027506300
+    second: Jembatan Jatohh (Real)_344
+  - first:
+      213: 5431141586559006072
+    second: Jembatan Jatohh (Real)_345
+  - first:
+      213: 4781344113264507484
+    second: Jembatan Jatohh (Real)_346
+  - first:
+      213: -1885478904381912449
+    second: Jembatan Jatohh (Real)_347
+  - first:
+      213: 6286069864527076621
+    second: Jembatan Jatohh (Real)_348
+  - first:
+      213: -3246169768332691412
+    second: Jembatan Jatohh (Real)_349
+  - first:
+      213: -8644768710134506632
+    second: Jembatan Jatohh (Real)_350
+  - first:
+      213: 5684112040686997535
+    second: Jembatan Jatohh (Real)_351
+  - first:
+      213: -8988966072866723639
+    second: Jembatan Jatohh (Real)_352
+  - first:
+      213: -5156500838368269413
+    second: Jembatan Jatohh (Real)_353
+  - first:
+      213: 3376538438399474026
+    second: Jembatan Jatohh (Real)_354
+  - first:
+      213: 7236872385578461238
+    second: Jembatan Jatohh (Real)_355
+  - first:
+      213: 7120503803585214419
+    second: Jembatan Jatohh (Real)_356
+  - first:
+      213: 7359402457173701213
+    second: Jembatan Jatohh (Real)_357
+  - first:
+      213: -8217590926236506533
+    second: Jembatan Jatohh (Real)_358
+  - first:
+      213: -5317198659073291763
+    second: Jembatan Jatohh (Real)_359
+  - first:
+      213: -6028546925179253041
+    second: Jembatan Jatohh (Real)_360
+  - first:
+      213: 4539429596335951981
+    second: Jembatan Jatohh (Real)_361
+  - first:
+      213: -5000077092120035651
+    second: Jembatan Jatohh (Real)_362
+  - first:
+      213: -4067107145857744686
+    second: Jembatan Jatohh (Real)_363
+  - first:
+      213: 4050440008877542676
+    second: Jembatan Jatohh (Real)_364
+  - first:
+      213: 5833497768632379537
+    second: Jembatan Jatohh (Real)_365
+  - first:
+      213: -3135684271831389480
+    second: Jembatan Jatohh (Real)_366
+  - first:
+      213: -1647283621327925220
+    second: Jembatan Jatohh (Real)_367
+  - first:
+      213: 8252329506471542596
+    second: Jembatan Jatohh (Real)_368
+  - first:
+      213: -4643156295131784301
+    second: Jembatan Jatohh (Real)_369
+  - first:
+      213: 5909537826936858272
+    second: Jembatan Jatohh (Real)_370
+  - first:
+      213: -7598714958456257069
+    second: Jembatan Jatohh (Real)_371
+  - first:
+      213: -6751065617765888706
+    second: Jembatan Jatohh (Real)_372
+  - first:
+      213: 8715989754323008274
+    second: Jembatan Jatohh (Real)_373
+  - first:
+      213: 3515348763988533432
+    second: Jembatan Jatohh (Real)_374
+  - first:
+      213: 6607086043819558793
+    second: Jembatan Jatohh (Real)_375
+  - first:
+      213: 2428365771178673988
+    second: Jembatan Jatohh (Real)_376
+  - first:
+      213: -3041054201008823236
+    second: Jembatan Jatohh (Real)_377
+  - first:
+      213: -3689104782734635655
+    second: Jembatan Jatohh (Real)_378
+  - first:
+      213: -6603855203881924894
+    second: Jembatan Jatohh (Real)_379
+  - first:
+      213: -6383723467541944653
+    second: Jembatan Jatohh (Real)_380
+  - first:
+      213: 7258204168804488277
+    second: Jembatan Jatohh (Real)_381
+  - first:
+      213: -8539313521108092062
+    second: Jembatan Jatohh (Real)_382
+  - first:
+      213: 1438575232816813525
+    second: Jembatan Jatohh (Real)_383
+  - first:
+      213: 335548183085773364
+    second: Jembatan Jatohh (Real)_384
+  - first:
+      213: -3655702425911208635
+    second: Jembatan Jatohh (Real)_385
+  - first:
+      213: -2406653715291065610
+    second: Jembatan Jatohh (Real)_386
+  - first:
+      213: -4404834407440468615
+    second: Jembatan Jatohh (Real)_387
+  - first:
+      213: 2559602081550323959
+    second: Jembatan Jatohh (Real)_388
+  - first:
+      213: 9187112214611452231
+    second: Jembatan Jatohh (Real)_389
+  - first:
+      213: -8988270195056509406
+    second: Jembatan Jatohh (Real)_390
+  - first:
+      213: 2299399902947922082
+    second: Jembatan Jatohh (Real)_391
+  - first:
+      213: 7950863054453834114
+    second: Jembatan Jatohh (Real)_392
+  - first:
+      213: 8076223117639026714
+    second: Jembatan Jatohh (Real)_393
+  - first:
+      213: -6792548232347682864
+    second: Jembatan Jatohh (Real)_394
+  - first:
+      213: -5256654010182779366
+    second: Jembatan Jatohh (Real)_395
+  - first:
+      213: 5829162684752398903
+    second: Jembatan Jatohh (Real)_396
+  - first:
+      213: 1162312962713174471
+    second: Jembatan Jatohh (Real)_397
+  - first:
+      213: 5501268535263906909
+    second: Jembatan Jatohh (Real)_398
+  - first:
+      213: 1907056644887994026
+    second: Jembatan Jatohh (Real)_399
+  - first:
+      213: -3744554292663955348
+    second: Jembatan Jatohh (Real)_400
+  - first:
+      213: -8467324297032565440
+    second: Jembatan Jatohh (Real)_401
+  - first:
+      213: -6562426083652297559
+    second: Jembatan Jatohh (Real)_402
+  - first:
+      213: -5419219328379484758
+    second: Jembatan Jatohh (Real)_403
+  - first:
+      213: 3406592998092361324
+    second: Jembatan Jatohh (Real)_404
+  - first:
+      213: -3891626883807284977
+    second: Jembatan Jatohh (Real)_405
+  - first:
+      213: 7607880763354312646
+    second: Jembatan Jatohh (Real)_406
+  - first:
+      213: 3067429231653626256
+    second: Jembatan Jatohh (Real)_407
+  - first:
+      213: 7725527665309309471
+    second: Jembatan Jatohh (Real)_408
+  - first:
+      213: -7130714380661687983
+    second: Jembatan Jatohh (Real)_409
+  - first:
+      213: -6257413673254566081
+    second: Jembatan Jatohh (Real)_410
+  - first:
+      213: -3482783516158740931
+    second: Jembatan Jatohh (Real)_411
+  - first:
+      213: -5433306655994059829
+    second: Jembatan Jatohh (Real)_412
+  - first:
+      213: 5991299653596071819
+    second: Jembatan Jatohh (Real)_413
+  - first:
+      213: 1265150342121329346
+    second: Jembatan Jatohh (Real)_414
+  - first:
+      213: -9049617338288616883
+    second: Jembatan Jatohh (Real)_415
+  - first:
+      213: -8707087460572206375
+    second: Jembatan Jatohh (Real)_416
+  - first:
+      213: 9155261684533777740
+    second: Jembatan Jatohh (Real)_417
+  - first:
+      213: -8937647302446020581
+    second: Jembatan Jatohh (Real)_418
+  - first:
+      213: -4803584466158262483
+    second: Jembatan Jatohh (Real)_419
+  - first:
+      213: 8786841037360024770
+    second: Jembatan Jatohh (Real)_420
+  - first:
+      213: 696796047802017402
+    second: Jembatan Jatohh (Real)_421
+  - first:
+      213: -5291616273473129679
+    second: Jembatan Jatohh (Real)_422
+  - first:
+      213: -7282536273889628547
+    second: Jembatan Jatohh (Real)_423
+  - first:
+      213: -864094793772123863
+    second: Jembatan Jatohh (Real)_424
+  - first:
+      213: -6030910134752114519
+    second: Jembatan Jatohh (Real)_425
+  - first:
+      213: -9129452344357514699
+    second: Jembatan Jatohh (Real)_426
+  - first:
+      213: -3299119771327253525
+    second: Jembatan Jatohh (Real)_427
+  - first:
+      213: 8769659309342620415
+    second: Jembatan Jatohh (Real)_428
+  - first:
+      213: 8480677480823952201
+    second: Jembatan Jatohh (Real)_429
+  - first:
+      213: 8638731450985568772
+    second: Jembatan Jatohh (Real)_430
+  - first:
+      213: -8918512120115403706
+    second: Jembatan Jatohh (Real)_431
+  - first:
+      213: -2825521382678811608
+    second: Jembatan Jatohh (Real)_432
+  - first:
+      213: 2643336617271397051
+    second: Jembatan Jatohh (Real)_433
+  - first:
+      213: 1728778343455124743
+    second: Jembatan Jatohh (Real)_434
+  - first:
+      213: -765118623707077203
+    second: Jembatan Jatohh (Real)_435
+  - first:
+      213: 1494288475410479583
+    second: Jembatan Jatohh (Real)_436
+  - first:
+      213: 7507753821032350618
+    second: Jembatan Jatohh (Real)_437
+  - first:
+      213: 4140250151315481250
+    second: Jembatan Jatohh (Real)_438
+  - first:
+      213: -5170688085126879497
+    second: Jembatan Jatohh (Real)_439
+  - first:
+      213: -696396737059732203
+    second: Jembatan Jatohh (Real)_440
+  - first:
+      213: 130056651997006791
+    second: Jembatan Jatohh (Real)_441
+  - first:
+      213: 1936616326846358489
+    second: Jembatan Jatohh (Real)_442
+  - first:
+      213: 3884648039640159158
+    second: Jembatan Jatohh (Real)_443
+  - first:
+      213: 1221609553937172705
+    second: Jembatan Jatohh (Real)_444
+  - first:
+      213: -3339304435963665995
+    second: Jembatan Jatohh (Real)_445
+  - first:
+      213: -1736932400295430717
+    second: Jembatan Jatohh (Real)_446
+  - first:
+      213: -2268765042610917831
+    second: Jembatan Jatohh (Real)_447
+  - first:
+      213: -3381420471657323025
+    second: Jembatan Jatohh (Real)_448
+  - first:
+      213: -2201855403476130905
+    second: Jembatan Jatohh (Real)_449
+  - first:
+      213: 1601730727660972089
+    second: Jembatan Jatohh (Real)_450
+  - first:
+      213: -5104993595058735562
+    second: Jembatan Jatohh (Real)_451
+  - first:
+      213: 5889888170217175990
+    second: Jembatan Jatohh (Real)_452
+  - first:
+      213: -7424341696294620018
+    second: Jembatan Jatohh (Real)_453
+  - first:
+      213: -8341116436581554556
+    second: Jembatan Jatohh (Real)_454
+  - first:
+      213: -5123183365421660642
+    second: Jembatan Jatohh (Real)_455
+  - first:
+      213: -8155978347412558598
+    second: Jembatan Jatohh (Real)_456
+  - first:
+      213: 5956365925838263402
+    second: Jembatan Jatohh (Real)_457
+  - first:
+      213: 5364204279384942094
+    second: Jembatan Jatohh (Real)_458
+  - first:
+      213: 3004587204156271504
+    second: Jembatan Jatohh (Real)_459
+  - first:
+      213: -7057286944919167968
+    second: Jembatan Jatohh (Real)_460
+  - first:
+      213: 5153141809043069630
+    second: Jembatan Jatohh (Real)_461
+  - first:
+      213: -3234458627295625531
+    second: Jembatan Jatohh (Real)_462
+  - first:
+      213: -1068901208125045486
+    second: Jembatan Jatohh (Real)_463
+  - first:
+      213: -7370546183197199631
+    second: Jembatan Jatohh (Real)_464
+  - first:
+      213: -6543552770475011071
+    second: Jembatan Jatohh (Real)_465
+  - first:
+      213: 6128435827668318884
+    second: Jembatan Jatohh (Real)_466
+  - first:
+      213: 1731349641222549012
+    second: Jembatan Jatohh (Real)_467
+  - first:
+      213: -4183803301182462336
+    second: Jembatan Jatohh (Real)_468
+  - first:
+      213: -5554084500792376728
+    second: Jembatan Jatohh (Real)_469
+  - first:
+      213: -1227807457111457680
+    second: Jembatan Jatohh (Real)_470
+  - first:
+      213: -6555876684068277787
+    second: Jembatan Jatohh (Real)_471
+  - first:
+      213: -2965524611049161097
+    second: Jembatan Jatohh (Real)_472
+  - first:
+      213: 4943670151168554279
+    second: Jembatan Jatohh (Real)_473
+  - first:
+      213: 6034811993881620787
+    second: Jembatan Jatohh (Real)_474
+  - first:
+      213: 4989394598417798323
+    second: Jembatan Jatohh (Real)_475
+  - first:
+      213: -2532556377170057994
+    second: Jembatan Jatohh (Real)_476
+  - first:
+      213: -6668654129035514996
+    second: Jembatan Jatohh (Real)_477
+  - first:
+      213: 7944850718697148796
+    second: Jembatan Jatohh (Real)_478
+  - first:
+      213: -6116497503364679482
+    second: Jembatan Jatohh (Real)_479
+  - first:
+      213: 1522211924571337370
+    second: Jembatan Jatohh (Real)_480
+  - first:
+      213: 7007907802948053087
+    second: Jembatan Jatohh (Real)_481
+  - first:
+      213: 6167111248552453418
+    second: Jembatan Jatohh (Real)_482
+  - first:
+      213: -7654947145025741422
+    second: Jembatan Jatohh (Real)_483
+  - first:
+      213: 7553382702825024388
+    second: Jembatan Jatohh (Real)_484
+  - first:
+      213: -6267752450643129341
+    second: Jembatan Jatohh (Real)_485
+  - first:
+      213: 6543920413476883401
+    second: Jembatan Jatohh (Real)_486
+  - first:
+      213: -2032777362571276605
+    second: Jembatan Jatohh (Real)_487
+  - first:
+      213: 644897674201364310
+    second: Jembatan Jatohh (Real)_488
+  - first:
+      213: 4364337051563911222
+    second: Jembatan Jatohh (Real)_489
+  - first:
+      213: -6489812486540135263
+    second: Jembatan Jatohh (Real)_490
+  - first:
+      213: -7685551010419955313
+    second: Jembatan Jatohh (Real)_491
+  - first:
+      213: -8071882518649471255
+    second: Jembatan Jatohh (Real)_492
+  - first:
+      213: 7702498931371489238
+    second: Jembatan Jatohh (Real)_493
+  - first:
+      213: -7603195718455552286
+    second: Jembatan Jatohh (Real)_494
+  - first:
+      213: 3509882947290265528
+    second: Jembatan Jatohh (Real)_495
+  - first:
+      213: 147124567959198387
+    second: Jembatan Jatohh (Real)_496
+  - first:
+      213: -1276264289632911479
+    second: Jembatan Jatohh (Real)_497
+  - first:
+      213: 163997110971790427
+    second: Jembatan Jatohh (Real)_498
+  - first:
+      213: -3361724837003627359
+    second: Jembatan Jatohh (Real)_499
+  - first:
+      213: -3351985708704529274
+    second: Jembatan Jatohh (Real)_500
+  - first:
+      213: -3368525370631561634
+    second: Jembatan Jatohh (Real)_501
+  - first:
+      213: -4038923200673196208
+    second: Jembatan Jatohh (Real)_502
+  - first:
+      213: -1189645663576036250
+    second: Jembatan Jatohh (Real)_503
+  - first:
+      213: 7716608587916241411
+    second: Jembatan Jatohh (Real)_504
+  - first:
+      213: -526803041895747782
+    second: Jembatan Jatohh (Real)_505
+  - first:
+      213: 4179128382226663160
+    second: Jembatan Jatohh (Real)_506
+  - first:
+      213: 8907251604143977869
+    second: Jembatan Jatohh (Real)_507
+  - first:
+      213: 908642111809747604
+    second: Jembatan Jatohh (Real)_508
+  - first:
+      213: 104718750752447538
+    second: Jembatan Jatohh (Real)_509
+  - first:
+      213: 5794343454650789450
+    second: Jembatan Jatohh (Real)_510
+  - first:
+      213: 4815831514816227285
+    second: Jembatan Jatohh (Real)_511
+  - first:
+      213: 741394262952584745
+    second: Jembatan Jatohh (Real)_512
+  - first:
+      213: -249461630655878838
+    second: Jembatan Jatohh (Real)_513
+  - first:
+      213: -2911524146045565751
+    second: Jembatan Jatohh (Real)_514
+  - first:
+      213: -6694860007616367475
+    second: Jembatan Jatohh (Real)_515
+  - first:
+      213: -2386306720959037249
+    second: Jembatan Jatohh (Real)_516
+  - first:
+      213: -3294299659215506604
+    second: Jembatan Jatohh (Real)_517
+  - first:
+      213: 4065628956789972497
+    second: Jembatan Jatohh (Real)_518
+  - first:
+      213: -3272680518469323686
+    second: Jembatan Jatohh (Real)_519
+  - first:
+      213: -6740735008638841504
+    second: Jembatan Jatohh (Real)_520
+  - first:
+      213: 7028530551157418691
+    second: Jembatan Jatohh (Real)_521
+  - first:
+      213: -6288604428764905692
+    second: Jembatan Jatohh (Real)_522
+  - first:
+      213: -3308892877650414234
+    second: Jembatan Jatohh (Real)_523
+  - first:
+      213: 1766225935127282981
+    second: Jembatan Jatohh (Real)_524
+  - first:
+      213: 3174952620950569913
+    second: Jembatan Jatohh (Real)_525
+  - first:
+      213: 3968737975598387043
+    second: Jembatan Jatohh (Real)_526
+  - first:
+      213: 3938716498769184000
+    second: Jembatan Jatohh (Real)_527
+  - first:
+      213: -1534675863611785208
+    second: Jembatan Jatohh (Real)_528
+  - first:
+      213: -7569717528179998776
+    second: Jembatan Jatohh (Real)_529
+  - first:
+      213: 4647137264598625598
+    second: Jembatan Jatohh (Real)_530
+  - first:
+      213: 8506070513369876814
+    second: Jembatan Jatohh (Real)_531
+  - first:
+      213: -364162320203822383
+    second: Jembatan Jatohh (Real)_532
+  - first:
+      213: 7320817829547075489
+    second: Jembatan Jatohh (Real)_533
+  - first:
+      213: -7912038370949317717
+    second: Jembatan Jatohh (Real)_534
+  - first:
+      213: -4272155042705766881
+    second: Jembatan Jatohh (Real)_535
+  - first:
+      213: -863022644662361701
+    second: Jembatan Jatohh (Real)_536
+  - first:
+      213: -8576416084504646172
+    second: Jembatan Jatohh (Real)_537
+  - first:
+      213: -8419077111141762870
+    second: Jembatan Jatohh (Real)_538
+  - first:
+      213: 7647558134832460166
+    second: Jembatan Jatohh (Real)_539
+  - first:
+      213: 3907282499316801503
+    second: Jembatan Jatohh (Real)_540
+  - first:
+      213: 6257819482264665473
+    second: Jembatan Jatohh (Real)_541
+  - first:
+      213: -1295334024958847430
+    second: Jembatan Jatohh (Real)_542
+  - first:
+      213: -8103030008170900259
+    second: Jembatan Jatohh (Real)_543
+  - first:
+      213: 8570859842805517661
+    second: Jembatan Jatohh (Real)_544
+  - first:
+      213: -1852231968469100352
+    second: Jembatan Jatohh (Real)_545
+  - first:
+      213: 389299737900583067
+    second: Jembatan Jatohh (Real)_546
+  - first:
+      213: 3774516242427751655
+    second: Jembatan Jatohh (Real)_547
+  - first:
+      213: -3460942493677897759
+    second: Jembatan Jatohh (Real)_548
+  - first:
+      213: 1184932574444536755
+    second: Jembatan Jatohh (Real)_549
+  - first:
+      213: -4346942630203540861
+    second: Jembatan Jatohh (Real)_550
+  - first:
+      213: -6587342649005478527
+    second: Jembatan Jatohh (Real)_551
+  - first:
+      213: 5726821672550576919
+    second: Jembatan Jatohh (Real)_552
+  - first:
+      213: 4994273268752734920
+    second: Jembatan Jatohh (Real)_553
+  - first:
+      213: -7846799643513349093
+    second: Jembatan Jatohh (Real)_554
+  - first:
+      213: 3526397192634009561
+    second: Jembatan Jatohh (Real)_555
+  - first:
+      213: 3635400423641505503
+    second: Jembatan Jatohh (Real)_556
+  - first:
+      213: -5978729480498692812
+    second: Jembatan Jatohh (Real)_557
+  - first:
+      213: -1591670317831900385
+    second: Jembatan Jatohh (Real)_558
+  - first:
+      213: -5326696731613685132
+    second: Jembatan Jatohh (Real)_559
+  - first:
+      213: -923259796585833734
+    second: Jembatan Jatohh (Real)_560
+  - first:
+      213: -7906395009992293049
+    second: Jembatan Jatohh (Real)_561
+  - first:
+      213: 2034189930030756528
+    second: Jembatan Jatohh (Real)_562
+  - first:
+      213: -5314413773140187835
+    second: Jembatan Jatohh (Real)_563
+  - first:
+      213: 8182890578014421990
+    second: Jembatan Jatohh (Real)_564
+  - first:
+      213: -8707096925485119350
+    second: Jembatan Jatohh (Real)_565
+  - first:
+      213: -1002724321984912011
+    second: Jembatan Jatohh (Real)_566
+  - first:
+      213: 8625957788340507082
+    second: Jembatan Jatohh (Real)_567
+  - first:
+      213: -6131204174558679241
+    second: Jembatan Jatohh (Real)_568
+  - first:
+      213: -4418711647524583388
+    second: Jembatan Jatohh (Real)_569
+  - first:
+      213: 6071291813910211565
+    second: Jembatan Jatohh (Real)_570
+  - first:
+      213: -7175789140951714656
+    second: Jembatan Jatohh (Real)_571
+  - first:
+      213: 4536434178486428103
+    second: Jembatan Jatohh (Real)_572
+  - first:
+      213: 7846099679445455123
+    second: Jembatan Jatohh (Real)_573
+  - first:
+      213: -3294891481826718140
+    second: Jembatan Jatohh (Real)_574
+  - first:
+      213: 6706623622928259029
+    second: Jembatan Jatohh (Real)_575
+  - first:
+      213: -9192817667199743296
+    second: Jembatan Jatohh (Real)_576
+  - first:
+      213: -5882236118566877911
+    second: Jembatan Jatohh (Real)_577
+  - first:
+      213: 8010778301037650301
+    second: Jembatan Jatohh (Real)_578
+  - first:
+      213: -4758912181389059562
+    second: Jembatan Jatohh (Real)_579
+  - first:
+      213: 5746232917926090807
+    second: Jembatan Jatohh (Real)_580
+  - first:
+      213: -8232581920926202211
+    second: Jembatan Jatohh (Real)_581
+  - first:
+      213: 5489167973700151449
+    second: Jembatan Jatohh (Real)_582
+  - first:
+      213: -3137706383153040751
+    second: Jembatan Jatohh (Real)_583
+  - first:
+      213: -9198341162557924750
+    second: Jembatan Jatohh (Real)_584
+  - first:
+      213: -176264473823599193
+    second: Jembatan Jatohh (Real)_585
+  - first:
+      213: -3223760393388329925
+    second: Jembatan Jatohh (Real)_586
+  - first:
+      213: 2600649549072874463
+    second: Jembatan Jatohh (Real)_587
+  - first:
+      213: -7452954830131699256
+    second: Jembatan Jatohh (Real)_588
+  - first:
+      213: 6164745329815469828
+    second: Jembatan Jatohh (Real)_589
+  - first:
+      213: 7700092480872934477
+    second: Jembatan Jatohh (Real)_590
+  - first:
+      213: -1364855364653915970
+    second: Jembatan Jatohh (Real)_591
+  - first:
+      213: 8080503692113521467
+    second: Jembatan Jatohh (Real)_592
+  - first:
+      213: 4136633374870857058
+    second: Jembatan Jatohh (Real)_593
+  - first:
+      213: 8491694472092836649
+    second: Jembatan Jatohh (Real)_594
+  - first:
+      213: -7805751563888174513
+    second: Jembatan Jatohh (Real)_595
+  - first:
+      213: -6454373841700774335
+    second: Jembatan Jatohh (Real)_596
+  - first:
+      213: 4964009254098620926
+    second: Jembatan Jatohh (Real)_597
+  - first:
+      213: -6451790076065488962
+    second: Jembatan Jatohh (Real)_598
+  - first:
+      213: -5703573005775525682
+    second: Jembatan Jatohh (Real)_599
+  - first:
+      213: 6019893960101373868
+    second: Jembatan Jatohh (Real)_600
+  - first:
+      213: -4349845943661241889
+    second: Jembatan Jatohh (Real)_601
+  - first:
+      213: 8992321222818072047
+    second: Jembatan Jatohh (Real)_602
+  - first:
+      213: -3741240329690506062
+    second: Jembatan Jatohh (Real)_603
+  - first:
+      213: -8851994253615665474
+    second: Jembatan Jatohh (Real)_604
+  - first:
+      213: -5134842624918051653
+    second: Jembatan Jatohh (Real)_605
+  - first:
+      213: 2220566654615243220
+    second: Jembatan Jatohh (Real)_606
+  - first:
+      213: 3790415313675987649
+    second: Jembatan Jatohh (Real)_607
+  - first:
+      213: -5145156448261077515
+    second: Jembatan Jatohh (Real)_608
+  - first:
+      213: 4091391600754592780
+    second: Jembatan Jatohh (Real)_609
+  - first:
+      213: 1594886719466423193
+    second: Jembatan Jatohh (Real)_610
+  - first:
+      213: -72922763609512957
+    second: Jembatan Jatohh (Real)_611
+  - first:
+      213: 698926055698513385
+    second: Jembatan Jatohh (Real)_612
+  - first:
+      213: -7335657625045491040
+    second: Jembatan Jatohh (Real)_613
+  - first:
+      213: 7993582467422616233
+    second: Jembatan Jatohh (Real)_614
+  - first:
+      213: -2727576037214695878
+    second: Jembatan Jatohh (Real)_615
+  - first:
+      213: 2362361624824694078
+    second: Jembatan Jatohh (Real)_616
+  - first:
+      213: -4431727088967709602
+    second: Jembatan Jatohh (Real)_617
+  - first:
+      213: -4943477585881552950
+    second: Jembatan Jatohh (Real)_618
+  - first:
+      213: 6889203895534059829
+    second: Jembatan Jatohh (Real)_619
+  - first:
+      213: -2730339084481949393
+    second: Jembatan Jatohh (Real)_620
+  - first:
+      213: 728923164250522461
+    second: Jembatan Jatohh (Real)_621
+  - first:
+      213: -4975448016221208121
+    second: Jembatan Jatohh (Real)_622
+  - first:
+      213: -4568043930076550108
+    second: Jembatan Jatohh (Real)_623
+  - first:
+      213: 5639770969560153590
+    second: Jembatan Jatohh (Real)_624
+  - first:
+      213: 6964794206909628720
+    second: Jembatan Jatohh (Real)_625
+  - first:
+      213: 3398372085158534493
+    second: Jembatan Jatohh (Real)_626
+  - first:
+      213: -6744173589191184584
+    second: Jembatan Jatohh (Real)_627
+  - first:
+      213: 6506269675140769100
+    second: Jembatan Jatohh (Real)_628
+  - first:
+      213: -252129903093454216
+    second: Jembatan Jatohh (Real)_629
+  - first:
+      213: 4077515488770214234
+    second: Jembatan Jatohh (Real)_630
+  - first:
+      213: -2770812252737160932
+    second: Jembatan Jatohh (Real)_631
+  - first:
+      213: 3342374702716954469
+    second: Jembatan Jatohh (Real)_632
+  - first:
+      213: -258683071433621142
+    second: Jembatan Jatohh (Real)_633
+  - first:
+      213: 825794627357773884
+    second: Jembatan Jatohh (Real)_634
+  - first:
+      213: 8458199959679114360
+    second: Jembatan Jatohh (Real)_635
+  - first:
+      213: -2236477107938307607
+    second: Jembatan Jatohh (Real)_636
+  - first:
+      213: 7638616432062104661
+    second: Jembatan Jatohh (Real)_637
+  - first:
+      213: -3527461974938392316
+    second: Jembatan Jatohh (Real)_638
+  - first:
+      213: -3984872495741130132
+    second: Jembatan Jatohh (Real)_639
+  - first:
+      213: 3008786006650990964
+    second: Jembatan Jatohh (Real)_640
+  - first:
+      213: 3536842619693824832
+    second: Jembatan Jatohh (Real)_641
+  - first:
+      213: 7845545720611642787
+    second: Jembatan Jatohh (Real)_642
+  - first:
+      213: 1724255064670031816
+    second: Jembatan Jatohh (Real)_643
+  - first:
+      213: -7905122880102773575
+    second: Jembatan Jatohh (Real)_644
+  - first:
+      213: 7867990096670585591
+    second: Jembatan Jatohh (Real)_645
+  - first:
+      213: -8119856003115227547
+    second: Jembatan Jatohh (Real)_646
+  - first:
+      213: 7632396842406286172
+    second: Jembatan Jatohh (Real)_647
+  - first:
+      213: -1941294261197488275
+    second: Jembatan Jatohh (Real)_648
+  - first:
+      213: 4396196559543085088
+    second: Jembatan Jatohh (Real)_649
+  - first:
+      213: -3760890727151141334
+    second: Jembatan Jatohh (Real)_650
+  - first:
+      213: 6757044884451001156
+    second: Jembatan Jatohh (Real)_651
+  - first:
+      213: -2554792023157415171
+    second: Jembatan Jatohh (Real)_652
+  - first:
+      213: -377391481496014685
+    second: Jembatan Jatohh (Real)_653
+  - first:
+      213: 8513775657047592647
+    second: Jembatan Jatohh (Real)_654
+  - first:
+      213: -3536903335267510107
+    second: Jembatan Jatohh (Real)_655
+  - first:
+      213: 8131388871245918403
+    second: Jembatan Jatohh (Real)_656
+  - first:
+      213: 8520964948059426020
+    second: Jembatan Jatohh (Real)_657
+  - first:
+      213: -999131883957556969
+    second: Jembatan Jatohh (Real)_658
+  - first:
+      213: -2346166912874827608
+    second: Jembatan Jatohh (Real)_659
+  - first:
+      213: -49393936686248061
+    second: Jembatan Jatohh (Real)_660
+  - first:
+      213: 1521061341979621184
+    second: Jembatan Jatohh (Real)_661
+  - first:
+      213: -9038746445956467352
+    second: Jembatan Jatohh (Real)_662
+  - first:
+      213: -8655379020040828280
+    second: Jembatan Jatohh (Real)_663
+  - first:
+      213: 2170662882327830669
+    second: Jembatan Jatohh (Real)_664
+  - first:
+      213: 7795842883497077317
+    second: Jembatan Jatohh (Real)_665
+  - first:
+      213: -7570287260653074122
+    second: Jembatan Jatohh (Real)_666
+  - first:
+      213: -1988098801808798071
+    second: Jembatan Jatohh (Real)_667
+  - first:
+      213: -2549186466743907127
+    second: Jembatan Jatohh (Real)_668
+  - first:
+      213: 2571777649757187345
+    second: Jembatan Jatohh (Real)_669
+  - first:
+      213: -4540187535862606716
+    second: Jembatan Jatohh (Real)_670
+  - first:
+      213: 7043854309871451766
+    second: Jembatan Jatohh (Real)_671
+  - first:
+      213: -1576822867862369470
+    second: Jembatan Jatohh (Real)_672
+  - first:
+      213: 1323751873272843007
+    second: Jembatan Jatohh (Real)_673
+  - first:
+      213: -1634369384549723865
+    second: Jembatan Jatohh (Real)_674
+  - first:
+      213: 1752397784949557437
+    second: Jembatan Jatohh (Real)_675
+  - first:
+      213: 2832082737780177161
+    second: Jembatan Jatohh (Real)_676
+  - first:
+      213: 2844732198264032721
+    second: Jembatan Jatohh (Real)_677
+  - first:
+      213: -1006109052983543047
+    second: Jembatan Jatohh (Real)_678
+  - first:
+      213: -2382936389704301135
+    second: Jembatan Jatohh (Real)_679
+  - first:
+      213: -2074352594862833822
+    second: Jembatan Jatohh (Real)_680
+  - first:
+      213: -4243359057911465821
+    second: Jembatan Jatohh (Real)_681
+  - first:
+      213: 6517570730038029472
+    second: Jembatan Jatohh (Real)_682
+  - first:
+      213: -4613780520057789418
+    second: Jembatan Jatohh (Real)_683
+  - first:
+      213: 3231215181818411855
+    second: Jembatan Jatohh (Real)_684
+  - first:
+      213: 997852653783533342
+    second: Jembatan Jatohh (Real)_685
+  - first:
+      213: 5770776366019910857
+    second: Jembatan Jatohh (Real)_686
+  - first:
+      213: 4108376159222266127
+    second: Jembatan Jatohh (Real)_687
+  - first:
+      213: 7534596687290522431
+    second: Jembatan Jatohh (Real)_688
+  - first:
+      213: -3899378157272576881
+    second: Jembatan Jatohh (Real)_689
+  - first:
+      213: -6536147907388248277
+    second: Jembatan Jatohh (Real)_690
+  - first:
+      213: 5872987995676045371
+    second: Jembatan Jatohh (Real)_691
+  - first:
+      213: 5874481338827399258
+    second: Jembatan Jatohh (Real)_692
+  - first:
+      213: 3532122686937897220
+    second: Jembatan Jatohh (Real)_693
+  - first:
+      213: -6030067265436366704
+    second: Jembatan Jatohh (Real)_694
+  - first:
+      213: -4993941244081736549
+    second: Jembatan Jatohh (Real)_695
+  - first:
+      213: 3590568337371557208
+    second: Jembatan Jatohh (Real)_696
+  - first:
+      213: -1861574400557040640
+    second: Jembatan Jatohh (Real)_697
+  - first:
+      213: 8148016492326114336
+    second: Jembatan Jatohh (Real)_698
+  - first:
+      213: 7470229397626336802
+    second: Jembatan Jatohh (Real)_699
+  - first:
+      213: -8758668629937490759
+    second: Jembatan Jatohh (Real)_700
+  - first:
+      213: -1000438380442547772
+    second: Jembatan Jatohh (Real)_701
+  - first:
+      213: -3892497496282310263
+    second: Jembatan Jatohh (Real)_702
+  - first:
+      213: 1906762389992669850
+    second: Jembatan Jatohh (Real)_703
+  - first:
+      213: 8526472422975045447
+    second: Jembatan Jatohh (Real)_704
+  - first:
+      213: 8071383229320474253
+    second: Jembatan Jatohh (Real)_705
+  - first:
+      213: -7328856635024605411
+    second: Jembatan Jatohh (Real)_706
+  - first:
+      213: 7180960396786389454
+    second: Jembatan Jatohh (Real)_707
+  - first:
+      213: 3339235645068752453
+    second: Jembatan Jatohh (Real)_708
+  - first:
+      213: -3881411904274895639
+    second: Jembatan Jatohh (Real)_709
+  - first:
+      213: 8043731036917644038
+    second: Jembatan Jatohh (Real)_710
+  - first:
+      213: 1510415753898588259
+    second: Jembatan Jatohh (Real)_711
+  - first:
+      213: -3019835775044872151
+    second: Jembatan Jatohh (Real)_712
+  - first:
+      213: -1303105899800535430
+    second: Jembatan Jatohh (Real)_713
+  - first:
+      213: -814936704424857810
+    second: Jembatan Jatohh (Real)_714
+  - first:
+      213: 5208796568788913890
+    second: Jembatan Jatohh (Real)_715
+  - first:
+      213: 1040841684658835373
+    second: Jembatan Jatohh (Real)_716
+  - first:
+      213: -5651728654784555849
+    second: Jembatan Jatohh (Real)_717
+  - first:
+      213: -3510318942568031038
+    second: Jembatan Jatohh (Real)_718
+  - first:
+      213: -744740661350302018
+    second: Jembatan Jatohh (Real)_719
+  - first:
+      213: 628973673230547517
+    second: Jembatan Jatohh (Real)_720
+  - first:
+      213: -6007467913415780283
+    second: Jembatan Jatohh (Real)_721
+  - first:
+      213: 919166880226809242
+    second: Jembatan Jatohh (Real)_722
+  - first:
+      213: 8097543550467321806
+    second: Jembatan Jatohh (Real)_723
+  - first:
+      213: 812970667525980596
+    second: Jembatan Jatohh (Real)_724
+  - first:
+      213: 6804963758666437375
+    second: Jembatan Jatohh (Real)_725
+  - first:
+      213: 221066819756098672
+    second: Jembatan Jatohh (Real)_726
+  - first:
+      213: -2549620591522984658
+    second: Jembatan Jatohh (Real)_727
+  - first:
+      213: -2905146732417053517
+    second: Jembatan Jatohh (Real)_728
+  - first:
+      213: -46056061498800205
+    second: Jembatan Jatohh (Real)_729
+  - first:
+      213: -7137232987933155351
+    second: Jembatan Jatohh (Real)_730
+  - first:
+      213: -5820557975045534993
+    second: Jembatan Jatohh (Real)_731
+  - first:
+      213: -5093332865961961431
+    second: Jembatan Jatohh (Real)_732
+  - first:
+      213: 6244677523065810844
+    second: Jembatan Jatohh (Real)_733
+  - first:
+      213: -1115624758594869009
+    second: Jembatan Jatohh (Real)_734
+  - first:
+      213: 7415864370100088164
+    second: Jembatan Jatohh (Real)_735
+  - first:
+      213: -8462457117059990108
+    second: Jembatan Jatohh (Real)_736
+  - first:
+      213: 3797863594529391403
+    second: Jembatan Jatohh (Real)_737
+  - first:
+      213: 4916033553413583576
+    second: Jembatan Jatohh (Real)_738
+  - first:
+      213: -3569013896050842428
+    second: Jembatan Jatohh (Real)_739
+  - first:
+      213: -6551007317491911422
+    second: Jembatan Jatohh (Real)_740
+  - first:
+      213: 9133172593847191279
+    second: Jembatan Jatohh (Real)_741
+  - first:
+      213: -8022523958843764117
+    second: Jembatan Jatohh (Real)_742
+  - first:
+      213: 3921006009480150893
+    second: Jembatan Jatohh (Real)_743
+  - first:
+      213: -1426748490613885772
+    second: Jembatan Jatohh (Real)_744
+  - first:
+      213: -6538633514653326051
+    second: Jembatan Jatohh (Real)_745
+  - first:
+      213: 6505031305717623410
+    second: Jembatan Jatohh (Real)_746
+  - first:
+      213: -6758577048525236355
+    second: Jembatan Jatohh (Real)_747
+  - first:
+      213: -3845584853026625443
+    second: Jembatan Jatohh (Real)_748
+  - first:
+      213: 8401638780435049083
+    second: Jembatan Jatohh (Real)_749
+  - first:
+      213: -9218122400054901857
+    second: Jembatan Jatohh (Real)_750
+  - first:
+      213: 6851122821998778192
+    second: Jembatan Jatohh (Real)_751
+  - first:
+      213: 1765996304446761857
+    second: Jembatan Jatohh (Real)_752
+  - first:
+      213: 632613067034607924
+    second: Jembatan Jatohh (Real)_753
+  - first:
+      213: -2797458142257370604
+    second: Jembatan Jatohh (Real)_754
+  - first:
+      213: 3225527946478319378
+    second: Jembatan Jatohh (Real)_755
+  - first:
+      213: 7708636668818153229
+    second: Jembatan Jatohh (Real)_756
+  - first:
+      213: 6689448343409898263
+    second: Jembatan Jatohh (Real)_757
+  - first:
+      213: 5997007976463771121
+    second: Jembatan Jatohh (Real)_758
+  - first:
+      213: 6639609067792605408
+    second: Jembatan Jatohh (Real)_759
+  - first:
+      213: 5118307367111678649
+    second: Jembatan Jatohh (Real)_760
+  - first:
+      213: 6953911333118962516
+    second: Jembatan Jatohh (Real)_761
+  - first:
+      213: -5136195439299271402
+    second: Jembatan Jatohh (Real)_762
+  - first:
+      213: -7744495835861148793
+    second: Jembatan Jatohh (Real)_763
+  - first:
+      213: -5779433785585196832
+    second: Jembatan Jatohh (Real)_764
+  - first:
+      213: -6338194092097485143
+    second: Jembatan Jatohh (Real)_765
+  - first:
+      213: 4249949392327842611
+    second: Jembatan Jatohh (Real)_766
+  - first:
+      213: 6936315191061980423
+    second: Jembatan Jatohh (Real)_767
+  - first:
+      213: -1634501879960182792
+    second: Jembatan Jatohh (Real)_768
+  - first:
+      213: -5860649390041870424
+    second: Jembatan Jatohh (Real)_769
+  - first:
+      213: 8510503773262578146
+    second: Jembatan Jatohh (Real)_770
+  - first:
+      213: 5742941711490638198
+    second: Jembatan Jatohh (Real)_771
+  - first:
+      213: -3261329247598190962
+    second: Jembatan Jatohh (Real)_772
+  - first:
+      213: 288967191281485580
+    second: Jembatan Jatohh (Real)_773
+  - first:
+      213: 4153613245741281663
+    second: Jembatan Jatohh (Real)_774
+  - first:
+      213: 9120257932793709243
+    second: Jembatan Jatohh (Real)_775
+  - first:
+      213: 5383467359299115197
+    second: Jembatan Jatohh (Real)_776
+  - first:
+      213: -7416912089350363677
+    second: Jembatan Jatohh (Real)_777
+  - first:
+      213: 508597600153820149
+    second: Jembatan Jatohh (Real)_778
+  - first:
+      213: -4288384887367827908
+    second: Jembatan Jatohh (Real)_779
+  - first:
+      213: 2704183063989129650
+    second: Jembatan Jatohh (Real)_780
+  - first:
+      213: 4000169066721385579
+    second: Jembatan Jatohh (Real)_781
+  - first:
+      213: -4408132821360089402
+    second: Jembatan Jatohh (Real)_782
+  - first:
+      213: -6301296519442400356
+    second: Jembatan Jatohh (Real)_783
+  - first:
+      213: 696863899821340955
+    second: Jembatan Jatohh (Real)_784
+  - first:
+      213: -8836937293338988673
+    second: Jembatan Jatohh (Real)_785
+  - first:
+      213: 7698235101451802161
+    second: Jembatan Jatohh (Real)_786
+  - first:
+      213: -2223319761933339682
+    second: Jembatan Jatohh (Real)_787
+  - first:
+      213: 8336562401192128554
+    second: Jembatan Jatohh (Real)_788
+  - first:
+      213: -3044882549006954316
+    second: Jembatan Jatohh (Real)_789
+  - first:
+      213: 5442999089725399505
+    second: Jembatan Jatohh (Real)_790
+  - first:
+      213: -1818238670086487783
+    second: Jembatan Jatohh (Real)_791
+  - first:
+      213: 1064668438110972658
+    second: Jembatan Jatohh (Real)_792
+  - first:
+      213: -7921576682057983049
+    second: Jembatan Jatohh (Real)_793
+  - first:
+      213: 7872584192420977957
+    second: Jembatan Jatohh (Real)_794
+  - first:
+      213: -5225611619856690623
+    second: Jembatan Jatohh (Real)_795
+  - first:
+      213: 4427848368119410015
+    second: Jembatan Jatohh (Real)_796
+  - first:
+      213: 2475152852749174806
+    second: Jembatan Jatohh (Real)_797
+  - first:
+      213: -8672039757835521494
+    second: Jembatan Jatohh (Real)_798
+  - first:
+      213: 8458894553707095726
+    second: Jembatan Jatohh (Real)_799
+  - first:
+      213: 1447808651030950579
+    second: Jembatan Jatohh (Real)_800
+  - first:
+      213: -9207915151365153980
+    second: Jembatan Jatohh (Real)_801
+  - first:
+      213: -7207328486157779612
+    second: Jembatan Jatohh (Real)_802
+  - first:
+      213: 6039655795159008289
+    second: Jembatan Jatohh (Real)_803
+  - first:
+      213: -8944616732462808208
+    second: Jembatan Jatohh (Real)_804
+  - first:
+      213: -889367764621014753
+    second: Jembatan Jatohh (Real)_805
+  - first:
+      213: -5154329942681091822
+    second: Jembatan Jatohh (Real)_806
+  - first:
+      213: 1464175166704844702
+    second: Jembatan Jatohh (Real)_807
+  - first:
+      213: -7576154943791597029
+    second: Jembatan Jatohh (Real)_808
+  - first:
+      213: -6691965090847802912
+    second: Jembatan Jatohh (Real)_809
+  - first:
+      213: -1645745131645927355
+    second: Jembatan Jatohh (Real)_810
+  - first:
+      213: -9010838032812473896
+    second: Jembatan Jatohh (Real)_811
+  - first:
+      213: -882874880921359490
+    second: Jembatan Jatohh (Real)_812
+  - first:
+      213: 7189704606602140079
+    second: Jembatan Jatohh (Real)_813
+  - first:
+      213: 4179573583154046941
+    second: Jembatan Jatohh (Real)_814
+  - first:
+      213: 5505703488193374615
+    second: Jembatan Jatohh (Real)_815
+  - first:
+      213: -7970733804070156210
+    second: Jembatan Jatohh (Real)_816
+  - first:
+      213: 6623904723741441943
+    second: Jembatan Jatohh (Real)_817
+  - first:
+      213: -405796907125535040
+    second: Jembatan Jatohh (Real)_818
+  - first:
+      213: -6875692581019046066
+    second: Jembatan Jatohh (Real)_819
+  - first:
+      213: -1425034590344033596
+    second: Jembatan Jatohh (Real)_820
+  - first:
+      213: -6193714414524899765
+    second: Jembatan Jatohh (Real)_821
+  - first:
+      213: -6964827925721858576
+    second: Jembatan Jatohh (Real)_822
+  - first:
+      213: -6898493304304780589
+    second: Jembatan Jatohh (Real)_823
+  - first:
+      213: -3306909461019368024
+    second: Jembatan Jatohh (Real)_824
+  - first:
+      213: -32779306528804819
+    second: Jembatan Jatohh (Real)_825
+  - first:
+      213: 4242840792037891426
+    second: Jembatan Jatohh (Real)_826
+  - first:
+      213: 3895916853953809953
+    second: Jembatan Jatohh (Real)_827
+  - first:
+      213: 4413622076922632469
+    second: Jembatan Jatohh (Real)_828
+  - first:
+      213: -4932188274355954614
+    second: Jembatan Jatohh (Real)_829
+  - first:
+      213: 5339066609381886564
+    second: Jembatan Jatohh (Real)_830
+  - first:
+      213: -7910104943996160157
+    second: Jembatan Jatohh (Real)_831
+  - first:
+      213: -5275911066856979545
+    second: Jembatan Jatohh (Real)_832
+  - first:
+      213: 3963876782102222132
+    second: Jembatan Jatohh (Real)_833
+  - first:
+      213: -5599881694254557462
+    second: Jembatan Jatohh (Real)_834
+  - first:
+      213: 6147533992826482028
+    second: Jembatan Jatohh (Real)_835
+  - first:
+      213: 5499998073092983839
+    second: Jembatan Jatohh (Real)_836
+  - first:
+      213: 8079642881679081650
+    second: Jembatan Jatohh (Real)_837
+  - first:
+      213: 2532180393541010760
+    second: Jembatan Jatohh (Real)_838
+  - first:
+      213: -8202023165356104723
+    second: Jembatan Jatohh (Real)_839
+  - first:
+      213: -1732525283154059040
+    second: Jembatan Jatohh (Real)_840
+  - first:
+      213: 2127886033879317396
+    second: Jembatan Jatohh (Real)_841
+  - first:
+      213: -3685766906409936846
+    second: Jembatan Jatohh (Real)_842
+  - first:
+      213: -7586919244042732497
+    second: Jembatan Jatohh (Real)_843
+  - first:
+      213: -3272923977264390266
+    second: Jembatan Jatohh (Real)_844
+  - first:
+      213: 4996652020834799367
+    second: Jembatan Jatohh (Real)_845
+  - first:
+      213: 5967483503276359852
+    second: Jembatan Jatohh (Real)_846
+  - first:
+      213: 1254955654777500957
+    second: Jembatan Jatohh (Real)_847
+  - first:
+      213: 841918282474885110
+    second: Jembatan Jatohh (Real)_848
+  - first:
+      213: -7612351514804074934
+    second: Jembatan Jatohh (Real)_849
+  - first:
+      213: 496809402591434783
+    second: Jembatan Jatohh (Real)_850
+  - first:
+      213: 8731223249595095548
+    second: Jembatan Jatohh (Real)_851
+  - first:
+      213: 468181007833862167
+    second: Jembatan Jatohh (Real)_852
+  - first:
+      213: 899671495284731902
+    second: Jembatan Jatohh (Real)_853
+  - first:
+      213: -7369272949834471224
+    second: Jembatan Jatohh (Real)_854
+  - first:
+      213: 2778357374721233113
+    second: Jembatan Jatohh (Real)_855
+  - first:
+      213: -7227259312584563665
+    second: Jembatan Jatohh (Real)_856
+  - first:
+      213: -1493788450198608950
+    second: Jembatan Jatohh (Real)_857
+  - first:
+      213: -9193621006681084025
+    second: Jembatan Jatohh (Real)_858
+  - first:
+      213: -280365827811659129
+    second: Jembatan Jatohh (Real)_859
+  - first:
+      213: -3345352934547359936
+    second: Jembatan Jatohh (Real)_860
+  - first:
+      213: -1834425622267572494
+    second: Jembatan Jatohh (Real)_861
+  - first:
+      213: 5979056556833044529
+    second: Jembatan Jatohh (Real)_862
+  - first:
+      213: 8129206758951973524
+    second: Jembatan Jatohh (Real)_863
+  - first:
+      213: -5494028509718979135
+    second: Jembatan Jatohh (Real)_864
+  - first:
+      213: -8536579002791156974
+    second: Jembatan Jatohh (Real)_865
+  - first:
+      213: 2617664451540441239
+    second: Jembatan Jatohh (Real)_866
+  - first:
+      213: 1839017962941633305
+    second: Jembatan Jatohh (Real)_867
+  - first:
+      213: -9211871895502495924
+    second: Jembatan Jatohh (Real)_868
+  - first:
+      213: -3491794697860069320
+    second: Jembatan Jatohh (Real)_869
+  - first:
+      213: 3933365283741339251
+    second: Jembatan Jatohh (Real)_870
+  - first:
+      213: 315387500418660935
+    second: Jembatan Jatohh (Real)_871
+  - first:
+      213: -7300590183583467143
+    second: Jembatan Jatohh (Real)_872
+  - first:
+      213: -9184483771480801007
+    second: Jembatan Jatohh (Real)_873
+  - first:
+      213: 7351156673750824237
+    second: Jembatan Jatohh (Real)_874
+  - first:
+      213: 7742905512691899666
+    second: Jembatan Jatohh (Real)_875
+  - first:
+      213: -6282674050943681486
+    second: Jembatan Jatohh (Real)_876
+  - first:
+      213: 7903591562880329977
+    second: Jembatan Jatohh (Real)_877
+  - first:
+      213: -5635628692931894707
+    second: Jembatan Jatohh (Real)_878
+  - first:
+      213: -6806279976037643357
+    second: Jembatan Jatohh (Real)_879
+  - first:
+      213: -2821225829774740246
+    second: Jembatan Jatohh (Real)_880
+  - first:
+      213: 1215952919737104596
+    second: Jembatan Jatohh (Real)_881
+  - first:
+      213: -5401330608304190477
+    second: Jembatan Jatohh (Real)_882
+  - first:
+      213: 547936825358269171
+    second: Jembatan Jatohh (Real)_883
+  - first:
+      213: 4994763963819066782
+    second: Jembatan Jatohh (Real)_884
+  - first:
+      213: -7810872562640558551
+    second: Jembatan Jatohh (Real)_885
+  - first:
+      213: 7769739439053998311
+    second: Jembatan Jatohh (Real)_886
+  - first:
+      213: -3779183939286714345
+    second: Jembatan Jatohh (Real)_887
+  - first:
+      213: 2931708221167120712
+    second: Jembatan Jatohh (Real)_888
+  - first:
+      213: -5391525586785169634
+    second: Jembatan Jatohh (Real)_889
+  - first:
+      213: 6453840176492145732
+    second: Jembatan Jatohh (Real)_890
+  - first:
+      213: -2794045759047620215
+    second: Jembatan Jatohh (Real)_891
+  - first:
+      213: -2543272569102832897
+    second: Jembatan Jatohh (Real)_892
+  - first:
+      213: -9149704366845406510
+    second: Jembatan Jatohh (Real)_893
+  - first:
+      213: -8090870006948771290
+    second: Jembatan Jatohh (Real)_894
+  - first:
+      213: 71258705162925486
+    second: Jembatan Jatohh (Real)_895
+  - first:
+      213: 399304994672304669
+    second: Jembatan Jatohh (Real)_896
+  - first:
+      213: 5513194562222247264
+    second: Jembatan Jatohh (Real)_897
+  - first:
+      213: -52933720250475076
+    second: Jembatan Jatohh (Real)_898
+  - first:
+      213: -3162327160454726800
+    second: Jembatan Jatohh (Real)_899
+  - first:
+      213: 5453621848972618563
+    second: Jembatan Jatohh (Real)_900
+  - first:
+      213: 196927244253949269
+    second: Jembatan Jatohh (Real)_901
+  - first:
+      213: 7184505733939861593
+    second: Jembatan Jatohh (Real)_902
+  - first:
+      213: -9109767427509517977
+    second: Jembatan Jatohh (Real)_903
+  - first:
+      213: -1543427982270956133
+    second: Jembatan Jatohh (Real)_904
+  - first:
+      213: -6638355380118282434
+    second: Jembatan Jatohh (Real)_905
+  - first:
+      213: 2900033022787097381
+    second: Jembatan Jatohh (Real)_906
+  - first:
+      213: -4628382547501244060
+    second: Jembatan Jatohh (Real)_907
+  - first:
+      213: -4000083421776861555
+    second: Jembatan Jatohh (Real)_908
+  - first:
+      213: -7883011454040789347
+    second: Jembatan Jatohh (Real)_909
+  - first:
+      213: 1381727954340681654
+    second: Jembatan Jatohh (Real)_910
+  - first:
+      213: 323205031909605044
+    second: Jembatan Jatohh (Real)_911
+  - first:
+      213: 5294501784284356872
+    second: Jembatan Jatohh (Real)_912
+  - first:
+      213: 5116222529734055648
+    second: Jembatan Jatohh (Real)_913
+  - first:
+      213: -3851844607203134412
+    second: Jembatan Jatohh (Real)_914
+  - first:
+      213: -7012900976041103975
+    second: Jembatan Jatohh (Real)_915
+  - first:
+      213: 7404536547832591631
+    second: Jembatan Jatohh (Real)_916
+  - first:
+      213: 6578003371843001826
+    second: Jembatan Jatohh (Real)_917
+  - first:
+      213: -5634827654721710771
+    second: Jembatan Jatohh (Real)_918
+  - first:
+      213: 8607033733687003360
+    second: Jembatan Jatohh (Real)_919
+  - first:
+      213: 379333930315949486
+    second: Jembatan Jatohh (Real)_920
+  - first:
+      213: 8908762274904833748
+    second: Jembatan Jatohh (Real)_921
+  - first:
+      213: 1247501134500325544
+    second: Jembatan Jatohh (Real)_922
+  - first:
+      213: -5174471999128679123
+    second: Jembatan Jatohh (Real)_923
+  - first:
+      213: 1193829434642147214
+    second: Jembatan Jatohh (Real)_924
+  - first:
+      213: 8468243408252334361
+    second: Jembatan Jatohh (Real)_925
+  - first:
+      213: -2019686616736683303
+    second: Jembatan Jatohh (Real)_926
+  - first:
+      213: 1338380585590428765
+    second: Jembatan Jatohh (Real)_927
+  - first:
+      213: -4928021620255891140
+    second: Jembatan Jatohh (Real)_928
+  - first:
+      213: -1979156017457074453
+    second: Jembatan Jatohh (Real)_929
+  - first:
+      213: -2027872636907367375
+    second: Jembatan Jatohh (Real)_930
+  - first:
+      213: -6908062295073536902
+    second: Jembatan Jatohh (Real)_931
+  - first:
+      213: -2813115686336711200
+    second: Jembatan Jatohh (Real)_932
+  - first:
+      213: -8577308670498040120
+    second: Jembatan Jatohh (Real)_933
+  - first:
+      213: -6055311903447464220
+    second: Jembatan Jatohh (Real)_934
+  - first:
+      213: 3015370334774351696
+    second: Jembatan Jatohh (Real)_935
+  - first:
+      213: 1995922421500668250
+    second: Jembatan Jatohh (Real)_936
+  - first:
+      213: -7161678304557654572
+    second: Jembatan Jatohh (Real)_937
+  - first:
+      213: -3903537041014030068
+    second: Jembatan Jatohh (Real)_938
+  - first:
+      213: -1681581015202686298
+    second: Jembatan Jatohh (Real)_939
+  - first:
+      213: -4934846436358933588
+    second: Jembatan Jatohh (Real)_940
+  - first:
+      213: 8242624347909685624
+    second: Jembatan Jatohh (Real)_941
+  - first:
+      213: 4003237331816160743
+    second: Jembatan Jatohh (Real)_942
+  - first:
+      213: -3916674480687495931
+    second: Jembatan Jatohh (Real)_943
+  - first:
+      213: -3037441561408119753
+    second: Jembatan Jatohh (Real)_944
+  - first:
+      213: -1522591888435318449
+    second: Jembatan Jatohh (Real)_945
+  - first:
+      213: 6358876767158224560
+    second: Jembatan Jatohh (Real)_946
+  - first:
+      213: -9185719085054389636
+    second: Jembatan Jatohh (Real)_947
+  - first:
+      213: 925749644985130487
+    second: Jembatan Jatohh (Real)_948
+  - first:
+      213: 7338684185049941751
+    second: Jembatan Jatohh (Real)_949
+  - first:
+      213: -7737144903004299495
+    second: Jembatan Jatohh (Real)_950
+  - first:
+      213: 7913554560665041323
+    second: Jembatan Jatohh (Real)_951
+  - first:
+      213: -5582345862847208791
+    second: Jembatan Jatohh (Real)_952
+  - first:
+      213: -2761190738219393911
+    second: Jembatan Jatohh (Real)_953
+  - first:
+      213: 3742988143698699390
+    second: Jembatan Jatohh (Real)_954
+  - first:
+      213: -6033037270837675222
+    second: Jembatan Jatohh (Real)_955
+  - first:
+      213: -1608707027146428021
+    second: Jembatan Jatohh (Real)_956
+  - first:
+      213: 2694150501560478610
+    second: Jembatan Jatohh (Real)_957
+  - first:
+      213: -7614503478027211712
+    second: Jembatan Jatohh (Real)_958
+  - first:
+      213: 3746801761122536172
+    second: Jembatan Jatohh (Real)_959
+  - first:
+      213: 5784739931676328839
+    second: Jembatan Jatohh (Real)_960
+  - first:
+      213: 5876717299540989765
+    second: Jembatan Jatohh (Real)_961
+  - first:
+      213: -5329714352858555737
+    second: Jembatan Jatohh (Real)_962
+  - first:
+      213: -213345447680026757
+    second: Jembatan Jatohh (Real)_963
+  - first:
+      213: -2645216992886451405
+    second: Jembatan Jatohh (Real)_964
+  - first:
+      213: 4412328571655667155
+    second: Jembatan Jatohh (Real)_965
+  - first:
+      213: 4095193642853250287
+    second: Jembatan Jatohh (Real)_966
+  - first:
+      213: 9098882861559677820
+    second: Jembatan Jatohh (Real)_967
+  - first:
+      213: 8775854599074914497
+    second: Jembatan Jatohh (Real)_968
+  - first:
+      213: -1500994635734985085
+    second: Jembatan Jatohh (Real)_969
+  - first:
+      213: -7706296662396800421
+    second: Jembatan Jatohh (Real)_970
+  - first:
+      213: -4700575678539922741
+    second: Jembatan Jatohh (Real)_971
+  - first:
+      213: 4565936161602038071
+    second: Jembatan Jatohh (Real)_972
+  - first:
+      213: -7687981951496826490
+    second: Jembatan Jatohh (Real)_973
+  - first:
+      213: 5792030439787749567
+    second: Jembatan Jatohh (Real)_974
+  - first:
+      213: -2587772322854102610
+    second: Jembatan Jatohh (Real)_975
+  - first:
+      213: -6495896893555656577
+    second: Jembatan Jatohh (Real)_976
+  - first:
+      213: 8315782317783053655
+    second: Jembatan Jatohh (Real)_977
+  - first:
+      213: 1851351609434504485
+    second: Jembatan Jatohh (Real)_978
+  - first:
+      213: -5660936638872934287
+    second: Jembatan Jatohh (Real)_979
+  - first:
+      213: 6003875942683716631
+    second: Jembatan Jatohh (Real)_980
+  - first:
+      213: 4525666743503582089
+    second: Jembatan Jatohh (Real)_981
+  - first:
+      213: -2913248271327430397
+    second: Jembatan Jatohh (Real)_982
+  - first:
+      213: 590411471063189082
+    second: Jembatan Jatohh (Real)_983
+  - first:
+      213: 1724171271326882461
+    second: Jembatan Jatohh (Real)_984
+  - first:
+      213: 5228958789563321164
+    second: Jembatan Jatohh (Real)_985
+  - first:
+      213: 5778814447582042833
+    second: Jembatan Jatohh (Real)_986
+  - first:
+      213: 7215873020406247508
+    second: Jembatan Jatohh (Real)_987
+  - first:
+      213: 784317254590720655
+    second: Jembatan Jatohh (Real)_988
+  - first:
+      213: 3696545060464429678
+    second: Jembatan Jatohh (Real)_989
+  - first:
+      213: 2725662792085159725
+    second: Jembatan Jatohh (Real)_990
+  - first:
+      213: 3583647998156389625
+    second: Jembatan Jatohh (Real)_991
+  - first:
+      213: -1592902483902286653
+    second: Jembatan Jatohh (Real)_992
+  - first:
+      213: -4751149103639993651
+    second: Jembatan Jatohh (Real)_993
+  - first:
+      213: -5272450770735759040
+    second: Jembatan Jatohh (Real)_994
+  - first:
+      213: -2510753366028768264
+    second: Jembatan Jatohh (Real)_995
+  - first:
+      213: 4164371211224119955
+    second: Jembatan Jatohh (Real)_996
+  - first:
+      213: 7865025906489263018
+    second: Jembatan Jatohh (Real)_997
+  - first:
+      213: -7378381298939057217
+    second: Jembatan Jatohh (Real)_998
+  - first:
+      213: -2677189783716232083
+    second: Jembatan Jatohh (Real)_999
+  - first:
+      213: -6364208340201520257
+    second: Jembatan Jatohh (Real)_1000
+  - first:
+      213: -6309198635185432293
+    second: Jembatan Jatohh (Real)_1001
+  - first:
+      213: 5653749281958592880
+    second: Jembatan Jatohh (Real)_1002
+  - first:
+      213: -8678457843185342819
+    second: Jembatan Jatohh (Real)_1003
+  - first:
+      213: 1491335644030261165
+    second: Jembatan Jatohh (Real)_1004
+  - first:
+      213: 3227364009284569120
+    second: Jembatan Jatohh (Real)_1005
+  - first:
+      213: 7217678835030319921
+    second: Jembatan Jatohh (Real)_1006
+  - first:
+      213: 6273446684227434982
+    second: Jembatan Jatohh (Real)_1007
+  - first:
+      213: 6026685196141287659
+    second: Jembatan Jatohh (Real)_1008
+  - first:
+      213: 2729476386147918733
+    second: Jembatan Jatohh (Real)_1009
+  - first:
+      213: -1343210256690393071
+    second: Jembatan Jatohh (Real)_1010
+  - first:
+      213: 2800465661981471150
+    second: Jembatan Jatohh (Real)_1011
+  - first:
+      213: -7279603773760999186
+    second: Jembatan Jatohh (Real)_1012
+  - first:
+      213: 4817957825424925339
+    second: Jembatan Jatohh (Real)_1013
+  - first:
+      213: -3967900210714593644
+    second: Jembatan Jatohh (Real)_1014
+  - first:
+      213: -770032287590804627
+    second: Jembatan Jatohh (Real)_1015
+  - first:
+      213: 1814617786575116312
+    second: Jembatan Jatohh (Real)_1016
+  - first:
+      213: 2433415430290151918
+    second: Jembatan Jatohh (Real)_1017
+  - first:
+      213: 2515946923435572425
+    second: Jembatan Jatohh (Real)_1018
+  - first:
+      213: 3770474524994657144
+    second: Jembatan Jatohh (Real)_1019
+  - first:
+      213: 5107424050169365893
+    second: Jembatan Jatohh (Real)_1020
+  - first:
+      213: -3045551496466543686
+    second: Jembatan Jatohh (Real)_1021
+  - first:
+      213: -8801061376551725125
+    second: Jembatan Jatohh (Real)_1022
+  - first:
+      213: 722988828180640230
+    second: Jembatan Jatohh (Real)_1023
+  - first:
+      213: 4947260611525356151
+    second: Jembatan Jatohh (Real)_1024
+  - first:
+      213: 6665851496292558752
+    second: Jembatan Jatohh (Real)_1025
+  - first:
+      213: -1039374296312848523
+    second: Jembatan Jatohh (Real)_1026
+  - first:
+      213: -2618007186199328075
+    second: Jembatan Jatohh (Real)_1027
+  - first:
+      213: 7559764045528025271
+    second: Jembatan Jatohh (Real)_1028
+  - first:
+      213: -3791496962365085356
+    second: Jembatan Jatohh (Real)_1029
+  - first:
+      213: -8070105119676747918
+    second: Jembatan Jatohh (Real)_1030
+  - first:
+      213: 8659880867455203755
+    second: Jembatan Jatohh (Real)_1031
+  - first:
+      213: 3406189215970896058
+    second: Jembatan Jatohh (Real)_1032
+  - first:
+      213: -4228784270778736540
+    second: Jembatan Jatohh (Real)_1033
+  - first:
+      213: 9018234418432801058
+    second: Jembatan Jatohh (Real)_1034
+  - first:
+      213: -5334633143937823262
+    second: Jembatan Jatohh (Real)_1035
+  - first:
+      213: 1757670437907999039
+    second: Jembatan Jatohh (Real)_1036
+  - first:
+      213: 4164194208229779025
+    second: Jembatan Jatohh (Real)_1037
+  - first:
+      213: -5549721783626143706
+    second: Jembatan Jatohh (Real)_1038
+  - first:
+      213: 4618854468258070733
+    second: Jembatan Jatohh (Real)_1039
+  - first:
+      213: -5397335960961291689
+    second: Jembatan Jatohh (Real)_1040
+  - first:
+      213: -4696390653844087582
+    second: Jembatan Jatohh (Real)_1041
+  - first:
+      213: -31959954477573392
+    second: Jembatan Jatohh (Real)_1042
+  - first:
+      213: 8729921200819045255
+    second: Jembatan Jatohh (Real)_1043
+  - first:
+      213: -2686467096907525629
+    second: Jembatan Jatohh (Real)_1044
+  - first:
+      213: 4241232499115953057
+    second: Jembatan Jatohh (Real)_1045
+  - first:
+      213: 4056671212502927741
+    second: Jembatan Jatohh (Real)_1046
+  - first:
+      213: -2770689266574428748
+    second: Jembatan Jatohh (Real)_1047
+  - first:
+      213: -557278703365631458
+    second: Jembatan Jatohh (Real)_1048
+  - first:
+      213: -7217028553664290316
+    second: Jembatan Jatohh (Real)_1049
+  - first:
+      213: 5634609869065557765
+    second: Jembatan Jatohh (Real)_1050
+  - first:
+      213: 7297379855316011148
+    second: Jembatan Jatohh (Real)_1051
+  - first:
+      213: -4549052894975305155
+    second: Jembatan Jatohh (Real)_1052
+  - first:
+      213: -6844259182692519462
+    second: Jembatan Jatohh (Real)_1053
+  - first:
+      213: -565578616488101963
+    second: Jembatan Jatohh (Real)_1054
+  - first:
+      213: -8515363408522850241
+    second: Jembatan Jatohh (Real)_1055
+  - first:
+      213: -7462304410565446054
+    second: Jembatan Jatohh (Real)_1056
+  - first:
+      213: 1835110748414208645
+    second: Jembatan Jatohh (Real)_1057
+  - first:
+      213: 5436024448934641211
+    second: Jembatan Jatohh (Real)_1058
+  - first:
+      213: 1766346949848450244
+    second: Jembatan Jatohh (Real)_1059
+  - first:
+      213: 4452176883763680574
+    second: Jembatan Jatohh (Real)_1060
+  - first:
+      213: 6295006355467227877
+    second: Jembatan Jatohh (Real)_1061
+  - first:
+      213: 1626204898719435632
+    second: Jembatan Jatohh (Real)_1062
+  - first:
+      213: 6572974588523068474
+    second: Jembatan Jatohh (Real)_1063
+  - first:
+      213: -1513540892259398132
+    second: Jembatan Jatohh (Real)_1064
+  - first:
+      213: 6274838347427825851
+    second: Jembatan Jatohh (Real)_1065
+  - first:
+      213: -4486621533309909691
+    second: Jembatan Jatohh (Real)_1066
+  - first:
+      213: 7148522934905836070
+    second: Jembatan Jatohh (Real)_1067
+  - first:
+      213: -7827713339770147012
+    second: Jembatan Jatohh (Real)_1068
+  - first:
+      213: 2736055803594657271
+    second: Jembatan Jatohh (Real)_1069
+  - first:
+      213: 8175801456579651242
+    second: Jembatan Jatohh (Real)_1070
+  - first:
+      213: 6593999828298132798
+    second: Jembatan Jatohh (Real)_1071
+  - first:
+      213: 5319728879756928434
+    second: Jembatan Jatohh (Real)_1072
+  - first:
+      213: 960853666545195113
+    second: Jembatan Jatohh (Real)_1073
+  - first:
+      213: 6376491046682344761
+    second: Jembatan Jatohh (Real)_1074
+  - first:
+      213: 8769300654941202646
+    second: Jembatan Jatohh (Real)_1075
+  - first:
+      213: -7467063441970685511
+    second: Jembatan Jatohh (Real)_1076
+  - first:
+      213: -7013304088730145873
+    second: Jembatan Jatohh (Real)_1077
+  - first:
+      213: -7328522428539137973
+    second: Jembatan Jatohh (Real)_1078
+  - first:
+      213: -8199018498012377741
+    second: Jembatan Jatohh (Real)_1079
+  - first:
+      213: -8167417997894780147
+    second: Jembatan Jatohh (Real)_1080
+  - first:
+      213: 3849113818980012485
+    second: Jembatan Jatohh (Real)_1081
+  - first:
+      213: 7804617235634067049
+    second: Jembatan Jatohh (Real)_1082
+  - first:
+      213: 847419534567818528
+    second: Jembatan Jatohh (Real)_1083
+  - first:
+      213: 2769583588176850043
+    second: Jembatan Jatohh (Real)_1084
+  - first:
+      213: 4907255972300073872
+    second: Jembatan Jatohh (Real)_1085
+  - first:
+      213: 8834141091282890711
+    second: Jembatan Jatohh (Real)_1086
+  - first:
+      213: 7656803994379342277
+    second: Jembatan Jatohh (Real)_1087
+  - first:
+      213: -4740547426763763327
+    second: Jembatan Jatohh (Real)_1088
+  - first:
+      213: -9221860246140780884
+    second: Jembatan Jatohh (Real)_1089
+  - first:
+      213: 1536199327203052271
+    second: Jembatan Jatohh (Real)_1090
+  - first:
+      213: -3859919013514425460
+    second: Jembatan Jatohh (Real)_1091
+  - first:
+      213: 3728637998454330786
+    second: Jembatan Jatohh (Real)_1092
+  - first:
+      213: 3415630328455121261
+    second: Jembatan Jatohh (Real)_1093
+  - first:
+      213: -65539584752415239
+    second: Jembatan Jatohh (Real)_1094
+  - first:
+      213: 865486891758569682
+    second: Jembatan Jatohh (Real)_1095
+  - first:
+      213: -8373752528114095025
+    second: Jembatan Jatohh (Real)_1096
+  - first:
+      213: 4890334887960740848
+    second: Jembatan Jatohh (Real)_1097
+  - first:
+      213: -4247251786008263060
+    second: Jembatan Jatohh (Real)_1098
+  - first:
+      213: -8111244110302198676
+    second: Jembatan Jatohh (Real)_1099
+  - first:
+      213: -3734159270548222626
+    second: Jembatan Jatohh (Real)_1100
+  - first:
+      213: 8535358666425258327
+    second: Jembatan Jatohh (Real)_1101
+  - first:
+      213: 7659087114903969650
+    second: Jembatan Jatohh (Real)_1102
+  - first:
+      213: 1445170563574527987
+    second: Jembatan Jatohh (Real)_1103
+  - first:
+      213: -535339679769289121
+    second: Jembatan Jatohh (Real)_1104
+  - first:
+      213: 5167590700044967409
+    second: Jembatan Jatohh (Real)_1105
+  - first:
+      213: 7048730722660918866
+    second: Jembatan Jatohh (Real)_1106
+  - first:
+      213: -6547194622088454156
+    second: Jembatan Jatohh (Real)_1107
+  - first:
+      213: 2378114757448356960
+    second: Jembatan Jatohh (Real)_1108
+  - first:
+      213: -5119730367477071467
+    second: Jembatan Jatohh (Real)_1109
+  - first:
+      213: 952270868404405673
+    second: Jembatan Jatohh (Real)_1110
+  - first:
+      213: -6427006733306686539
+    second: Jembatan Jatohh (Real)_1111
+  - first:
+      213: 1139085530330454105
+    second: Jembatan Jatohh (Real)_1112
+  - first:
+      213: 6402948720523145984
+    second: Jembatan Jatohh (Real)_1113
+  - first:
+      213: 9104029937253577402
+    second: Jembatan Jatohh (Real)_1114
+  - first:
+      213: -5766556670268900447
+    second: Jembatan Jatohh (Real)_1115
+  - first:
+      213: 7140670915209566002
+    second: Jembatan Jatohh (Real)_1116
+  - first:
+      213: 3221820858238822247
+    second: Jembatan Jatohh (Real)_1117
+  - first:
+      213: 6555187968093666184
+    second: Jembatan Jatohh (Real)_1118
+  - first:
+      213: 8155814197539860510
+    second: Jembatan Jatohh (Real)_1119
+  - first:
+      213: -7034228442317304808
+    second: Jembatan Jatohh (Real)_1120
+  - first:
+      213: 2612025368431456207
+    second: Jembatan Jatohh (Real)_1121
+  - first:
+      213: -9189193961990481258
+    second: Jembatan Jatohh (Real)_1122
+  - first:
+      213: -6987323270016210845
+    second: Jembatan Jatohh (Real)_1123
+  - first:
+      213: -5869128243334672911
+    second: Jembatan Jatohh (Real)_1124
+  - first:
+      213: 8627813032135074253
+    second: Jembatan Jatohh (Real)_1125
+  - first:
+      213: -4816435953559513552
+    second: Jembatan Jatohh (Real)_1126
+  - first:
+      213: 7756997848597933804
+    second: Jembatan Jatohh (Real)_1127
+  - first:
+      213: -4972122671084728455
+    second: Jembatan Jatohh (Real)_1128
+  - first:
+      213: -4379529007198414257
+    second: Jembatan Jatohh (Real)_1129
+  - first:
+      213: 5268329499351410957
+    second: Jembatan Jatohh (Real)_1130
+  - first:
+      213: -7012319195576069151
+    second: Jembatan Jatohh (Real)_1131
+  - first:
+      213: -8024573159203916664
+    second: Jembatan Jatohh (Real)_1132
+  - first:
+      213: 2489933567464890475
+    second: Jembatan Jatohh (Real)_1133
+  - first:
+      213: 1912222414943455541
+    second: Jembatan Jatohh (Real)_1134
+  - first:
+      213: -741088092144357179
+    second: Jembatan Jatohh (Real)_1135
+  - first:
+      213: 8011292645053742711
+    second: Jembatan Jatohh (Real)_1136
+  - first:
+      213: 8363983942326684052
+    second: Jembatan Jatohh (Real)_1137
+  - first:
+      213: 5692030127969973892
+    second: Jembatan Jatohh (Real)_1138
+  - first:
+      213: -494272717309540678
+    second: Jembatan Jatohh (Real)_1139
+  - first:
+      213: -5427078417077538028
+    second: Jembatan Jatohh (Real)_1140
+  - first:
+      213: -4051680296180823287
+    second: Jembatan Jatohh (Real)_1141
+  - first:
+      213: -4524204578387156696
+    second: Jembatan Jatohh (Real)_1142
+  - first:
+      213: -5998939932253988772
+    second: Jembatan Jatohh (Real)_1143
+  - first:
+      213: 7944678319610634848
+    second: Jembatan Jatohh (Real)_1144
+  - first:
+      213: -6073625486613768074
+    second: Jembatan Jatohh (Real)_1145
+  - first:
+      213: -4200844779987467697
+    second: Jembatan Jatohh (Real)_1146
+  - first:
+      213: 9033129165904024321
+    second: Jembatan Jatohh (Real)_1147
+  - first:
+      213: -8750740949130224138
+    second: Jembatan Jatohh (Real)_1148
+  - first:
+      213: 6521405079481983991
+    second: Jembatan Jatohh (Real)_1149
+  - first:
+      213: 3648343975685076805
+    second: Jembatan Jatohh (Real)_1150
+  - first:
+      213: 466354699062697987
+    second: Jembatan Jatohh (Real)_1151
+  - first:
+      213: 3289844279113772985
+    second: Jembatan Jatohh (Real)_1152
+  - first:
+      213: -1272842325587215796
+    second: Jembatan Jatohh (Real)_1153
+  - first:
+      213: -160729348908947724
+    second: Jembatan Jatohh (Real)_1154
+  - first:
+      213: 3060917269908429626
+    second: Jembatan Jatohh (Real)_1155
+  - first:
+      213: -524075204511136053
+    second: Jembatan Jatohh (Real)_1156
+  - first:
+      213: 1816109111511912595
+    second: Jembatan Jatohh (Real)_1157
+  - first:
+      213: -320563502557148321
+    second: Jembatan Jatohh (Real)_1158
+  - first:
+      213: 2426818086053991248
+    second: Jembatan Jatohh (Real)_1159
+  - first:
+      213: -6422750887718772935
+    second: Jembatan Jatohh (Real)_1160
+  - first:
+      213: 5372784078523871181
+    second: Jembatan Jatohh (Real)_1161
+  - first:
+      213: -2440131478050225199
+    second: Jembatan Jatohh (Real)_1162
+  - first:
+      213: 1509523789281499199
+    second: Jembatan Jatohh (Real)_1163
+  - first:
+      213: -5596221128039703535
+    second: Jembatan Jatohh (Real)_1164
+  - first:
+      213: -2981280673581153333
+    second: Jembatan Jatohh (Real)_1165
+  - first:
+      213: -2933455126240305964
+    second: Jembatan Jatohh (Real)_1166
+  - first:
+      213: -931134609705875868
+    second: Jembatan Jatohh (Real)_1167
+  - first:
+      213: -813106053576455982
+    second: Jembatan Jatohh (Real)_1168
+  - first:
+      213: -8335825474217736220
+    second: Jembatan Jatohh (Real)_1169
+  - first:
+      213: 1301195277738650302
+    second: Jembatan Jatohh (Real)_1170
+  - first:
+      213: -3325243144104403723
+    second: Jembatan Jatohh (Real)_1171
+  - first:
+      213: -3498707809242175236
+    second: Jembatan Jatohh (Real)_1172
+  - first:
+      213: 3837373224679013650
+    second: Jembatan Jatohh (Real)_1173
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jembatan Jatohh (Real)_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 446
+        width: 810
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21737b78eedd8f510800000000000000
+      internalID: 1583259285569615634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jembatan Jatohh (Real)_1
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 386
+        width: 847
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5290153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da61eea034ee3d180800000000000000
+      internalID: -9091661251017304403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jembatan Jatohh (Real)_2
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 375
+        width: 875
+        height: 225
+      alignment: 9
+      pivot: {x: 0.50444365, y: 0.6480401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4468f75d122466d0800000000000000
+      internalID: -2998233942496615350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jembatan Jatohh (Real)_3
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 331
+        width: 811
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8781716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488244e89359aab00800000000000000
+      internalID: 840648354890524804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jembatan Jatohh (Real)_4
+      rect:
+        serializedVersion: 2
+        x: 3836
+        y: 296
+        width: 869
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8183516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e460afd418ed73f00800000000000000
+      internalID: 1096589681228383822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jembatan Jatohh (Real)_5
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 286
+        width: 877
+        height: 344
+      alignment: 9
+      pivot: {x: 0.49725795, y: 0.9168215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a624162bd3b3af760800000000000000
+      internalID: 7492366066256003690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jembatan Jatohh (Real)_6
+      rect:
+        serializedVersion: 2
+        x: 5777
+        y: 217
+        width: 845
+        height: 462
+      alignment: 9
+      pivot: {x: 0.5, y: 0.74322367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628fb6e947fdde020800000000000000
+      internalID: 2372798270661195814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jembatan Jatohh (Real)_7
+      rect:
+        serializedVersion: 2
+        x: 6737
+        y: 166
+        width: 850
+        height: 530
+      alignment: 9
+      pivot: {x: 0.5054073, y: 0.71323264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cd4470b8d3680e0800000000000000
+      internalID: -2268057695002764156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jembatan Jatohh (Real)_8
+      rect:
+        serializedVersion: 2
+        x: 7733
+        y: 81
+        width: 744
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5, y: 1.853829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1b978e8d4729970800000000000000
+      internalID: 8760192700151083466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e49d1e4fa2a76d641a47fd91c9643bb3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jembatan Jatohh (Real)_0: 1583259285569615634
+      Jembatan Jatohh (Real)_1: -9091661251017304403
+      Jembatan Jatohh (Real)_10: 7223522059877045392
+      Jembatan Jatohh (Real)_11: 5110978684446024510
+      Jembatan Jatohh (Real)_12: 1004477243279219682
+      Jembatan Jatohh (Real)_13: 8845755021134867573
+      Jembatan Jatohh (Real)_14: 1804479988536032305
+      Jembatan Jatohh (Real)_15: 1307781003404494
+      Jembatan Jatohh (Real)_2: -2998233942496615350
+      Jembatan Jatohh (Real)_3: 840648354890524804
+      Jembatan Jatohh (Real)_4: 1096589681228383822
+      Jembatan Jatohh (Real)_5: 7492366066256003690
+      Jembatan Jatohh (Real)_6: 2372798270661195814
+      Jembatan Jatohh (Real)_7: -2268057695002764156
+      Jembatan Jatohh (Real)_8: 8760192700151083466
+      Jembatan Jatohh (Real)_9: -8072810255720986369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
