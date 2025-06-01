@@ -4,6 +4,8 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
     private List<InventorySlot> inventory = new List<InventorySlot>();
+    [SerializeField] private GameObject Kunci;
+
 
     public void AddItem(InventoryItem item, int amount = 1)
     {
@@ -13,12 +15,26 @@ public class PlayerInventory : MonoBehaviour
             if (slot != null)
             {
                 slot.quantity += amount;
+                TriggerItemEvent(item);
                 return;
             }
         }
 
         inventory.Add(new InventorySlot(item, amount));
+        TriggerItemEvent(item);
     }
+    private void TriggerItemEvent(InventoryItem item)
+    {
+        if (item.itemType == ItemType.KeyItem)
+        {
+            if (Kunci != null)
+            {
+                Kunci.SetActive(true);
+            }
+        }
+    }
+
+
 
     public bool HasItem(string itemName)
     {
@@ -52,7 +68,14 @@ public class PlayerInventory : MonoBehaviour
         {
             slot.quantity -= amount;
             if (slot.quantity <= 0)
+            {
                 inventory.Remove(slot);
+
+                if (item.itemType == ItemType.KeyItem && Kunci != null)
+                {
+                    Kunci.SetActive(false);
+                }
+            }
         }
     }
 }

@@ -192,6 +192,7 @@ bool CanSeePlayer()
     {
         if (other.CompareTag("PlayerDamage") && !isDied)
         {
+
             takingDamage = true;
             TakeDamage(PlayerDamage);
         }

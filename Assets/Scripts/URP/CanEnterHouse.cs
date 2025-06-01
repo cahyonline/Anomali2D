@@ -20,7 +20,7 @@ public class CanEnterHouse : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && itemData != null && inventory.HasItem(ItemType.KeyItem) && inventory.HasItem(ItemType.CanEnterHouse))
+        if (other.CompareTag("Player") && itemData != null && inventory.HasItem(ItemType.CanEnterHouse))
         {
             EInteractRumah = false;
             UIpickupE.SetActive(false);
@@ -44,16 +44,16 @@ public class CanEnterHouse : MonoBehaviour
 
         if (inventory != null && itemData != null)
         {
-            animHandler.InteractE2 = true;
+            animHandler.MasukGoa = true;
             StartCoroutine(destroy());
         }
     }
     private IEnumerator destroy()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         EventCallBack.Vignette();
-        EventCallBack.ChangeArea(12);
-        EventCallBack.ChangeAreaSpawn(23);
+        EventCallBack.ChangeArea(24);
+        EventCallBack.ChangeAreaSpawn(48);
         //Destroy(gameObject);
     }
 

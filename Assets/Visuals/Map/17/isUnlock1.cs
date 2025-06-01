@@ -7,7 +7,7 @@ public class isUnlock1: MonoBehaviour
 {
     //[SerializeField] private PlayerInventory inventory;
     [SerializeField] private bool isUnlocks = false;
-    [SerializeField] private bool Unlock1 = false;
+    //[SerializeField] private bool Unlock1 = false;
     //[SerializeField] private Animator animss;
     [SerializeField] private GameObject UIpickupE;
     [SerializeField] private bool EInteract;
