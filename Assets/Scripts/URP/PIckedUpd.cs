@@ -5,8 +5,8 @@ public class PickupItem : MonoBehaviour
 {
     public InventoryItem itemData; 
     public int amount = 1;
-    [SerializeField] private GameObject UIpickupE;
-    [SerializeField] private GameObject UIpickupEnter;
+    [SerializeField] private GameObject UiPickupE;
+    [SerializeField] private GameObject UIPickupEnter;
     [SerializeField] private bool EInteractTerang;
     [SerializeField] private bool isInteract;
     [SerializeField] private PlayerInventory inventory;
@@ -22,7 +22,7 @@ public class PickupItem : MonoBehaviour
         if (collision.CompareTag("Player") && itemData != null)
         {
             EInteractTerang = true;
-            UIpickupE.SetActive(true);
+            UiPickupE.SetActive(true);
         }
     }
 
@@ -31,7 +31,7 @@ public class PickupItem : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             EInteractTerang = false;
-            UIpickupE.SetActive(false);
+            UiPickupE.SetActive(false);
         }
     }
 
@@ -40,29 +40,32 @@ public class PickupItem : MonoBehaviour
         if( GamesState.InCutscene ) return;
         if (EInteractTerang && Input.GetKeyDown(KeyCode.E))
         {
-            isTerang(); // Pick up item
+            StartCoroutine( isTerang()); 
             EInteractTerang = false;
-            UIpickupE.SetActive(false);
+            UiPickupE.SetActive(false);
         }
         if (isInteract && Input.GetKeyDown(KeyCode.Return))
         {
             showPaper.SetActive(false);
-            UIpickupEnter.SetActive(false);
+            UIPickupEnter.SetActive(false);
+            GamesState.InInteract = false;
+            EventCallBack.EndAttack();
             StartCoroutine(destroy());
 
         }
     }
 
-    private void isTerang()
+    private IEnumerator isTerang()
     {
         //PlayerInventory inventory = GetComponent<PlayerInventory>();
 
         if (inventory != null && itemData != null)
         {
             isInteract = true;
-            showPaper.SetActive(true);
-            UIpickupEnter.SetActive(true);
             animHandler.CollectItem = true;
+            yield return new WaitForSeconds(1.1f);
+            showPaper.SetActive(true);
+            UIPickupEnter.SetActive(true);
             inventory.AddItem(itemData, amount);
             //Debug.Log($"Player mengambil item: {itemData.itemName} x{amount}");
             //StartCoroutine(destroy());

@@ -315,6 +315,9 @@ public class HealthPlayer : MonoBehaviour
         {
             vulnerable = false;
             TakeDamage(SmallDM);
+            EventCallBack.HitStop();
+            AudioManager.Instance.PlaySFX("PlayerDiHit");
+            CinemachineShake.Instance.ShakeCamera(12f, 12f);
             StartCoroutine(InvulnerableCD());
         }
 

@@ -12,6 +12,11 @@ public class Save : MonoBehaviour
     [SerializeField] private bool EinteractSaver;
     private Transform playerTransform;
     public PlayerAnimator AnimHandler;
+    [SerializeField] private ParticleSystem interactParticle;
+    private ParticleSystem currentParticle;
+    [SerializeField] private bool isSpawnParticle;
+
+    //[SerializeField] private ParticleSystem interactParticle;
 
 
     private void Start()
@@ -65,7 +70,10 @@ public class Save : MonoBehaviour
         {
             EinteractSaver = false;
             UIpickupE.SetActive(false);
-            //Debug.Log("OUSIDE");
+
+            Destroy(currentParticle);
+            isSpawnParticle = false;
+            Debug.Log(currentParticle.gameObject);
         }
     }
     private void Update()
@@ -81,6 +89,12 @@ public class Save : MonoBehaviour
             GamesState.InInteractCheckpoint = true;
             //EventCallBack.OnAttack();
             AnimHandler.InteractE = true;
+            if (!isSpawnParticle)
+            {
+                currentParticle =  Instantiate(interactParticle, playerTransform.position, Quaternion.Euler(-90,90,0));
+                isSpawnParticle = true;
+            }
+
             EinteractSaver = false;
             UIpickupE.SetActive(false);
             SaveGame(playerTransform.transform.position, _saveLastPoss.currentArea, _saveHealthPlayered.healthAmount);
