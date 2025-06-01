@@ -16,7 +16,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
     public GameObject NPCPanel;
     public GameObject responsePanel;
     [SerializeField] private PlayerInventory playerInventory; public InventoryItem inventoryItem; public int amount;
-    
+
     public DialogueTriggerNormalNPCItem2 dialogueTriggerNormal; // Reference to DialogueTrigger script
     //public PlayerControl PlayerControllerScriptGoesHere;
     //public ComboCharacter comboCharacter;
@@ -25,7 +25,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
     private int currentLineIndex = 0;
     private bool isDialogueActive = false;
     //private bool hasTalkedBefore = false; //////////////////////////////////////////////////
-    public bool itemCheck1;
+    public bool itemCheck2;
     private bool checker1;
     private int phaseTalk = 0;
     private string repeatLine = ""; // Will be set from DialogueTrigger
@@ -42,7 +42,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
     public void StartDialogue(Dialogue newDialogue, string repeatText, string repeatText2)
     {
         //////////////////////////////////////////////////////////////////////
-        if (phaseTalk == 1 && !itemCheck1)
+        if (phaseTalk == 1 && !itemCheck2)
         {
             //EventCallBack.OnAttack();
             repeatLine = repeatText;
@@ -50,7 +50,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
             return;
         }
 
-        if (phaseTalk == 1 && itemCheck1)
+        if (phaseTalk == 1 && itemCheck2)
         {
             //currentLineIndex++;
             NPCPanel.SetActive(true);
@@ -62,13 +62,13 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
         }
 
         //////////////////////////////////////////////////////////////////////
-            if (phaseTalk == 2)
-            {
-                //EventCallBack.OnAttack();
-                repeatLine = repeatText2;
-                ShowRepeatLine();
-                return;
-            }
+        if (phaseTalk == 2)
+        {
+            //EventCallBack.OnAttack();
+            repeatLine = repeatText2;
+            ShowRepeatLine();
+            return;
+        }
 
         NPCPanel.SetActive(true);
 
@@ -95,14 +95,14 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
             ShowNextLine();
         }
 
-        if (itemCheck1 && !checker1)
+        if (itemCheck2 && !checker1)
         {
             checker1 = true;
             dialogueTriggerNormal.ReDialog();
             Debug.Log("REupdate = " + currentLineIndex);
         }
 
-        Debug.Log(currentLineIndex);
+        //Debug.Log(currentLineIndex);
     }
 
     void ShowNextLine()
@@ -160,5 +160,10 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
         //comboCharacter.enabled = true;
         GamesState.InInteract = false;
         dialogueTriggerNormal.DoneDialog();
+    }
+
+    public void Item2Collected()
+    {
+        itemCheck2 = true;
     }
 }

@@ -1,37 +1,19 @@
 fileFormatVersion: 2
-guid: 6e4a113a2635ec741a8beaa73f8e9f21
+guid: 47b99136beb5a5146a882557a9c53649
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5744461897538558982
-    second: Asep Lompat_0
+      213: 8279823317695585149
+    second: Idle (2)_0
   - first:
-      213: 8743487709937621223
-    second: Asep Lompat_1
+      213: 7900068846782276758
+    second: Idle (2)_1
   - first:
-      213: 6921816579977349757
-    second: Asep Lompat_2
+      213: -8551413033159768530
+    second: Idle (2)_2
   - first:
-      213: -7641245420040613279
-    second: Asep Lompat_3
-  - first:
-      213: 4881330299415246001
-    second: Asep Lompat_4
-  - first:
-      213: -5056008141938020986
-    second: Asep Lompat_5
-  - first:
-      213: 3377076700709191880
-    second: Asep Lompat_6
-  - first:
-      213: 7204572135294791367
-    second: Asep Lompat_7
-  - first:
-      213: -6011601953367400643
-    second: Asep Lompat_8
-  - first:
-      213: -1673743585238955000
-    second: Asep Lompat_9
+      213: -5277513801274399542
+    second: Idle (2)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -123,43 +105,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Asep Lompat_0
+      name: Idle (2)_0
       rect:
         serializedVersion: 2
-        x: 68
-        y: 5
-        width: 34
-        height: 10
+        x: 152
+        y: 151
+        width: 46
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,62 +123,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60c5d8c09ad68bf40800000000000000
-      internalID: 5744461897538558982
+      spriteID: d7bdd366077d7e270800000000000000
+      internalID: 8279823317695585149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asep Lompat_2
+      name: Idle (2)_1
       rect:
         serializedVersion: 2
-        x: 261
-        y: 7
-        width: 40
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 538
+        y: 151
+        width: 46
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5000066, y: 0.51848376}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7a85f1918b3f0060800000000000000
-      internalID: 6921816579977349757
+      spriteID: 694669182cea2ad60800000000000000
+      internalID: 7900068846782276758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asep Lompat_4
+      name: Idle (2)_2
       rect:
         serializedVersion: 2
-        x: 457
-        y: 6
-        width: 54
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 923
+        y: 151
+        width: 50
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4804077, y: 0.5485044}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b43fff7b08fdb340800000000000000
-      internalID: 4881330299415246001
+      spriteID: e26cdd65727435980800000000000000
+      internalID: -8551413033159768530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asep Lompat_6
+      name: Idle (2)_3
       rect:
         serializedVersion: 2
-        x: 653
-        y: 8
-        width: 59
-        height: 14
+        x: 1310
+        y: 151
+        width: 46
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,29 +186,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c00505ed59cdde20800000000000000
-      internalID: 3377076700709191880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asep Lompat_8
-      rect:
-        serializedVersion: 2
-        x: 851
-        y: 11
-        width: 59
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3fdd7ecfdf729ca0800000000000000
-      internalID: -6011601953367400643
+      spriteID: ac461d1c82182c6b0800000000000000
+      internalID: -5277513801274399542
       vertices: []
       indices: 
       edges: []
@@ -260,7 +195,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 23cd6c511f21c844097d8c1fcb8e36c8
+    spriteID: d91e57e81a62c6549b77edd55a7aa544
     internalID: 0
     vertices: []
     indices: 
@@ -268,16 +203,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Asep Lompat_0: 5744461897538558982
-      Asep Lompat_1: 8743487709937621223
-      Asep Lompat_2: 6921816579977349757
-      Asep Lompat_3: -7641245420040613279
-      Asep Lompat_4: 4881330299415246001
-      Asep Lompat_5: -5056008141938020986
-      Asep Lompat_6: 3377076700709191880
-      Asep Lompat_7: 7204572135294791367
-      Asep Lompat_8: -6011601953367400643
-      Asep Lompat_9: -1673743585238955000
+      Idle (2)_0: 8279823317695585149
+      Idle (2)_1: 7900068846782276758
+      Idle (2)_2: -8551413033159768530
+      Idle (2)_3: -5277513801274399542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

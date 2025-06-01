@@ -6,27 +6,33 @@ using static PlayerSurface;
 public class ComboCharacter : MonoBehaviour
 {
 
-    private StateMachine meleeStateMachine;
+    [SerializeField] private StateMachine meleeStateMachine;
 
     [SerializeField] public Collider2D hitbox;
     [SerializeField] public GameObject[] Hiteffect;
+    [SerializeField] public PlayerMovement playerMv;
 
     void Start()
     {
-        meleeStateMachine = GetComponent<StateMachine>();
+        //meleeStateMachine = GetComponent<StateMachine>();
     }
 
     private void Update()
     {
         if (GamesState.InInteract) return;
-        if (Input.GetKeyDown(KeyCode.J) && meleeStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
-        {
-            EventCallBack.OnAttack();
-            meleeStateMachine.SetNextState(new GroundEntryState());
-        }
 
-        
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            Debug.Log("Key J pressed"); // Log input
+            Debug.Log("Current State: " + meleeStateMachine.CurrentState.GetType()); // Log status state
+            if (meleeStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
+            {
+                EventCallBack.OnAttack();
+                meleeStateMachine.SetNextState(new GroundEntryState());
+            }
+        }
     }
+
     [SerializeField] private PlayerSurface surfaceDetector;
 
     private void PlaySfxStep()

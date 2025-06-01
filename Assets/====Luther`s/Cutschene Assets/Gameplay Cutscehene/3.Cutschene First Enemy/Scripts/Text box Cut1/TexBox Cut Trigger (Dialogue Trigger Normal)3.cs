@@ -70,7 +70,7 @@ public class DialogueTriggerCS3 : MonoBehaviour
     //       UIinteractE.SetActive(false);  
     //       inRange = false;
     //     }
-        
+
     // }
     public void StartCutsceneDialog()
     {
@@ -80,6 +80,7 @@ public class DialogueTriggerCS3 : MonoBehaviour
         //interactingDialog = true;
         dialogUIparent.SetActive(true);
         Debug.Log("StartCut");
+        //EventCallBack.OnAttack();
     }
     public void DoneDialog()
     {

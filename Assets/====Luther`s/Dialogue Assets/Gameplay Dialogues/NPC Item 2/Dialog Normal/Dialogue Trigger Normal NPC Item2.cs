@@ -27,16 +27,18 @@ public class DialogueTriggerNormalNPCItem2 : MonoBehaviour
 
     void Update()
     {
-        if (inRange && Input.GetKey(KeyCode.E))
+        if (inRange && Input.GetKey(KeyCode.E)) //STARTER
         {
             dialogueStartManager.StartDialogue(npcDialogue, finalDialog, lastDialog);
             UIinteractE.SetActive(false);
             inRange = false;
             interactingDialog = true;
             dialogUIparent.SetActive(true);
+            GamesState.InCutscene = true;
+            EventCallBack.OnAttack();
         }
 
-        if (inRange && dialogueDone && Input.GetKey(KeyCode.E))
+        if (inRange && dialogueDone && Input.GetKey(KeyCode.E)) //REPEAT DEFAULT
         {
             dialogueStartManager.StartDialogue(npcDialogue, finalDialog, lastDialog);
             UIinteractE.SetActive(false);
@@ -62,6 +64,8 @@ public class DialogueTriggerNormalNPCItem2 : MonoBehaviour
             UIinteractE.SetActive(true);
             inRange = true;
             interactingDialog = true;
+            GamesState.InCutscene = false;
+            EventCallBack.EndAttack();
             //dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
             Debug.Log("UI Show done");
         }
@@ -86,6 +90,8 @@ public class DialogueTriggerNormalNPCItem2 : MonoBehaviour
     public void DoneDialog()
     {
         dialogueDone = true;
+        GamesState.InCutscene = false;
+        EventCallBack.EndAttack();
     }
 
     public void ReDialog()

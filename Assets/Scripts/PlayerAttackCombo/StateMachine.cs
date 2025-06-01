@@ -1,5 +1,7 @@
 using UnityEngine;
+using UnityEngine.Scripting;
 
+[Preserve]
 public class StateMachine : MonoBehaviour
 {
     public string customName;
@@ -61,9 +63,14 @@ public class StateMachine : MonoBehaviour
 
     private void Awake()
     {
-        SetNextStateToMain();
+        if (mainStateType == null && customName == "Combat")
+        {
+            mainStateType = new IdleCombatState();
+        }
 
+        SetNextStateToMain();
     }
+
 
 
     private void OnValidate()

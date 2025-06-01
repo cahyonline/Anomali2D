@@ -45,6 +45,14 @@ public class TriggerCutrock : MonoBehaviour
     {
         RootGameobject.SetActive(false);
         invisibleWall.SetActive(false);
+        
+
         //Debug.Log("Ended");
+    }
+
+    public void PlayerCanMove()
+    {
+        GamesState.InCutscene = false;
+        EventCallBack.EndAttack();
     }
 }
