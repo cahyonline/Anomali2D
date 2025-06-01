@@ -27,6 +27,11 @@ public class Vignette : MonoBehaviour
         yield return new WaitForSeconds(2f);
         sceneManagerer.LoadingScene();
         EventCallBack.EndAttack();
+        //GamesState.InCutscene = false;
+        GamesState.InInteractCheckpoint = false;
+        GamesState.InInteract = false;
+
+
         loadingUI.SetActive(false);
         
         //Debug.Log("Loading selesai");

@@ -12,7 +12,7 @@ public class UltimateScript : MonoBehaviour
     //public UnityEngine.UI.Image whiteBar;
     public GameObject playerBigDamage;
     public BoxCollider2D playerDefaultDamage;
-    public float currentUlt = 0f;
+    public float currentUlt = 0f; 
     public float timerToFill = 60f;    
     private bool whiteVis;
     private float MaxUlt = 100f;
@@ -22,7 +22,10 @@ public class UltimateScript : MonoBehaviour
     private bool ultAvailable = false;
     private bool ultimateOn = false;
     private bool attackingPG = false;
+    private bool isUltimates = false;
     private UnityEngine.Vector2 originalBoxSize;
+
+    [SerializeField] private PlayerAnimator playerAnimator;
 
     //public float ultDuration;
     private float timer;
@@ -58,6 +61,9 @@ public class UltimateScript : MonoBehaviour
         {
             Debug.Log("ready");
             ultAvailable = true;
+            isUltimates = false;
+
+            Debug.Log(isUltimates);
         }
 
         if (Input.GetKeyDown(KeyCode.U) && ultAvailable)
@@ -138,6 +144,14 @@ public class UltimateScript : MonoBehaviour
     {
         if (attackingPG) yield break;
         attackingPG = true;
+        ////
+       if (!isUltimates)
+       {
+            playerAnimator.Ultimate = true;
+            Debug.Log("Kontol");
+            isUltimates = true;
+       }
+        ////
         yield return new WaitForSeconds(0.2f);
 
         playerBigDamage.SetActive(true);

@@ -44,7 +44,7 @@ public class UnlockIt : MonoBehaviour
 
         if (inventory != null && itemData != null)
         {
-            animHandler.InteractE = true;
+            animHandler.InteractE2 = true;
             inventory.AddItem(itemData, amount);
             Debug.Log($"Player mengambil item: {itemData.itemName} x{amount}");
             StartCoroutine(destroy());

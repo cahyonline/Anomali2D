@@ -123,10 +123,18 @@ public class PlayerAnimator : MonoBehaviour
             startedWallJump = false;
             return;
         }
+        if (Ultimate)
+        {
+            EventCallBack.OnAttack();
+            GamesState.InInteract = true;
+            anim.SetTrigger("Ultimate");
+            Ultimate = false;
+        }
 
         if (InteractE)
         {
             EventCallBack.OnAttack();
+            GamesState.InInteractCheckpoint = true;
             //GamesState.InInteract = true;
             //Debug.Log("InteracPlayer");
             anim.SetTrigger("InteractPlayer");
@@ -137,9 +145,9 @@ public class PlayerAnimator : MonoBehaviour
         if (InteractE2)
         {
             EventCallBack.OnAttack();
-            GamesState.InInteract = true;
+            //GamesState.InInteract = true;
             //Debug.Log("InteracPlayer");
-            anim.SetTrigger("InteractPlayer");
+            anim.SetTrigger("InteractPlayer2");
             InteractE2 = false;
             return;
         }
@@ -152,15 +160,20 @@ public class PlayerAnimator : MonoBehaviour
             return;
         }
         if (CollectItem)
-        {   
-            //anim.SetTrigger("");
+        {
+            GamesState.InInteract = true;
+            EventCallBack.OnAttack();
+            anim.SetTrigger("CollectItem");
+            CollectItem = false;
+            return;
         }
         if (MasukGoa)
         {
             EventCallBack.OnAttack();
-            GamesState.InCutscene = true;
+            GamesState.InInteract = true;
             anim.SetTrigger("isMasukGoa");
             MasukGoa = false;
+            return;
         }
 
         // Trigger "Slide" sekali saat mulai sliding

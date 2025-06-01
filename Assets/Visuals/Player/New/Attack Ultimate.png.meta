@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: 94332fc25f34ac34caf07d82b7a5553a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8971881286003307444
+    second: Attack Ultimate_0
+  - first:
+      213: 7416307811651407134
+    second: Attack Ultimate_1
+  - first:
+      213: 8494161498176312968
+    second: Attack Ultimate_2
+  - first:
+      213: -1435655138466043003
+    second: Attack Ultimate_3
+  - first:
+      213: -8605725666532823162
+    second: Attack Ultimate_4
+  - first:
+      213: 9003269526414325589
+    second: Attack Ultimate_5
+  - first:
+      213: 9007784582217665870
+    second: Attack Ultimate_6
+  - first:
+      213: -3170959699629628009
+    second: Attack Ultimate_7
+  - first:
+      213: -1218348483664055512
+    second: Attack Ultimate_8
+  - first:
+      213: 4026129810300270399
+    second: Attack Ultimate_9
+  - first:
+      213: 392768481600675272
+    second: Attack Ultimate_10
+  - first:
+      213: -2995207720569817215
+    second: Attack Ultimate_11
+  - first:
+      213: 1751924081733117622
+    second: Attack Ultimate_12
+  - first:
+      213: 6536296364649003423
+    second: Attack Ultimate_13
+  - first:
+      213: 4814500187188804513
+    second: Attack Ultimate_14
+  - first:
+      213: -7165297779288550022
+    second: Attack Ultimate_15
+  - first:
+      213: 263143537284877007
+    second: Attack Ultimate_16
+  - first:
+      213: 4938271561687462848
+    second: Attack Ultimate_17
+  - first:
+      213: 1621473194104448140
+    second: Attack Ultimate_18
+  - first:
+      213: -1349976782250182641
+    second: Attack Ultimate_19
+  - first:
+      213: -113477805112983267
+    second: Attack Ultimate_20
+  - first:
+      213: 7273177402614585503
+    second: Attack Ultimate_21
+  - first:
+      213: -4683369474508467331
+    second: Attack Ultimate_22
+  - first:
+      213: -3563588343896278042
+    second: Attack Ultimate_23
+  - first:
+      213: 6557254019251373514
+    second: Attack Ultimate_24
+  - first:
+      213: 6305911113270684481
+    second: Attack Ultimate_25
+  - first:
+      213: -8574913405318379502
+    second: Attack Ultimate_26
+  - first:
+      213: 8674559176684217085
+    second: Attack Ultimate_27
+  - first:
+      213: 8904288822921754124
+    second: Attack Ultimate_28
+  - first:
+      213: 2096549115623761112
+    second: Attack Ultimate_29
+  - first:
+      213: 3593132748924807398
+    second: Attack Ultimate_30
+  - first:
+      213: 7953415679475280597
+    second: Attack Ultimate_31
+  - first:
+      213: 4974619959840809289
+    second: Attack Ultimate_32
+  - first:
+      213: -1746929790180333961
+    second: Attack Ultimate_33
+  - first:
+      213: 6856351141696809547
+    second: Attack Ultimate_34
+  - first:
+      213: 4417578165186697326
+    second: Attack Ultimate_35
+  - first:
+      213: -4711232221575359893
+    second: Attack Ultimate_36
+  - first:
+      213: -2074792156860195793
+    second: Attack Ultimate_37
+  - first:
+      213: 6764585752449765171
+    second: Attack Ultimate_38
+  - first:
+      213: 6535841465431372469
+    second: Attack Ultimate_39
+  - first:
+      213: -8729230314160107401
+    second: Attack Ultimate_40
+  - first:
+      213: -9095207102831531087
+    second: Attack Ultimate_41
+  - first:
+      213: -4383671461354694459
+    second: Attack Ultimate_42
+  - first:
+      213: 5372778701000178703
+    second: Attack Ultimate_43
+  - first:
+      213: 3900140844049462607
+    second: Attack Ultimate_44
+  - first:
+      213: -203595622004139410
+    second: Attack Ultimate_45
+  - first:
+      213: 7490138982766975223
+    second: Attack Ultimate_46
+  - first:
+      213: -4718315801679186854
+    second: Attack Ultimate_47
+  - first:
+      213: -420097507617432450
+    second: Attack Ultimate_48
+  - first:
+      213: 1061859055213846846
+    second: Attack Ultimate_49
+  - first:
+      213: 6359827220032894984
+    second: Attack Ultimate_50
+  - first:
+      213: -7060938600933565261
+    second: Attack Ultimate_51
+  - first:
+      213: -1781478702567823607
+    second: Attack Ultimate_52
+  - first:
+      213: -1847692555741241432
+    second: Attack Ultimate_53
+  - first:
+      213: -5456398682020848121
+    second: Attack Ultimate_54
+  - first:
+      213: -3635293371510009087
+    second: Attack Ultimate_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack Ultimate_1
+      rect:
+        serializedVersion: 2
+        x: 3970
+        y: 68
+        width: 282
+        height: 162
+      alignment: 9
+      pivot: {x: 0.3087773, y: 0.19699775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dcf6259a40ce660800000000000000
+      internalID: 7416307811651407134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_2
+      rect:
+        serializedVersion: 2
+        x: 4453
+        y: 67
+        width: 261
+        height: 161
+      alignment: 9
+      pivot: {x: 0.34174636, y: 0.20402963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886599be0e251e570800000000000000
+      internalID: 8494161498176312968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_3
+      rect:
+        serializedVersion: 2
+        x: 4931
+        y: 71
+        width: 229
+        height: 147
+      alignment: 9
+      pivot: {x: 0.4204272, y: 0.19548471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b64cb0247831ce0800000000000000
+      internalID: -1435655138466043003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_23
+      rect:
+        serializedVersion: 2
+        x: 5417
+        y: 66
+        width: 208
+        height: 159
+      alignment: 9
+      pivot: {x: 0.460083, y: 0.21239659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebf65c28479b8ec0800000000000000
+      internalID: -3563588343896278042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_31
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 71
+        width: 46
+        height: 73
+      alignment: 9
+      pivot: {x: 0.92230755, y: 0.3912808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da6526eb65306e60800000000000000
+      internalID: 7953415679475280597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_40
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 71
+        width: 61
+        height: 49
+      alignment: 9
+      pivot: {x: 0.9405655, y: 0.58084434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7705ae9574b8bd680800000000000000
+      internalID: -8729230314160107401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_41
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 71
+        width: 44
+        height: 64
+      alignment: 9
+      pivot: {x: 0.91835856, y: 0.44595754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbed15145557c180800000000000000
+      internalID: -9095207102831531087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_42
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 71
+        width: 46
+        height: 75
+      alignment: 9
+      pivot: {x: 0.923032, y: 0.38197744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c89fe518021a23c0800000000000000
+      internalID: -4383671461354694459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_43
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 71
+        width: 44
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8727861, y: 0.40137213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c76e923c1ff8a40800000000000000
+      internalID: 5372778701000178703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_44
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 71
+        width: 45
+        height: 74
+      alignment: 9
+      pivot: {x: 0.87634003, y: 0.3868563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f457f8f0f65102630800000000000000
+      internalID: 3900140844049462607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_45
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 71
+        width: 72
+        height: 49
+      alignment: 9
+      pivot: {x: 0.9506836, y: 0.5840762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a5e984cdeac2df0800000000000000
+      internalID: -203595622004139410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_46
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 70
+        width: 61
+        height: 47
+      alignment: 9
+      pivot: {x: 0.8588867, y: 0.64902383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8912a68b152f760800000000000000
+      internalID: 7490138982766975223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_49
+      rect:
+        serializedVersion: 2
+        x: 5905
+        y: 71
+        width: 95
+        height: 148
+      alignment: 9
+      pivot: {x: 0.97059005, y: 0.19473659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31ad8b4f2b7cbe00800000000000000
+      internalID: 1061859055213846846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_50
+      rect:
+        serializedVersion: 2
+        x: 6441
+        y: 71
+        width: 38
+        height: 54
+      alignment: 9
+      pivot: {x: 0.92619246, y: 0.52935666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808bbea2925a24850800000000000000
+      internalID: 6359827220032894984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Ultimate_51
+      rect:
+        serializedVersion: 2
+        x: 6906
+        y: 71
+        width: 61
+        height: 49
+      alignment: 9
+      pivot: {x: 0.9406858, y: 0.5825955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcd28eb0c1820e90800000000000000
+      internalID: -7060938600933565261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 988a1eda49d108244aecde4a8b589a80
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Attack Ultimate_0: -8971881286003307444
+      Attack Ultimate_1: 7416307811651407134
+      Attack Ultimate_10: 392768481600675272
+      Attack Ultimate_11: -2995207720569817215
+      Attack Ultimate_12: 1751924081733117622
+      Attack Ultimate_13: 6536296364649003423
+      Attack Ultimate_14: 4814500187188804513
+      Attack Ultimate_15: -7165297779288550022
+      Attack Ultimate_16: 263143537284877007
+      Attack Ultimate_17: 4938271561687462848
+      Attack Ultimate_18: 1621473194104448140
+      Attack Ultimate_19: -1349976782250182641
+      Attack Ultimate_2: 8494161498176312968
+      Attack Ultimate_20: -113477805112983267
+      Attack Ultimate_21: 7273177402614585503
+      Attack Ultimate_22: -4683369474508467331
+      Attack Ultimate_23: -3563588343896278042
+      Attack Ultimate_24: 6557254019251373514
+      Attack Ultimate_25: 6305911113270684481
+      Attack Ultimate_26: -8574913405318379502
+      Attack Ultimate_27: 8674559176684217085
+      Attack Ultimate_28: 8904288822921754124
+      Attack Ultimate_29: 2096549115623761112
+      Attack Ultimate_3: -1435655138466043003
+      Attack Ultimate_30: 3593132748924807398
+      Attack Ultimate_31: 7953415679475280597
+      Attack Ultimate_32: 4974619959840809289
+      Attack Ultimate_33: -1746929790180333961
+      Attack Ultimate_34: 6856351141696809547
+      Attack Ultimate_35: 4417578165186697326
+      Attack Ultimate_36: -4711232221575359893
+      Attack Ultimate_37: -2074792156860195793
+      Attack Ultimate_38: 6764585752449765171
+      Attack Ultimate_39: 6535841465431372469
+      Attack Ultimate_4: -8605725666532823162
+      Attack Ultimate_40: -8729230314160107401
+      Attack Ultimate_41: -9095207102831531087
+      Attack Ultimate_42: -4383671461354694459
+      Attack Ultimate_43: 5372778701000178703
+      Attack Ultimate_44: 3900140844049462607
+      Attack Ultimate_45: -203595622004139410
+      Attack Ultimate_46: 7490138982766975223
+      Attack Ultimate_47: -4718315801679186854
+      Attack Ultimate_48: -420097507617432450
+      Attack Ultimate_49: 1061859055213846846
+      Attack Ultimate_5: 9003269526414325589
+      Attack Ultimate_50: 6359827220032894984
+      Attack Ultimate_51: -7060938600933565261
+      Attack Ultimate_52: -1781478702567823607
+      Attack Ultimate_53: -1847692555741241432
+      Attack Ultimate_54: -5456398682020848121
+      Attack Ultimate_55: -3635293371510009087
+      Attack Ultimate_6: 9007784582217665870
+      Attack Ultimate_7: -3170959699629628009
+      Attack Ultimate_8: -1218348483664055512
+      Attack Ultimate_9: 4026129810300270399
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

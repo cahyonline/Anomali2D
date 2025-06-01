@@ -52,7 +52,7 @@ public class isUnlock: MonoBehaviour
         {
             PlayerAnimator.MasukGoa = true;
             yield return new WaitForSeconds(1);
-            Debug.Log("Unlock");
+            //Debug.Log("Unlock");
             EventCallBack.ChangeArea(18);
             EventCallBack.ChangeAreaSpawn(39);
             EventCallBack.Vignette();
@@ -60,7 +60,7 @@ public class isUnlock: MonoBehaviour
         else 
         {
             animss.SetTrigger("isUnlock");
-            PlayerAnimator.InteractE = true;
+            PlayerAnimator.InteractE2 = true;
             Unlock = true;
         }
     }

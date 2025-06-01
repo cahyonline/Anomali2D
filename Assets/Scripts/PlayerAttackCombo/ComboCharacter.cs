@@ -69,6 +69,8 @@ public class ComboCharacter : MonoBehaviour
     {
         GamesState.InInteract = false;
         EventCallBack.EndAttack();
+        GamesState.InInteractCheckpoint = false;
+       // Debug.Log("ddsdfs");
     }
     private void StrtIt()
     {

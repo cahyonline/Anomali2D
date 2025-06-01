@@ -44,7 +44,7 @@ public class CanEnterHouse : MonoBehaviour
 
         if (inventory != null && itemData != null)
         {
-            animHandler.InteractE = true;
+            animHandler.InteractE2 = true;
             StartCoroutine(destroy());
         }
     }

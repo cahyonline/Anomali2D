@@ -38,7 +38,7 @@ public class TriggerCutrock : MonoBehaviour
                 activeCutschene = true;
                 CanvasRender.SetActive(true);
                 cutsceneRock.Play();
-                playerAnimator.InteractE = true;
+                playerAnimator.InteractE2 = true;
                 GamesState.InCutscene = true;
                 EventCallBack.OnAttack();
             }

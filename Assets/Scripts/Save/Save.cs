@@ -78,7 +78,7 @@ public class Save : MonoBehaviour
         if (EinteractSaver && Input.GetKey(KeyCode.E))
         {
             //EventCallBack.OnAttack();
-            //GamesState.InInteract = true;
+            GamesState.InInteractCheckpoint = true;
             //EventCallBack.OnAttack();
             AnimHandler.InteractE = true;
             EinteractSaver = false;

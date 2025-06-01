@@ -7,7 +7,7 @@ public class AfterInteract : MonoBehaviour
     [SerializeField] private PlayerAnimator animHandler;
     private void Update()
     {
-        if (Input.anyKeyDown && GamesState.InInteract)
+        if (Input.anyKeyDown && GamesState.InInteractCheckpoint)
         {
             animHandler.AfterInteract = true;
             Debug.Log("Ada tombol yang ditekan!");

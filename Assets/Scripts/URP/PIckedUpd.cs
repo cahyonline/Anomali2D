@@ -6,9 +6,17 @@ public class PickupItem : MonoBehaviour
     public InventoryItem itemData; 
     public int amount = 1;
     [SerializeField] private GameObject UIpickupE;
+    [SerializeField] private GameObject UIpickupEnter;
     [SerializeField] private bool EInteractTerang;
+    [SerializeField] private bool isInteract;
     [SerializeField] private PlayerInventory inventory;
     [SerializeField] private PlayerAnimator animHandler;
+    [SerializeField] private GameObject showPaper;
+
+    private void Start()
+    {
+        showPaper.SetActive(false);
+    }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player") && itemData != null)
@@ -36,6 +44,13 @@ public class PickupItem : MonoBehaviour
             EInteractTerang = false;
             UIpickupE.SetActive(false);
         }
+        if (isInteract && Input.GetKeyDown(KeyCode.Return))
+        {
+            showPaper.SetActive(false);
+            UIpickupEnter.SetActive(false);
+            StartCoroutine(destroy());
+
+        }
     }
 
     private void isTerang()
@@ -44,15 +59,18 @@ public class PickupItem : MonoBehaviour
 
         if (inventory != null && itemData != null)
         {
-            animHandler.InteractE = true;
+            isInteract = true;
+            showPaper.SetActive(true);
+            UIpickupEnter.SetActive(true);
+            animHandler.CollectItem = true;
             inventory.AddItem(itemData, amount);
-            Debug.Log($"Player mengambil item: {itemData.itemName} x{amount}");
-            StartCoroutine(destroy());
+            //Debug.Log($"Player mengambil item: {itemData.itemName} x{amount}");
+            //StartCoroutine(destroy());
         }
     }
     private IEnumerator destroy()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.1f);
             Destroy(gameObject);
     }
 

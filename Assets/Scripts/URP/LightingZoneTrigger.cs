@@ -6,7 +6,7 @@ public class LightingZoneTrigger : MonoBehaviour
     public Light2D globalLight;
     public Light2D playerLight;
 
-    public float globalLightIntensityInZone = 0f;
+    public float globalLightIntensityInZone = 0.1f;
     public float globalLightIntensityOutZone = 34f;
 
     public float defaultIntensity = 0.37f;

@@ -50,7 +50,7 @@ public class isUnlock1: MonoBehaviour
         {
             PlayerAnimator.MasukGoa = true;
             yield return new WaitForSeconds(1);
-            Debug.Log("Unlock1");
+           // Debug.Log("Unlock1");
             EventCallBack.ChangeArea(17);
             EventCallBack.ChangeAreaSpawn(37);
             EventCallBack.Vignette();
