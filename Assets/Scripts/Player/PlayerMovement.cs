@@ -38,11 +38,12 @@ public class PlayerMovement : MonoBehaviour
     private float _leftShiftCooldownTime; 
     private float _lastLeftShiftTime; 
 
-    //NEW
-    private bool _isItemCollected;
 	private bool isAttack;
 	public BoxCollider2D playerCollider;
 	private Vector2 originalSize;
+
+
+	[SerializeField] private PlayerInventory playerInventory;
 
 
 	#endregion
@@ -276,20 +277,20 @@ public class PlayerMovement : MonoBehaviour
                 AnimHandler.startedJumping = true;
                 AudioManager.Instance.PlaySFX("Jump");
             }
-            //WALL JUMP
-            if (!_isItemCollected) return;
-            else if (CanWallJump() && LastPressedJumpTime > 0)
-            {
-                IsWallJumping = true; // Set true untuk wall jump
-                IsJumping = false; // Pastikan ini false saat wall jump
-                _isJumpCut = false;
-                _isJumpFalling = false;
+			//WALL JUMP
+			//if (!_isItemCollected) return;
+            else if (CanWallJump() && LastPressedJumpTime > 0 && playerInventory.HasItem(ItemType.WallJump))
+			{
+				IsWallJumping = true; // Set true untuk wall jump
+				IsJumping = false; // Pastikan ini false saat wall jump
+				_isJumpCut = false;
+				_isJumpFalling = false;
 
-                _wallJumpStartTime = Time.time;
-                _lastWallJumpDir = (LastOnWallRightTime > 0) ? -1 : 1;
+				_wallJumpStartTime = Time.time;
+				_lastWallJumpDir = (LastOnWallRightTime > 0) ? -1 : 1;
 
-                WallJump(_lastWallJumpDir);
-            }
+				WallJump(_lastWallJumpDir);
+			}
             #region SLIDE CHECKS
             bool touchingWall = (LastOnWallLeftTime > 0 && _moveInput.x < 0) || (LastOnWallRightTime > 0 && _moveInput.x > 0);
             bool falling = RB.velocity.y < -0.1f;
@@ -622,11 +623,6 @@ public class PlayerMovement : MonoBehaviour
 	}
     #endregion
 	
-	private void WallJumpRequirement()
-	{
-		_isItemCollected = true;
-
-    }
 
 	private void onAttack()
 	{
@@ -645,14 +641,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnEnable()
     {
-		EventCallBack.CollectItem += WallJumpRequirement;
+		//EventCallBack.CollectItem += WallJumpRequirement;
 		EventCallBack.OnAttack += onAttack;
 		EventCallBack.EndAttack += onEndAttack;
     }
 
     private void OnDisable()
     {
-		EventCallBack.CollectItem -= WallJumpRequirement;
+		//EventCallBack.CollectItem -= WallJumpRequirement;
 		EventCallBack.OnAttack -= onAttack;
 		EventCallBack.EndAttack -= onEndAttack;
     }

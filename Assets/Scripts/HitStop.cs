@@ -11,10 +11,10 @@ public class HitStop : MonoBehaviour
 
     public void Freeze()
     {
-        if (!_isFrozen && !_isOnCooldown)
-        {
-            StartCoroutine(DoFreeze());
-        }
+        // if (!_isFrozen && !_isOnCooldown)
+        // {
+        //     StartCoroutine(DoFreeze());
+        // }
     }
 
     IEnumerator DoFreeze()

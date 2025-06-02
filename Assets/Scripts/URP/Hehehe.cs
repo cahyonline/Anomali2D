@@ -24,7 +24,7 @@ public class Hehehe : MonoBehaviour
     {
         if (hehe)
         {
-            EventCallBack.ChangeArea(11);
+            EventCallBack.ChangeArea(24);
             EventCallBack.ChangeAreaSpawn(49);
             EventCallBack.Vignette();
             hehe = false;
