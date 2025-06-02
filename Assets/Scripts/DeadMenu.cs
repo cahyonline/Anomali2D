@@ -3,6 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class DeadMenu : MonoBehaviour
 {
+    private void Start()
+    {
+        AudioManager.Instance.SFXaddOn("Matii");
+    }
     public void CheckPoint()
     {
         EventCallBack.LoadGame();

@@ -3,13 +3,15 @@ using UnityEngine;
 
 public class HitStop : MonoBehaviour
 {
-    public float duration = 0.1f; // 0.1f is more appropriate for hit stop
+    public float duration = 0.1f;
+    public float cooldown = 1f;         
 
-    bool _isFrozen = false;
+    private bool _isFrozen = false;
+    private bool _isOnCooldown = false;
 
     public void Freeze()
     {
-        if (!_isFrozen)
+        if (!_isFrozen && !_isOnCooldown)
         {
             StartCoroutine(DoFreeze());
         }
@@ -17,6 +19,7 @@ public class HitStop : MonoBehaviour
 
     IEnumerator DoFreeze()
     {
+        yield return new WaitForSeconds(0.3f);
         _isFrozen = true;
         float originalTimeScale = Time.timeScale;
         Time.timeScale = 0f;
@@ -25,6 +28,16 @@ public class HitStop : MonoBehaviour
 
         Time.timeScale = originalTimeScale;
         _isFrozen = false;
+
+        // Mulai cooldown setelah freeze
+        StartCoroutine(CooldownRoutine());
+    }
+
+    IEnumerator CooldownRoutine()
+    {
+        _isOnCooldown = true;
+        yield return new WaitForSecondsRealtime(cooldown);
+        _isOnCooldown = false;
     }
 
     private void OnEnable()

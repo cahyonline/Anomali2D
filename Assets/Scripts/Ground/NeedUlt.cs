@@ -15,7 +15,7 @@ public class NeedUlt : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlayerDamageBig"))
+        if (collision.CompareTag("AttackDamageBig"))
         {
              Barrier.SetActive(false);  
             Destroy(Barrier);
