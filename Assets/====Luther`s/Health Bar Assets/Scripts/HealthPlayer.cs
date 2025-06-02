@@ -74,13 +74,13 @@ public class HealthPlayer : MonoBehaviour
             if (regenCoroutine != null) StopCoroutine(regenCoroutine);
             if (!hasPlayedDeathAnim)
             {
+                pAnimator.SetTrigger("is_PDie");
                 hasPlayedDeathAnim = true;
                 //Debug.Log("Mati");
-                pAnimator.SetTrigger("is_PDie");
                 //EventCallBack.RubahOrtho(15f, 2f);
-                StartCoroutine(CountDownBeforeDies());
+                //StartCoroutine(CountDownBeforeDies());
             }
-            StartCoroutine(CountDownBeforeDies());
+            //StartCoroutine(CountDownBeforeDies());
         }
 
         if (canRegen && !isRegen && healthAmount < Maxhealth)
@@ -273,6 +273,8 @@ public class HealthPlayer : MonoBehaviour
     {
         yield return new WaitForSeconds(delayDeathUi);
         SceneManager.LoadScene("DeadScene");
+        EventCallBack.EndAttack();
+        GamesState.InCutscene = false;
         //Debug.LogError("Dead cuy");
     }
 
@@ -301,6 +303,9 @@ public class HealthPlayer : MonoBehaviour
     {
         if (vulnerable && other.CompareTag("SpikeHB"))
         {
+            EventCallBack.OnAttack();
+            EventCallBack.HitStop();
+            AudioManager.Instance.SFXaddOn("PlayerDiHit");
             yMultyplayer = 1f;
             xMultyplayer = 0f;
             vulnerable = false;
@@ -315,6 +320,7 @@ public class HealthPlayer : MonoBehaviour
         {
             vulnerable = false;
             TakeDamage(SmallDM);
+            EventCallBack.OnAttack();
             EventCallBack.HitStop();
             AudioManager.Instance.SFXaddOn("PlayerDiHit");
             CinemachineShake.Instance.ShakeCamera(1f, 1f);
@@ -325,6 +331,7 @@ public class HealthPlayer : MonoBehaviour
         {
             vulnerable = false;
             kncockbackForce = defaultKnock;
+            EventCallBack.OnAttack();
             EventCallBack.HitStop();
             AudioManager.Instance.PlaySFX("PlayerDiHit");
             CinemachineShake.Instance.ShakeCamera(6f, 1f);
@@ -335,6 +342,7 @@ public class HealthPlayer : MonoBehaviour
 
         if (vulnerable && other.CompareTag("MegaATKHB"))
         {
+            EventCallBack.OnAttack();
             EventCallBack.HitStop();
             AudioManager.Instance.PlaySFX("PlayerDiHit");
             CinemachineShake.Instance.ShakeCamera(6, 1f);
@@ -347,6 +355,7 @@ public class HealthPlayer : MonoBehaviour
 
         if (vulnerable && other.CompareTag("RockATKHB"))
         {
+            EventCallBack.OnAttack();
             EventCallBack.HitStop();
             AudioManager.Instance.PlaySFX("PlayerDiHit");
             CinemachineShake.Instance.ShakeCamera(5f, 1f);
@@ -363,6 +372,7 @@ public class HealthPlayer : MonoBehaviour
 
         if (other.CompareTag("BossLavaATKHB"))
         {
+            EventCallBack.OnAttack();
             EventCallBack.HitStop();
             AudioManager.Instance.PlaySFX("PlayerDiHit");
             CinemachineShake.Instance.ShakeCamera(6f, 1.5f);
@@ -392,7 +402,12 @@ public class HealthPlayer : MonoBehaviour
 
     private void isDeads()
     {
-        //CountDown();
+        EventCallBack.OnAttack();
+        GamesState.InCutscene = true;
+        StartCoroutine(CountDownBeforeDies());
+        //EventCallBack.OnAttack();
+        //GamesState.InCutscene = true;
+        //SceneManager.LoadScene("DeadScene");
     }
     private void Kebal()
     {
