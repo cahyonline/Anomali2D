@@ -2,14 +2,15 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-public class DialogueTriggerNormalNPCItem : MonoBehaviour
+public class DialogueTriggerNormalNPCItem1 : MonoBehaviour
 {
     public GameObject UIinteractE;
     public string finalDialog = "FUCK OFF";
     public string lastDialog = "Do you suck dick ?";
-    public DialogueStartNormalNPCItem dialogueStartManager;
+    public DialogueStartNormalNPCItem1 dialogueStartManager;
     public GameObject dialogUIparent;
-    public DialogueStartNormalNPCItem.Dialogue npcDialogue;
+    public GameObject potrid1;
+    public DialogueStartNormalNPCItem1.Dialogue npcDialogue;
     //public DialoguesManagererNormal dialogueManager;
     //public PlayableDirector Cutscene1; 
     private bool inRange = false;
@@ -23,6 +24,7 @@ public class DialogueTriggerNormalNPCItem : MonoBehaviour
         interactingDialog = false;
         dialogueDone = false;
         dialogUIparent.SetActive(false);
+        potrid1.SetActive(false);
     }
 
     void Update()
@@ -36,15 +38,17 @@ public class DialogueTriggerNormalNPCItem : MonoBehaviour
             dialogUIparent.SetActive(true);
             GamesState.InCutscene = true;
             EventCallBack.OnAttack();
+            potrid1.SetActive(true);
+
         }
 
-        if (inRange && dialogueDone && Input.GetKey(KeyCode.E)) //REAPEAT DEFAULT
+        if (inRange && dialogueDone && Input.GetKey(KeyCode.E)) //REPEAT DEFAULT
         {
             dialogueStartManager.StartDialogue(npcDialogue, finalDialog, lastDialog);
             UIinteractE.SetActive(false);
             interactingDialog = true;
             inRange = false;
-
+            potrid1.SetActive(true);
         }
     }
     void OnTriggerStay2D(Collider2D other)
@@ -53,7 +57,7 @@ public class DialogueTriggerNormalNPCItem : MonoBehaviour
         {
             //dialogueManager.StartDialogue(dialogues);
             UIinteractE.SetActive(true);
-            interactingDialog = true;
+            //interactingDialog = true;
             inRange = true;
             //dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
             //Debug.Log("UI Show");
@@ -68,7 +72,7 @@ public class DialogueTriggerNormalNPCItem : MonoBehaviour
             GamesState.InCutscene = false;
             EventCallBack.EndAttack();
             //dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
-            //Debug.Log("UI Show done");
+            Debug.Log("UI Show done");
         }
     }
     void OnTriggerExit2D(Collider2D other)
@@ -87,13 +91,12 @@ public class DialogueTriggerNormalNPCItem : MonoBehaviour
         //inRange = false;
         interactingDialog = true;
         dialogUIparent.SetActive(true);
-
-        
     }
     public void DoneDialog()
     {
         dialogueDone = true;
         GamesState.InCutscene = false;
+        potrid1.SetActive(false);
         EventCallBack.EndAttack();
     }
 
@@ -101,6 +104,11 @@ public class DialogueTriggerNormalNPCItem : MonoBehaviour
     {
         dialogueDone = false;
         interactingDialog = false;
-        
+
+    }
+
+    public void ReTriggerThis()
+    {
+        potrid1.SetActive(false);
     }
 }

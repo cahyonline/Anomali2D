@@ -9,6 +9,7 @@ public class DialogueTriggerNormalNPCItem2 : MonoBehaviour
     public string lastDialog = "Do you suck dick ?";
     public DialogueStartNormalNPCItem2 dialogueStartManager;
     public GameObject dialogUIparent;
+    public GameObject potrid1;
     public DialogueStartNormalNPCItem2.Dialogue npcDialogue;
     //public DialoguesManagererNormal dialogueManager;
     //public PlayableDirector Cutscene1; 
@@ -23,6 +24,7 @@ public class DialogueTriggerNormalNPCItem2 : MonoBehaviour
         interactingDialog = false;
         dialogueDone = false;
         dialogUIparent.SetActive(false);
+        potrid1.SetActive(false);
     }
 
     void Update()
@@ -36,6 +38,8 @@ public class DialogueTriggerNormalNPCItem2 : MonoBehaviour
             dialogUIparent.SetActive(true);
             GamesState.InCutscene = true;
             EventCallBack.OnAttack();
+            potrid1.SetActive(true);
+
         }
 
         if (inRange && dialogueDone && Input.GetKey(KeyCode.E)) //REPEAT DEFAULT
@@ -44,6 +48,7 @@ public class DialogueTriggerNormalNPCItem2 : MonoBehaviour
             UIinteractE.SetActive(false);
             interactingDialog = true;
             inRange = false;
+            potrid1.SetActive(true);
         }
     }
     void OnTriggerStay2D(Collider2D other)
@@ -52,7 +57,7 @@ public class DialogueTriggerNormalNPCItem2 : MonoBehaviour
         {
             //dialogueManager.StartDialogue(dialogues);
             UIinteractE.SetActive(true);
-            interactingDialog = true;
+            //interactingDialog = true;
             inRange = true;
             //dialogueStartManager.StartDialogue(npcDialogue,finalDialog);
             //Debug.Log("UI Show");
@@ -91,6 +96,7 @@ public class DialogueTriggerNormalNPCItem2 : MonoBehaviour
     {
         dialogueDone = true;
         GamesState.InCutscene = false;
+        potrid1.SetActive(false);
         EventCallBack.EndAttack();
     }
 
@@ -98,6 +104,11 @@ public class DialogueTriggerNormalNPCItem2 : MonoBehaviour
     {
         dialogueDone = false;
         interactingDialog = false;
-        
+
+    }
+
+    public void ReTriggerThis()
+    {
+        potrid1.SetActive(false);
     }
 }

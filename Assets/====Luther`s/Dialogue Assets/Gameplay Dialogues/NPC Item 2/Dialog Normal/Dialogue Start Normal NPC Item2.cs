@@ -25,7 +25,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
     private int currentLineIndex = 0;
     private bool isDialogueActive = false;
     //private bool hasTalkedBefore = false; //////////////////////////////////////////////////
-    [SerializeField] public bool itemCheck2;
+    [SerializeField] public bool itemCheck1;
     private bool checker1;
     private int phaseTalk = 0;
     private string repeatLine = ""; // Will be set from DialogueTrigger
@@ -41,7 +41,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
     public void StartDialogue(Dialogue newDialogue, string repeatText, string repeatText2)
     {
         //////////////////////////////////////////////////////////////////////
-        if (phaseTalk == 1 && !itemCheck2)
+        if (phaseTalk == 1 && !itemCheck1)
         {
             //EventCallBack.OnAttack();
             repeatLine = repeatText;
@@ -49,11 +49,11 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
             return;
         }
 
-        if (phaseTalk == 1 && itemCheck2)
+        if (phaseTalk == 1 && itemCheck1)
         {
             //currentLineIndex++;
             NPCPanel.SetActive(true);
-            currentLineIndex = 5;
+            currentLineIndex = 6;
             isDialogueActive = true;
             GamesState.InInteract = true;
             ShowNextLine();
@@ -94,7 +94,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
             ShowNextLine();
         }
 
-        if (itemCheck2 && !checker1)
+        if (itemCheck1 && !checker1)
         {
             checker1 = true;
             dialogueTriggerNormal.ReDialog();
@@ -103,7 +103,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
 
         if (playerInventory.HasItem(ItemType.Boneka))
         {
-            itemCheck2 = true;
+            itemCheck1 = true;
         }
         //Debug.Log(currentLineIndex);
     }
@@ -116,7 +116,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
             currentLineIndex++;
         }
 
-        if (currentLineIndex == 4)
+        if (currentLineIndex == 5)
         {
             //hasTalkedBefore = true;
             //currentLineIndex++;
@@ -125,7 +125,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
             EndDialogue();
         }
 
-        if (currentLineIndex == 9) ////
+        if (currentLineIndex == 11) ////
         {
             phaseTalk = 2;
             //lastTalk = true;
@@ -150,6 +150,7 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
         NPCPanel.SetActive(false);
+        dialogueTriggerNormal.ReTriggerThis();
     }
 
     void EndDialogue()
@@ -167,6 +168,6 @@ public class DialogueStartNormalNPCItem2 : MonoBehaviour
 
     public void Item2Collected()
     {
-        itemCheck2 = true;
+        itemCheck1 = true;
     }
 }

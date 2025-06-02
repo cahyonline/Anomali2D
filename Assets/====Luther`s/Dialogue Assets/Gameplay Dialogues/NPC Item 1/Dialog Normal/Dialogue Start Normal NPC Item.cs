@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DialogueStartNormalNPCItem : MonoBehaviour
+public class DialogueStartNormalNPCItem1 : MonoBehaviour
 {
     [System.Serializable]
     public class Dialogue
@@ -16,8 +16,8 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
     public GameObject NPCPanel;
     public GameObject responsePanel;
     [SerializeField] private PlayerInventory playerInventory; public InventoryItem inventoryItem; public int amount;
-    public Animator NPC1AN;
-    public DialogueTriggerNormalNPCItem dialogueTriggerNormal; // Reference to DialogueTrigger script
+
+    public DialogueTriggerNormalNPCItem1 dialogueTriggerNormal; // Reference to DialogueTrigger script
     //public PlayerControl PlayerControllerScriptGoesHere;
     //public ComboCharacter comboCharacter;
 
@@ -25,11 +25,10 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
     private int currentLineIndex = 0;
     private bool isDialogueActive = false;
     //private bool hasTalkedBefore = false; //////////////////////////////////////////////////
-    public bool itemCheck1;
+    [SerializeField] public bool itemCheck1;
     private bool checker1;
     private int phaseTalk = 0;
     private string repeatLine = ""; // Will be set from DialogueTrigger
-
     void Start()
     {
         NPCPanel.SetActive(false);
@@ -37,6 +36,7 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
         checker1 = false;
         phaseTalk = 0;
         currentLineIndex = 0;
+        //
     }
 
     public void StartDialogue(Dialogue newDialogue, string repeatText, string repeatText2)
@@ -54,7 +54,7 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
         {
             //currentLineIndex++;
             NPCPanel.SetActive(true);
-            currentLineIndex = 5;
+            currentLineIndex = 6;
             isDialogueActive = true;
             GamesState.InInteract = true;
             ShowNextLine();
@@ -99,13 +99,12 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
         {
             checker1 = true;
             dialogueTriggerNormal.ReDialog();
-            //Debug.Log("REupdate = " + currentLineIndex);
+            Debug.Log("REupdate = " + currentLineIndex);
         }
 
-        if (playerInventory.HasItem(ItemType.Potion))
+        if (playerInventory.HasItem(ItemType.Boneka))
         {
             itemCheck1 = true;
-            //NPC1AN.SetBool("isHealthy", true);
         }
         //Debug.Log(currentLineIndex);
     }
@@ -118,7 +117,7 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
             currentLineIndex++;
         }
 
-        if (currentLineIndex == 4)
+        if (currentLineIndex == 5)
         {
             //hasTalkedBefore = true;
             //currentLineIndex++;
@@ -127,7 +126,7 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
             EndDialogue();
         }
 
-        if (currentLineIndex == 9) ////
+        if (currentLineIndex == 10) ////
         {
             phaseTalk = 2;
             //lastTalk = true;
@@ -146,16 +145,13 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
         NPCPanel.SetActive(true);
         dialogueText.text = repeatLine;
         StartCoroutine(ClosePanelAfterDelay());
-        //GamesState.InCutscene = false;
-        //EventCallBack.EndAttack();
     }
 
     IEnumerator ClosePanelAfterDelay()
     {
         yield return new WaitForSeconds(1.5f);
-        //GamesState.InCutscene = false;
-        //EventCallBack.EndAttack();
         NPCPanel.SetActive(false);
+        dialogueTriggerNormal.ReTriggerThis();
     }
 
     void EndDialogue()
@@ -169,15 +165,9 @@ public class DialogueStartNormalNPCItem : MonoBehaviour
         //comboCharacter.enabled = true;
         GamesState.InInteract = false;
         dialogueTriggerNormal.DoneDialog();
-
-        if (playerInventory.HasItem(ItemType.Potion))
-        {
-            itemCheck1 = true;
-            NPC1AN.SetBool("isHealthy", true);
-        }
     }
 
-    public void Item1Collected()
+    public void Item2Collected()
     {
         itemCheck1 = true;
     }

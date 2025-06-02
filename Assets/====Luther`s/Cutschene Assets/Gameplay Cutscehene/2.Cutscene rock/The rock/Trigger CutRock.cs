@@ -60,5 +60,6 @@ public class TriggerCutrock : MonoBehaviour
     {
         GamesState.InCutscene = false;
         EventCallBack.EndAttack();
+        //Debug.LogWarning("Aaaaaaaaaaaaaaaaaaaaaaaaaa");
     }
 }
