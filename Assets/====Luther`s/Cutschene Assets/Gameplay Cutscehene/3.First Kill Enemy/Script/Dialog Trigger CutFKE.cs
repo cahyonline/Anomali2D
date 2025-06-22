@@ -9,6 +9,7 @@ public class DialogueTriggerCSFKE : MonoBehaviour
         public DialogueStartCSFKE dialogueStarterCSFKE;
     public GameObject dialogUIparent;
     public EnemyAIRanged enemyAIRanged;
+    public GameObject porto3;
     public DialogueStartCSFKE.Dialogue npcDialogue;
     
     //public DialoguesManagererNormal dialogueManager;
@@ -26,6 +27,7 @@ public class DialogueTriggerCSFKE : MonoBehaviour
         //dialogueDone = false;
         dialogUIparent.SetActive(false);
         startBabel = false;
+        porto3.SetActive(true);
     }
 
     void Update()
@@ -91,6 +93,7 @@ public class DialogueTriggerCSFKE : MonoBehaviour
         //inRange = false;
         //interactingDialog = true;
         dialogUIparent.SetActive(true);
+        porto3.SetActive(true);
         //Debug.Log("called");
     }
     public void DoneDialog()
@@ -98,6 +101,7 @@ public class DialogueTriggerCSFKE : MonoBehaviour
         //dialogueDone = true;
         GamesState.InCutscene = false;
         EventCallBack.EndAttack();
+        porto3.SetActive(false);
 
     }
 }

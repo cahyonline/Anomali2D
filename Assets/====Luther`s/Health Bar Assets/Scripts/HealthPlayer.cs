@@ -60,7 +60,7 @@ public class HealthPlayer : MonoBehaviour
         //energyAmount = MaxEnergy;
         whiteAmount = Maxhealth;
         defaultKnock = kncockbackForce;
-        isHaveEnergy = false;
+        
         
     }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -97,10 +97,10 @@ public class HealthPlayer : MonoBehaviour
         }
 
 
-        if (!isHaveEnergy)
-        {
-            energyAmount = 0f;
-        }
+        // if (!isHaveEnergy)
+        // {
+        //     energyAmount = 0f;
+        // }
         
 
         if (Input.GetKeyDown(KeyCode.UpArrow))

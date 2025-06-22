@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class NeedUlt : MonoBehaviour
 {
-    [SerializeField] private bool isIlangs = false;
-    [SerializeField] private PlayerInventory inventory;
+    //[SerializeField] private bool isIlangs = false;
+    //[SerializeField] private PlayerInventory inventory;
     [SerializeField] private GameObject Barrier;
 
     private void Start()
     {
-        Barrier.SetActive(false);
+        Barrier.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("AttackDamageBig"))
+        if (collision.CompareTag("PlayerDamageBig"))
         {
              Barrier.SetActive(false);  
-            Destroy(Barrier);
+            //Destroy(Barrier);
             
         }
     }

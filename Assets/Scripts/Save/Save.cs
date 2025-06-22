@@ -14,6 +14,7 @@ public class Save : MonoBehaviour
     public PlayerAnimator AnimHandler;
     [SerializeField] private ParticleSystem interactParticle;
     private ParticleSystem currentParticle;
+    [SerializeField] private HealthPlayer healthPlayer;
     [SerializeField] private bool isSpawnParticle;
 
     //[SerializeField] private ParticleSystem interactParticle;
@@ -86,6 +87,7 @@ public class Save : MonoBehaviour
         if (EinteractSaver && Input.GetKey(KeyCode.E))
         {
             //EventCallBack.OnAttack();
+            healthPlayer.RefillEnergy();
             GamesState.InInteractCheckpoint = true;
             //EventCallBack.OnAttack();
             AnimHandler.InteractE = true;

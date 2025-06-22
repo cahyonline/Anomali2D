@@ -10,6 +10,7 @@ public class DialogueTriggerEnding : MonoBehaviour
     public GameObject RootCutscene;
     public PlayableDirector CutscenePlayerFall;
     public GameObject dialogUIparent;
+    public GameObject portraid2;
     //public EnemyAIRanged enemyAIRanged;
     public DialogueStartFalling.Dialogue npcDialogue;
 
@@ -28,6 +29,7 @@ public class DialogueTriggerEnding : MonoBehaviour
         //interactingDialog = false;
         //dialogueDone = false;
         dialogUIparent.SetActive(false);
+        portraid2.SetActive(false);
         //startBabel = false;
     }
 
@@ -106,6 +108,7 @@ public class DialogueTriggerEnding : MonoBehaviour
         //interactingDialog = true;
         dialogUIparent.SetActive(true);
         CutscenePlayerFall.Pause();
+        portraid2.SetActive(true);
         Debug.Log("called");
     }
     public void DoneDialog()
@@ -114,6 +117,7 @@ public class DialogueTriggerEnding : MonoBehaviour
         GamesState.InCutscene = false;
         CutscenePlayerFall.Play();
         EventCallBack.EndAttack();
+        portraid2.SetActive(false);
         //
     }
 

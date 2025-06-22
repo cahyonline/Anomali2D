@@ -10,6 +10,7 @@ public class DialogueTriggerCS3 : MonoBehaviour
     public GameObject dialogUIparent;
     public DialogueStartCS3.Dialogue npcDialogue;
 
+
     //public DialoguesManagererNormal dialogueManager;
     //public PlayableDirector Cutscene1;
     //private bool inRange = false;
@@ -80,10 +81,12 @@ public class DialogueTriggerCS3 : MonoBehaviour
         //interactingDialog = true;
         dialogUIparent.SetActive(true);
         Debug.Log("StartCut");
+
         //EventCallBack.OnAttack();
     }
     public void DoneDialog()
     {
-       //dialogueDone = true;
+        //dialogueDone = true;
+
     }
 }

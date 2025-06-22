@@ -102,7 +102,7 @@ public class DialogueStartNormalNPCItem1 : MonoBehaviour
             Debug.Log("REupdate = " + currentLineIndex);
         }
 
-        if (playerInventory.HasItem(ItemType.Boneka))
+        if (playerInventory.HasItem(ItemType.Potion))
         {
             itemCheck1 = true;
         }

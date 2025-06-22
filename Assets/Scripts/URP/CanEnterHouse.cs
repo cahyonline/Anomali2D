@@ -53,7 +53,7 @@ public class CanEnterHouse : MonoBehaviour
         yield return new WaitForSeconds(1f);
         EventCallBack.Vignette();
         EventCallBack.ChangeArea(24);
-        EventCallBack.ChangeAreaSpawn(48);
+        EventCallBack.ChangeAreaSpawn(49);
         //Destroy(gameObject);
     }
 
