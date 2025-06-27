@@ -23,7 +23,7 @@ public class MainMenus : MonoBehaviour
     }
     public void StartStory()
     {
-        SceneManager.LoadScene("Games");
+        SceneManager.LoadScene("BeforeGame");
     }
 
     public void LoadGame()

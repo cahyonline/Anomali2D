@@ -42,6 +42,7 @@ public class AudioManager : MonoBehaviour
             musicSource.clip = s.clip;
             SetMusicVolume(name, s.volume);
             musicSource.Play();
+            Debug.Log(name);
         }
     }
 

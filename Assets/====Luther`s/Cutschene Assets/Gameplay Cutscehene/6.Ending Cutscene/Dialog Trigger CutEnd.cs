@@ -1,5 +1,7 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 using UnityEngine.Timeline;
 
 public class DialogueTriggerEnding1 : MonoBehaviour
@@ -94,6 +96,7 @@ public class DialogueTriggerEnding1 : MonoBehaviour
             GamesState.InCutscene = true;
             EventCallBack.OnAttack();
             //StartCutsceneDialog();
+            StartCoroutine(EndItt());
         }
     }
     // }
@@ -120,5 +123,11 @@ public class DialogueTriggerEnding1 : MonoBehaviour
     public void DestroyThisObject()
     {
         RootCutscene.SetActive(false);
+    }
+
+    private IEnumerator EndItt()
+    {
+        yield return new WaitForSeconds(15f);
+        SceneManager.LoadScene("Ending");
     }
 }

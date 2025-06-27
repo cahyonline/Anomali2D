@@ -50,6 +50,7 @@ public class HealthPlayer : MonoBehaviour
     //private bool isDead = false;
     private bool hasPlayedDeathAnim = false;
     private bool Kebals = false;
+    private bool isDihit = false;
 
 
     void Start()
@@ -138,7 +139,13 @@ public class HealthPlayer : MonoBehaviour
         if (Kebals) return;
         //CinemachineShake.Instance.ShakeCamera(3f, 0.2f);
         //EventCallBack.HitStop();
-        AudioManager.Instance.SFXaddOn("PlayerDiHit");
+        if (!isDihit)
+        {
+            AudioManager.Instance.SFXaddOn("PlayerDiHit");
+            isDihit = true;
+            StartCoroutine(Waitss());
+           
+        }
         //EventCallBack.OnAttack();
         StartCoroutine(LateWhiteUpdate());
         pAnimator.SetTrigger("is_PHurt");
@@ -278,6 +285,12 @@ public class HealthPlayer : MonoBehaviour
         //Debug.LogError("Dead cuy");
     }
 
+    IEnumerator Waitss()
+    {
+        yield return new WaitForSeconds(2f);
+        isDihit = false;
+    }
+
     #endregion
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     #endregion
@@ -322,7 +335,7 @@ public class HealthPlayer : MonoBehaviour
             TakeDamage(SmallDM);
             EventCallBack.OnAttack();
             EventCallBack.HitStop();
-            AudioManager.Instance.SFXaddOn("PlayerDiHit");
+            //AudioManager.Instance.SFXaddOn("PlayerDiHit");
             CinemachineShake.Instance.ShakeCamera(1f, 1f);
             StartCoroutine(InvulnerableCD());
         }
@@ -333,7 +346,7 @@ public class HealthPlayer : MonoBehaviour
             kncockbackForce = defaultKnock;
             EventCallBack.OnAttack();
             EventCallBack.HitStop();
-            AudioManager.Instance.PlaySFX("PlayerDiHit");
+            //AudioManager.Instance.PlaySFX("PlayerDiHit");
             CinemachineShake.Instance.ShakeCamera(6f, 1f);
             GiveKnockback(other.transform.position);
             TakeDamage(BigDM);
@@ -344,7 +357,7 @@ public class HealthPlayer : MonoBehaviour
         {
             EventCallBack.OnAttack();
             EventCallBack.HitStop();
-            AudioManager.Instance.PlaySFX("PlayerDiHit");
+            //AudioManager.Instance.SFXaddOn("PlayerDiHit");
             CinemachineShake.Instance.ShakeCamera(6, 1f);
             vulnerable = false;
             kncockbackForce = MegaDM * 5 - (-210f + healthAmount);
@@ -357,7 +370,7 @@ public class HealthPlayer : MonoBehaviour
         {
             EventCallBack.OnAttack();
             EventCallBack.HitStop();
-            AudioManager.Instance.PlaySFX("PlayerDiHit");
+            //AudioManager.Instance.PlaySFX("PlayerDiHit");
             CinemachineShake.Instance.ShakeCamera(5f, 1f);
             vulnerable = false;
             TakeDamage(RockDM);
@@ -374,7 +387,7 @@ public class HealthPlayer : MonoBehaviour
         {
             EventCallBack.OnAttack();
             EventCallBack.HitStop();
-            AudioManager.Instance.PlaySFX("PlayerDiHit");
+            //AudioManager.Instance.SFXaddOn("PlayerDiHit");
             CinemachineShake.Instance.ShakeCamera(6f, 1.5f);
             TakeDamage(BossLavaDM);
         }

@@ -48,7 +48,7 @@ public class EnemyAIGBoss : MonoBehaviour
     private float Whathit = 0.5f;
 
     [Header("IMPORTANT")]
-    public GameObject EnemyRootObject;
+    //public GameObject EnemyRootObject;
     public Collider2D ThisEnemyCollider;
     
 ////////////////////////////////////////////////////////////
@@ -131,6 +131,9 @@ public class EnemyAIGBoss : MonoBehaviour
         {
             //Debug.LogError("Enemy DIED");
             isDead = true;
+            MEMEK();
+            AudioManager.Instance.PlayMusic("BgmV10");
+            //AudioManager.Instance.SFXaddOn("DiesBosses");
             Dies();
             //Destroy(EnemyRootObject);
         }
@@ -288,6 +291,8 @@ public class EnemyAIGBoss : MonoBehaviour
             isAttacking = true;
 
             bossAnimator.SetBool("attAN",true);
+            AudioManager.Instance.PlaySFX("AttackBoss");
+
 
             yield return new WaitForSeconds(0.4f);
 
@@ -344,26 +349,28 @@ public class EnemyAIGBoss : MonoBehaviour
         }
 
     }
-
+    
     void Dies()
     {
-        bossAnimator.SetBool("deadAN",true);
+        //bossAnimator.SetBool("deadAN",true);
         bossAnimator.SetBool("attAN",false);
         bossAnimator.SetBool("runAN",false);
+
+        
 
         sightRange = 0f;
         walkSpeed = 0f;
         rb.bodyType = RigidbodyType2D.Static;
         ThisEnemyCollider.enabled = false;
         
-        StartCoroutine(DespawnGameobject());
+        //StartCoroutine(DespawnGameobject());
 
     }
 
     IEnumerator DespawnGameobject()
     {
-        yield return new WaitForSeconds(5);
-        EnemyRootObject.SetActive(false);
+        yield return new WaitForSeconds(10f);
+        //EnemyRootObject.SetActive(false);
     }
     IEnumerator AnimationReset()
     {
@@ -389,7 +396,7 @@ public class EnemyAIGBoss : MonoBehaviour
     {
         yield return new WaitForSeconds(Whathit);
     }
-
+    //
 ////////////////////////////////////////////////////////////
 /// GIZMOS FOR DEBUGGING
     void OnDrawGizmos()
@@ -400,4 +407,11 @@ public class EnemyAIGBoss : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }
+//////////////
+///
+    private  void MEMEK()
+    {
+        AudioManager.Instance.SFXaddOn("DiesBosses");
+    }
 }
+

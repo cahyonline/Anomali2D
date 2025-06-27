@@ -34,13 +34,13 @@ public class UltimateScript : MonoBehaviour
     void Start()
     {
         defaultMaxUlt = MaxUlt;
-        currentUlt = 0f;
+        currentUlt = 100f;
         //whiteBar.fillAmount = currentUlt;
         defaultMaxUlt = defaultMaxUlt * percentage;
         //durationPercentage = 1f / ultDuration;
         playerBigDamage.SetActive(false);
         originalBoxSize = playerDefaultDamage.size;
-        isHaveUlt = false;
+        isHaveUlt = true;
     }
 
     // Update is called once per frame
