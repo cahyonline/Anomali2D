@@ -35,7 +35,7 @@ public class SpriteCycle : MonoBehaviour
         if (currentIndex >= characterSprites.Length)
         {
             currentIndex = 0;
-            Debug.LogWarning("CYCLED BACK");
+            //Debug.LogWarning("CYCLED BACK");
         }
             
 

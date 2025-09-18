@@ -57,7 +57,7 @@ public class HealthPlayer : MonoBehaviour
     {
         Whathit = 1f;
         deathMenu.SetActive(false);
-        healthAmount = Maxhealth;
+        //healthAmount = Maxhealth;
         //energyAmount = MaxEnergy;
         whiteAmount = Maxhealth;
         defaultKnock = kncockbackForce;

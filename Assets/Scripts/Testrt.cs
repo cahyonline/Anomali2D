@@ -10,6 +10,7 @@ public class Testrt : MonoBehaviour
         {
             //Debug.Log("PlayerDamage");
             EventCallBack.HitStop.Invoke();
+            //
         }
     }
 }

@@ -18,7 +18,7 @@ public class SceneManagerer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && canPaused)
         {
             TogglePause();
-            Debug.LogWarning("Toggled");
+            //Debug.LogWarning("Toggled");
         }
     }
     /// <summary>

@@ -15,4 +15,8 @@ MonoBehaviour:
   itemName: LightingSource
   icon: {fileID: 7482667652216324306, guid: 22979e8e4b1c9604084fb26abc85b963, type: 3}
   isStackable: 1
-  itemType: 3
+  itemType: 4
+  itemIntensity: 1
+  itemInnerRadius: 3
+  itemOuterRadius: 18
+  itemFalloff: 0.5

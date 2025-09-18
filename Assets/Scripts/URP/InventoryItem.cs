@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public enum ItemType
 {
@@ -6,7 +6,7 @@ public enum ItemType
     KeyItem,
     CanEnterHouse,
     Consumable,
-    LightSource,
+    LightSource,   // untuk item lampu
     QuestItem,
     Boneka,
     Potion,
@@ -21,4 +21,11 @@ public class InventoryItem : ScriptableObject
     public Sprite icon;
     public bool isStackable = true;
     public ItemType itemType;
+
+    [Header("Light Settings (hanya dipakai kalau tipe = LightSource)")]
+    public float itemIntensity = 1f;
+    public float itemInnerRadius = 3f;
+    public float itemOuterRadius = 18f;
+    public float itemFalloff = 0.5f;
+
 }

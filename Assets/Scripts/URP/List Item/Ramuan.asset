@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fd5bbb95bcce2f43bb055ce51b92ddf, type: 3}
   m_Name: Ramuan
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Potion
   icon: {fileID: 0}
   isStackable: 1
   itemType: 7
+  itemIntensity: 1
+  itemInnerRadius: 3
+  itemOuterRadius: 18
+  itemFalloff: 0.5
