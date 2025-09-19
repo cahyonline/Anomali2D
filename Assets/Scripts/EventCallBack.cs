@@ -18,6 +18,10 @@ public static class EventCallBack
 
     #endregion
 
+    #region Save
+    public static bool LoadRequested { get; set; } = false;
+    #endregion
+
 
     public static Action OnAttack { get; set; } = delegate { };
     public static Action EndAttack { get; set; } = delegate { };

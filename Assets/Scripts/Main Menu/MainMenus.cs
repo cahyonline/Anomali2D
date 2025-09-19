@@ -1,5 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI; // biar bisa akses Button
 
 public class MainMenus : MonoBehaviour
 {
@@ -7,20 +8,32 @@ public class MainMenus : MonoBehaviour
     public GameObject CreditPanel;
     public GameObject OptionPanel;
     public ParticleSystem particleSystem;
+
+    [Header("UI Buttons")]
+    [SerializeField] private Button LoadGameButton; // drag tombol Load Game ke sini via Inspector
+
     void Start()
     {
         MenuPanel.SetActive(true);
         CreditPanel.SetActive(false);
         OptionPanel.SetActive(false);
-        // Cek jika di MainMenu, restart partikel
         particleSystem.Play();
-        //if (SceneManager.GetActiveScene().name == "MainMenu")
-        //{
-        //    particleSystem.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
-            
-        //}
-        
+
+        // cek apakah ada save file
+        Save saver = FindFirstObjectByType<Save>();
+        if (SaveUtility.HasSave())
+        {
+            LoadGameButton.interactable = true;
+            Debug.Log("Ada save file → Load Game aktif.");
+        }
+        else
+        {
+            LoadGameButton.interactable = false;
+            Debug.Log("Tidak ada save file → Load Game dimatikan.");
+        }
+
     }
+
     public void StartStory()
     {
         SceneManager.LoadScene("BeforeGame");
@@ -28,21 +41,23 @@ public class MainMenus : MonoBehaviour
 
     public void LoadGame()
     {
-        EventCallBack.LoadGame();
+        EventCallBack.LoadRequested = true;
+        SceneManager.LoadScene("Games"); // scene gameplay
     }
 
     public void QuitGames()
     {
         Application.Quit();
-        Debug.Log("game telah keluar");
+        Debug.Log("Game telah keluar");
     }
 
     public void CreditButton()
     {
         MenuPanel.SetActive(false);
-        CreditPanel.SetActive(true );
+        CreditPanel.SetActive(true);
         OptionPanel.SetActive(false);
     }
+
     public void OptionButton()
     {
         MenuPanel.SetActive(false);
@@ -56,5 +71,4 @@ public class MainMenus : MonoBehaviour
         CreditPanel.SetActive(false);
         OptionPanel.SetActive(false);
     }
-
 }

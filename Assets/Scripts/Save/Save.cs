@@ -2,6 +2,16 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+public static class SaveUtility
+{
+    public static bool HasSave()
+    {
+        string savePath = Application.persistentDataPath + "/savefile.json";
+        return File.Exists(savePath);
+    }
+}
+
+
 public class Save : MonoBehaviour
 {
     //[SerializeField] private GameObject Paused;
@@ -9,6 +19,7 @@ public class Save : MonoBehaviour
     public GameController _saveLastPoss;
     public HealthPlayer _saveHealthPlayered;
     [SerializeField] private GameObject UIpickupE;
+   // [SerializeField] private GameObject CutScene;
     [SerializeField] private bool EinteractSaver;
     private Transform playerTransform;
     public PlayerAnimator AnimHandler;
@@ -30,6 +41,7 @@ public class Save : MonoBehaviour
     {
         savePath = Application.persistentDataPath + "/savefile.json";
     }
+
 
     public void SaveGame(Vector3 checkpointPosition,int area,float HealtInfor)
     {
@@ -74,15 +86,14 @@ public class Save : MonoBehaviour
 
             Destroy(currentParticle);
             isSpawnParticle = false;
-            Debug.Log(currentParticle.gameObject);
+            //Debug.Log(currentParticle.gameObject);
         }
     }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Y))
         {
-            
-            EventCallBack.LoadGame();
+            Invoke("ClearSave", 0.1f);
         }
         if (EinteractSaver && Input.GetKey(KeyCode.E))
         {
@@ -106,6 +117,15 @@ public class Save : MonoBehaviour
     public void Load()
     {
         EventCallBack.Vignette();
+
+        GameObject cutsceneObj = GameObject.Find("CutsceneStarter");
+        if (cutsceneObj != null)
+        {
+            cutsceneObj.SetActive(false);
+            Debug.Log("Cutscene GameObject dimatikan saat load.");
+        }
+
+
         SaveData data = LoadGame();
         if (data != null)
         {
@@ -120,6 +140,20 @@ public class Save : MonoBehaviour
             }
         }
     }
+    public void ClearSave()
+    {
+        if (File.Exists(savePath))
+        {
+            File.Delete(savePath);
+            Debug.LogWarning("Save file dihapus. Game akan mulai fresh.");
+        }
+        else
+        {
+            Debug.Log("Tidak ada save file yang ditemukan untuk dihapus.");
+        }
+    }
+
+
     private void OnEnable()
     {
         EventCallBack.LoadGame += Load;

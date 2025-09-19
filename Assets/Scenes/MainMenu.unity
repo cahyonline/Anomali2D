@@ -6863,6 +6863,7 @@ MonoBehaviour:
   CreditPanel: {fileID: 1758432212}
   OptionPanel: {fileID: 315290626}
   particleSystem: {fileID: 1075458650}
+  LoadGameButton: {fileID: 97990459}
 --- !u!1 &1595539167
 GameObject:
   m_ObjectHideFlags: 0

@@ -40,7 +40,7 @@ public class UltimateScript : MonoBehaviour
         //durationPercentage = 1f / ultDuration;
         playerBigDamage.SetActive(false);
         originalBoxSize = playerDefaultDamage.size;
-        isHaveUlt = true;
+        isHaveUlt = false;
     }
 
     // Update is called once per frame
